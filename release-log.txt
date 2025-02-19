@@ -1,0 +1,14 @@
+A table for Grand Archive that takes the best of all the other tables, puts them together, and improves them.
+
+Features:
+- Imports Double Faced Cards! Ready for Abyssal Heaven!
+- deck import from Silvie and ShoutAtYourDecks as either decks or infinite bags
+- Custom deck sleeves
+- generating tokens on demand INCLUDING Creeping Torment and Cosmic Bolt
+- Fixed the import/caching issue other tables have where cards show the wrong image
+- Clean layout
+- Dice can be right clicked to choose a counter/marker type
+
+Discord discussion can be found within the official GA Discord.
+
+Mod based on Akuma's, memories's, supersand24's, and Kiseki's Grand Archive TTS mods.
