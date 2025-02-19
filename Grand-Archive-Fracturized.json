@@ -1,0 +1,2752 @@
+{
+  "SaveName": "Grand Archive : Fracturized",
+  "EpochTime": 1739951954,
+  "Date": "2/18/2025 11:59:14 PM",
+  "VersionNumber": "v13.3",
+  "GameMode": "Grand Archive : Fracturized",
+  "GameType": "Game",
+  "GameComplexity": "Low Complexity",
+  "PlayingTime": [
+    30,
+    90
+  ],
+  "PlayerCounts": [
+    0,
+    5
+  ],
+  "Tags": [
+    "Card Games",
+    "TCG",
+    "Trading Card Game",
+    "English",
+    "Grand",
+    "Archive",
+    "Grand Archive",
+    "Dawn Of Ashes",
+    "Fractured Crown",
+    "GATCG",
+    "Abyssal Heaven",
+    "Mortal Ambition",
+    "Double Faced Cards",
+    "Mercurial Heart",
+    "Alchemical Revolution"
+  ],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "Table_Custom",
+  "TableURL": "https://steamusercontent-a.akamaihd.net/ugc/1792116350041764/AA4FC8F0284A9B20D31F265E8928F35A199A1BCB/",
+  "Sky": "Sky_Forest",
+  "Note": "",
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.18800044,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0,
+    "LutURL": ""
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0
+  },
+  "ComponentTags": {
+    "labels": [
+      {
+        "displayed": "Game Marker",
+        "normalized": "game_marker"
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "CameraStates": [
+    null,
+    {
+      "Position": {
+        "x": 22.4021931,
+        "y": -2.5,
+        "z": -1.22805107
+      },
+      "Rotation": {
+        "x": 46.67399,
+        "y": 1.33290517,
+        "z": 0.0
+      },
+      "Distance": 56.9530945,
+      "Zoomed": false,
+      "AbsolutePosition": {
+        "x": 21.4931717,
+        "y": 38.93118,
+        "z": -40.2957649
+      }
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "DecalPallet": [],
+  "LuaScript": "-- Constants\r\ncard_scale = 1.42055011\r\nimg_host = \"https://img.silvie.org/api-data/\"\r\ncard_back = \"https://img.silvie.org/cdn/deck-builder/card-back.png\"\r\n\r\n-- Object References\r\nplaymats = {\r\n  Red = \"35894d\",\r\n  Blue = \"f0607e\",\r\n  Green = \"53ddd0\",\r\n  Purple = \"a251c2\",\r\n  Brown = \"3f5c70\"\r\n}\r\nui_decklist_state = {}\r\nui_sleeve_state = {}\r\n\r\n-- Snappoints\r\nlocal left_col0_x_off = 1.92\r\nlocal left_col_x_off = 1.385\r\nlocal left_col2_x_off = 1.05\r\nlocal right_col0_x_off = -left_col0_x_off\r\nlocal right_col_x_off = -left_col_x_off\r\nlocal right_col2_x_off = -left_col2_x_off\r\n\r\nlocal left_mid_col_x_off = 0.425\r\nlocal right_mid_col_x_off = -left_mid_col_x_off\r\n\r\nlocal top_row_z_off = -0.638\r\nlocal middle_row_z_off = -0.07\r\nlocal bottom_row_z_off = 0.58\r\n\r\nlocal memory_row_z = 0.7\r\n\r\ndeck_position = {\r\n  material = {left_col_x_off, 0, middle_row_z_off},\r\n  main = {right_col_x_off, 0, middle_row_z_off},\r\n  sideboard = {right_col0_x_off, 0, bottom_row_z_off}, --{left_col_x_off, 0, top_row_z_off},\r\n  token = {0, 0, top_row_z_off},\r\n  generated = {0, 0, middle_row_z_off},\r\n  references = {right_col0_x_off, 0, middle_row_z_off},\r\n  spawn = {right_col0_x_off, 0, middle_row_z_off}\r\n}\r\n\r\nfunction setMatSnapPoints(mat)\r\n  snap_points = {\r\n    -- Banished\r\n    { position = {right_col_x_off,0,top_row_z_off},\r\n      rotation = {0,90,0},\r\n      rotation_snap = true },\r\n    -- Main Deck Zone\r\n    { position = deck_position[\"main\"],\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Graveyard\r\n    { position = {right_col_x_off,0,bottom_row_z_off},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n\r\n    -- Memory 1\r\n    { position = {-0.875,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 2\r\n    { position = {-0.700,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 3\r\n    { position = {-0.525,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 4\r\n    { position = {-0.350,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 5\r\n    { position = {-0.175,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 6\r\n    { position = {0.0,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 7\r\n    { position = {0.175,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n   -- Memory 8\r\n    { position = {0.350,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 9\r\n    { position = {0.525,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n   -- Memory 10\r\n    { position = {0.700,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 11\r\n    { position = {0.875,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n  }\r\n  if mat.getVar(\"color\") ~= \"Brown\" then\r\n    -- Mat. Deck\r\n    snap_points[#snap_points + 1] = {\r\n      position = deck_position[\"material\"],\r\n      rotation = {0,0,0},\r\n      rotation_snap = true\r\n    }\r\n  end\r\n  mat.setSnapPoints(snap_points)\r\n\r\n  mat.interactable = false\r\nend\r\n\r\n-- UI\r\nfunction toggleImportLayout(player)\r\n  toggleVisibility(player, \"import_layout\")\r\n  toggleVisibility(player, \"menu_layout\")\r\nend\r\n\r\nfunction toggleTokenLayout(player)\r\n  if #tokens == 0 then\r\n    getTokens()\r\n  end\r\n  toggleVisibility(player, \"token_layout\")\r\n  toggleVisibility(player, \"menu_layout\")\r\nend\r\n\r\nfunction toggleVisibility(player, id)\r\n  visibility = Global.UI.getAttribute(id, \"visibility\")\r\n  visible = visibility:find(player.color) ~= nil\r\n  if visible then\r\n    Global.UI.setAttribute(id, \"visibility\", visibility:gsub(\"|\" .. player.color, \"\"))\r\n  else\r\n    Global.UI.setAttribute(id, \"visibility\", visibility .. \"|\" .. player.color)\r\n  end\r\nend\r\n\r\nfunction setSleeve(player, value)\r\n  ui_sleeve_state[player.color] = value\r\nend\r\n\r\nfunction setDecklist(player, value)\r\n  ui_decklist_state[player.color] = value\r\nend\r\n\r\n-- Decks/Cards\r\nfunction getSleeves(player)\r\n  sleeve = ui_sleeve_state[player.color]\r\n  if sleeve == nil or sleeve == \"\" then\r\n    sleeve = card_back\r\n  end\r\n  return sleeve\r\nend\r\n\r\nfunction getDeckBag(name, deck)\r\n  return {\r\n    Name = \"Infinite_Bag\",\r\n    Transform = {\r\n      scaleX = 1,\r\n      scaleY = 1,\r\n      scaleZ = 1,\r\n      rotX = 0,\r\n      rotY = 0,\r\n      rotZ = 0\r\n    },\r\n    Nickname = name,\r\n    ContainedObjects = {deck}\r\n  }\r\nend\r\n\r\nglobal_offset = 0\r\n\r\nfunction getCustomCard(image, sleeve)\r\n  return {\r\n    FaceURL = image,\r\n    BackURL = sleeve,\r\n    NumWidth = 1,\r\n    NumHeight = 1,\r\n    BackIsHidden = true,\r\n    UniqueBack = false,\r\n    Type = 0\r\n  }\r\nend\r\n\r\nfunction getCard(custom_card, name, index)\r\n  card_index = index + 100\r\n  return {\r\n    Name = \"CardCustom\",\r\n    Transform = {\r\n      scaleX = card_scale,\r\n      scaleY = 1,\r\n      scaleZ = card_scale\r\n    },\r\n    Nickname = name,\r\n    CardID = card_index * 100,\r\n    CustomDeck = {\r\n      [card_index] = custom_card\r\n    }\r\n  }\r\nend\r\n\r\n-- Simple trimming of leading/trailing spaces\r\nlocal function trimSpaces(str)\r\n    return str:gsub(\"^%s+\", \"\"):gsub(\"%s+$\", \"\")\r\nend\r\n\r\nlocal function randomGUID()\r\n    local chars = '0123456789abcdef'\r\n    local res = {}\r\n    for i=1,6 do\r\n        local rand = math.random(#chars)\r\n        res[#res+1] = chars:sub(rand, rand)\r\n    end\r\n    return table.concat(res)\r\nend\r\n\r\nfunction spawnDeck(name, cards, player, as_bag)\r\n    local playmat = getObjectFromGUID(playmats[player.color])\r\n    local rotation = playmat.getRotation()\r\n    local position = playmat.positionToWorld(deck_position[name])\r\n    local bounds   = playmat.getBounds()\r\n\r\n    local deck = getDeck(name, cards, player)\r\n    if as_bag or name==\"references\" then\r\n        deck = getDeckBag(name, deck)\r\n    end\r\n\r\n    deck.Transform = deck.Transform or {}\r\n    deck.Transform.posX = position.x\r\n    deck.Transform.posY = playmat.getPosition().y + bounds.size.y + bounds.offset.y + 1\r\n    deck.Transform.posZ = position.z\r\n    deck.Transform.rotY = rotation.y\r\n\r\n    return spawnObjectData({data = deck})\r\nend\r\n\r\nfunction getDeck(name, cards, player)\r\n    global_offset = (global_offset % 30) + 1\r\n    local deckOffset = global_offset * 1000\r\n\r\n    local deck_ids       = {}\r\n    local custom_deck    = {}\r\n    local contained_objs = {}\r\n\r\n    local idx = 1\r\n    for _, card in ipairs(cards) do\r\n        local cardstomake = (card.quantity == 0) and 1 or card.quantity\r\n\r\n        for i = 1, cardstomake do\r\n            local orientation = (card.orientation or \"\"):lower()\r\n            local frontSide, backSide = nil, nil\r\n            local hasOrientations = (type(card.orientations) == \"table\" and #card.orientations > 0)\r\n            local isMultiState = false\r\n\r\n            if hasOrientations then\r\n                isMultiState = true\r\n                local oppositeNeeded = (orientation == \"front\") and \"back\"\r\n                    or (orientation == \"back\") and \"front\"\r\n                    or nil\r\n\r\n                if oppositeNeeded then\r\n                    for _, alt in ipairs(card.orientations) do\r\n                        if type(alt.orientation) == \"string\"\r\n                            and alt.orientation:lower() == oppositeNeeded then\r\n                            backSide = alt\r\n                            break\r\n                        end\r\n                    end\r\n                end\r\n            end\r\n\r\n            if orientation == \"front\" and backSide then\r\n                frontSide = card\r\n            elseif orientation == \"back\" and backSide then\r\n                -- the user put the back side in their deck so we'll just flip it for them\r\n                frontSide = backSide\r\n                backSide  = card\r\n            end\r\n\r\n            if isMultiState then\r\n                local frontKey = (deckOffset + idx)\r\n                local backKey  = frontKey + 1\r\n                local frontID  = frontKey * 100\r\n                local backID   = backKey * 100\r\n\r\n                table.insert(deck_ids, frontID)\r\n\r\n                local frontURL = frontSide.image or card_back\r\n                local backURL  = backSide.image  or card_back\r\n\r\n                custom_deck[tostring(frontKey)] = {\r\n                    FaceURL      = frontURL,\r\n                    BackURL      = card_back,\r\n                    NumWidth     = 1,\r\n                    NumHeight    = 1,\r\n                    BackIsHidden = true,\r\n                    UniqueBack   = false,\r\n                    Type         = 0\r\n                }\r\n                custom_deck[tostring(backKey)] = {\r\n                    FaceURL      = backURL,\r\n                    BackURL      = card_back,\r\n                    NumWidth     = 1,\r\n                    NumHeight    = 1,\r\n                    BackIsHidden = true,\r\n                    UniqueBack   = false,\r\n                    Type         = 0\r\n                }\r\n\r\n                table.insert(contained_objs, {\r\n                    GUID = randomGUID(),\r\n                    Name = \"CardCustom\",\r\n                    Transform = { scaleX = card_scale, scaleY = 1, scaleZ = card_scale },\r\n                    Nickname = frontSide.name or \"(NoName)\",\r\n                    CardID   = frontID,\r\n                    CustomDeck = {\r\n                        [tostring(frontKey)] = custom_deck[tostring(frontKey)]\r\n                    },\r\n                    States = {\r\n                        [\"2\"] = {\r\n                            GUID = randomGUID(),\r\n                            Name = \"CardCustom\",\r\n                            Transform = { scaleX = card_scale, scaleY = 1, scaleZ = card_scale },\r\n                            Nickname = backSide.name or \"(NoName)\",\r\n                            CardID   = backID,\r\n                            CustomDeck = {\r\n                                [tostring(backKey)] = custom_deck[tostring(backKey)]\r\n                            }\r\n                        }\r\n                    }\r\n                })\r\n                idx = idx + 2\r\n            else\r\n                local singleKey = deckOffset + idx\r\n                local singleID  = singleKey * 100\r\n\r\n                table.insert(deck_ids, singleID)\r\n\r\n                local sleeve = getSleeves(player)\r\n                local faceUrl = card.image or card_back\r\n\r\n                custom_deck[tostring(singleKey)] = {\r\n                    FaceURL      = faceUrl,\r\n                    BackURL      = sleeve,\r\n                    NumWidth     = 1,\r\n                    NumHeight    = 1,\r\n                    BackIsHidden = true,\r\n                    UniqueBack   = false,\r\n                    Type         = 0\r\n                }\r\n\r\n                table.insert(contained_objs, {\r\n                    GUID = randomGUID(),\r\n                    Name = \"CardCustom\",\r\n                    Transform = { scaleX = card_scale, scaleY = 1, scaleZ = card_scale },\r\n                    Nickname = card.name,\r\n                    CardID   = singleID,\r\n                    CustomDeck = {\r\n                        [tostring(singleKey)] = custom_deck[tostring(singleKey)]\r\n                    }\r\n                })\r\n                idx = idx + 1\r\n            end\r\n        end\r\n    end\r\n\r\n    if #contained_objs == 1 then\r\n        contained_objs[1].Transform.rotZ = 180\r\n        return contained_objs[1]\r\n    else\r\n        return {\r\n            GUID = randomGUID(),\r\n            Name = \"Deck\",\r\n            Transform = {\r\n                rotX = 360, rotY = 180, rotZ = 180,\r\n                scaleX = card_scale, scaleY = 1, scaleZ = card_scale\r\n            },\r\n            Nickname = name,\r\n            DeckIDs = deck_ids,\r\n            CustomDeck = custom_deck,\r\n            ContainedObjects = contained_objs\r\n        }\r\n    end\r\nend\r\n\r\n\r\n\r\n-- Import\r\nfunction importDeck(player, value, index)\r\n  deck_url = ui_decklist_state[player.color]\r\n  sleeve = ui_sleeve_state[player.color]\r\n  if sleeve == nil or sleeve == \"\" then\r\n    sleeve = card_back\r\n  end\r\n\r\n  -- Trim spaces\r\n  deck_url = trimSpaces(deck_url)\r\n\r\n  if deck_url == \"\" then\r\n      broadcastToColor(\"No Decklist URL provided!\", player.color, {255,0,0})\r\n      return\r\n  end\r\n\r\n\r\n  if deck_url ~= nil and deck_url:len() > 0 then\r\n    if deck_url:sub(1, 5) ~= \"https\" then\r\n      deck_url = \"https://\" .. deck_url\r\n    end\r\n    -- Silvie\r\n    if deck_url:find(\"silvie.org\") ~= nil then\r\n        if deck_url:find(\"format=json\") == nil then\r\n            if deck_url:find(\"?\") == nil then\r\n              deck_url = deck_url .. \"?format=json\"\r\n            else\r\n              deck_url = deck_url .. \"&format=json\"\r\n            end\r\n        end\r\n    -- ShoutAtYourDecks\r\n    elseif deck_url:find(\"shoutatyourdecks.com\") ~= nil then\r\n      deck_url = deck_url:gsub(\"/decks/\", \"/api/\")\r\n    else\r\n      broadcastToColor(\"Invalid Decklist URL!\", player.color, {255,0,0})\r\n      return\r\n    end\r\n\r\n    WebRequest.get(deck_url, function(req)\r\n      if req.is_error then\r\n        log(request.error)\r\n      else\r\n        json = JSON.decode(req.text)\r\n        if json.error ~= nil then\r\n          log(json.error)\r\n          if json.error == \"silvie/bad-request\" then\r\n            broadcastToColor(\"Invalid Silvie.org Decklist!\", player.color, {255,0,0})\r\n          else\r\n            broadcastToColor(\"Unknown Error :(\", player.color, {255,0,0})\r\n          end\r\n        else\r\n          -- Generate Cards\r\n          for deck, cards in pairs(json.cards) do\r\n            if #cards > 0 then\r\n              spawnDeck(deck, cards, player, index==\"import_deck_bag\")\r\n            end\r\n          end\r\n        end\r\n      end\r\n    end)\r\n  end\r\nend\r\n\r\ncameraPositions = {\r\n    Red    = { position = Vector(-20, -2.5, -1), rotation = {x = 45, y = 0, z = 0} },\r\n    Blue   = { position = Vector(-20, -2.5, 1), rotation = {x = 45, y = 180, z = 0} },\r\n    Green  = { position = Vector(20, -2.5, -1), rotation = {x = 45, y = 0, z = 0} },\r\n    Purple = { position = Vector(20, -2.5, 1), rotation = {x = 45, y = 180, z = 0} }\r\n}\r\n\r\nfunction resetCamera(player_color)\r\n    local camData = cameraPositions[player_color]\r\n    if camData then\r\n        local player = nil\r\n        for _, p in pairs(Player.getPlayers()) do\r\n            if p.color == player_color then\r\n                player = p\r\n                break\r\n            end\r\n        end\r\n        if not player then\r\n            return\r\n        end\r\n\r\n        player.lookAt({\r\n            position = camData.position,\r\n            pitch = camData.rotation.x,\r\n            yaw = camData.rotation.y,\r\n            roll = camData.rotation.z\r\n        })\r\n    end\r\nend\r\n\r\n\r\nfunction onPlayerChangeColor(player_color)\r\n    Wait.time(function()\r\n        resetCamera(player_color)\r\n    end, 0.5) -- Delay allows default camera animation to complete\r\nend\r\n\r\nfunction onScriptingButtonUp(index, player_color)\r\n    if index==10 then -- Numpad 0 (as assigned in TTS settings)\r\n        resetCamera(player_color)\r\n    end\r\nend\r\n",
+  "LuaScriptState": "{\"cd\":{\"move\":false,\"scale\":false},\"tid\":[]}",
+  "XmlUI": "<!--\nXml UI. See documentation:\nhttps://api.tabletopsimulator.com/ui/introUI/\n-->\n\n<Panel visibility=\"Red|Blue|Green|Purple|Brown\">\n  <HorizontalLayout\n    id=\"menu_layout\"\n    childAlignment=\"MiddleRight\"\n    childForceExpandWidth=\"false\"\n    rectAlignment=\"LowerRight\"\n    height=\"40\"\n    padding=\"0 60 0 10\"\n    visibility=\"Black|Red|Blue|Green|Purple|Brown\"\n  >\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      minHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"toggleImportLayout\"\n    >Import Deck⬇⬇⬇⬇</Button>\n  </HorizontalLayout>\n\n  <HorizontalLayout\n    id=\"import_layout\"\n    childAlignment=\"MiddleRight\"\n    childForceExpandWidth=\"false\"\n    rectAlignment=\"LowerRight\"\n    height=\"40\"\n    padding=\"0 60 0 10\"\n    visibility=\"Black\"\n  >\n    <Button\n      colors=\"#FF0000|#FF8888|#880000|#FFDDDD\"\n      minHeight=\"33\"\n      minWidth=\"33\"\n      onClick=\"toggleImportLayout\"\n    >✖⬇⬇⬇⬇</Button>\n    <InputField\n      id=\"sleeve_input\"\n      minWidth=\"200\"\n      onEndEdit=\"setSleeve\"\n      placeholder=\"Sleeve URL (Optional)\"\n    ></InputField>\n    <InputField\n      id=\"decklist_input\"\n      minWidth=\"200\"\n      onEndEdit=\"setDecklist\"\n      placeholder=\"Silvie/Shout Decklist\"\n    ></InputField>\n    <Button\n      id=\"import_deck_bag\"\n      colors=\"#00FFFF|#88FFFF|#008888|#DDFFFF\"\n      fontStyle=\"Bold\"\n      minWidth=\"50\"\n      minHeight=\"33\"\n      onClick=\"importDeck\"\n    >∞Bag⬇⬇⬇⬇</Button>\n    <Button\n      id=\"import_deck\"\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      minHeight=\"33\"\n      minWidth=\"33\"\n      onClick=\"importDeck\"\n    >⇓⬇⬇⬇⬇</Button>\n  </HorizontalLayout>\n</Panel>",
+  "CustomUIAssets": [
+    {
+      "Type": 0,
+      "Name": "token1",
+      "URL": "https://img.silvie.org/api-data/nne5o3cm9l.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token2",
+      "URL": "https://img.silvie.org/api-data/5w3jf01o25.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token3",
+      "URL": "https://img.silvie.org/api-data/9iitvxs9je.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token4",
+      "URL": "https://img.silvie.org/api-data/lahlir23ij.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token5",
+      "URL": "https://img.silvie.org/api-data/4etu184ozc.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token6",
+      "URL": "https://img.silvie.org/api-data/dxkwmp7pxt.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token7",
+      "URL": "https://img.silvie.org/api-data/wvyfjo9iit.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token8",
+      "URL": "https://img.silvie.org/api-data/i184h5lahl.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token9",
+      "URL": "https://img.silvie.org/api-data/rragp8m7o0.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token10",
+      "URL": "https://img.silvie.org/api-data/91zv75lahl.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token11",
+      "URL": "https://img.silvie.org/api-data/571itod02g.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token12",
+      "URL": "https://img.silvie.org/api-data/xko170miji.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token13",
+      "URL": "https://img.silvie.org/api-data/fc1arsagp8.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token14",
+      "URL": "https://img.silvie.org/api-data/5g9b5m7sqe.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token15",
+      "URL": "https://img.silvie.org/api-data/6kd7hocc33.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token16",
+      "URL": "https://img.silvie.org/api-data/ms0kxj0clc.jpg"
+    },
+    {
+      "Type": 0,
+      "Name": "token17",
+      "URL": "https://img.silvie.org/api-data/uiqurzblrs.jpg"
+    }
+  ],
+  "ObjectStates": [
+    {
+      "GUID": "aea0a8",
+      "Name": "Counter",
+      "Transform": {
+        "posX": -41.5,
+        "posY": 0.9272088,
+        "posZ": 3.00000024,
+        "rotX": -2.10202984E-06,
+        "rotY": 180.000092,
+        "rotZ": 0.04956467,
+        "scaleX": 2.5,
+        "scaleY": 1.2,
+        "scaleZ": 2.5
+      },
+      "Nickname": "Champion Damage",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.06319644,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Counter": {
+        "value": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "35894d",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -20.0,
+        "posY": 0.9599957,
+        "posZ": -13.0,
+        "rotX": -6.838572E-05,
+        "rotY": 179.994873,
+        "rotZ": -1.631282E-05,
+        "scaleX": 10.0,
+        "scaleY": 1.0,
+        "scaleZ": 10.0
+      },
+      "Nickname": "Playmat Template",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1844783979679715631/45251287A6660AF7CAB5B28AED1C973596EC379B/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "color = \"Red\"\n\nfunction onLoad()\r\r\r\r\n  Global.call(\"setMatSnapPoints\", self)\r\nend",
+      "LuaScriptState": "",
+      "XmlUI": "<HorizontalLayout id=\"panel\" width=\"160\" height=\"40\" position=\"0 0 -15\" rotation=\"0 0 180\">\n\n</HorizontalLayout>",
+      "CustomUIAssets": [
+        {
+          "Type": 0,
+          "Name": "endturn-normal",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863277395/A092BCFD880CA3757527F36E0386C44006118822/"
+        },
+        {
+          "Type": 0,
+          "Name": "endturn-pressed",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863164430/55334AC15533963C78C4BEDCEB4D343CC96E42DC/"
+        },
+        {
+          "Type": 0,
+          "Name": "endturn-hover",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863163751/B00FDA5887FE62BD6EF5055293C47F20AAB65929/"
+        }
+      ],
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": -0.638
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 90.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": -0.07
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": 0.58
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.875,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.7,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.525,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.35,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.175,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.175,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.35,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.525,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.7,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.875,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 1.385,
+            "y": 0.0,
+            "z": -0.07
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "f0607e",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -20.0,
+        "posY": 0.9599999,
+        "posZ": 13.0,
+        "rotX": 9.36157335E-07,
+        "rotY": 1.00179122E-05,
+        "rotZ": -1.953812E-06,
+        "scaleX": 10.0,
+        "scaleY": 1.0,
+        "scaleZ": 10.0
+      },
+      "Nickname": "Playmat Template",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1844783979679715631/45251287A6660AF7CAB5B28AED1C973596EC379B/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "color = \"Blue\"\n\nfunction onLoad()\r\r\r\r\n  Global.call(\"setMatSnapPoints\", self)\r\nend",
+      "LuaScriptState": "",
+      "XmlUI": "<HorizontalLayout id=\"panel\" width=\"160\" height=\"40\" position=\"0 0 -15\" rotation=\"0 0 180\">\n\n</HorizontalLayout>",
+      "CustomUIAssets": [
+        {
+          "Type": 0,
+          "Name": "endturn-normal",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863277395/A092BCFD880CA3757527F36E0386C44006118822/"
+        },
+        {
+          "Type": 0,
+          "Name": "endturn-pressed",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863164430/55334AC15533963C78C4BEDCEB4D343CC96E42DC/"
+        },
+        {
+          "Type": 0,
+          "Name": "endturn-hover",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863163751/B00FDA5887FE62BD6EF5055293C47F20AAB65929/"
+        }
+      ],
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": -0.638
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 90.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": -0.07
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": 0.58
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.875,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.7,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.525,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.35,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.175,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.175,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.35,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.525,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.7,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.875,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 1.385,
+            "y": 0.0,
+            "z": -0.07
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "9e87d8",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -20.0,
+        "posY": 3.0,
+        "posZ": -27.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 30.0,
+        "scaleY": 12.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Red",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "32941e",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -20.0,
+        "posY": 3.0,
+        "posZ": 27.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 30.0,
+        "scaleY": 12.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.117999978,
+        "g": 0.53,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Blue",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "457b02",
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -1.99967909,
+        "posY": 0.943000138,
+        "posZ": 2.0,
+        "rotX": 5.63877848E-07,
+        "rotY": 0.0,
+        "rotZ": -6.28314069E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "D6",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.305879921,
+        "b": 0.305879921
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "63a769",
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -19.3173866,
+            "posY": 3.36168313,
+            "posZ": 2.21250916,
+            "rotX": 2.21844172,
+            "rotY": 0.254854679,
+            "rotZ": 2.220108,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.996078432,
+            "g": 0.0,
+            "b": 0.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": 1,
+          "LuaScript": "local markerColors = {\n    Imbued      = {r=0.2, g=0.7, b=0.2},\n    Fracturized = {r=0.2, g=0.2, b=0.8},\n    Distant     = {r=0.8, g=0.8, b=0.2},\n    Quest     = {r=0.8, g=0.4, b=0.9},\n    Fostered    = {r=0.8, g=0.2, b=0.4},\n    Spellshroud = {r=0.6, g=0.1, b=0.6},\n    Taunt       = {r=0.7, g=0.4, b=0.1},\n    Stealth     = {r=0.7, g=0.7, b=0.7},\n    Buff        = {r=0.0, g=0.0, b=0.0},\n    Wither      = {r=0.0, g=0.8, b=0.8},\n    Durability  = {r=0.3, g=0.3, b=0.3}\n}\n\nlocal markerTypes = {\n    \"Imbued\",\n    \"Fracturized\",\n    \"Distant\",\n    \"Quest\",\n    \"Fostered\",\n    \"Spellshroud\",\n    \"Taunt\",\n    \"Stealth\",\n    \"Buff\",\n    \"Wither\",\n    \"Durability\"\n}\n\nfunction onLoad()\n    -- For each marker type, add a top-level context menu item\n    for _, markerName in ipairs(markerTypes) do\n        self.addContextMenuItem(\"Set to \" .. markerName, function(playerColor)\n            setMarker(markerName)\n        end)\n    end\nend\n\nfunction setMarker(markerName)\n    local color = markerColors[markerName] or {r=1, g=1, b=1}\n    self.setColorTint(color)\n    self.setName(markerName .. \" Counter\")\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "5ddb44",
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": -2.0,
+        "posY": 0.94299984,
+        "posZ": -2.0,
+        "rotX": -9.057567E-06,
+        "rotY": 180.0,
+        "rotZ": -2.12632E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "D6",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.3058885,
+        "g": 0.372555166,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "365f0c",
+          "Name": "Die_6_Rounded",
+          "Transform": {
+            "posX": -18.72342,
+            "posY": 3.35814,
+            "posZ": 5.744548,
+            "rotX": 3.132744,
+            "rotY": 0.140358061,
+            "rotZ": 2.82054281,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.0,
+            "g": 0.4235294,
+            "b": 0.996078432
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": 3,
+          "LuaScript": "local markerColors = {\n    Imbued      = {r=0.2, g=0.7, b=0.2},\n    Fracturized = {r=0.2, g=0.2, b=0.8},\n    Distant     = {r=0.8, g=0.8, b=0.2},\n    Quest     = {r=0.8, g=0.4, b=0.9},\n    Fostered    = {r=0.8, g=0.2, b=0.4},\n    Spellshroud = {r=0.6, g=0.1, b=0.6},\n    Taunt       = {r=0.7, g=0.4, b=0.1},\n    Stealth     = {r=0.7, g=0.7, b=0.7},\n    Buff        = {r=0.0, g=0.0, b=0.0},\n    Wither      = {r=0.0, g=0.8, b=0.8},\n    Durability  = {r=0.3, g=0.3, b=0.3}\n}\n\nlocal markerTypes = {\n    \"Imbued\",\n    \"Fracturized\",\n    \"Distant\",\n    \"Quest\",\n    \"Fostered\",\n    \"Spellshroud\",\n    \"Taunt\",\n    \"Stealth\",\n    \"Buff\",\n    \"Wither\",\n    \"Durability\"\n}\n\nfunction onLoad()\n    -- For each marker type, add a top-level context menu item\n    for _, markerName in ipairs(markerTypes) do\n        self.addContextMenuItem(\"Set to \" .. markerName, function(playerColor)\n            setMarker(markerName)\n        end)\n    end\nend\n\nfunction setMarker(markerName)\n    local color = markerColors[markerName] or {r=1, g=1, b=1}\n    self.setColorTint(color)\n    self.setName(markerName .. \" Counter\")\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": -90.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -180.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "e6fe20",
+      "Name": "Counter",
+      "Transform": {
+        "posX": -41.4999962,
+        "posY": 0.9272082,
+        "posZ": -3.0,
+        "rotX": -4.99803E-06,
+        "rotY": 0.000401936,
+        "rotZ": 359.9504,
+        "scaleX": 2.5,
+        "scaleY": 1.2,
+        "scaleZ": 2.5
+      },
+      "Nickname": "Champion Damage",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.5686274
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Counter": {
+        "value": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "5ed0f4",
+      "Name": "Counter",
+      "Transform": {
+        "posX": -40.0,
+        "posY": 0.9299996,
+        "posZ": -8.0,
+        "rotX": 2.89969421E-07,
+        "rotY": 0.03146596,
+        "rotZ": -4.51676527E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0823529139,
+        "g": 0.0823529139,
+        "b": 0.0823529139
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Counter": {
+        "value": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0636e1",
+      "Name": "Counter",
+      "Transform": {
+        "posX": -40.0,
+        "posY": 0.9299991,
+        "posZ": 8.0,
+        "rotX": -2.8347236E-07,
+        "rotY": 180.084885,
+        "rotZ": -3.20764961E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0823529139,
+        "g": 0.0823529139,
+        "b": 0.0823529139
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": false,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Counter": {
+        "value": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2c30da",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 20.0,
+        "posY": 3.0,
+        "posZ": 27.0,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 30.0,
+        "scaleY": 12.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999978,
+        "b": 0.941,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Purple",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c6b5a0",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 20.0,
+        "posY": 3.0,
+        "posZ": -27.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 30.0,
+        "scaleY": 12.0,
+        "scaleZ": 7.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.191999972,
+        "g": 0.701,
+        "b": 0.167999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Green",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "a76cf3",
+      "Name": "Counter",
+      "Transform": {
+        "posX": 41.4999962,
+        "posY": 0.9247637,
+        "posZ": 3.00001025,
+        "rotX": 5.760021E-05,
+        "rotY": 180.000015,
+        "rotZ": 359.988159,
+        "scaleX": 2.5,
+        "scaleY": 1.2,
+        "scaleZ": 2.5
+      },
+      "Nickname": "Champion Damage",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.607843161,
+        "g": 0.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Counter": {
+        "value": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "53ddd0",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 20.0,
+        "posY": 0.9600003,
+        "posZ": -13.0,
+        "rotX": -2.666036E-08,
+        "rotY": 180.0,
+        "rotZ": 1.52157675E-10,
+        "scaleX": 10.0,
+        "scaleY": 1.0,
+        "scaleZ": 10.0
+      },
+      "Nickname": "Playmat Template",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1844783979679715631/45251287A6660AF7CAB5B28AED1C973596EC379B/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "color = \"Green\"\n\nfunction onLoad()\r\r\r\r\n  Global.call(\"setMatSnapPoints\", self)\r\nend",
+      "LuaScriptState": "",
+      "XmlUI": "<HorizontalLayout id=\"panel\" width=\"160\" height=\"40\" position=\"0 0 -15\" rotation=\"0 0 180\">\n\n</HorizontalLayout>",
+      "CustomUIAssets": [
+        {
+          "Type": 0,
+          "Name": "endturn-normal",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863277395/A092BCFD880CA3757527F36E0386C44006118822/"
+        },
+        {
+          "Type": 0,
+          "Name": "endturn-pressed",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863164430/55334AC15533963C78C4BEDCEB4D343CC96E42DC/"
+        },
+        {
+          "Type": 0,
+          "Name": "endturn-hover",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863163751/B00FDA5887FE62BD6EF5055293C47F20AAB65929/"
+        }
+      ],
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": -0.638
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 90.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": -0.07
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": 0.58
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.875,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.7,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.525,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.35,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.175,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.175,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.35,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.525,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.7,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.875,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 1.385,
+            "y": 0.0,
+            "z": -0.07
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "e40c6b",
+      "Name": "Counter",
+      "Transform": {
+        "posX": 40.0,
+        "posY": 0.93,
+        "posZ": -8.0,
+        "rotX": -1.02752182E-07,
+        "rotY": 359.979736,
+        "rotZ": -1.18125904E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0823529139,
+        "g": 0.0823529139,
+        "b": 0.0823529139
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Counter": {
+        "value": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e07711",
+      "Name": "Counter",
+      "Transform": {
+        "posX": 40.0,
+        "posY": 0.929999948,
+        "posZ": 8.0,
+        "rotX": 2.68498439E-07,
+        "rotY": 180.018356,
+        "rotZ": -2.32083863E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0823529139,
+        "g": 0.0823529139,
+        "b": 0.0823529139
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Counter": {
+        "value": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "a251c2",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 20.0,
+        "posY": 0.9599992,
+        "posZ": 13.0,
+        "rotX": 2.233776E-06,
+        "rotY": 1.00179122E-05,
+        "rotZ": -4.46752847E-06,
+        "scaleX": 10.0,
+        "scaleY": 1.0,
+        "scaleZ": 10.0
+      },
+      "Nickname": "Playmat Template",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": false,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/1844783979679715631/45251287A6660AF7CAB5B28AED1C973596EC379B/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "color = \"Purple\"\n\nfunction onLoad()\r\r\r\r\n  Global.call(\"setMatSnapPoints\", self)\r\nend",
+      "LuaScriptState": "",
+      "XmlUI": "<HorizontalLayout id=\"panel\" width=\"160\" height=\"40\" position=\"0 0 -15\" rotation=\"0 0 180\">\n\n</HorizontalLayout>",
+      "CustomUIAssets": [
+        {
+          "Type": 0,
+          "Name": "endturn-normal",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863277395/A092BCFD880CA3757527F36E0386C44006118822/"
+        },
+        {
+          "Type": 0,
+          "Name": "endturn-pressed",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863164430/55334AC15533963C78C4BEDCEB4D343CC96E42DC/"
+        },
+        {
+          "Type": 0,
+          "Name": "endturn-hover",
+          "URL": "https://steamusercontent-a.akamaihd.net/ugc/1591414472863163751/B00FDA5887FE62BD6EF5055293C47F20AAB65929/"
+        }
+      ],
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": -0.638
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 90.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": -0.07
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.385,
+            "y": 0.0,
+            "z": 0.58
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.875,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.7,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.525,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.35,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -0.175,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.175,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.35,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.525,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.7,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.875,
+            "y": 0.0,
+            "z": 0.7
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 1.385,
+            "y": 0.0,
+            "z": -0.07
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "a1c313",
+      "Name": "Counter",
+      "Transform": {
+        "posX": 41.5,
+        "posY": 0.924762,
+        "posZ": -2.99999213,
+        "rotX": -6.08458E-05,
+        "rotY": 0.0001792614,
+        "rotZ": 0.0117949815,
+        "scaleX": 2.5,
+        "scaleY": 1.2,
+        "scaleZ": 2.5
+      },
+      "Nickname": "Champion Damage",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.262742966
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Counter": {
+        "value": 0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f27d35",
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 2.0,
+        "posY": 0.9429999,
+        "posZ": -2.0,
+        "rotX": 5.881684E-06,
+        "rotY": 270.0,
+        "rotZ": 1.88550371E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "D12",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9277496,
+        "g": 1.0,
+        "b": 0.30587998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "ed38bc",
+          "Name": "Die_12",
+          "Transform": {
+            "posX": 1.79750633,
+            "posY": 3.40770555,
+            "posZ": -2.77052474,
+            "rotX": 273.8634,
+            "rotY": 84.2093,
+            "rotZ": 185.500092,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.8156889,
+            "g": 0.5098095,
+            "b": 0.117652006
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": 0,
+          "LuaScript": "local markerColors = {\n    Imbued      = {r=0.2, g=0.7, b=0.2},\n    Fracturized = {r=0.2, g=0.2, b=0.8},\n    Distant     = {r=0.8, g=0.8, b=0.2},\n    Quest     = {r=0.8, g=0.4, b=0.9},\n    Fostered    = {r=0.8, g=0.2, b=0.4},\n    Spellshroud = {r=0.6, g=0.1, b=0.6},\n    Taunt       = {r=0.7, g=0.4, b=0.1},\n    Stealth     = {r=0.7, g=0.7, b=0.7},\n    Buff        = {r=0.0, g=0.0, b=0.0},\n    Wither      = {r=0.0, g=0.8, b=0.8},\n    Durability  = {r=0.3, g=0.3, b=0.3}\n}\n\nlocal markerTypes = {\n    \"Imbued\",\n    \"Fracturized\",\n    \"Distant\",\n    \"Quest\",\n    \"Fostered\",\n    \"Spellshroud\",\n    \"Taunt\",\n    \"Stealth\",\n    \"Buff\",\n    \"Wither\",\n    \"Durability\"\n}\n\nfunction onLoad()\n    -- For each marker type, add a top-level context menu item\n    for _, markerName in ipairs(markerTypes) do\n        self.addContextMenuItem(\"Set to \" .. markerName, function(playerColor)\n            setMarker(markerName)\n        end)\n    end\nend\n\nfunction setMarker(markerName)\n    local color = markerColors[markerName] or {r=1, g=1, b=1}\n    self.setColorTint(color)\n    self.setName(markerName .. \" Counter\")\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": 27.0,
+                "y": 0.0,
+                "z": 72.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 27.0,
+                "y": 0.0,
+                "z": 144.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": 27.0,
+                "y": 0.0,
+                "z": -72.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": -27.0,
+                "y": 180.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": 90.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": 27.0,
+                "y": 0.0,
+                "z": -144.0
+              }
+            },
+            {
+              "Value": "7",
+              "Rotation": {
+                "x": -27.0,
+                "y": 180.0,
+                "z": 36.0
+              }
+            },
+            {
+              "Value": "8",
+              "Rotation": {
+                "x": -90.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "9",
+              "Rotation": {
+                "x": 27.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "10",
+              "Rotation": {
+                "x": -27.0,
+                "y": 180.0,
+                "z": 108.0
+              }
+            },
+            {
+              "Value": "11",
+              "Rotation": {
+                "x": -27.0,
+                "y": 108.0,
+                "z": -36.0
+              }
+            },
+            {
+              "Value": "12",
+              "Rotation": {
+                "x": -27.0,
+                "y": 36.0,
+                "z": -108.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "9231d7",
+      "Name": "Infinite_Bag",
+      "Transform": {
+        "posX": 2.0,
+        "posY": 0.943000138,
+        "posZ": 2.0,
+        "rotX": 2.20845686E-06,
+        "rotY": 90.0,
+        "rotZ": 5.931747E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "D20",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.7716449,
+        "g": 0.3019584,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "9b4aa3",
+          "Name": "Die_20",
+          "Transform": {
+            "posX": 1.76710165,
+            "posY": 3.35921383,
+            "posZ": 0.42553094,
+            "rotX": 11.2892141,
+            "rotY": 359.661163,
+            "rotZ": 197.474884,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 0.517652631,
+            "g": 0.105887152,
+            "b": 0.6196126
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "MaterialIndex": 0,
+          "LuaScript": "local markerColors = {\n    Imbued      = {r=0.2, g=0.7, b=0.2},\n    Fracturized = {r=0.2, g=0.2, b=0.8},\n    Distant     = {r=0.8, g=0.8, b=0.2},\n    Quest     = {r=0.8, g=0.4, b=0.9},\n    Fostered    = {r=0.8, g=0.2, b=0.4},\n    Spellshroud = {r=0.6, g=0.1, b=0.6},\n    Taunt       = {r=0.7, g=0.4, b=0.1},\n    Stealth     = {r=0.7, g=0.7, b=0.7},\n    Buff        = {r=0.0, g=0.0, b=0.0},\n    Wither      = {r=0.0, g=0.8, b=0.8},\n    Durability  = {r=0.3, g=0.3, b=0.3}\n}\n\nlocal markerTypes = {\n    \"Imbued\",\n    \"Fracturized\",\n    \"Distant\",\n    \"Quest\",\n    \"Fostered\",\n    \"Spellshroud\",\n    \"Taunt\",\n    \"Stealth\",\n    \"Buff\",\n    \"Wither\",\n    \"Durability\"\n}\n\nfunction onLoad()\n    -- For each marker type, add a top-level context menu item\n    for _, markerName in ipairs(markerTypes) do\n        self.addContextMenuItem(\"Set to \" .. markerName, function(playerColor)\n            setMarker(markerName)\n        end)\n    end\nend\n\nfunction setMarker(markerName)\n    local color = markerColors[markerName] or {r=1, g=1, b=1}\n    self.setColorTint(color)\n    self.setName(markerName .. \" Counter\")\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "RotationValues": [
+            {
+              "Value": "1",
+              "Rotation": {
+                "x": -11.0,
+                "y": 60.0,
+                "z": 17.0
+              }
+            },
+            {
+              "Value": "2",
+              "Rotation": {
+                "x": 52.0,
+                "y": -60.0,
+                "z": -17.0
+              }
+            },
+            {
+              "Value": "3",
+              "Rotation": {
+                "x": -11.0,
+                "y": -180.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "4",
+              "Rotation": {
+                "x": -11.0,
+                "y": -180.0,
+                "z": 162.0
+              }
+            },
+            {
+              "Value": "5",
+              "Rotation": {
+                "x": -11.0,
+                "y": -60.0,
+                "z": 234.0
+              }
+            },
+            {
+              "Value": "6",
+              "Rotation": {
+                "x": -11.0,
+                "y": -180.0,
+                "z": 306.0
+              }
+            },
+            {
+              "Value": "7",
+              "Rotation": {
+                "x": 52.0,
+                "y": -60.0,
+                "z": 55.0
+              }
+            },
+            {
+              "Value": "8",
+              "Rotation": {
+                "x": 52.0,
+                "y": -60.0,
+                "z": 198.0
+              }
+            },
+            {
+              "Value": "9",
+              "Rotation": {
+                "x": 52.0,
+                "y": -60.0,
+                "z": 127.0
+              }
+            },
+            {
+              "Value": "10",
+              "Rotation": {
+                "x": 52.0,
+                "y": -180.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "11",
+              "Rotation": {
+                "x": 308.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "12",
+              "Rotation": {
+                "x": 306.0,
+                "y": -240.0,
+                "z": -52.0
+              }
+            },
+            {
+              "Value": "13",
+              "Rotation": {
+                "x": -52.0,
+                "y": -240.0,
+                "z": 18.0
+              }
+            },
+            {
+              "Value": "14",
+              "Rotation": {
+                "x": 307.0,
+                "y": 120.0,
+                "z": 233.0
+              }
+            },
+            {
+              "Value": "15",
+              "Rotation": {
+                "x": 11.0,
+                "y": 120.0,
+                "z": -234.0
+              }
+            },
+            {
+              "Value": "16",
+              "Rotation": {
+                "x": 11.0,
+                "y": 0.0,
+                "z": 54.0
+              }
+            },
+            {
+              "Value": "17",
+              "Rotation": {
+                "x": 11.0,
+                "y": -120.0,
+                "z": -17.0
+              }
+            },
+            {
+              "Value": "18",
+              "Rotation": {
+                "x": 11.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "19",
+              "Rotation": {
+                "x": -52.0,
+                "y": -240.0,
+                "z": -198.0
+              }
+            },
+            {
+              "Value": "20",
+              "Rotation": {
+                "x": 11.0,
+                "y": 0.0,
+                "z": -162.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "4648f8",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -52.0,
+        "posY": 4.0,
+        "posZ": 15.0,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 6.0,
+        "scaleY": 1.0,
+        "scaleZ": 6.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}
