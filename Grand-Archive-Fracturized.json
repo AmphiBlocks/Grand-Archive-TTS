@@ -1,7 +1,7 @@
 {
-  "SaveName": "Grand Archive : Fracturized ConvenienceF",
-  "EpochTime": 1741015381,
-  "Date": "3/3/2025 7:23:01 AM",
+  "SaveName": "Grand Archive : Fracturized MoreLess",
+  "EpochTime": 1740802503,
+  "Date": "2/28/2025 8:15:03 PM",
   "VersionNumber": "v13.3",
   "GameMode": "Grand Archive : Fracturized",
   "GameType": "Game",
@@ -275,9 +275,9 @@
     null
   ],
   "DecalPallet": [],
-  "LuaScript": "-- Constants\r\ncard_scale = 1.42055011\r\nimg_host = \"https://img.silvie.org/api-data/\"\r\ncard_back = \"https://img.silvie.org/cdn/deck-builder/card-back.png\"\r\n\r\nui_decklist_state = {}\r\nui_sleeve_state = {}\r\nui_material_deck_sleeve_state = {}\r\n\r\n-- Snappoints\r\nlocal left_col0_x_off = 1.92\r\nlocal left_col_x_off = 1.385\r\nlocal left_col2_x_off = 1.05\r\nlocal right_col0_x_off = -left_col0_x_off\r\nlocal right_col_x_off = -left_col_x_off\r\nlocal right_col2_x_off = -left_col2_x_off\r\n\r\nlocal left_mid_col_x_off = 0.425\r\nlocal right_mid_col_x_off = -left_mid_col_x_off\r\n\r\nlocal top_row_z_off = -0.638\r\nlocal middle_row_z_off = -0.07\r\nlocal bottom_row_z_off = 0.58\r\n\r\nlocal memory_row_z = 0.7\r\n\r\ndeck_position = {\r\n  material = {left_col_x_off, 0, middle_row_z_off},\r\n  main = {right_col_x_off, 0, middle_row_z_off},\r\n  sideboard = {right_col0_x_off, 0, bottom_row_z_off}, --{left_col_x_off, 0, top_row_z_off},\r\n  token = {0, 0, top_row_z_off},\r\n  generated = {0, 0, middle_row_z_off},\r\n  references = {right_col0_x_off, 0, middle_row_z_off},\r\n  spawn = {right_col0_x_off, 0, middle_row_z_off},\r\n  banished = {right_col_x_off,2,top_row_z_off}\r\n}\r\n\r\nfunction setMatSnapPoints(mat)\r\n  snap_points = {\r\n    -- Banished\r\n    { position = {right_col_x_off,0,top_row_z_off},\r\n      rotation = {0,90,0},\r\n      rotation_snap = true },\r\n    -- Main Deck Zone\r\n    { position = deck_position[\"main\"],\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Graveyard\r\n    { position = {right_col_x_off,0,bottom_row_z_off},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n\r\n    -- Memory 1\r\n    { position = {-0.875,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 2\r\n    { position = {-0.700,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 3\r\n    { position = {-0.525,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 4\r\n    { position = {-0.350,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 5\r\n    { position = {-0.175,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 6\r\n    { position = {0.0,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 7\r\n    { position = {0.175,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n   -- Memory 8\r\n    { position = {0.350,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 9\r\n    { position = {0.525,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n   -- Memory 10\r\n    { position = {0.700,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 11\r\n    { position = {0.875,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n  }\r\n  mat.setSnapPoints(snap_points)\r\n\r\n  mat.interactable = false\r\nend\r\n\r\nfunction toggleOptionsLayout(player)\r\n  toggleVisibility(player, \"options_layout\")\r\n  toggleVisibility(player, \"menu_layout\")\r\nend\r\n\r\nfunction toggleHelpersLayout(player)\r\n  toggleVisibility(player, \"helpers_layout\")\r\n  toggleVisibility(player, \"menu_layout\")\r\nend\r\n\r\nfunction toggleImportLayout(player)\r\n  toggleVisibility(player, \"import_layout\")\r\n  toggleVisibility(player, \"menu_layout\")\r\nend\r\n\r\nfunction toggleMoreLayout(player)\r\n  toggleVisibility(player, \"import_more_layout\")\r\n  toggleVisibility(player, \"import_less_layout\")\r\nend\r\n\r\nplaymats = {\r\n    Red    = \"35894d\",\r\n    Blue   = \"f0607e\",\r\n    Green  = \"53ddd0\",\r\n    Purple = \"a251c2\",\r\n}\r\n\r\nbags = {\r\n    firstD6    = \"5ddb44\",\r\n    secondD6   = \"457b02\",\r\n    firstD12   = \"f27d35\",\r\n    purpleD20  = \"9231d7\",\r\n}\r\n\r\nlifecounters = {\r\n    redLarge    = \"e6fe20\",\r\n    redSmall    = \"0636e1\",\r\n    blueLarge   = \"aea0a8\",\r\n    blueSmall   = \"5ed0f4\",\r\n    greenLarge  = \"a76cf3\",\r\n    greenSmall  = \"e40c6b\",\r\n    purpleLarge = \"a1c313\",\r\n    purpleSmall = \"e07711\",\r\n}\r\n\r\nplayerhandzones = {\r\n    Red    = \"9e87d8\",\r\n    Blue   = \"32941e\",\r\n    Green  = \"2c30da\",\r\n    Purple = \"c6b5a0\"\r\n}\r\n\r\nplayerfields = {\r\n    Red    = \"e5fb87\",\r\n    Blue   = \"1236a0\",\r\n    Green  = \"5fd0e9\",\r\n    Purple = \"936992\"\r\n}\r\n\r\nplayermemoryzones = {\r\n    Red    = \"70b7c0\",\r\n    Blue   = \"db3661\",\r\n    Green  = \"980a93\",\r\n    Purple = \"82dc50\"\r\n}\r\n\r\n\r\nfunction isFourPlayerMode()\r\n    local redMat = getObjectFromGUID(playmats.Red)\r\n    if not redMat then return true end\r\n    local posX = redMat.getPosition().x\r\n    return posX < -10\r\nend\r\n\r\nfunction isStillSwitching()\r\n  local redMat = getObjectFromGUID(playmats.Red)\r\n  if not redMat then return true end\r\n  return redMat.isSmoothMoving()\r\nend\r\n\r\nfunction togglePlayerCount()\r\n\r\n    if isStillSwitching() then\r\n      print (\"Wait for switching to finish first!\")\r\n      return\r\n    end\r\n\r\n\r\n    local moveDistance = -20\r\n    local hideDistance = -200\r\n    shouldLock = false\r\n\r\n    if isFourPlayerMode() then\r\n      moveDistance = 20\r\n      hideDistance = 200\r\n      shouldLock = true\r\n    end\r\n\r\n    print(\"[INFO] Switching between 2p/4p mode\")\r\n\r\n    moveObjectX(playmats.Red,   moveDistance)\r\n    moveObjectX(playmats.Blue,  moveDistance)\r\n\r\n    moveObjectX(lifecounters.redLarge,   moveDistance)\r\n    moveObjectX(lifecounters.redSmall,   moveDistance)\r\n    moveObjectX(lifecounters.blueLarge,  moveDistance)\r\n    moveObjectX(lifecounters.blueSmall,  moveDistance)\r\n\r\n    moveObjectX(playerhandzones.Red,  moveDistance)\r\n    moveObjectX(playerhandzones.Blue, moveDistance)\r\n    moveObjectX(playerfields.Red,  moveDistance)\r\n    moveObjectX(playerfields.Blue, moveDistance)\r\n    moveObjectX(playermemoryzones.Red,  moveDistance)\r\n    moveObjectX(playermemoryzones.Blue, moveDistance)\r\n\r\n    for _, bagGUID in pairs(bags) do\r\n        moveObjectX(bagGUID, moveDistance)\r\n    end\r\n\r\n    moveObjectX(playmats.Green, hideDistance)\r\n    moveObjectX(playmats.Purple, hideDistance)\r\n\r\n\r\n    setObjectLock(lifecounters.greenLarge, shouldLock)\r\n    setObjectLock(lifecounters.greenSmall, shouldLock)\r\n    setObjectLock(lifecounters.purpleLarge, shouldLock)\r\n    setObjectLock(lifecounters.purpleSmall, shouldLock)\r\n\r\n\r\n    moveObjectX(lifecounters.greenLarge, hideDistance)\r\n    moveObjectX(lifecounters.greenSmall, hideDistance)\r\n    moveObjectX(lifecounters.purpleLarge, hideDistance)\r\n    moveObjectX(lifecounters.purpleSmall, hideDistance)\r\n\r\n    moveObjectX(playerhandzones.Green, hideDistance)\r\n    moveObjectX(playerhandzones.Purple, hideDistance)\r\n    moveObjectX(playerfields.Green, hideDistance)\r\n    moveObjectX(playerfields.Purple, hideDistance)\r\n    moveObjectX(playermemoryzones.Green, hideDistance)\r\n    moveObjectX(playermemoryzones.Purple, hideDistance)\r\nend\r\n\r\nfunction moveObjectX(guid, deltaX)\r\n    local obj = getObjectFromGUID(guid)\r\n    if not obj then return end\r\n\r\n    local pos = obj.getPosition()\r\n    pos.x = pos.x + deltaX\r\n    obj.setPositionSmooth(pos)\r\nend\r\n\r\nfunction moveObjectToX(guid, targetX)\r\n    local obj = getObjectFromGUID(guid)\r\n    if not obj then return end\r\n\r\n    local pos = obj.getPosition()\r\n    pos.x = targetX\r\n    obj.setPositionSmooth(pos)\r\nend\r\n\r\nfunction setObjectLock(guid, locked)\r\n  local obj = getObjectFromGUID(guid)\r\n  obj.setLock(locked)\r\nend\r\n\r\nfunction toggleVisibility(player, id)\r\n  visibility = Global.UI.getAttribute(id, \"visibility\")\r\n  visible = visibility:find(player.color) ~= nil\r\n  if visible then\r\n    Global.UI.setAttribute(id, \"visibility\", visibility:gsub(\"|\" .. player.color, \"\"))\r\n  else\r\n    Global.UI.setAttribute(id, \"visibility\", visibility .. \"|\" .. player.color)\r\n  end\r\nend\r\n\r\nfunction setSleeve(player, value)\r\n  ui_sleeve_state[player.color] = value\r\nend\r\n\r\nfunction setMaterialDeckSleeve(player, value)\r\n  ui_material_deck_sleeve_state[player.color] = value\r\nend\r\n\r\nfunction setDecklist(player, value)\r\n  ui_decklist_state[player.color] = value\r\nend\r\n\r\n-- Decks/Cards\r\nfunction getSleeves(player)\r\n  sleeve = ui_sleeve_state[player.color]\r\n  if sleeve == nil or sleeve == \"\" then\r\n    sleeve = card_back\r\n  end\r\n  return sleeve\r\nend\r\n\r\n-- Decks/Cards\r\nfunction getMaterialDeckSleeves(player)\r\n  sleeve = ui_material_deck_sleeve_state[player.color]\r\n  if sleeve == nil or sleeve == \"\" then\r\n    sleeve = getSleeves(player)\r\n  end\r\n  return sleeve\r\nend\r\n\r\nfunction getDeckBag(name, deck, player)\r\n  local colorRGB = Color.fromString(player.color)\r\n  return {\r\n    Name = \"Infinite_Bag\",\r\n    Transform = {\r\n      scaleX = 1,\r\n      scaleY = 1,\r\n      scaleZ = 1,\r\n      rotX = 0,\r\n      rotY = 0,\r\n      rotZ = 0\r\n    },\r\n    ColorDiffuse = {\r\n      r = colorRGB.r,\r\n      g = colorRGB.g,\r\n      b = colorRGB.b\r\n    },\r\n    Nickname = name,\r\n    ContainedObjects = {deck}\r\n  }\r\nend\r\n\r\nglobal_offset = 0\r\n\r\nfunction getCustomCard(image, sleeve)\r\n  return {\r\n    FaceURL = image,\r\n    BackURL = sleeve,\r\n    NumWidth = 1,\r\n    NumHeight = 1,\r\n    BackIsHidden = true,\r\n    UniqueBack = false,\r\n    Type = 0\r\n  }\r\nend\r\n\r\nfunction getCard(custom_card, name, index)\r\n  card_index = index + 100\r\n  return {\r\n    Name = \"CardCustom\",\r\n    Transform = {\r\n      scaleX = card_scale,\r\n      scaleY = 1,\r\n      scaleZ = card_scale\r\n    },\r\n    Nickname = name,\r\n    CardID = card_index * 100,\r\n    CustomDeck = {\r\n      [card_index] = custom_card\r\n    }\r\n  }\r\nend\r\n\r\n-- Simple trimming of leading/trailing spaces\r\nlocal function trimSpaces(str)\r\n    if str == nil then\r\n      return \"\"\r\n    end\r\n    return str:gsub(\"^%s+\", \"\"):gsub(\"%s+$\", \"\")\r\nend\r\n\r\nlocal function randomGUID()\r\n    local chars = '0123456789abcdef'\r\n    local res = {}\r\n    for i=1,6 do\r\n        local rand = math.random(#chars)\r\n        res[#res+1] = chars:sub(rand, rand)\r\n    end\r\n    return table.concat(res)\r\nend\r\n\r\nfunction spawnDeck(name, cards, player, as_bag)\r\n    local playmat = getObjectFromGUID(playmats[player.color])\r\n    local rotation = playmat.getRotation()\r\n    local position = playmat.positionToWorld(deck_position[name])\r\n    local bounds   = playmat.getBounds()\r\n\r\n    local deck = getDeck(name, cards, player)\r\n    if as_bag or name==\"references\" then\r\n        deck = getDeckBag(name, deck, player)\r\n    end\r\n\r\n    deck.Transform = deck.Transform or {}\r\n    deck.Transform.posX = position.x\r\n    deck.Transform.posY = playmat.getPosition().y + bounds.size.y + bounds.offset.y + 1\r\n    deck.Transform.posZ = position.z\r\n    deck.Transform.rotY = rotation.y\r\n\r\n    return spawnObjectData({data = deck})\r\nend\r\n\r\nfunction getDeck(name, cards, player)\r\n    global_offset = (global_offset % 30) + 1\r\n\r\n    local sleeve = getSleeves(player)\r\n    if name == \"material\" then\r\n      sleeve = getMaterialDeckSleeves(player)\r\n    end\r\n\r\n\r\n    local deckOffset = global_offset * 1000\r\n\r\n    local deck_ids       = {}\r\n    local custom_deck    = {}\r\n    local contained_objs = {}\r\n\r\n    local idx = 1\r\n    for _, card in ipairs(cards) do\r\n        local cardstomake = (card.quantity == 0) and 1 or card.quantity\r\n\r\n        for i = 1, cardstomake do\r\n            local orientation = (card.orientation or \"\"):lower()\r\n            local frontSide, backSide = nil, nil\r\n            local hasOrientations = (type(card.orientations) == \"table\" and #card.orientations > 0)\r\n            local isMultiState = false\r\n\r\n            if hasOrientations then\r\n                isMultiState = true\r\n                local oppositeNeeded = (orientation == \"front\") and \"back\"\r\n                    or (orientation == \"back\") and \"front\"\r\n                    or nil\r\n\r\n                if oppositeNeeded then\r\n                    for _, alt in ipairs(card.orientations) do\r\n                        if type(alt.orientation) == \"string\"\r\n                            and alt.orientation:lower() == oppositeNeeded then\r\n                            backSide = alt\r\n                            break\r\n                        end\r\n                    end\r\n                end\r\n            end\r\n\r\n            if orientation == \"front\" and backSide then\r\n                frontSide = card\r\n            elseif orientation == \"back\" and backSide then\r\n                -- the user put the back side in their deck so we'll just flip it for them\r\n                frontSide = backSide\r\n                backSide  = card\r\n            end\r\n\r\n            if isMultiState then\r\n                local frontKey    = (deckOffset + idx)\r\n                local backKey     = frontKey + 1\r\n                local frontBackKey= backKey + 1\r\n                local frontID     = frontKey * 100\r\n                local backID      = backKey * 100\r\n                local frontBackID = frontBackKey * 100\r\n\r\n                table.insert(deck_ids, frontID)\r\n\r\n                local frontURL = frontSide.image or card_back\r\n                local backURL  = backSide.image  or card_back\r\n\r\n                custom_deck[tostring(frontKey)] = {\r\n                    FaceURL      = frontURL,\r\n                    BackURL      = sleeve,\r\n                    NumWidth     = 1,\r\n                    NumHeight    = 1,\r\n                    BackIsHidden = true,\r\n                    HideWhenFaceDown = true,\r\n                    UniqueBack   = false,\r\n                    Type         = 0\r\n                }\r\n                custom_deck[tostring(backKey)] = {\r\n                    FaceURL      = backURL,\r\n                    BackURL      = sleeve,\r\n                    NumWidth     = 1,\r\n                    NumHeight    = 1,\r\n                    BackIsHidden = true,\r\n                    HideWhenFaceDown = true,\r\n                    UniqueBack   = true,\r\n                    Type         = 0\r\n                }\r\n                custom_deck[tostring(frontBackKey)] = {\r\n                    FaceURL      = frontURL,\r\n                    BackURL      = backURL,\r\n                    NumWidth     = 1,\r\n                    NumHeight    = 1,\r\n                    BackIsHidden = false,\r\n                    HideWhenFaceDown = false,\r\n                    UniqueBack   = true,\r\n                    Type         = 0\r\n                }\r\n\r\n                table.insert(contained_objs, {\r\n                    GUID = randomGUID(),\r\n                    Name = \"CardCustom\",\r\n                    Transform = { scaleX = card_scale, scaleY = 1, scaleZ = card_scale },\r\n                    Nickname = frontSide.name or \"(NoName)\",\r\n                    CardID   = frontID,\r\n                    HideWhenFaceDown = true,\r\n                    CustomDeck = {\r\n                        [tostring(frontKey)] = custom_deck[tostring(frontKey)]\r\n                    },\r\n                    States = {\r\n                        [\"2\"] = {\r\n                            GUID = randomGUID(),\r\n                            Name = \"CardCustom\",\r\n                            Transform = { scaleX = card_scale, scaleY = 1, scaleZ = card_scale },\r\n                            Nickname = backSide.name or \"(NoName)\",\r\n                            CardID   = backID,\r\n                            HideWhenFaceDown = true,\r\n                            CustomDeck = {\r\n                                [tostring(backKey)] = custom_deck[tostring(backKey)]\r\n                            }\r\n                        },\r\n                        [\"3\"] = {\r\n                            GUID = randomGUID(),\r\n                            Name = \"CardCustom\",\r\n                            Transform = { scaleX = card_scale, scaleY = 1, scaleZ = card_scale },\r\n                            Nickname = frontSide.name .. \" / \" .. backSide.name or \"(NoName)\",\r\n                            CardID   = frontBackID,\r\n                            HideWhenFaceDown = false,\r\n                            CustomDeck = {\r\n                                [tostring(frontBackKey)] = custom_deck[tostring(frontBackKey)]\r\n                            }\r\n                        }\r\n                    }\r\n                })\r\n                idx = idx + 3\r\n            else\r\n                local singleKey = deckOffset + idx\r\n                local singleID  = singleKey * 100\r\n\r\n                table.insert(deck_ids, singleID)\r\n\r\n                local faceUrl = card.image or card_back\r\n\r\n                custom_deck[tostring(singleKey)] = {\r\n                    FaceURL      = faceUrl,\r\n                    BackURL      = sleeve,\r\n                    NumWidth     = 1,\r\n                    NumHeight    = 1,\r\n                    BackIsHidden = true,\r\n                    HideWhenFaceDown = true,\r\n                    UniqueBack   = false,\r\n                    Type         = 0\r\n                }\r\n\r\n                table.insert(contained_objs, {\r\n                    GUID = randomGUID(),\r\n                    Name = \"CardCustom\",\r\n                    Transform = { scaleX = card_scale, scaleY = 1, scaleZ = card_scale },\r\n                    Nickname = card.name,\r\n                    CardID   = singleID,\r\n                    HideWhenFaceDown = true,\r\n                    CustomDeck = {\r\n                        [tostring(singleKey)] = custom_deck[tostring(singleKey)]\r\n                    }\r\n                })\r\n                idx = idx + 1\r\n            end\r\n        end\r\n    end\r\n\r\n    if #contained_objs == 1 then\r\n        contained_objs[1].Transform.rotZ = 180\r\n        return contained_objs[1]\r\n    else\r\n        return {\r\n            GUID = randomGUID(),\r\n            Name = \"Deck\",\r\n            Transform = {\r\n                rotX = 360, rotY = 180, rotZ = 180,\r\n                scaleX = card_scale, scaleY = 1, scaleZ = card_scale\r\n            },\r\n            Nickname = name,\r\n            DeckIDs = deck_ids,\r\n            CustomDeck = custom_deck,\r\n            ContainedObjects = contained_objs\r\n        }\r\n    end\r\nend\r\n\r\nfunction importDeck(player, value, index)\r\n    local deck_text = ui_decklist_state[player.color]\r\n    deck_text = trimSpaces(deck_text)\r\n\r\n    if deck_text == \"\" then\r\n        broadcastToColor(\"No Decklist URL provided!\", player.color, {255,0,0})\r\n        return\r\n    end\r\n\r\n    if deck_text:match(\"^https?://\") then\r\n        importDeckFromURL(deck_text, player, value, index)\r\n        return\r\n    end\r\n\r\n    if deck_text:match(\"^{\") then\r\n      local json = JSON.decode(deck_text)\r\n      if json then\r\n          if json.error == nil then\r\n              SpawnDeckFromJson(json, player, value, index)\r\n              return\r\n          end\r\n      end\r\n    end\r\n\r\n    broadcastToColor(\"Invalid deck input! Provide a valid JSON decklist or a URL.\", player.color, {255,0,0})\r\nend\r\n\r\nfunction importDeckFromURL(deck_url, player, value, index)\r\n\r\n  if deck_url ~= nil and deck_url:len() > 0 then\r\n    if deck_url:sub(1, 5) ~= \"https\" then\r\n      deck_url = \"https://\" .. deck_url\r\n    end\r\n    -- Silvie\r\n    if deck_url:find(\"silvie.org\") ~= nil then\r\n        if deck_url:find(\"format=json\") == nil then\r\n            if deck_url:find(\"?\") == nil then\r\n              deck_url = deck_url .. \"?format=json\"\r\n            else\r\n              deck_url = deck_url .. \"&format=json\"\r\n            end\r\n        end\r\n    -- ShoutAtYourDecks\r\n    elseif deck_url:find(\"shoutatyourdecks.com\") ~= nil then\r\n      deck_url = deck_url:gsub(\"/decks/\", \"/api/\")\r\n    else\r\n      broadcastToColor(\"Invalid Decklist URL!\", player.color, {255,0,0})\r\n      return\r\n    end\r\n\r\n    WebRequest.get(deck_url, function(req)\r\n      if req.is_error then\r\n        log(request.error)\r\n      else\r\n        json = JSON.decode(req.text)\r\n        if json.error ~= nil then\r\n          log(json.error)\r\n          if json.error == \"silvie/bad-request\" then\r\n            broadcastToColor(\"Invalid Silvie.org Decklist!\", player.color, {255,0,0})\r\n          else\r\n            broadcastToColor(\"Unknown Error :(\", player.color, {255,0,0})\r\n          end\r\n        else\r\n          -- Generate Cards\r\n          for deck, cards in pairs(json.cards) do\r\n            if #cards > 0 then\r\n              spawnDeck(deck, cards, player, index==\"import_deck_bag\")\r\n            end\r\n          end\r\n        end\r\n      end\r\n    end)\r\n  end\r\nend\r\n\r\nfunction SpawnDeckFromJson(json, player, value, index)\r\n  for deck, cards in pairs(json.cards) do\r\n    if #cards > 0 then\r\n      spawnDeck(deck, cards, player, index==\"import_deck_bag\")\r\n    end\r\n  end\r\nend\r\n\r\n\r\ncameraPositions2P = {\r\n    Red    = { position = Vector(0, -2.5, -1), rotation = {x = 45, y = 0, z = 0} },\r\n    Blue   = { position = Vector(0, -2.5, 1), rotation = {x = 45, y = 180, z = 0} },\r\n}\r\n\r\ncameraPositions4P = {\r\n    Red    = { position = Vector(-20, -2.5, -1), rotation = {x = 45, y = 0, z = 0} },\r\n    Blue   = { position = Vector(-20, -2.5, 1), rotation = {x = 45, y = 180, z = 0} },\r\n    Green  = { position = Vector(20, -2.5, -1), rotation = {x = 45, y = 0, z = 0} },\r\n    Purple = { position = Vector(20, -2.5, 1), rotation = {x = 45, y = 180, z = 0} }\r\n}\r\n\r\nfunction resetCamera(player, value, index)\r\n    local player_color = player.color\r\n    cameraPositions = cameraPositions2P\r\n    if isFourPlayerMode() then\r\n      cameraPositions = cameraPositions4P\r\n    end\r\n\r\n    local camData = cameraPositions[player_color]\r\n    if camData then\r\n        local player = nil\r\n        for _, p in pairs(Player.getPlayers()) do\r\n            if p.color == player_color then\r\n                player = p\r\n                break\r\n            end\r\n        end\r\n        if not player then\r\n            return\r\n        end\r\n\r\n        player.lookAt({\r\n            position = camData.position,\r\n            pitch = camData.rotation.x,\r\n            yaw = camData.rotation.y,\r\n            roll = camData.rotation.z\r\n        })\r\n    end\r\nend\r\n\r\nfunction banishOneMemoryCard(player, value, index)\r\n\r\n  local memoryGuid = playermemoryzones[player.color]\r\n  local memoryZone = getObjectFromGUID(memoryGuid)\r\n  if memoryZone == nil then log(\"Memory Zone for player \" .. player.color ..  \" is nil.\") return end\r\n\r\n  local memoryCards = 0\r\n  local memoryCheck = 0\r\n\r\n  local playmat = getObjectFromGUID(playmats[player.color])\r\n  local banishZonePosition = playmat.positionToWorld(deck_position[\"banished\"])\r\n\r\n  if (memoryZone.getObjects()) != nil then\r\n    memoryCards = #memoryZone.getObjects()-1\r\n    randomCard = math.random(memoryCards)\r\n\r\n    for _,item in ipairs(memoryZone.getObjects()) do\r\n      if item.tag == \"Card\" then\r\n        memoryCheck = memoryCheck + 1\r\n        if memoryCheck == randomCard then\r\n          item.setPositionSmooth(banishZonePosition)\r\n          item.setRotationSmooth({0,90,0})\r\n          log(\"Player \" .. player.color .. \" banished a card at random: \" .. item.name)\r\n        end\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\nfunction revealRandomMemoryCard(player, value, index)\r\n\r\n  local memoryGuid = playermemoryzones[player.color]\r\n  local memoryZone = getObjectFromGUID(memoryGuid)\r\n  if memoryZone == nil then log(\"Memory Zone for player \" .. player.color ..  \" is nil.\") return end\r\n\r\n  local memoryCards = 0\r\n  local memoryCheck = 0\r\n\r\n  if (memoryZone.getObjects()) != nil then\r\n    for _,item in ipairs(memoryZone.getObjects()) do\r\n      if item.tag == \"Card\" then\r\n        local rot = item.getRotation()\r\n        if math.abs(item.getRotation().z) > 90 then\r\n            memoryCards=memoryCards+1\r\n        end\r\n      end\r\n    end\r\n end\r\n\r\n if memoryCards == 0 then\r\n   log(\"No Face Down Cards in Memory\")\r\n else\r\n    randomCard = math.random(memoryCards)\r\n    for _,item in ipairs(memoryZone.getObjects()) do\r\n      if item.tag == \"Card\" then\r\n        if math.abs(item.getRotation().z) > 90 then\r\n          memoryCheck = memoryCheck + 1\r\n          if memoryCheck == randomCard then\r\n            item.flip()\r\n            log(\"Player \" .. player.color .. \" revealed a card at random: \" .. item.name)\r\n          end\r\n        end\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\nfunction reserveIntoMemory(player, value, index)\r\n    local memoryGuid = playermemoryzones[player.color]\r\n    local memoryZone = getObjectFromGUID(memoryGuid)\r\n    if not memoryZone then\r\n        log(\"Memory Zone for player \" .. player.color .. \" is nil.\")\r\n        return\r\n    end\r\n\r\n    local handGuid = playerhandzones[player.color]\r\n    local handZone = getObjectFromGUID(handGuid)\r\n    if not handZone then\r\n        log(\"Hand Zone for player \" .. player.color .. \" is nil.\")\r\n        return\r\n    end\r\n\r\n    -- Find how many cards are already in the memory zone\r\n    local memPos = memoryZone.getPosition()\r\n    local memObjects = memoryZone.getObjects()\r\n    local existingCount = 0\r\n    for _, obj in ipairs(memObjects) do\r\n        if obj.tag == \"Card\" then\r\n            existingCount = existingCount + 1\r\n        end\r\n    end\r\n\r\n    local spacing = -3.2\r\n    local initial = 9.5\r\n    local cardsToMove = {}\r\n\r\n    if (memPos.z <0) then\r\n      spacing = spacing * -1\r\n      initial = initial * -1\r\n    end\r\n\r\n\r\n    local handObjects = handZone.getObjects()\r\n    if handObjects then\r\n        for _, item in ipairs(handObjects) do\r\n            if item.tag == \"Card\" then\r\n                local rot = item.getRotation()\r\n                if math.abs(item.getRotation().z) > 90 then\r\n                    table.insert(cardsToMove, item)\r\n                end\r\n            end\r\n        end\r\n    end\r\n\r\n    -- Move them side by side into the memory zone\r\n    for i, card in ipairs(cardsToMove) do\r\n        local offset = existingCount + (i - 1)\r\n        local pos = {\r\n            x = memPos.x + initial + offset%7 * spacing,\r\n            y = memPos.y + 2,\r\n            z = memPos.z\r\n        }\r\n        local quickPos = {\r\n          x = (card.getPosition().x+pos.x)/2,\r\n          y = (card.getPosition().y+pos.y+40)/2,\r\n          z = (card.getPosition().z+pos.z)/2\r\n        }\r\n        card.setPosition(quickPos)\r\n        card.setPositionSmooth(pos)\r\n    end\r\nend\r\n\r\nfunction reorganizeMemory(player, value, index)\r\n    local memoryGuid = playermemoryzones[player.color]\r\n    local memoryZone = getObjectFromGUID(memoryGuid)\r\n    if not memoryZone then\r\n        log(\"Memory Zone for \" .. player.color .. \" is nil.\")\r\n        return\r\n    end\r\n\r\n    local memPos = memoryZone.getPosition()\r\n    local memObjects = memoryZone.getObjects()\r\n    local cardsInMemory = {}\r\n\r\n    for _, obj in ipairs(memObjects) do\r\n        if obj.tag == \"Card\" then\r\n            table.insert(cardsInMemory, obj)\r\n        end\r\n    end\r\n\r\n    local count = #cardsInMemory\r\n    if count == 0 then return end\r\n\r\n    local baseCount = 7\r\n    local baseSpacing = 3.2\r\n    local maxWidth = (baseCount - 1) * baseSpacing  -- distance for 7 cards is 6 * 3.2 = 19.2\r\n    local spacingSign = (memPos.z < 0) and -1 or 1\r\n    local initial = (memPos.z > 0) and -9.5 or 9.5\r\n\r\n    -- if count <= 7, use normal spacing; else shrink spacing so they all fit within the same total width\r\n    local effectiveSpacing\r\n    if count <= baseCount then\r\n        effectiveSpacing = baseSpacing * spacingSign\r\n    else\r\n        effectiveSpacing = (maxWidth / (count - 1)) * spacingSign\r\n    end\r\n\r\n    for i, card in ipairs(cardsInMemory) do\r\n        -- place them from left to right\r\n        local offset = i - 1\r\n        local finalPos = {\r\n            x = memPos.x + initial + (offset * effectiveSpacing),\r\n            y = memPos.y + 2,\r\n            z = memPos.z\r\n        }\r\n        card.setPositionSmooth(finalPos)\r\n    end\r\nend\r\n\r\nfunction reserveAndReorganizeMemory(player, value, index)\r\n    local memoryGuid = playermemoryzones[player.color]\r\n    local memoryZone = getObjectFromGUID(memoryGuid)\r\n    if not memoryZone then\r\n        log(\"Memory Zone for player \" .. player.color .. \" is nil.\")\r\n        return\r\n    end\r\n\r\n    local handGuid = playerhandzones[player.color]\r\n    local handZone = getObjectFromGUID(handGuid)\r\n    if not handZone then\r\n        log(\"Hand Zone for player \" .. player.color .. \" is nil.\")\r\n        return\r\n    end\r\n\r\n    -- 1) Collect cards currently in memory\r\n    local memPos = memoryZone.getPosition()\r\n    local memObjects = memoryZone.getObjects()\r\n    local memoryCards = {}\r\n    for _, obj in ipairs(memObjects) do\r\n        if obj.tag == \"Card\" then\r\n            table.insert(memoryCards, obj)\r\n        end\r\n    end\r\n    local memCount = #memoryCards\r\n\r\n    -- 2) Collect facedown cards in the hand\r\n    local handObjects = handZone.getObjects()\r\n    local cardsToMove = {}\r\n    if handObjects then\r\n        for _, item in ipairs(handObjects) do\r\n            if item.tag == \"Card\" then\r\n                local rotZ = math.abs(item.getRotation().z)\r\n                if rotZ > 90 then\r\n                    table.insert(cardsToMove, item)\r\n                end\r\n            end\r\n        end\r\n    end\r\n    local handCount = #cardsToMove\r\n\r\n    -- 3) Figure out total cards after addition\r\n    local totalCount = memCount + handCount\r\n\r\n    -- 4) Smooth-move the existing memory cards so they fit totalCount\r\n    reorganizeMemoryForTotal(memoryCards, memPos, totalCount)\r\n\r\n    local waitTime = (memcount==0) and 0 or 0.5\r\n\r\n    -- 5) Wait a moment for the smooth-move to finish, then place new cards\r\n    Wait.time(function()\r\n        for i, card in ipairs(cardsToMove) do\r\n            local offset = memCount + (i - 1)\r\n            local finalPos = getMemoryPosition(memPos, offset, totalCount)\r\n            local quickPos = {\r\n                x = (card.getPosition().x + finalPos.x) / 2,\r\n                y = (card.getPosition().y + finalPos.y + 40) / 2,\r\n                z = (card.getPosition().z + finalPos.z) / 2\r\n            }\r\n            card.setPosition(quickPos)\r\n            card.setPositionSmooth(finalPos)\r\n        end\r\n    end, waitTime)  -- Adjust delay if needed\r\nend\r\n\r\n-------------------------------------------------------------------------------\r\n-- Helper: Reorganize existing memory cards for a future total\r\n-------------------------------------------------------------------------------\r\nfunction reorganizeMemoryForTotal(cardsInMemory, memPos, futureTotal)\r\n    if #cardsInMemory == 0 then return end\r\n\r\n    local spacingSign = (memPos.z < 0) and 1 or -1\r\n\r\n    table.sort(cardsInMemory, function(a, b)\r\n      return a.getPosition().x*spacingSign < b.getPosition().x*spacingSign\r\n    end)\r\n\r\n    local baseCount = 7\r\n    local baseSpacing = 3.2\r\n    local ySpacing = 0.05\r\n    local maxWidth = (baseCount - 1) * baseSpacing\r\n\r\n\r\n    local effectiveSpacing\r\n    if futureTotal <= baseCount then\r\n        effectiveSpacing = baseSpacing * spacingSign\r\n    else\r\n        effectiveSpacing = (maxWidth / (futureTotal - 1)) * spacingSign\r\n    end\r\n\r\n    -- same centered layout logic\r\n    local startOffset = (futureTotal - 1) / 2\r\n    local initial = memPos.x - startOffset * effectiveSpacing\r\n    local yPos = memPos.y + 1\r\n    local zPos = memPos.z\r\n\r\n    for i, card in ipairs(cardsInMemory) do\r\n        local offset = (i - 1)\r\n        local finalPos = {\r\n            x = initial + offset * effectiveSpacing,\r\n            y = yPos + offset * ySpacing,\r\n            z = zPos\r\n        }\r\n        card.setPositionSmooth(finalPos)\r\n    end\r\nend\r\n\r\n-------------------------------------------------------------------------------\r\n-- Helper: Calculate final position for a new card offset\r\n-------------------------------------------------------------------------------\r\nfunction getMemoryPosition(memPos, offset, futureTotal)\r\n    local baseCount = 7\r\n    local baseSpacing = 3.2\r\n    local maxWidth = (baseCount - 1) * baseSpacing\r\n    local spacingSign = (memPos.z < 0) and 1 or -1\r\n\r\n    local effectiveSpacing\r\n    if futureTotal <= baseCount then\r\n        effectiveSpacing = baseSpacing * spacingSign\r\n    else\r\n        effectiveSpacing = (maxWidth / (futureTotal - 1)) * spacingSign\r\n    end\r\n\r\n    local startOffset = (futureTotal - 1) / 2\r\n    local initialX = memPos.x - startOffset * effectiveSpacing\r\n    return {\r\n        x = initialX + offset * effectiveSpacing,\r\n        y = memPos.y + 2,\r\n        z = memPos.z\r\n    }\r\nend\r\n\r\n\r\nfunction recollectMemory(player, value, index)\r\n\r\n  local memoryGuid = playermemoryzones[player.color]\r\n  local memoryZone = getObjectFromGUID(memoryGuid)\r\n  if memoryZone == nil then log(\"Memory Zone for player \" .. player.color ..  \" is nil.\") return end\r\n\r\n  if (memoryZone.getObjects()) != nil then\r\n    for _,item in ipairs(memoryZone.getObjects()) do\r\n      if item.tag == \"Card\" then\r\n        item.deal(1,player.color)\r\n      end\r\n    end\r\n  end\r\n\r\nend\r\n\r\nfunction waitToSwitchState(obj, newState)\r\n    Wait.condition(\r\n        function()\r\n            if not obj.isDestroyed() then\r\n                obj.setState(newState)\r\n            end\r\n        end,\r\n        function()\r\n            return not obj.isSmoothMoving()\r\n        end\r\n    )\r\nend\r\n\r\n\r\nfunction onObjectLeaveZone(zone, obj)\r\n    if obj.tag == \"Card\" then\r\n        if obj.getStateId() == 3 then\r\n          if zone.getName() == \"Field\" then\r\n              if not obj.isDestroyed() then\r\n                waitToSwitchState(obj, 1)\r\n              end\r\n          end\r\n        end\r\n    end\r\nend\r\n\r\nfunction onObjectEnterZone(zone, obj)\r\n    if obj.tag == \"Card\" and obj.getStateId() ~= 3 then\r\n        if zone.getName() == \"Field\" then\r\n            local rotation = obj.getRotation()\r\n              if math.abs(rotation.z) < 90 then -- Face-up condition\r\n                  --waitToSwitchState(obj, 3)\r\n              end\r\n            return\r\n        end\r\n    end\r\nend\r\n\r\nfunction onPlayerAction(player, action, targets)\r\n    if action == Player.Action.FlipOver then\r\n        local fieldGUID = playerfields[player.color]\r\n        if not fieldGUID then return end\r\n\r\n        for _, obj in ipairs(targets) do\r\n            if obj.tag == \"Card\" and obj.getStateId() ~= 3 and math.abs(obj.getRotation().z) < 90 then\r\n                local zones = obj.getZones() or {}\r\n                for _, zone in ipairs(zones) do\r\n                    if zone.guid == fieldGUID then\r\n                        waitToSwitchState(obj, 3)\r\n                        break\r\n                    end\r\n                end\r\n            end\r\n        end\r\n    end\r\nend\r\n\r\n\r\nfunction onPlayerChangeColor(player_color)\r\n    Wait.time(function()\r\n        resetCamera(player_color)\r\n    end, 0.5) -- Delay allows default camera animation to complete\r\nend\r\n\r\nhotkey_table =\r\n{\r\n  [1] = banishOneMemoryCard,\r\n  [2] = reserveAndReorganizeMemory,\r\n  [3] = recollectMemory,\r\n  [10] = resetCamera\r\n}\r\n\r\n\r\nfunction onScriptingButtonUp(index, player_color)\r\n    local player = Player[player_color]\r\n    functionToDo = hotkey_table[index]\r\n    if(functionToDo) then\r\n        functionToDo(player, index, index)\r\n    end\r\nend\r\n",
+  "LuaScript": "-- Constants\r\ncard_scale = 1.42055011\r\nimg_host = \"https://img.silvie.org/api-data/\"\r\ncard_back = \"https://img.silvie.org/cdn/deck-builder/card-back.png\"\r\n\r\nui_decklist_state = {}\r\nui_sleeve_state = {}\r\nui_material_deck_sleeve_state = {}\r\n\r\n-- Snappoints\r\nlocal left_col0_x_off = 1.92\r\nlocal left_col_x_off = 1.385\r\nlocal left_col2_x_off = 1.05\r\nlocal right_col0_x_off = -left_col0_x_off\r\nlocal right_col_x_off = -left_col_x_off\r\nlocal right_col2_x_off = -left_col2_x_off\r\n\r\nlocal left_mid_col_x_off = 0.425\r\nlocal right_mid_col_x_off = -left_mid_col_x_off\r\n\r\nlocal top_row_z_off = -0.638\r\nlocal middle_row_z_off = -0.07\r\nlocal bottom_row_z_off = 0.58\r\n\r\nlocal memory_row_z = 0.7\r\n\r\ndeck_position = {\r\n  material = {left_col_x_off, 0, middle_row_z_off},\r\n  main = {right_col_x_off, 0, middle_row_z_off},\r\n  sideboard = {right_col0_x_off, 0, bottom_row_z_off}, --{left_col_x_off, 0, top_row_z_off},\r\n  token = {0, 0, top_row_z_off},\r\n  generated = {0, 0, middle_row_z_off},\r\n  references = {right_col0_x_off, 0, middle_row_z_off},\r\n  spawn = {right_col0_x_off, 0, middle_row_z_off}\r\n}\r\n\r\nfunction setMatSnapPoints(mat)\r\n  snap_points = {\r\n    -- Banished\r\n    { position = {right_col_x_off,0,top_row_z_off},\r\n      rotation = {0,90,0},\r\n      rotation_snap = true },\r\n    -- Main Deck Zone\r\n    { position = deck_position[\"main\"],\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Graveyard\r\n    { position = {right_col_x_off,0,bottom_row_z_off},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n\r\n    -- Memory 1\r\n    { position = {-0.875,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 2\r\n    { position = {-0.700,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 3\r\n    { position = {-0.525,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 4\r\n    { position = {-0.350,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 5\r\n    { position = {-0.175,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 6\r\n    { position = {0.0,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 7\r\n    { position = {0.175,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n   -- Memory 8\r\n    { position = {0.350,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 9\r\n    { position = {0.525,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n   -- Memory 10\r\n    { position = {0.700,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n    -- Memory 11\r\n    { position = {0.875,0,memory_row_z},\r\n      rotation = {0,0,0},\r\n      rotation_snap = true },\r\n  }\r\n  mat.setSnapPoints(snap_points)\r\n\r\n  mat.interactable = false\r\nend\r\n\r\n-- UI\r\nfunction toggleOptionsLayout(player)\r\n  toggleVisibility(player, \"options_layout\")\r\n  toggleVisibility(player, \"menu_layout\")\r\nend\r\n\r\n-- UI\r\nfunction toggleImportLayout(player)\r\n  toggleVisibility(player, \"import_layout\")\r\n  toggleVisibility(player, \"menu_layout\")\r\nend\r\n\r\nfunction toggleMoreLayout(player)\r\n  toggleVisibility(player, \"import_more_layout\")\r\n  toggleVisibility(player, \"import_less_layout\")\r\nend\r\n\r\nplaymats = {\r\n    Red    = \"35894d\",\r\n    Blue   = \"f0607e\",\r\n    Green  = \"53ddd0\",\r\n    Purple = \"a251c2\",\r\n}\r\n\r\nbags = {\r\n    firstD6    = \"5ddb44\",\r\n    secondD6   = \"457b02\",\r\n    firstD12   = \"f27d35\",\r\n    purpleD20  = \"9231d7\",\r\n}\r\n\r\nlifecounters = {\r\n    redLarge    = \"e6fe20\",\r\n    redSmall    = \"0636e1\",\r\n    blueLarge   = \"aea0a8\",\r\n    blueSmall   = \"5ed0f4\",\r\n    greenLarge  = \"a76cf3\",\r\n    greenSmall  = \"e40c6b\",\r\n    purpleLarge = \"a1c313\",\r\n    purpleSmall = \"e07711\",\r\n}\r\n\r\nplayerhandzones = {\r\n    Red    = \"9e87d8\",\r\n    Blue   = \"32941e\",\r\n    Green  = \"2c30da\",\r\n    Purple = \"c6b5a0\"\r\n}\r\n\r\nplayerfields = {\r\n    Red    = \"1236a0\",\r\n    Blue   = \"e5fb87\",\r\n    Green  = \"936992\",\r\n    Purple = \"5fd0e9\"\r\n}\r\n\r\nplayermemoryzones = {\r\n    Red    = \"70b7c0\",\r\n    Blue   = \"db3661\",\r\n    Green  = \"936992\",\r\n    Purple = \"5fd0e9\"\r\n}\r\n\r\n\r\nfunction isFourPlayerMode()\r\n    local redMat = getObjectFromGUID(playmats.Red)\r\n    if not redMat then return true end\r\n    local posX = redMat.getPosition().x\r\n    return posX < -10\r\nend\r\n\r\nfunction isStillSwitching()\r\n  local redMat = getObjectFromGUID(playmats.Red)\r\n  if not redMat then return true end\r\n  return redMat.isSmoothMoving()\r\nend\r\n\r\nfunction togglePlayerCount()\r\n\r\n    if isStillSwitching() then\r\n      print (\"Wait for switching to finish first!\")\r\n      return\r\n    end\r\n\r\n\r\n    local moveDistance = -20\r\n    local hideDistance = -200\r\n    shouldLock = false\r\n\r\n    if isFourPlayerMode() then\r\n      moveDistance = 20\r\n      hideDistance = 200\r\n      shouldLock = true\r\n    end\r\n\r\n    print(\"[INFO] Switching between 2p/4p mode\")\r\n\r\n    moveObjectX(playmats.Red,   moveDistance)\r\n    moveObjectX(playmats.Blue,  moveDistance)\r\n\r\n    moveObjectX(lifecounters.redLarge,   moveDistance)\r\n    moveObjectX(lifecounters.redSmall,   moveDistance)\r\n    moveObjectX(lifecounters.blueLarge,  moveDistance)\r\n    moveObjectX(lifecounters.blueSmall,  moveDistance)\r\n\r\n    moveObjectX(playerhandzones.Red,  moveDistance)\r\n    moveObjectX(playerhandzones.Blue, moveDistance)\r\n    moveObjectX(playerfields.Red,  moveDistance)\r\n    moveObjectX(playerfields.Blue, moveDistance)\r\n    moveObjectX(playermemoryzones.Red,  moveDistance)\r\n    moveObjectX(playermemoryzones.Blue, moveDistance)\r\n\r\n    for _, bagGUID in pairs(bags) do\r\n        moveObjectX(bagGUID, moveDistance)\r\n    end\r\n\r\n    moveObjectX(playmats.Green, hideDistance)\r\n    moveObjectX(playmats.Purple, hideDistance)\r\n\r\n\r\n    setObjectLock(lifecounters.greenLarge, shouldLock)\r\n    setObjectLock(lifecounters.greenSmall, shouldLock)\r\n    setObjectLock(lifecounters.purpleLarge, shouldLock)\r\n    setObjectLock(lifecounters.purpleSmall, shouldLock)\r\n\r\n\r\n    moveObjectX(lifecounters.greenLarge, hideDistance)\r\n    moveObjectX(lifecounters.greenSmall, hideDistance)\r\n    moveObjectX(lifecounters.purpleLarge, hideDistance)\r\n    moveObjectX(lifecounters.purpleSmall, hideDistance)\r\n\r\n    moveObjectX(playerhandzones.Green, hideDistance)\r\n    moveObjectX(playerhandzones.Purple, hideDistance)\r\n    moveObjectX(playerfields.Green, hideDistance)\r\n    moveObjectX(playerfields.Purple, hideDistance)\r\n    moveObjectX(playermemoryzones.Green, hideDistance)\r\n    moveObjectX(playermemoryzones.Purple, hideDistance)\r\nend\r\n\r\nfunction moveObjectX(guid, deltaX)\r\n    local obj = getObjectFromGUID(guid)\r\n    if not obj then return end\r\n\r\n    local pos = obj.getPosition()\r\n    pos.x = pos.x + deltaX\r\n    obj.setPositionSmooth(pos)\r\nend\r\n\r\nfunction moveObjectToX(guid, targetX)\r\n    local obj = getObjectFromGUID(guid)\r\n    if not obj then return end\r\n\r\n    local pos = obj.getPosition()\r\n    pos.x = targetX\r\n    obj.setPositionSmooth(pos)\r\nend\r\n\r\nfunction setObjectLock(guid, locked)\r\n  local obj = getObjectFromGUID(guid)\r\n  obj.setLock(locked)\r\nend\r\n\r\nfunction toggleVisibility(player, id)\r\n  visibility = Global.UI.getAttribute(id, \"visibility\")\r\n  visible = visibility:find(player.color) ~= nil\r\n  if visible then\r\n    Global.UI.setAttribute(id, \"visibility\", visibility:gsub(\"|\" .. player.color, \"\"))\r\n  else\r\n    Global.UI.setAttribute(id, \"visibility\", visibility .. \"|\" .. player.color)\r\n  end\r\nend\r\n\r\nfunction setSleeve(player, value)\r\n  ui_sleeve_state[player.color] = value\r\nend\r\n\r\nfunction setMaterialDeckSleeve(player, value)\r\n  ui_material_deck_sleeve_state[player.color] = value\r\nend\r\n\r\nfunction setDecklist(player, value)\r\n  ui_decklist_state[player.color] = value\r\nend\r\n\r\n-- Decks/Cards\r\nfunction getSleeves(player)\r\n  sleeve = ui_sleeve_state[player.color]\r\n  if sleeve == nil or sleeve == \"\" then\r\n    sleeve = card_back\r\n  end\r\n  return sleeve\r\nend\r\n\r\n-- Decks/Cards\r\nfunction getMaterialDeckSleeves(player)\r\n  sleeve = ui_material_deck_sleeve_state[player.color]\r\n  if sleeve == nil or sleeve == \"\" then\r\n    sleeve = getSleeves(player)\r\n  end\r\n  return sleeve\r\nend\r\n\r\nfunction getDeckBag(name, deck, player)\r\n  local colorRGB = Color.fromString(player.color)\r\n  return {\r\n    Name = \"Infinite_Bag\",\r\n    Transform = {\r\n      scaleX = 1,\r\n      scaleY = 1,\r\n      scaleZ = 1,\r\n      rotX = 0,\r\n      rotY = 0,\r\n      rotZ = 0\r\n    },\r\n    ColorDiffuse = {\r\n      r = colorRGB.r,\r\n      g = colorRGB.g,\r\n      b = colorRGB.b\r\n    },\r\n    Nickname = name,\r\n    ContainedObjects = {deck}\r\n  }\r\nend\r\n\r\nglobal_offset = 0\r\n\r\nfunction getCustomCard(image, sleeve)\r\n  return {\r\n    FaceURL = image,\r\n    BackURL = sleeve,\r\n    NumWidth = 1,\r\n    NumHeight = 1,\r\n    BackIsHidden = true,\r\n    UniqueBack = false,\r\n    Type = 0\r\n  }\r\nend\r\n\r\nfunction getCard(custom_card, name, index)\r\n  card_index = index + 100\r\n  return {\r\n    Name = \"CardCustom\",\r\n    Transform = {\r\n      scaleX = card_scale,\r\n      scaleY = 1,\r\n      scaleZ = card_scale\r\n    },\r\n    Nickname = name,\r\n    CardID = card_index * 100,\r\n    CustomDeck = {\r\n      [card_index] = custom_card\r\n    }\r\n  }\r\nend\r\n\r\n-- Simple trimming of leading/trailing spaces\r\nlocal function trimSpaces(str)\r\n    if str == nil then\r\n      return \"\"\r\n    end\r\n    return str:gsub(\"^%s+\", \"\"):gsub(\"%s+$\", \"\")\r\nend\r\n\r\nlocal function randomGUID()\r\n    local chars = '0123456789abcdef'\r\n    local res = {}\r\n    for i=1,6 do\r\n        local rand = math.random(#chars)\r\n        res[#res+1] = chars:sub(rand, rand)\r\n    end\r\n    return table.concat(res)\r\nend\r\n\r\nfunction spawnDeck(name, cards, player, as_bag)\r\n    local playmat = getObjectFromGUID(playmats[player.color])\r\n    local rotation = playmat.getRotation()\r\n    local position = playmat.positionToWorld(deck_position[name])\r\n    local bounds   = playmat.getBounds()\r\n\r\n    local deck = getDeck(name, cards, player)\r\n    if as_bag or name==\"references\" then\r\n        deck = getDeckBag(name, deck, player)\r\n    end\r\n\r\n    deck.Transform = deck.Transform or {}\r\n    deck.Transform.posX = position.x\r\n    deck.Transform.posY = playmat.getPosition().y + bounds.size.y + bounds.offset.y + 1\r\n    deck.Transform.posZ = position.z\r\n    deck.Transform.rotY = rotation.y\r\n\r\n    return spawnObjectData({data = deck})\r\nend\r\n\r\nfunction getDeck(name, cards, player)\r\n    global_offset = (global_offset % 30) + 1\r\n\r\n    local sleeve = getSleeves(player)\r\n    if name == \"material\" then\r\n      sleeve = getMaterialDeckSleeves(player)\r\n    end\r\n\r\n\r\n    local deckOffset = global_offset * 1000\r\n\r\n    local deck_ids       = {}\r\n    local custom_deck    = {}\r\n    local contained_objs = {}\r\n\r\n    local idx = 1\r\n    for _, card in ipairs(cards) do\r\n        local cardstomake = (card.quantity == 0) and 1 or card.quantity\r\n\r\n        for i = 1, cardstomake do\r\n            local orientation = (card.orientation or \"\"):lower()\r\n            local frontSide, backSide = nil, nil\r\n            local hasOrientations = (type(card.orientations) == \"table\" and #card.orientations > 0)\r\n            local isMultiState = false\r\n\r\n            if hasOrientations then\r\n                isMultiState = true\r\n                local oppositeNeeded = (orientation == \"front\") and \"back\"\r\n                    or (orientation == \"back\") and \"front\"\r\n                    or nil\r\n\r\n                if oppositeNeeded then\r\n                    for _, alt in ipairs(card.orientations) do\r\n                        if type(alt.orientation) == \"string\"\r\n                            and alt.orientation:lower() == oppositeNeeded then\r\n                            backSide = alt\r\n                            break\r\n                        end\r\n                    end\r\n                end\r\n            end\r\n\r\n            if orientation == \"front\" and backSide then\r\n                frontSide = card\r\n            elseif orientation == \"back\" and backSide then\r\n                -- the user put the back side in their deck so we'll just flip it for them\r\n                frontSide = backSide\r\n                backSide  = card\r\n            end\r\n\r\n            if isMultiState then\r\n                local frontKey    = (deckOffset + idx)\r\n                local backKey     = frontKey + 1\r\n                local frontBackKey= backKey + 1\r\n                local frontID     = frontKey * 100\r\n                local backID      = backKey * 100\r\n                local frontBackID = frontBackKey * 100\r\n\r\n                table.insert(deck_ids, frontID)\r\n\r\n                local frontURL = frontSide.image or card_back\r\n                local backURL  = backSide.image  or card_back\r\n\r\n                custom_deck[tostring(frontKey)] = {\r\n                    FaceURL      = frontURL,\r\n                    BackURL      = sleeve,\r\n                    NumWidth     = 1,\r\n                    NumHeight    = 1,\r\n                    BackIsHidden = true,\r\n                    HideWhenFaceDown = true,\r\n                    UniqueBack   = false,\r\n                    Type         = 0\r\n                }\r\n                custom_deck[tostring(backKey)] = {\r\n                    FaceURL      = backURL,\r\n                    BackURL      = sleeve,\r\n                    NumWidth     = 1,\r\n                    NumHeight    = 1,\r\n                    BackIsHidden = true,\r\n                    HideWhenFaceDown = true,\r\n                    UniqueBack   = true,\r\n                    Type         = 0\r\n                }\r\n                custom_deck[tostring(frontBackKey)] = {\r\n                    FaceURL      = frontURL,\r\n                    BackURL      = backURL,\r\n                    NumWidth     = 1,\r\n                    NumHeight    = 1,\r\n                    BackIsHidden = false,\r\n                    HideWhenFaceDown = false,\r\n                    UniqueBack   = true,\r\n                    Type         = 0\r\n                }\r\n\r\n                table.insert(contained_objs, {\r\n                    GUID = randomGUID(),\r\n                    Name = \"CardCustom\",\r\n                    Transform = { scaleX = card_scale, scaleY = 1, scaleZ = card_scale },\r\n                    Nickname = frontSide.name or \"(NoName)\",\r\n                    CardID   = frontID,\r\n                    HideWhenFaceDown = true,\r\n                    CustomDeck = {\r\n                        [tostring(frontKey)] = custom_deck[tostring(frontKey)]\r\n                    },\r\n                    States = {\r\n                        [\"2\"] = {\r\n                            GUID = randomGUID(),\r\n                            Name = \"CardCustom\",\r\n                            Transform = { scaleX = card_scale, scaleY = 1, scaleZ = card_scale },\r\n                            Nickname = backSide.name or \"(NoName)\",\r\n                            CardID   = backID,\r\n                            HideWhenFaceDown = true,\r\n                            CustomDeck = {\r\n                                [tostring(backKey)] = custom_deck[tostring(backKey)]\r\n                            }\r\n                        },\r\n                        [\"3\"] = {\r\n                            GUID = randomGUID(),\r\n                            Name = \"CardCustom\",\r\n                            Transform = { scaleX = card_scale, scaleY = 1, scaleZ = card_scale },\r\n                            Nickname = frontSide.name .. \" / \" .. backSide.name or \"(NoName)\",\r\n                            CardID   = frontBackID,\r\n                            HideWhenFaceDown = false,\r\n                            CustomDeck = {\r\n                                [tostring(frontBackKey)] = custom_deck[tostring(frontBackKey)]\r\n                            }\r\n                        }\r\n                    }\r\n                })\r\n                idx = idx + 3\r\n            else\r\n                local singleKey = deckOffset + idx\r\n                local singleID  = singleKey * 100\r\n\r\n                table.insert(deck_ids, singleID)\r\n\r\n                local faceUrl = card.image or card_back\r\n\r\n                custom_deck[tostring(singleKey)] = {\r\n                    FaceURL      = faceUrl,\r\n                    BackURL      = sleeve,\r\n                    NumWidth     = 1,\r\n                    NumHeight    = 1,\r\n                    BackIsHidden = true,\r\n                    HideWhenFaceDown = true,\r\n                    UniqueBack   = false,\r\n                    Type         = 0\r\n                }\r\n\r\n                table.insert(contained_objs, {\r\n                    GUID = randomGUID(),\r\n                    Name = \"CardCustom\",\r\n                    Transform = { scaleX = card_scale, scaleY = 1, scaleZ = card_scale },\r\n                    Nickname = card.name,\r\n                    CardID   = singleID,\r\n                    HideWhenFaceDown = true,\r\n                    CustomDeck = {\r\n                        [tostring(singleKey)] = custom_deck[tostring(singleKey)]\r\n                    }\r\n                })\r\n                idx = idx + 1\r\n            end\r\n        end\r\n    end\r\n\r\n    if #contained_objs == 1 then\r\n        contained_objs[1].Transform.rotZ = 180\r\n        return contained_objs[1]\r\n    else\r\n        return {\r\n            GUID = randomGUID(),\r\n            Name = \"Deck\",\r\n            Transform = {\r\n                rotX = 360, rotY = 180, rotZ = 180,\r\n                scaleX = card_scale, scaleY = 1, scaleZ = card_scale\r\n            },\r\n            Nickname = name,\r\n            DeckIDs = deck_ids,\r\n            CustomDeck = custom_deck,\r\n            ContainedObjects = contained_objs\r\n        }\r\n    end\r\nend\r\n\r\nfunction importDeck(player, value, index)\r\n    local deck_text = ui_decklist_state[player.color]\r\n    deck_text = trimSpaces(deck_text)\r\n\r\n    if deck_text == \"\" then\r\n        broadcastToColor(\"No Decklist URL provided!\", player.color, {255,0,0})\r\n        return\r\n    end\r\n\r\n    if deck_text:match(\"^https?://\") then\r\n        importDeckFromURL(deck_text, player, value, index)\r\n        return\r\n    end\r\n\r\n    if deck_text:match(\"^{\") then\r\n      local json = JSON.decode(deck_text)\r\n      if json then\r\n          if json.error == nil then\r\n              SpawnDeckFromJson(json, player, value, index)\r\n              return\r\n          end\r\n      end\r\n    end\r\n\r\n    broadcastToColor(\"Invalid deck input! Provide a valid JSON decklist or a URL.\", player.color, {255,0,0})\r\nend\r\n\r\nfunction importDeckFromURL(deck_url, player, value, index)\r\n\r\n  if deck_url ~= nil and deck_url:len() > 0 then\r\n    if deck_url:sub(1, 5) ~= \"https\" then\r\n      deck_url = \"https://\" .. deck_url\r\n    end\r\n    -- Silvie\r\n    if deck_url:find(\"silvie.org\") ~= nil then\r\n        if deck_url:find(\"format=json\") == nil then\r\n            if deck_url:find(\"?\") == nil then\r\n              deck_url = deck_url .. \"?format=json\"\r\n            else\r\n              deck_url = deck_url .. \"&format=json\"\r\n            end\r\n        end\r\n    -- ShoutAtYourDecks\r\n    elseif deck_url:find(\"shoutatyourdecks.com\") ~= nil then\r\n      deck_url = deck_url:gsub(\"/decks/\", \"/api/\")\r\n    else\r\n      broadcastToColor(\"Invalid Decklist URL!\", player.color, {255,0,0})\r\n      return\r\n    end\r\n\r\n    WebRequest.get(deck_url, function(req)\r\n      if req.is_error then\r\n        log(request.error)\r\n      else\r\n        json = JSON.decode(req.text)\r\n        if json.error ~= nil then\r\n          log(json.error)\r\n          if json.error == \"silvie/bad-request\" then\r\n            broadcastToColor(\"Invalid Silvie.org Decklist!\", player.color, {255,0,0})\r\n          else\r\n            broadcastToColor(\"Unknown Error :(\", player.color, {255,0,0})\r\n          end\r\n        else\r\n          -- Generate Cards\r\n          for deck, cards in pairs(json.cards) do\r\n            if #cards > 0 then\r\n              spawnDeck(deck, cards, player, index==\"import_deck_bag\")\r\n            end\r\n          end\r\n        end\r\n      end\r\n    end)\r\n  end\r\nend\r\n\r\nfunction SpawnDeckFromJson(json, player, value, index)\r\n  for deck, cards in pairs(json.cards) do\r\n    if #cards > 0 then\r\n      spawnDeck(deck, cards, player, index==\"import_deck_bag\")\r\n    end\r\n  end\r\nend\r\n\r\n\r\ncameraPositions2P = {\r\n    Red    = { position = Vector(0, -2.5, -1), rotation = {x = 45, y = 0, z = 0} },\r\n    Blue   = { position = Vector(0, -2.5, 1), rotation = {x = 45, y = 180, z = 0} },\r\n}\r\n\r\ncameraPositions4P = {\r\n    Red    = { position = Vector(-20, -2.5, -1), rotation = {x = 45, y = 0, z = 0} },\r\n    Blue   = { position = Vector(-20, -2.5, 1), rotation = {x = 45, y = 180, z = 0} },\r\n    Green  = { position = Vector(20, -2.5, -1), rotation = {x = 45, y = 0, z = 0} },\r\n    Purple = { position = Vector(20, -2.5, 1), rotation = {x = 45, y = 180, z = 0} }\r\n}\r\n\r\n\r\nfunction resetCamera(player_color)\r\n\r\n    cameraPositions = cameraPositions2P\r\n    if isFourPlayerMode() then\r\n      cameraPositions = cameraPositions4P\r\n    end\r\n\r\n    local camData = cameraPositions[player_color]\r\n    if camData then\r\n        local player = nil\r\n        for _, p in pairs(Player.getPlayers()) do\r\n            if p.color == player_color then\r\n                player = p\r\n                break\r\n            end\r\n        end\r\n        if not player then\r\n            return\r\n        end\r\n\r\n        player.lookAt({\r\n            position = camData.position,\r\n            pitch = camData.rotation.x,\r\n            yaw = camData.rotation.y,\r\n            roll = camData.rotation.z\r\n        })\r\n    end\r\nend\r\n\r\nfunction waitToSwitchState(obj, newState)\r\n    Wait.condition(\r\n        function()\r\n            if not obj.isDestroyed() then\r\n                obj.setState(newState)\r\n            end\r\n        end,\r\n        function()\r\n            return not obj.isSmoothMoving()\r\n        end\r\n    )\r\nend\r\n\r\n\r\nfunction banishOneMemoryCard(player, value, index)\r\n\r\n  if memoryZone == nil then log(\"Memory Zone is nil.\") return end\r\n\r\n  local memoryCards = 0\r\n  local memoryCheck = 0\r\n\r\n  if (memoryZone.getObjects()) != nil then\r\n    memoryCards = #memoryZone.getObjects()-1\r\n    randomCard = math.random(memoryCards)\r\n\r\n    for _,item in ipairs(memoryZone.getObjects()) do\r\n      if item.tag == \"Card\" then\r\n        memoryCheck = memoryCheck + 1\r\n        if memoryCheck == randomCard then\r\n          rotation = self.getRotation()\r\n          item.setPositionSmooth(banishmentZone.getPosition())\r\n          item.setRotationSmooth({rotation.x,zones.banishment.rot,rotation.z})\r\n        end\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\nfunction revealRandomMemoryCard(player, value, index)\r\n\r\n  if memoryZone == nil then log(\"Memory Zone is nil.\") return end\r\n\r\n  local memoryCards = 0\r\n  local memoryCheck = 0\r\n\r\n  if (memoryZone.getObjects()) != nil then\r\n    memoryCards = #memoryZone.getObjects()-1\r\n    randomCard = math.random(memoryCards)\r\n\r\n    for _,item in ipairs(memoryZone.getObjects()) do\r\n      if item.tag == \"Card\" then\r\n        memoryCheck = memoryCheck + 1\r\n        if memoryCheck == randomCard then\r\n          item.flip()\r\n        end\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\nfunction recollectMemory(player, value, index)\r\n\r\n  if memoryZone == nil then log(\"Memory Zone is nil.\") return end\r\n\r\n  if (memoryZone.getObjects()) != nil then\r\n    for _,item in ipairs(memoryZone.getObjects()) do\r\n      if item.tag == \"Card\" then\r\n        item.deal(1,myPlayer.color)\r\n      end\r\n    end\r\n  end\r\n\r\nend\r\n\r\nfunction onObjectLeaveZone(zone, obj)\r\n    if obj.tag == \"Card\" then\r\n        if obj.getStateId() == 3 then\r\n          if zone.getName() == \"Field\" then\r\n              if not obj.isDestroyed() then\r\n                waitToSwitchState(obj, 1)\r\n              end\r\n          end\r\n        end\r\n    end\r\nend\r\n\r\nfunction onObjectEnterZone(zone, obj)\r\n    if obj.tag == \"Card\" and obj.getStateId() ~= 3 then\r\n        if zone.getName() == \"Field\" then\r\n            local rotation = obj.getRotation()\r\n              if math.abs(rotation.z) < 90 then -- Face-up condition\r\n                  waitToSwitchState(obj, 3)\r\n              end\r\n            return\r\n        end\r\n    end\r\nend\r\n\r\nfunction onPlayerChangeColor(player_color)\r\n    Wait.time(function()\r\n        resetCamera(player_color)\r\n    end, 0.5) -- Delay allows default camera animation to complete\r\nend\r\n\r\nfunction onScriptingButtonUp(index, player_color)\r\n    if index==10 then -- Numpad 0 (as assigned in TTS settings)\r\n        resetCamera(player_color)\r\n    end\r\nend",
   "LuaScriptState": "{\"cd\":{\"move\":false,\"scale\":false},\"tid\":[]}",
-  "XmlUI": "<!--\nXml UI. See documentation:\nhttps://api.tabletopsimulator.com/ui/introUI/\n-->\n\n<Panel visibility=\"Red|Blue|Green|Purple|Brown\">\n  <HorizontalLayout\n    id=\"menu_layout\"\n    childAlignment=\"MiddleRight\"\n    childForceExpandWidth=\"false\"\n    rectAlignment=\"LowerRight\"\n    height=\"40\"\n    padding=\"0 80 0 10\"\n    visibility=\"Black|Red|Blue|Green|Purple|Brown\"\n  >\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      minHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"toggleOptionsLayout\"\n    >Options⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      minHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"toggleHelpersLayout\"\n    >Helpers⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      minHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"toggleImportLayout\"\n    >Import Deck⬇⬇⬇⬇</Button>\n  </HorizontalLayout>\n  <VerticalLayout\n    id=\"options_layout\"\n    childAlignment=\"LowerRight\"\n    childForceExpandHeight=\"false\"\n    rectAlignment=\"LowerRight\"\n    width=\"170\"\n    padding=\"0 80 0 10\"\n    visibility=\"Black\"\n  >\n    <Button\n      colors=\"#FF0000|#FF8888|#880000|#FFDDDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"33\"\n      onClick=\"toggleOptionsLayout\"\n    >✖⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"togglePlayerCount\"\n    >Toggle 2P / 4P⬇⬇⬇⬇</Button>\n  </VerticalLayout>\n  <VerticalLayout\n    id=\"helpers_layout\"\n    childAlignment=\"LowerRight\"\n    childForceExpandHeight=\"false\"\n    rectAlignment=\"LowerRight\"\n    width=\"170\"\n    padding=\"0 80 0 10\"\n    visibility=\"Black\"\n  >\n    <Button\n      colors=\"#FF0000|#FF8888|#880000|#FFDDDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"33\"\n      onClick=\"toggleHelpersLayout\"\n    >✖⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"reserveAndReorganizeMemory\"\n    >Facedown to Memory⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"reorganizeMemory\"\n    >Clean up Memory⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"banishOneMemoryCard\"\n    >Banish 1 Random Memory⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"revealRandomMemoryCard\"\n    >Reveal 1 Random Memory⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"recollectMemory\"\n    >Recollect⬇⬇⬇⬇</Button>\n  </VerticalLayout>\n  <VerticalLayout\n      id=\"import_layout\"\n      padding=\"0 80 0 10\"\n      visibility=\"Black\"\n      height=\"80\"\n      rectAlignment=\"LowerRight\"\n      childForceExpandHeight=\"false\"\n  >\n    <HorizontalLayout\n      id=\"import_upper_layout\"\n      childAlignment=\"MiddleRight\"\n      childForceExpandWidth=\"false\"\n      rectAlignment=\"LowerRight\"\n      height=\"40\"\n    >\n      <HorizontalLayout\n        id=\"import_more_layout\"\n        childAlignment=\"MiddleRight\"\n        childForceExpandWidth=\"false\"\n        rectAlignment=\"LowerRight\"\n        height=\"40\"\n        visibility=\"Black\"\n      >\n        <Button\n          colors=\"#00FFFF|#88FFFF|#008888|#DDFFFF\"\n          minHeight=\"33\"\n          minWidth=\"66\"\n          fontStyle=\"Bold\"\n          onClick=\"toggleMoreLayout\"\n        >Less⬇⬇⬇⬇</Button>\n        <InputField\n          id=\"material_deck_sleeve_input\"\n          minWidth=\"300\"\n          onEndEdit=\"setMaterialDeckSleeve\"\n          placeholder=\"Material Deck Sleeve URL (Optional)\"\n        ></InputField>\n        <Button\n          id=\"import_deck_bag\"\n          colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n          fontStyle=\"Bold\"\n          minWidth=\"80\"\n          minHeight=\"33\"\n          onClick=\"importDeck\"\n        >Import as ∞ Bag⬇⬇⬇⬇</Button>\n      </HorizontalLayout>\n      <Button\n        colors=\"#FF0000|#FF8888|#880000|#FFDDDD\"\n        minHeight=\"33\"\n        minWidth=\"33\"\n        onClick=\"toggleImportLayout\"\n      >✖⬇⬇⬇⬇</Button>\n    </HorizontalLayout>\n    <HorizontalLayout\n      id=\"import_basic_layout\"\n      childAlignment=\"MiddleRight\"\n      childForceExpandWidth=\"false\"\n      rectAlignment=\"LowerRight\"\n      height=\"40\"\n      maxHeight=\"40\"\n    >\n    <HorizontalLayout\n      id=\"import_less_layout\"\n      childAlignment=\"MiddleRight\"\n      childForceExpandWidth=\"false\"\n      rectAlignment=\"LowerRight\"\n      height=\"40\"\n      visibility=\"Black|Red|Blue|Green|Purple|Brown\"\n    >\n        <Button\n          colors=\"#00FFFF|#88FFFF|#008888|#DDFFFF\"\n          minHeight=\"33\"\n          minWidth=\"66\"\n          fontStyle=\"Bold\"\n          onClick=\"toggleMoreLayout\"\n        >More⬇⬇⬇⬇</Button>\n      </HorizontalLayout>\n      <InputField\n        id=\"sleeve_input\"\n        minWidth=\"250\"\n        preferredWidth=\"250\"\n        resizeTextForBestFit=\"false\"\n        onEndEdit=\"setSleeve\"\n        placeholder=\"Sleeve URL (Optional)\"\n      ></InputField>\n      <InputField\n        id=\"decklist_input\"\n        minWidth=\"250\"\n        preferredWidth=\"250\"\n        resizeTextForBestFit=\"false\"\n        onEndEdit=\"setDecklist\"\n        placeholder=\"Silvie/Shout Decklist URL or JSON\"\n      ></InputField>\n      <Button\n        id=\"import_deck\"\n        colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n        fontStyle=\"Bold\"\n        minHeight=\"33\"\n        minWidth=\"66\"\n        onClick=\"importDeck\"\n      >Import⬇⬇⬇⬇</Button>\n    </HorizontalLayout>\n  </VerticalLayout>\n</Panel>",
+  "XmlUI": "<!--\nXml UI. See documentation:\nhttps://api.tabletopsimulator.com/ui/introUI/\n-->\n\n<Panel visibility=\"Red|Blue|Green|Purple|Brown\">\n  <HorizontalLayout\n    id=\"menu_layout\"\n    childAlignment=\"MiddleRight\"\n    childForceExpandWidth=\"false\"\n    rectAlignment=\"LowerRight\"\n    height=\"40\"\n    padding=\"0 80 0 10\"\n    visibility=\"Black|Red|Blue|Green|Purple|Brown\"\n  >\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      minHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"toggleOptionsLayout\"\n    >Options⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      minHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"toggleImportLayout\"\n    >Import Deck⬇⬇⬇⬇</Button>\n  </HorizontalLayout>\n  <VerticalLayout\n    id=\"options_layout\"\n    childAlignment=\"LowerRight\"\n    childForceExpandHeight=\"false\"\n    rectAlignment=\"LowerRight\"\n    width=\"170\"\n    padding=\"0 80 0 10\"\n    visibility=\"Black\"\n  >\n    <Button\n      colors=\"#FF0000|#FF8888|#880000|#FFDDDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"33\"\n      onClick=\"toggleOptionsLayout\"\n    >✖⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"togglePlayerCount\"\n    >Toggle 2P / 4P⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"banishOneMemoryCard\"\n    >Banish 1 Random Memory⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"revealRandomMemoryCard\"\n    >Reveal 1 Random Memory⬇⬇⬇⬇</Button>\n    <Button\n      colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n      fontStyle=\"Bold\"\n      preferredHeight=\"33\"\n      minWidth=\"70\"\n      onClick=\"recollectMemory\"\n    >Recollect⬇⬇⬇⬇</Button>\n  </VerticalLayout>\n  <VerticalLayout\n      id=\"import_layout\"\n      padding=\"0 80 0 10\"\n      visibility=\"Black\"\n      height=\"80\"\n      rectAlignment=\"LowerRight\"\n      childForceExpandHeight=\"false\"\n  >\n    <HorizontalLayout\n      id=\"import_upper_layout\"\n      childAlignment=\"MiddleRight\"\n      childForceExpandWidth=\"false\"\n      rectAlignment=\"LowerRight\"\n      height=\"40\"\n    >\n      <HorizontalLayout\n        id=\"import_more_layout\"\n        childAlignment=\"MiddleRight\"\n        childForceExpandWidth=\"false\"\n        rectAlignment=\"LowerRight\"\n        height=\"40\"\n        visibility=\"Black\"\n      >\n        <Button\n          colors=\"#00FFFF|#88FFFF|#008888|#DDFFFF\"\n          minHeight=\"33\"\n          minWidth=\"66\"\n          fontStyle=\"Bold\"\n          onClick=\"toggleMoreLayout\"\n        >Less⬇⬇⬇⬇</Button>\n        <InputField\n          id=\"material_deck_sleeve_input\"\n          minWidth=\"300\"\n          onEndEdit=\"setMaterialDeckSleeve\"\n          placeholder=\"Material Deck Sleeve URL (Optional)\"\n        ></InputField>\n        <Button\n          id=\"import_deck_bag\"\n          colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n          fontStyle=\"Bold\"\n          minWidth=\"80\"\n          minHeight=\"33\"\n          onClick=\"importDeck\"\n        >Import as ∞ Bag⬇⬇⬇⬇</Button>\n      </HorizontalLayout>\n      <Button\n        colors=\"#FF0000|#FF8888|#880000|#FFDDDD\"\n        minHeight=\"33\"\n        minWidth=\"33\"\n        onClick=\"toggleImportLayout\"\n      >✖⬇⬇⬇⬇</Button>\n    </HorizontalLayout>\n    <HorizontalLayout\n      id=\"import_basic_layout\"\n      childAlignment=\"MiddleRight\"\n      childForceExpandWidth=\"false\"\n      rectAlignment=\"LowerRight\"\n      height=\"40\"\n      maxHeight=\"40\"\n    >\n    <HorizontalLayout\n      id=\"import_less_layout\"\n      childAlignment=\"MiddleRight\"\n      childForceExpandWidth=\"false\"\n      rectAlignment=\"LowerRight\"\n      height=\"40\"\n      visibility=\"Black|Red|Blue|Green|Purple|Brown\"\n    >\n        <Button\n          colors=\"#00FFFF|#88FFFF|#008888|#DDFFFF\"\n          minHeight=\"33\"\n          minWidth=\"66\"\n          fontStyle=\"Bold\"\n          onClick=\"toggleMoreLayout\"\n        >More⬇⬇⬇⬇</Button>\n      </HorizontalLayout>\n      <InputField\n        id=\"sleeve_input\"\n        minWidth=\"250\"\n        preferredWidth=\"250\"\n        resizeTextForBestFit=\"false\"\n        onEndEdit=\"setSleeve\"\n        placeholder=\"Sleeve URL (Optional)\"\n      ></InputField>\n      <InputField\n        id=\"decklist_input\"\n        minWidth=\"250\"\n        preferredWidth=\"250\"\n        resizeTextForBestFit=\"false\"\n        onEndEdit=\"setDecklist\"\n        placeholder=\"Silvie/Shout Decklist URL or JSON\"\n      ></InputField>\n      <Button\n        id=\"import_deck\"\n        colors=\"#00FF00|#88FF88|#008800|#DDFFDD\"\n        fontStyle=\"Bold\"\n        minHeight=\"33\"\n        minWidth=\"66\"\n        onClick=\"importDeck\"\n      >Import⬇⬇⬇⬇</Button>\n    </HorizontalLayout>\n  </VerticalLayout>\n</Panel>\n",
   "CustomUIAssets": [
     {
       "Type": 0,
@@ -371,11 +371,11 @@
       "Name": "Counter",
       "Transform": {
         "posX": -21.4999676,
-        "posY": 0.924000144,
+        "posY": 0.9240002,
         "posZ": 2.99999952,
-        "rotX": -4.4094844E-07,
+        "rotX": -7.681719E-09,
         "rotY": 180.000015,
-        "rotZ": -5.22042178E-08,
+        "rotZ": -2.83323476E-10,
         "scaleX": 2.5,
         "scaleY": 1.2,
         "scaleZ": 2.5
@@ -390,7 +390,7 @@
       },
       "ColorDiffuse": {
         "r": 0.0,
-        "g": 0.06319541,
+        "g": 0.06319571,
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
@@ -1020,8 +1020,8 @@
       },
       "ColorDiffuse": {
         "r": 1.0,
-        "g": 0.30587852,
-        "b": 0.30587852
+        "g": 0.305878937,
+        "b": 0.305878937
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -1291,11 +1291,11 @@
       "Name": "Counter",
       "Transform": {
         "posX": -21.4999619,
-        "posY": 0.924000144,
-        "posZ": -3.00000334,
-        "rotX": -7.140104E-08,
-        "rotY": 0.000413743255,
-        "rotZ": -1.89769871E-08,
+        "posY": 0.9240002,
+        "posZ": -3.000003,
+        "rotX": 2.460958E-08,
+        "rotY": 0.0004040385,
+        "rotZ": 3.676016E-08,
         "scaleX": 2.5,
         "scaleY": 1.2,
         "scaleZ": 2.5
@@ -1339,11 +1339,11 @@
       "Name": "Counter",
       "Transform": {
         "posX": -20.0,
-        "posY": 0.929999948,
+        "posY": 0.9299996,
         "posZ": -8.0,
-        "rotX": 1.71455042E-06,
-        "rotY": 0.0316802673,
-        "rotZ": 9.278961E-08,
+        "rotX": 2.94296979E-06,
+        "rotY": 0.0316215567,
+        "rotZ": 1.17731055E-07,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1387,11 +1387,11 @@
       "Name": "Counter",
       "Transform": {
         "posX": -20.0,
-        "posY": 0.930000067,
+        "posY": 0.929999232,
         "posZ": 8.0,
-        "rotX": -1.35171049E-07,
+        "rotX": -3.95432181E-07,
         "rotY": 180.084885,
-        "rotZ": -5.129803E-09,
+        "rotZ": 2.86936537E-08,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -1531,7 +1531,7 @@
         "posX": 241.499985,
         "posY": 0.9247861,
         "posZ": 3.000034,
-        "rotX": -0.0005656856,
+        "rotX": -0.000565684459,
         "rotY": 179.999985,
         "rotZ": 359.989166,
         "scaleX": 2.5,
@@ -1871,7 +1871,7 @@
         "posX": 240.0,
         "posY": 0.929999948,
         "posZ": 8.0,
-        "rotX": 1.11533E-07,
+        "rotX": 1.11532664E-07,
         "rotY": 180.018356,
         "rotZ": -1.18559285E-07,
         "scaleX": 1.0,
@@ -2181,7 +2181,7 @@
       "ColorDiffuse": {
         "r": 0.0,
         "g": 1.0,
-        "b": 0.2627416
+        "b": 0.262741983
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -2211,9 +2211,9 @@
         "posX": 22.0,
         "posY": 0.9429999,
         "posZ": -2.0,
-        "rotX": 5.881754E-06,
+        "rotX": 5.88173043E-06,
         "rotY": 270.0,
-        "rotZ": 1.88550325E-06,
+        "rotZ": 1.88550291E-06,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2229,7 +2229,7 @@
       "ColorDiffuse": {
         "r": 0.9277496,
         "g": 1.0,
-        "b": 0.30587858
+        "b": 0.305879
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -2421,7 +2421,7 @@
       },
       "ColorDiffuse": {
         "r": 0.7716449,
-        "g": 0.301957,
+        "g": 0.301957428,
         "b": 1.0
       },
       "LayoutGroupSortIndex": 0,
@@ -3021,358 +3021,6 @@
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""
-    },
-    {
-      "GUID": "633a99",
-      "Name": "CardCustom",
-      "Transform": {
-        "posX": -4.148097,
-        "posY": 1.9677453,
-        "posZ": -12.099227,
-        "rotX": 0.0,
-        "rotY": 180.0,
-        "rotZ": 0.0,
-        "scaleX": 1.42055011,
-        "scaleY": 1.0,
-        "scaleZ": 1.42055011
-      },
-      "Nickname": "Fabled Emerald Fatestone / Byakko, White Tiger",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": true,
-      "CardID": 201300,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "2013": {
-          "FaceURL": "https://shoutatyourdecks.com/images/fabled-emerald-fatestone-hvn1e.jpg",
-          "BackURL": "https://shoutatyourdecks.com/images/byakko-white-tiger-hvn1e.jpg",
-          "NumWidth": 1,
-          "NumHeight": 1,
-          "BackIsHidden": false,
-          "UniqueBack": true,
-          "Type": 0
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "States": {
-        "1": {
-          "GUID": "121200",
-          "Name": "CardCustom",
-          "Transform": {
-            "posX": -1.55374312,
-            "posY": 2.97482181,
-            "posZ": -27.0,
-            "rotX": 0.0,
-            "rotY": 180.0,
-            "rotZ": 180.0,
-            "scaleX": 1.42055011,
-            "scaleY": 1.0,
-            "scaleZ": 1.42055011
-          },
-          "Nickname": "Fabled Emerald Fatestone",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": false,
-          "Hands": true,
-          "CardID": 201100,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "2011": {
-              "FaceURL": "https://shoutatyourdecks.com/images/fabled-emerald-fatestone-hvn1e.jpg",
-              "BackURL": "https://img.silvie.org/cdn/deck-builder/card-back.png",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        },
-        "2": {
-          "GUID": "2ade42",
-          "Name": "CardCustom",
-          "Transform": {
-            "posX": -1.55374312,
-            "posY": 2.97482181,
-            "posZ": -27.0,
-            "rotX": 0.0,
-            "rotY": 180.0,
-            "rotZ": 180.0,
-            "scaleX": 1.42055011,
-            "scaleY": 1.0,
-            "scaleZ": 1.42055011
-          },
-          "Nickname": "Byakko, White Tiger",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": true,
-          "CardID": 201200,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "2012": {
-              "FaceURL": "https://shoutatyourdecks.com/images/byakko-white-tiger-hvn1e.jpg",
-              "BackURL": "https://img.silvie.org/cdn/deck-builder/card-back.png",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        }
-      }
-    },
-    {
-      "GUID": "4db47a",
-      "Name": "CardCustom",
-      "Transform": {
-        "posX": 1.60377336,
-        "posY": 1.07359958,
-        "posZ": -11.6168213,
-        "rotX": -6.83836552E-05,
-        "rotY": 180.0,
-        "rotZ": 179.999985,
-        "scaleX": 1.42055011,
-        "scaleY": 1.0,
-        "scaleZ": 1.42055011
-      },
-      "Nickname": "Craggy Fatestone / Obstinate Cragback",
-      "Description": "",
-      "GMNotes": "",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 0.713235259,
-        "g": 0.713235259,
-        "b": 0.713235259
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": false,
-      "Hands": true,
-      "CardID": 100300,
-      "SidewaysCard": false,
-      "CustomDeck": {
-        "1003": {
-          "FaceURL": "https://shoutatyourdecks.com/images/craggy-fatestone-rec-hvf.jpg",
-          "BackURL": "https://shoutatyourdecks.com/images/obstinate-cragback-rec-hvf.jpg",
-          "NumWidth": 1,
-          "NumHeight": 1,
-          "BackIsHidden": false,
-          "UniqueBack": true,
-          "Type": 0
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "States": {
-        "1": {
-          "GUID": "537103",
-          "Name": "CardCustom",
-          "Transform": {
-            "posX": 1.55374515,
-            "posY": 3.07482171,
-            "posZ": -27.0,
-            "rotX": 1.06866642E-12,
-            "rotY": 180.0,
-            "rotZ": 163.1222,
-            "scaleX": 1.42055011,
-            "scaleY": 1.0,
-            "scaleZ": 1.42055011
-          },
-          "Nickname": "Craggy Fatestone",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": true,
-          "CardID": 100100,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "1001": {
-              "FaceURL": "https://shoutatyourdecks.com/images/craggy-fatestone-rec-hvf.jpg",
-              "BackURL": "https://img.silvie.org/cdn/deck-builder/card-back.png",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        },
-        "2": {
-          "GUID": "372af6",
-          "Name": "CardCustom",
-          "Transform": {
-            "posX": 1.55374515,
-            "posY": 3.07482171,
-            "posZ": -27.0,
-            "rotX": 0.0,
-            "rotY": 180.0,
-            "rotZ": 180.0,
-            "scaleX": 1.42055011,
-            "scaleY": 1.0,
-            "scaleZ": 1.42055011
-          },
-          "Nickname": "Obstinate Cragback",
-          "Description": "",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 0.713235259,
-            "g": 0.713235259,
-            "b": 0.713235259
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": true,
-          "CardID": 100200,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "1002": {
-              "FaceURL": "https://shoutatyourdecks.com/images/obstinate-cragback-rec-hvf.jpg",
-              "BackURL": "https://img.silvie.org/cdn/deck-builder/card-back.png",
-              "NumWidth": 1,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          },
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": ""
-        }
-      }
     }
   ]
 }
