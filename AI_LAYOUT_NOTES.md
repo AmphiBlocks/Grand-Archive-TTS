@@ -4,7 +4,6 @@ Last updated: 2026-02-12
 
 ## Primary files in this directory
 - Main save: `Grand-Archive-Fracturized.json`
-- Related save: `Grand-Archive-Fracturized.booster-port.json`
 
 ## Preferred AI workflow
 - Use extraction/context pipeline before editing.
@@ -16,10 +15,10 @@ Last updated: 2026-02-12
 
 ## Save structure summary
 - TTS version observed: `v14.1.8`
-- `ObjectStates` count: `60`
-- Global Lua length: `136287`
+- `ObjectStates` count: `62`
+- Global Lua length: `139681`
 - Global XmlUI length: `17085`
-- Scripted objects (non-global): `33`
+- Scripted objects (non-global): `35`
 
 ## Major script-bearing objects
 - `c2d323` `PiecePack_Arms` `GA_EffectLibrary` (lua=755884, xml=0, depth=0)
@@ -46,6 +45,15 @@ Last updated: 2026-02-12
 - `b2b068` `Infinite_Bag` `Status Tokens` (contained=1)
 - `0e628b` `Infinite_Bag` `Herb Board by Sage` (contained=1)
 - `6c36d4` `Infinite_Bag` `Status Markers` (contained=1)
+- `650a62` `Infinite_Bag` `Booster Packs` (contained=1, prototype=`caded0`)
+
+## Booster setup notes
+- Physical booster flow is now canonical for PTM:
+  - Infinite bag `650a62` spawns a flip-to-rip model prototype.
+  - Prototype supports right-click mode switching (`Set to Phantom Monarchs`, `Set to Abyssal Heaven`) using context menu pattern used by dice/status tokens.
+  - Modes currently:
+    - `PHANTOM_MONARCHS_8_CARD` with PTM art `https://steamusercontent-a.akamaihd.net/ugc/12077178895808964041/AD104E8BD1C5BD81D9159A08D0739842382C3C4B/`
+    - `ABYSSAL_HEAVEN_8_CARD` with Abyssal art `https://steamusercontent-a.akamaihd.net/ugc/12109684205242165739/6CFCD4EFA56B6B3A2EA955D7FA92A36F28F02193/`
 
 ## Exploration order
 1. Refresh extract/context in pipeline workspace.
