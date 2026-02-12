@@ -47,6 +47,11 @@ def lua_string(s: str) -> str:
     return f"\"{s}\""
 
 
+def lua_list(items):
+    items = items or []
+    return "{ " + ", ".join(lua_string(x) for x in items) + " }"
+
+
 def coalesce(*values):
     for v in values:
         if v:
@@ -82,18 +87,41 @@ def _first_edition_uuid(card: dict) -> str:
     return ""
 
 
+def is_token(card: dict) -> bool:
+    types = card.get("types") or []
+    return any(t == "TOKEN" for t in types)
+
+
+def home_deck_for(card: dict) -> str:
+    if is_token(card):
+        return "none"
+    cost = card.get("cost") or {}
+    cost_type = (cost.get("type") or "").lower()
+    if cost_type == "memory":
+        return "material"
+    if cost_type == "reserve":
+        return "main"
+    return "none"
+
+
 def extract_records(card: dict):
     records = []
 
     # Front / default
     front_name = card.get("name") or card.get("title") or ""
     front_effect = (card.get("effect_raw") or card.get("effect") or "").strip()
+    home_deck = home_deck_for(card)
+    types = card.get("types") or []
+    subtypes = card.get("subtypes") or []
     records.append(
         {
             "name": front_name,
             "side": "front",
             "effect_raw": front_effect,
             "uuid": pick_uuid(card),
+            "home_deck": home_deck,
+            "types": types,
+            "subtypes": subtypes,
         }
     )
 
@@ -117,6 +145,9 @@ def extract_records(card: dict):
                     "side": "back",
                     "effect_raw": text.strip(),
                     "uuid": pick_uuid(card, o),
+                    "home_deck": home_deck,
+                    "types": types,
+                    "subtypes": subtypes,
                 }
             )
 
@@ -148,6 +179,12 @@ def prefer_entry(existing: dict, incoming: dict) -> dict:
         return incoming
     if not existing.get("default-uuid") and incoming.get("default-uuid"):
         return incoming
+    if not existing.get("home_deck") and incoming.get("home_deck"):
+        return incoming
+    if not existing.get("types") and incoming.get("types"):
+        return incoming
+    if not existing.get("subtypes") and incoming.get("subtypes"):
+        return incoming
     return existing
 
 
@@ -173,13 +210,16 @@ def main():
             name = (r.get("name") or "").strip()
             if not name:
                 continue
-            slug = reduced_slug_from_title(name, r.get("side"))
+            slug = reduced_slug_from_title(name, None)
             if not slug:
                 continue
             entry = {
                 "name": name,
                 "default-uuid": r.get("uuid") or "",
                 "effect": r.get("effect_raw") or "",
+                "home_deck": r.get("home_deck") or "none",
+                "types": r.get("types") or [],
+                "subtypes": r.get("subtypes") or [],
             }
             lookup[slug] = prefer_entry(lookup.get(slug), entry)
 
@@ -191,13 +231,16 @@ def main():
                 name = (r.get("name") or "").strip()
                 if not name:
                     continue
-                slug = reduced_slug_from_title(name, r.get("side"))
+                slug = reduced_slug_from_title(name, None)
                 if not slug:
                     continue
                 entry = {
                     "name": name,
                     "default-uuid": r.get("uuid") or "",
                     "effect": r.get("effect_raw") or "",
+                    "home_deck": r.get("home_deck") or "none",
+                    "types": r.get("types") or [],
+                    "subtypes": r.get("subtypes") or [],
                 }
                 lookup[slug] = prefer_entry(lookup.get(slug), entry)
         print(f"Fetched page {page}/{total_pages} (rows so far: {len(lookup)})")
@@ -211,9 +254,12 @@ def main():
         entry = lookup[slug]
         name = lua_string(entry.get("name"))
         uuid = lua_string(entry.get("default-uuid"))
+        home_deck = lua_string(entry.get("home_deck"))
+        types = lua_list(entry.get("types"))
+        subtypes = lua_list(entry.get("subtypes"))
         effect = lua_long_bracket(entry.get("effect"))
         lines.append(
-            f'  ["{slug}"] = {{ ["name"] = {name}, ["default-uuid"] = {uuid}, ["effect"] = {effect} }},'
+            f'  ["{slug}"] = {{ ["name"] = {name}, ["default-uuid"] = {uuid}, ["home_deck"] = {home_deck}, ["types"] = {types}, ["subtypes"] = {subtypes}, ["effect"] = {effect} }},'
         )
 
     lines.append("}")
