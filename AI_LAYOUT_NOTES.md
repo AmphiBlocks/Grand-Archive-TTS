@@ -54,6 +54,12 @@ Last updated: 2026-02-12
   - Modes currently:
     - `PHANTOM_MONARCHS_8_CARD` with PTM art `https://steamusercontent-a.akamaihd.net/ugc/12077178895808964041/AD104E8BD1C5BD81D9159A08D0739842382C3C4B/`
     - `ABYSSAL_HEAVEN_8_CARD` with Abyssal art `https://steamusercontent-a.akamaihd.net/ugc/12109684205242165739/6CFCD4EFA56B6B3A2EA955D7FA92A36F28F02193/`
+  - Additional collation IDs now available in `GA_CollationLibrary`:
+    - `HVN_8_CARD` (alias: `ABYSSAL_HEAVEN_8_CARD`)
+    - `MRC_1E_8_CARD` (alias: `MRC1E_8_CARD`)
+    - `MRC_ALTER_9_CARD` (alias: `MRC_ALTER_8_CARD`)
+  - Alter-product collation rules are documented in:
+    - `aipipeline/GA_ALTER_PACK_RULES.md`
 
 ## Exploration order
 1. Refresh extract/context in pipeline workspace.

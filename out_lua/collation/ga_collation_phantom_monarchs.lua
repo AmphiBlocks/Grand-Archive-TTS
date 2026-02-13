@@ -1,3080 +1,14594 @@
 -- Auto-generated GA collation data
 -- Source: api.gatcg.com/cards/search
--- Set filter: Abyssal Heaven, Abyssal Heaven First Edition, Phantom Monarchs, Phantom Monarchs First Edition
--- Generated: 2026-02-12T22:32:53Z
+-- Set filter: Abyssal Heaven, Abyssal Heaven First Edition, Mercurial Heart, Mercurial Heart Alter Edition, Mercurial Heart First Edition, Phantom Monarchs, Phantom Monarchs First Edition | prefixes: ALC, ALC Alter, ALC+Alter, AMB, AMB 1st, AMB Alter, AMB+1st, AMB+Alter, DTR
+-- Generated: 2026-02-13T02:44:10Z
 
 local M = {
   meta = {
-    generated_at = "2026-02-12T22:32:53Z",
+    generated_at = "2026-02-13T02:44:10Z",
     source_api = "https://api.gatcg.com/cards/search",
-    set_names = { "Abyssal Heaven", "Abyssal Heaven First Edition", "Phantom Monarchs", "Phantom Monarchs First Edition" },
+    set_names = { "Abyssal Heaven", "Abyssal Heaven First Edition", "Mercurial Heart", "Mercurial Heart Alter Edition", "Mercurial Heart First Edition", "Phantom Monarchs", "Phantom Monarchs First Edition" },
   },
   cards = {
+    ["005593y9s2"] = {
+      uuid = "005593y9s2",
+      slug = "scorching-strafe",
+      name = "Scorching Strafe",
+      image = "/cards/images/005593y9s2.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
     ["00hlQPHePO"] = {
       uuid = "00hlQPHePO",
       slug = "chance-seven-of-spades",
       name = "Chance, Seven of Spades",
       image = "/cards/images/00hlQPHePO.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["00jpyhvhxa"] = {
+      uuid = "00jpyhvhxa",
+      slug = "expunge",
+      name = "Expunge",
+      image = "/cards/images/00jpyhvhxa.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["016aq6yjdd"] = {
+      uuid = "016aq6yjdd",
+      slug = "chateau-de-coeurs",
+      name = "Chateau de Coeurs",
+      image = "/cards/images/016aq6yjdd.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["02n8ya9ha8"] = {
+      uuid = "02n8ya9ha8",
+      slug = "ranger-strides",
+      name = "Ranger Strides",
+      image = "/cards/images/02n8ya9ha8.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["03cay7pp8e"] = {
+      uuid = "03cay7pp8e",
+      slug = "blade-of-creation",
+      name = "Blade of Creation",
+      image = "/cards/images/03cay7pp8e.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["06QHEASZzA"] = {
       uuid = "06QHEASZzA",
       slug = "windfall-check",
       name = "Windfall Check",
       image = "/cards/images/06QHEASZzA.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["06bpminxqu"] = {
       uuid = "06bpminxqu",
       slug = "savage-sunder",
       name = "Savage Sunder",
       image = "/cards/images/06bpminxqu.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["07wtk3sgbj"] = {
       uuid = "07wtk3sgbj",
       slug = "carpsong-coda",
       name = "Carpsong Coda",
       image = "/cards/images/07wtk3sgbj.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["09bl017ebv"] = {
+      uuid = "09bl017ebv",
+      slug = "prima-materia",
+      name = "Prima Materia",
+      image = "/cards/images/09bl017ebv.jpg",
+      orientation = "front",
+      types = { "ITEM", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["09u7pwcj56"] = {
+      uuid = "09u7pwcj56",
+      slug = "automated-gardener",
+      name = "Automated Gardener",
+      image = "/cards/images/09u7pwcj56.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["0Avsq65WRh"] = {
+      uuid = "0Avsq65WRh",
+      slug = "diana-moonpiercer",
+      name = "Diana, Moonpiercer",
+      image = "/cards/images/0Avsq65WRh.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["0LdKeO0ujD"] = {
       uuid = "0LdKeO0ujD",
       slug = "incapacitate",
       name = "Incapacitate",
       image = "/cards/images/0LdKeO0ujD.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["0arragp8m7"] = {
+      uuid = "0arragp8m7",
+      slug = "portside-pirate",
+      name = "Portside Pirate",
+      image = "/cards/images/0arragp8m7.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["0ax9z2kca6"] = {
+      uuid = "0ax9z2kca6",
+      slug = "tonoris-might-of-humanity",
+      name = "Tonoris, Might of Humanity",
+      image = "/cards/images/0ax9z2kca6.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["0ckca6jhwl"] = {
+      uuid = "0ckca6jhwl",
+      slug = "tideholder-claymore",
+      name = "Tideholder Claymore",
+      image = "/cards/images/0ckca6jhwl.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["0clcb6jhxl"] = {
+      uuid = "0clcb6jhxl",
+      slug = "winbless-arbalest",
+      name = "Winbless Arbalest",
+      image = "/cards/images/0clcb6jhxl.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["0dnzlu21xA"] = {
+      uuid = "0dnzlu21xA",
+      slug = "cell-forging",
+      name = "Cell Forging",
+      image = "/cards/images/0dnzlu21xA.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["0e455r0r2k"] = {
       uuid = "0e455r0r2k",
       slug = "primeval-ritual",
       name = "Primeval Ritual",
       image = "/cards/images/0e455r0r2k.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["0gnTuVIRO5"] = {
       uuid = "0gnTuVIRO5",
       slug = "mourning-veilbound",
       name = "Mourning Veilbound",
       image = "/cards/images/0gnTuVIRO5.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["0hv924ff4z"] = {
+      uuid = "0hv924ff4z",
+      slug = "refracting-missile",
+      name = "Refracting Missile",
+      image = "/cards/images/0hv924ff4z.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["0hwx4NznYD"] = {
       uuid = "0hwx4NznYD",
       slug = "merlin-memorite-vassal",
       name = "Merlin, Memorite Vassal",
       image = "/cards/images/0hwx4NznYD.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["0isncz1fz2"] = {
+      uuid = "0isncz1fz2",
+      slug = "cordelia-aurous-kaiser",
+      name = "Cordelia, Aurous Kaiser",
+      image = "/cards/images/0isncz1fz2.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["0itsn5leaj"] = {
       uuid = "0itsn5leaj",
       slug = "invigorating-concoction",
       name = "Invigorating Concoction",
       image = "/cards/images/0itsn5leaj.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["0kxj0ckca6"] = {
+      uuid = "0kxj0ckca6",
+      slug = "seaside-ringleader",
+      name = "Seaside Ringleader",
+      image = "/cards/images/0kxj0ckca6.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["0kxj0clcb6"] = {
+      uuid = "0kxj0clcb6",
+      slug = "tactical-retreat",
+      name = "Tactical Retreat",
+      image = "/cards/images/0kxj0clcb6.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["0l9x8inkif"] = {
       uuid = "0l9x8inkif",
       slug = "delusional-vapors",
       name = "Delusional Vapors",
       image = "/cards/images/0l9x8inkif.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["0mr492ollk"] = {
+      uuid = "0mr492ollk",
+      slug = "convalescent-tonic",
+      name = "Convalescent Tonic",
+      image = "/cards/images/0mr492ollk.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["0pwq5sfw43"] = {
+      uuid = "0pwq5sfw43",
+      slug = "mend-flesh",
+      name = "Mend Flesh",
+      image = "/cards/images/0pwq5sfw43.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["0qnkw4gabj"] = {
       uuid = "0qnkw4gabj",
       slug = "fabled-sapphire-fatestone",
       name = "Fabled Sapphire Fatestone",
       image = "/cards/images/0qnkw4gabj.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+        {
+          name = "Genbu, Black Tortoise",
+          slug = "genbu-black-tortoise",
+          uuid = "u73yv2nbvj",
+          image = "/cards/images/u73yv2nbvj.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["0qv0but4xz"] = {
+      uuid = "0qv0but4xz",
+      slug = "empowering-tincture",
+      name = "Empowering Tincture",
+      image = "/cards/images/0qv0but4xz.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["0seklknd8d"] = {
+      uuid = "0seklknd8d",
+      slug = "tonoris-creations-will",
+      name = "Tonoris, Creation's Will",
+      image = "/cards/images/0seklknd8d.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["0ueslsle3w"] = {
       uuid = "0ueslsle3w",
       slug = "diao-chan-enchantress",
       name = "Diao Chan, Enchantress",
       image = "/cards/images/0ueslsle3w.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["0vpkns1fb3"] = {
+      uuid = "0vpkns1fb3",
+      slug = "determined-spearman",
+      name = "Determined Spearman",
+      image = "/cards/images/0vpkns1fb3.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["106q1tyn20"] = {
+      uuid = "106q1tyn20",
+      slug = "seasoned-archer",
+      name = "Seasoned Archer",
+      image = "/cards/images/106q1tyn20.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["10fwjx5ock"] = {
+      uuid = "10fwjx5ock",
+      slug = "palace-guard",
+      name = "Palace Guard",
+      image = "/cards/images/10fwjx5ock.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["11kidj5lpb"] = {
+      uuid = "11kidj5lpb",
+      slug = "frozen-dismissal",
+      name = "Frozen Dismissal",
+      image = "/cards/images/11kidj5lpb.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["11ytei4rbw"] = {
+      uuid = "11ytei4rbw",
+      slug = "manas-cascade",
+      name = "Mana's Cascade",
+      image = "/cards/images/11ytei4rbw.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["12zznripn4"] = {
+      uuid = "12zznripn4",
+      slug = "keep-of-the-golden-sashes",
+      name = "Keep of the Golden Sashes",
+      image = "/cards/images/12zznripn4.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
     },
     ["14t3qb0aru"] = {
       uuid = "14t3qb0aru",
       slug = "feathery-tune",
       name = "Feathery Tune",
       image = "/cards/images/14t3qb0aru.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["16ib21f6mb"] = {
+      uuid = "16ib21f6mb",
+      slug = "lingering-banshee",
+      name = "Lingering Banshee",
+      image = "/cards/images/16ib21f6mb.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["16yqogunj0"] = {
+      uuid = "16yqogunj0",
+      slug = "poisonous-apple",
+      name = "Poisonous Apple",
+      image = "/cards/images/16yqogunj0.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["1787aqv0lu"] = {
+      uuid = "1787aqv0lu",
+      slug = "mercurial-heart",
+      name = "Mercurial Heart",
+      image = "/cards/images/1787aqv0lu.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["17aie519z6"] = {
       uuid = "17aie519z6",
       slug = "maiden-of-primal-virtue",
       name = "Maiden of Primal Virtue",
       image = "/cards/images/17aie519z6.jpg",
+      orientation = "front",
       types = { "ALLY", "PHANTASIA" },
+      orientations = {
+      },
     },
     ["17eLRozcLu"] = {
       uuid = "17eLRozcLu",
       slug = "sacrifice-play",
       name = "Sacrifice Play",
       image = "/cards/images/17eLRozcLu.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["184ozcq30s"] = {
+      uuid = "184ozcq30s",
+      slug = "the-eternal-kingdom",
+      name = "The Eternal Kingdom",
+      image = "/cards/images/184ozcq30s.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["1887aqv0lu"] = {
+      uuid = "1887aqv0lu",
+      slug = "repelling-palmblast",
+      name = "Repelling Palmblast",
+      image = "/cards/images/1887aqv0lu.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["19cwxtxe5u"] = {
       uuid = "19cwxtxe5u",
       slug = "squallbind-pounce",
       name = "Squallbind Pounce",
       image = "/cards/images/19cwxtxe5u.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["19tgzwd5nd"] = {
+      uuid = "19tgzwd5nd",
+      slug = "sword-saint-of-eventide",
+      name = "Sword Saint of Eventide",
+      image = "/cards/images/19tgzwd5nd.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["1a4oh9wdnr"] = {
+      uuid = "1a4oh9wdnr",
+      slug = "acolyte-of-cultivation",
+      name = "Acolyte of Cultivation",
+      image = "/cards/images/1a4oh9wdnr.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["1ad93vlnnp"] = {
       uuid = "1ad93vlnnp",
       slug = "beseeched-fatestone",
       name = "Beseeched Fatestone",
       image = "/cards/images/1ad93vlnnp.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+        {
+          name = "Daunting Panda",
+          slug = "daunting-panda",
+          uuid = "ilpxd1q0vp",
+          image = "/cards/images/ilpxd1q0vp.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["1an84hjee2"] = {
+      uuid = "1an84hjee2",
+      slug = "chrysalis-hazy-caterpillar",
+      name = "Chrysalis, Hazy Caterpillar",
+      image = "/cards/images/1an84hjee2.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["1aoknrqRqq"] = {
       uuid = "1aoknrqRqq",
       slug = "singeing-leap",
       name = "Singeing Leap",
       image = "/cards/images/1aoknrqRqq.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["1arsagp8m8"] = {
+      uuid = "1arsagp8m8",
+      slug = "reconnaissance-field",
+      name = "Reconnaissance Field",
+      image = "/cards/images/1arsagp8m8.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["1b3fsah1yc"] = {
+      uuid = "1b3fsah1yc",
+      slug = "ebbing-tide",
+      name = "Ebbing Tide",
+      image = "/cards/images/1b3fsah1yc.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["1c56NqW0oX"] = {
       uuid = "1c56NqW0oX",
       slug = "drown-in-sorrow",
       name = "Drown in Sorrow",
       image = "/cards/images/1c56NqW0oX.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["1cd633mn8a"] = {
+      uuid = "1cd633mn8a",
+      slug = "disorienting-winds",
+      name = "Disorienting Winds",
+      image = "/cards/images/1cd633mn8a.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["1dfzd96s7i"] = {
       uuid = "1dfzd96s7i",
       slug = "bloom-autumns-fall",
       name = "Bloom: Autumn's Fall",
       image = "/cards/images/1dfzd96s7i.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["1ekrcbl6zg"] = {
+      uuid = "1ekrcbl6zg",
+      slug = "sudden-snow",
+      name = "Sudden Snow",
+      image = "/cards/images/1ekrcbl6zg.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["1h4pzmq492"] = {
+      uuid = "1h4pzmq492",
+      slug = "captivating-cutthroat",
+      name = "Captivating Cutthroat",
+      image = "/cards/images/1h4pzmq492.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["1i0a0wmmmn"] = {
       uuid = "1i0a0wmmmn",
       slug = "jadelight-protector",
       name = "Jadelight Protector",
       image = "/cards/images/1i0a0wmmmn.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["1k2jb8mau1"] = {
       uuid = "1k2jb8mau1",
       slug = "baihua",
       name = "Baihua",
       image = "/cards/images/1k2jb8mau1.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["1loumt7c9g"] = {
+      uuid = "1loumt7c9g",
+      slug = "zhang-fei-spirited-steel",
+      name = "Zhang Fei, Spirited Steel",
+      image = "/cards/images/1loumt7c9g.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["1nis8uaztx"] = {
       uuid = "1nis8uaztx",
       slug = "break-apart",
       name = "Break Apart",
       image = "/cards/images/1nis8uaztx.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["1nre31o6ea"] = {
+      uuid = "1nre31o6ea",
+      slug = "grim-pastiche",
+      name = "Grim Pastiche",
+      image = "/cards/images/1nre31o6ea.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["1o25b4qwwv"] = {
+      uuid = "1o25b4qwwv",
+      slug = "vanitas-convergent-ruin",
+      name = "Vanitas, Convergent Ruin",
+      image = "/cards/images/1o25b4qwwv.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["1oe4rczugp"] = {
       uuid = "1oe4rczugp",
       slug = "zhang-jiao-way-of-peace",
       name = "Zhang Jiao, Way of Peace",
       image = "/cards/images/1oe4rczugp.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["1paxc1gwgq"] = {
+      uuid = "1paxc1gwgq",
+      slug = "recurring-invocation",
+      name = "Recurring Invocation",
+      image = "/cards/images/1paxc1gwgq.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["1sf4p5wi0q"] = {
+      uuid = "1sf4p5wi0q",
+      slug = "lost-wisdom",
+      name = "Lost Wisdom",
+      image = "/cards/images/1sf4p5wi0q.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["1t8d7f0epo"] = {
+      uuid = "1t8d7f0epo",
+      slug = "mary-ann-maladroit-maid",
+      name = "Mary Ann, Maladroit Maid",
+      image = "/cards/images/1t8d7f0epo.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["1u3QR07jQ4"] = {
       uuid = "1u3QR07jQ4",
       slug = "wavekeepers-bond",
       name = "Wavekeeper's Bond",
       image = "/cards/images/1u3QR07jQ4.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["1ucb15ecol"] = {
+      uuid = "1ucb15ecol",
+      slug = "salamanders-breath",
+      name = "Salamander's Breath",
+      image = "/cards/images/1ucb15ecol.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["1vh6vktkde"] = {
+      uuid = "1vh6vktkde",
+      slug = "indolent-leisure",
+      name = "Indolent Leisure",
+      image = "/cards/images/1vh6vktkde.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["1x041sk6lk"] = {
+      uuid = "1x041sk6lk",
+      slug = "heated-vengeance",
+      name = "Heated Vengeance",
+      image = "/cards/images/1x041sk6lk.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["1yyx0qv0bu"] = {
+      uuid = "1yyx0qv0bu",
+      slug = "rusted-warshield",
+      name = "Rusted Warshield",
+      image = "/cards/images/1yyx0qv0bu.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["204g58i26z"] = {
+      uuid = "204g58i26z",
+      slug = "staggering-strike",
+      name = "Staggering Strike",
+      image = "/cards/images/204g58i26z.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["205t3hp7n2"] = {
+      uuid = "205t3hp7n2",
+      slug = "three-visits",
+      name = "Three Visits",
+      image = "/cards/images/205t3hp7n2.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["21prus7pzi"] = {
+      uuid = "21prus7pzi",
+      slug = "protective-fractal",
+      name = "Protective Fractal",
+      image = "/cards/images/21prus7pzi.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["22ntgbnxky"] = {
       uuid = "22ntgbnxky",
       slug = "inquisitive-magician",
       name = "Inquisitive Magician",
       image = "/cards/images/22ntgbnxky.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["23ijp6tdoa"] = {
+      uuid = "23ijp6tdoa",
+      slug = "bombard-flarecannon",
+      name = "Bombard Flarecannon",
+      image = "/cards/images/23ijp6tdoa.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["25b4qwwvyf"] = {
+      uuid = "25b4qwwvyf",
+      slug = "automaton-bomber",
+      name = "Automaton Bomber",
+      image = "/cards/images/25b4qwwvyf.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["25fc0arrag"] = {
+      uuid = "25fc0arrag",
+      slug = "smashing-force",
+      name = "Smashing Force",
+      image = "/cards/images/25fc0arrag.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["25fc1arsag"] = {
+      uuid = "25fc1arsag",
+      slug = "rocket-jump",
+      name = "Rocket Jump",
+      image = "/cards/images/25fc1arsag.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["2747koq5l6"] = {
       uuid = "2747koq5l6",
       slug = "withering-grasp",
       name = "Withering Grasp",
       image = "/cards/images/2747koq5l6.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["27ys785y5i"] = {
+      uuid = "27ys785y5i",
+      slug = "tidal-lock",
+      name = "Tidal Lock",
+      image = "/cards/images/27ys785y5i.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["29ou7x29lq"] = {
       uuid = "29ou7x29lq",
       slug = "think-deep",
       name = "Think Deep",
       image = "/cards/images/29ou7x29lq.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["2N2YfL8WVj"] = {
+      uuid = "2N2YfL8WVj",
+      slug = "vacuous-servant",
+      name = "Vacuous Servant",
+      image = "/cards/images/2N2YfL8WVj.jpg",
+      orientation = "front",
+      types = { "ALLY", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["2We3ybSDda"] = {
+      uuid = "2We3ybSDda",
+      slug = "dragons-dawn",
+      name = "Dragon's Dawn",
+      image = "/cards/images/2We3ybSDda.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["2XWceICSGG"] = {
+      uuid = "2XWceICSGG",
+      slug = "spirelle-schwartz-queen",
+      name = "Spirelle, Schwartz Queen",
+      image = "/cards/images/2XWceICSGG.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["2YUM5zA91L"] = {
       uuid = "2YUM5zA91L",
       slug = "march-on",
       name = "March On",
       image = "/cards/images/2YUM5zA91L.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["2d2i9y485y"] = {
+      uuid = "2d2i9y485y",
+      slug = "veteran-soldier",
+      name = "Veteran Soldier",
+      image = "/cards/images/2d2i9y485y.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["2dijq62nob"] = {
+      uuid = "2dijq62nob",
+      slug = "contraband-revolver",
+      name = "Contraband Revolver",
+      image = "/cards/images/2dijq62nob.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["2fb4qwwvzo"] = {
+      uuid = "2fb4qwwvzo",
+      slug = "kindling-flare",
+      name = "Kindling Flare",
+      image = "/cards/images/2fb4qwwvzo.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["2ga2p9tt7j"] = {
+      uuid = "2ga2p9tt7j",
+      slug = "ghastly-corrosion",
+      name = "Ghastly Corrosion",
+      image = "/cards/images/2ga2p9tt7j.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["2j61i2ejg5"] = {
+      uuid = "2j61i2ejg5",
+      slug = "quadrilles-gryphon",
+      name = "Quadrille's Gryphon",
+      image = "/cards/images/2j61i2ejg5.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["2jnah5p3zd"] = {
+      uuid = "2jnah5p3zd",
+      slug = "weaponsmith",
+      name = "Weaponsmith",
+      image = "/cards/images/2jnah5p3zd.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["2l8lbewemh"] = {
+      uuid = "2l8lbewemh",
+      slug = "academy-guide",
+      name = "Academy Guide",
+      image = "/cards/images/2l8lbewemh.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["2mucg3pfv4"] = {
       uuid = "2mucg3pfv4",
       slug = "blazing-bowman",
       name = "Blazing Bowman",
       image = "/cards/images/2mucg3pfv4.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["2ndw88w5sr"] = {
+      uuid = "2ndw88w5sr",
+      slug = "set-ablaze",
+      name = "Set Ablaze",
+      image = "/cards/images/2ndw88w5sr.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["2nobfsyrc9"] = {
+      uuid = "2nobfsyrc9",
+      slug = "powered-swordsman",
+      name = "Powered Swordsman",
+      image = "/cards/images/2nobfsyrc9.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["2nycgiaanz"] = {
       uuid = "2nycgiaanz",
       slug = "washuru",
       name = "Washuru",
       image = "/cards/images/2nycgiaanz.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["2o65qh82qw"] = {
+      uuid = "2o65qh82qw",
+      slug = "five-of-hearts",
+      name = "Five of Hearts",
+      image = "/cards/images/2o65qh82qw.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["2q8p2jhzpr"] = {
+      uuid = "2q8p2jhzpr",
+      slug = "polkhawk-bombastic-shot",
+      name = "Polkhawk, Bombastic Shot",
+      image = "/cards/images/2q8p2jhzpr.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["2rprcugv73"] = {
+      uuid = "2rprcugv73",
+      slug = "conduit-of-seasons",
+      name = "Conduit of Seasons",
+      image = "/cards/images/2rprcugv73.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["2u03268sco"] = {
+      uuid = "2u03268sco",
+      slug = "guan-yu-prime-exemplar",
+      name = "Guan Yu, Prime Exemplar",
+      image = "/cards/images/2u03268sco.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["2v3sjnqf2h"] = {
       uuid = "2v3sjnqf2h",
       slug = "sleety-retreat",
       name = "Sleety Retreat",
       image = "/cards/images/2v3sjnqf2h.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["2v5c00rrag"] = {
+      uuid = "2v5c00rrag",
+      slug = "fiery-warcry",
+      name = "Fiery Warcry",
+      image = "/cards/images/2v5c00rrag.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["2vcs859cjo"] = {
       uuid = "2vcs859cjo",
       slug = "jianye-dawns-keep",
       name = "Jianye, Dawn's Keep",
       image = "/cards/images/2vcs859cjo.jpg",
+      orientation = "front",
       types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["2w8kx0bowc"] = {
+      uuid = "2w8kx0bowc",
+      slug = "prides-smith",
+      name = "Pride's Smith",
+      image = "/cards/images/2w8kx0bowc.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["2ymmhfubfl"] = {
+      uuid = "2ymmhfubfl",
+      slug = "flame-rune-swordsman",
+      name = "Flame-Rune Swordsman",
+      image = "/cards/images/2ymmhfubfl.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["30j57myje7"] = {
+      uuid = "30j57myje7",
+      slug = "lavasoul-tiger",
+      name = "Lavasoul Tiger",
+      image = "/cards/images/30j57myje7.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["31hwd85dpz"] = {
+      uuid = "31hwd85dpz",
+      slug = "cultivate",
+      name = "Cultivate",
+      image = "/cards/images/31hwd85dpz.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["31pyggz5dx"] = {
+      uuid = "31pyggz5dx",
+      slug = "fatal-timepiece",
+      name = "Fatal Timepiece",
+      image = "/cards/images/31pyggz5dx.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["31zm4phhf3"] = {
+      uuid = "31zm4phhf3",
+      slug = "conflagrative-trounce",
+      name = "Conflagrative Trounce",
+      image = "/cards/images/31zm4phhf3.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["3340nd7asx"] = {
       uuid = "3340nd7asx",
       slug = "tidefate-brooch",
       name = "Tidefate Brooch",
       image = "/cards/images/3340nd7asx.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["33mr0kxj0c"] = {
+      uuid = "33mr0kxj0c",
+      slug = "cell-converter",
+      name = "Cell Converter",
+      image = "/cards/images/33mr0kxj0c.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["33ms0kxj0c"] = {
+      uuid = "33ms0kxj0c",
+      slug = "awakened-frostguard",
+      name = "Awakened Frostguard",
+      image = "/cards/images/33ms0kxj0c.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["35AI44CcHj"] = {
       uuid = "35AI44CcHj",
       slug = "crystalvein-awakening",
       name = "Crystalvein Awakening",
       image = "/cards/images/35AI44CcHj.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["377952rdsb"] = {
       uuid = "377952rdsb",
       slug = "ceasing-edict",
       name = "Ceasing Edict",
       image = "/cards/images/377952rdsb.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["37h9kudsqv"] = {
+      uuid = "37h9kudsqv",
+      slug = "dyadic-fletcher",
+      name = "Dyadic Fletcher",
+      image = "/cards/images/37h9kudsqv.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["3H5OyYXR7E"] = {
+      uuid = "3H5OyYXR7E",
+      slug = "diana-aether-dilettante",
+      name = "Diana, Aether Dilettante",
+      image = "/cards/images/3H5OyYXR7E.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["3apypgzedx"] = {
+      uuid = "3apypgzedx",
+      slug = "backup-charger",
+      name = "Backup Charger",
+      image = "/cards/images/3apypgzedx.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["3bpyqgzeex"] = {
+      uuid = "3bpyqgzeex",
+      slug = "fertile-grounds",
+      name = "Fertile Grounds",
+      image = "/cards/images/3bpyqgzeex.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["3bstey3ux8"] = {
+      uuid = "3bstey3ux8",
+      slug = "stellarion-shift",
+      name = "Stellarion Shift",
+      image = "/cards/images/3bstey3ux8.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["3cbKdbp4aN"] = {
       uuid = "3cbKdbp4aN",
       slug = "rainwoven-crysalis",
       name = "Rainwoven Crysalis",
       image = "/cards/images/3cbKdbp4aN.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["3dijq63nob"] = {
+      uuid = "3dijq63nob",
+      slug = "spellshield-wind",
+      name = "Spellshield: Wind",
+      image = "/cards/images/3dijq63nob.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["3e5fwim0w8"] = {
+      uuid = "3e5fwim0w8",
+      slug = "flamewing-fowl",
+      name = "Flamewing Fowl",
+      image = "/cards/images/3e5fwim0w8.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["3ew0egwmde"] = {
+      uuid = "3ew0egwmde",
+      slug = "ouragan-sentinel",
+      name = "Ouragan Sentinel",
+      image = "/cards/images/3ew0egwmde.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["3gn42ik6u9"] = {
+      uuid = "3gn42ik6u9",
+      slug = "perfect-repulsion",
+      name = "Perfect Repulsion",
+      image = "/cards/images/3gn42ik6u9.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["3hmf1yyx0q"] = {
+      uuid = "3hmf1yyx0q",
+      slug = "diana-keen-huntress",
+      name = "Diana, Keen Huntress",
+      image = "/cards/images/3hmf1yyx0q.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["3i2xl70228"] = {
+      uuid = "3i2xl70228",
+      slug = "fractal-of-sparks",
+      name = "Fractal of Sparks",
+      image = "/cards/images/3i2xl70228.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["3k4pob3ib5"] = {
+      uuid = "3k4pob3ib5",
+      slug = "spirited-falconer",
+      name = "Spirited Falconer",
+      image = "/cards/images/3k4pob3ib5.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["3kvqf24i25"] = {
+      uuid = "3kvqf24i25",
+      slug = "bertha-spry-howitzer",
+      name = "Bertha, Spry Howitzer",
+      image = "/cards/images/3kvqf24i25.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["3l7c0tjtew"] = {
       uuid = "3l7c0tjtew",
       slug = "jianyu-fates-premonition",
       name = "Jianyu, Fate's Premonition",
       image = "/cards/images/3l7c0tjtew.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
     },
     ["3lsedt816z"] = {
       uuid = "3lsedt816z",
       slug = "modulating-cadence",
       name = "Modulating Cadence",
       image = "/cards/images/3lsedt816z.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["3lvqf24i25"] = {
+      uuid = "3lvqf24i25",
+      slug = "assemble-the-ancients",
+      name = "Assemble the Ancients",
+      image = "/cards/images/3lvqf24i25.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["3mgz76sk0p"] = {
       uuid = "3mgz76sk0p",
       slug = "stifling-trap",
       name = "Stifling Trap",
       image = "/cards/images/3mgz76sk0p.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["3mobo7fvb4"] = {
+      uuid = "3mobo7fvb4",
+      slug = "infernal-manastreak",
+      name = "Infernal Manastreak",
+      image = "/cards/images/3mobo7fvb4.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["3nobfsyrd9"] = {
+      uuid = "3nobfsyrd9",
+      slug = "seasprite-diver",
+      name = "Seasprite Diver",
+      image = "/cards/images/3nobfsyrd9.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["3qp8l7jasn"] = {
+      uuid = "3qp8l7jasn",
+      slug = "poised-rearguard",
+      name = "Poised Rearguard",
+      image = "/cards/images/3qp8l7jasn.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["3rMjxJoED5"] = {
+      uuid = "3rMjxJoED5",
+      slug = "incantation-of-prosperity",
+      name = "Incantation of Prosperity",
+      image = "/cards/images/3rMjxJoED5.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["3rh6cbfjhh"] = {
+      uuid = "3rh6cbfjhh",
+      slug = "mandate-of-honor",
+      name = "Mandate of Honor",
+      image = "/cards/images/3rh6cbfjhh.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["3rs7qt31py"] = {
+      uuid = "3rs7qt31py",
+      slug = "caretaker-drone",
+      name = "Caretaker Drone",
+      image = "/cards/images/3rs7qt31py.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["3rs7qu3apy"] = {
+      uuid = "3rs7qu3apy",
+      slug = "memento-mori",
+      name = "Memento Mori",
+      image = "/cards/images/3rs7qu3apy.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["3t2x4xhnag"] = {
+      uuid = "3t2x4xhnag",
+      slug = "aethers-embrace",
+      name = "Aether's Embrace",
+      image = "/cards/images/3t2x4xhnag.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["3tcae41mhi"] = {
+      uuid = "3tcae41mhi",
+      slug = "ashen-riffle",
+      name = "Ashen Riffle",
+      image = "/cards/images/3tcae41mhi.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["3ujak9bjom"] = {
       uuid = "3ujak9bjom",
       slug = "brackish-lutist",
       name = "Brackish Lutist",
       image = "/cards/images/3ujak9bjom.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["3vane3r6ej"] = {
+      uuid = "3vane3r6ej",
+      slug = "expeditious-opening",
+      name = "Expeditious Opening",
+      image = "/cards/images/3vane3r6ej.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["3vpi8d4gev"] = {
+      uuid = "3vpi8d4gev",
+      slug = "jin-zealous-maverick",
+      name = "Jin, Zealous Maverick",
+      image = "/cards/images/3vpi8d4gev.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["3vymm6v9kh"] = {
+      uuid = "3vymm6v9kh",
+      slug = "purling-footman",
+      name = "Purling Footman",
+      image = "/cards/images/3vymm6v9kh.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["3wd5cj6hua"] = {
       uuid = "3wd5cj6hua",
       slug = "fabled-sapphire-fatestone",
       name = "Fabled Sapphire Fatestone",
       image = "/cards/images/3wd5cj6hua.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+        {
+          name = "Genbu, Black Tortoise",
+          slug = "genbu-black-tortoise",
+          uuid = "k8bwlx70qj",
+          image = "/cards/images/k8bwlx70qj.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
     },
     ["3xd4tli9i0"] = {
       uuid = "3xd4tli9i0",
       slug = "lumen-borealis",
       name = "Lumen Borealis",
       image = "/cards/images/3xd4tli9i0.jpg",
+      orientation = "front",
       types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["3z8m7n5voz"] = {
+      uuid = "3z8m7n5voz",
+      slug = "jin-fate-defiant",
+      name = "Jin, Fate Defiant",
+      image = "/cards/images/3z8m7n5voz.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["42vg3hj3d0"] = {
+      uuid = "42vg3hj3d0",
+      slug = "savage-arrow",
+      name = "Savage Arrow",
+      image = "/cards/images/42vg3hj3d0.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["43b62c36zy"] = {
+      uuid = "43b62c36zy",
+      slug = "profane-bindings",
+      name = "Profane Bindings",
+      image = "/cards/images/43b62c36zy.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["46rvf6lr2d"] = {
+      uuid = "46rvf6lr2d",
+      slug = "piercing-aetherfuel",
+      name = "Piercing Aetherfuel",
+      image = "/cards/images/46rvf6lr2d.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["472woo27js"] = {
       uuid = "472woo27js",
       slug = "ma-chao-lupine-huntress",
       name = "Ma Chao, Lupine Huntress",
       image = "/cards/images/472woo27js.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["4773ghgm2s"] = {
+      uuid = "4773ghgm2s",
+      slug = "temptations-facade",
+      name = "Temptation's Facade",
+      image = "/cards/images/4773ghgm2s.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["480dFsayIx"] = {
       uuid = "480dFsayIx",
       slug = "dichroic-scorch",
       name = "Dichroic Scorch",
       image = "/cards/images/480dFsayIx.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["485dgq56cj"] = {
+      uuid = "485dgq56cj",
+      slug = "manufacture-cell",
+      name = "Manufacture Cell",
+      image = "/cards/images/485dgq56cj.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["486egq56dj"] = {
+      uuid = "486egq56dj",
+      slug = "false-step",
+      name = "False Step",
+      image = "/cards/images/486egq56dj.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["49w2fkz531"] = {
+      uuid = "49w2fkz531",
+      slug = "kongming-wayward-maven",
+      name = "Kongming, Wayward Maven",
+      image = "/cards/images/49w2fkz531.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["4Bp8tqi9wX"] = {
+      uuid = "4Bp8tqi9wX",
+      slug = "trained-sharpshooter",
+      name = "Trained Sharpshooter",
+      image = "/cards/images/4Bp8tqi9wX.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["4MLJvZNYeu"] = {
       uuid = "4MLJvZNYeu",
       slug = "abnegation",
       name = "Abnegation",
       image = "/cards/images/4MLJvZNYeu.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["4STqzRTRYG"] = {
+      uuid = "4STqzRTRYG",
+      slug = "tome-of-knowledge",
+      name = "Tome of Knowledge",
+      image = "/cards/images/4STqzRTRYG.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["4X8Qe5pQ3j"] = {
+      uuid = "4X8Qe5pQ3j",
+      slug = "throne-sentinel",
+      name = "Throne Sentinel",
+      image = "/cards/images/4X8Qe5pQ3j.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["4e5l418snu"] = {
       uuid = "4e5l418snu",
       slug = "shimmering-refraction",
       name = "Shimmering Refraction",
       image = "/cards/images/4e5l418snu.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["4eh4xIp5ng"] = {
       uuid = "4eh4xIp5ng",
       slug = "thieving-cut",
       name = "Thieving Cut",
       image = "/cards/images/4eh4xIp5ng.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["4etu184ozc"] = {
+      uuid = "4etu184ozc",
+      slug = "manaroot",
+      name = "Manaroot",
+      image = "/cards/images/4etu184ozc.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["4fikevf1qn"] = {
+      uuid = "4fikevf1qn",
+      slug = "winbless-hurricane-farm",
+      name = "Winbless Hurricane Farm",
+      image = "/cards/images/4fikevf1qn.jpg",
+      orientation = "front",
+      types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["4g764wnl6g"] = {
+      uuid = "4g764wnl6g",
+      slug = "indiscriminate-gyre",
+      name = "Indiscriminate Gyre",
+      image = "/cards/images/4g764wnl6g.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["4go2z49rgl"] = {
       uuid = "4go2z49rgl",
       slug = "natural-order",
       name = "Natural Order",
       image = "/cards/images/4go2z49rgl.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["4hOY9NziML"] = {
+      uuid = "4hOY9NziML",
+      slug = "imperial-seal",
+      name = "Imperial Seal",
+      image = "/cards/images/4hOY9NziML.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["4i25fc0arr"] = {
+      uuid = "4i25fc0arr",
+      slug = "steel-slug",
+      name = "Steel Slug",
+      image = "/cards/images/4i25fc0arr.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["4imld7kfpg"] = {
+      uuid = "4imld7kfpg",
+      slug = "polkhawk-boisterous-riot",
+      name = "Polkhawk, Boisterous Riot",
+      image = "/cards/images/4imld7kfpg.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["4ktd61wo8j"] = {
+      uuid = "4ktd61wo8j",
+      slug = "dong-zhou-false-liege",
+      name = "Dong Zhou, False Liege",
+      image = "/cards/images/4ktd61wo8j.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["4m8l8rginp"] = {
+      uuid = "4m8l8rginp",
+      slug = "four-of-spades",
+      name = "Four of Spades",
+      image = "/cards/images/4m8l8rginp.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["4ozcq30sek"] = {
+      uuid = "4ozcq30sek",
+      slug = "turbulent-bullet",
+      name = "Turbulent Bullet",
+      image = "/cards/images/4ozcq30sek.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["4p0mr492ol"] = {
+      uuid = "4p0mr492ol",
+      slug = "winds-of-retribution",
+      name = "Winds of Retribution",
+      image = "/cards/images/4p0mr492ol.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["4pzmq492ol"] = {
+      uuid = "4pzmq492ol",
+      slug = "ceremonial-stormblade",
+      name = "Ceremonial Stormblade",
+      image = "/cards/images/4pzmq492ol.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["4rt7ru3bpy"] = {
+      uuid = "4rt7ru3bpy",
+      slug = "condensed-supernova",
+      name = "Condensed Supernova",
+      image = "/cards/images/4rt7ru3bpy.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["4slz4tbcj0"] = {
+      uuid = "4slz4tbcj0",
+      slug = "defenders-maul",
+      name = "Defender's Maul",
+      image = "/cards/images/4slz4tbcj0.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["4tni1nd3hv"] = {
       uuid = "4tni1nd3hv",
       slug = "da-qiao-cinderbinder",
       name = "Da Qiao, Cinderbinder",
       image = "/cards/images/4tni1nd3hv.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["4wuq31hwdh"] = {
+      uuid = "4wuq31hwdh",
+      slug = "andronika-eternal-herald",
+      name = "Andronika, Eternal Herald",
+      image = "/cards/images/4wuq31hwdh.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["4yw4gq5w3j"] = {
+      uuid = "4yw4gq5w3j",
+      slug = "potion-of-healing",
+      name = "Potion of Healing",
+      image = "/cards/images/4yw4gq5w3j.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["5215kvs6uj"] = {
+      uuid = "5215kvs6uj",
+      slug = "hulao-gate-suns-ascent",
+      name = "Hulao Gate, Sun's Ascent",
+      image = "/cards/images/5215kvs6uj.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["52cub4oo7t"] = {
+      uuid = "52cub4oo7t",
+      slug = "combat-training",
+      name = "Combat Training",
+      image = "/cards/images/52cub4oo7t.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["53a2FB6qvS"] = {
+      uuid = "53a2FB6qvS",
+      slug = "astral-shard",
+      name = "Astral Shard",
+      image = "/cards/images/53a2FB6qvS.jpg",
+      orientation = "front",
+      types = { "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["53xhstgzyt"] = {
+      uuid = "53xhstgzyt",
+      slug = "devious-welcome",
+      name = "Devious Welcome",
+      image = "/cards/images/53xhstgzyt.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["548otyjsr2"] = {
+      uuid = "548otyjsr2",
+      slug = "atmos-armor-type-ares",
+      name = "Atmos Armor Type-Ares",
+      image = "/cards/images/548otyjsr2.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["56cjg0bo2f"] = {
+      uuid = "56cjg0bo2f",
+      slug = "aegis-of-dawn",
+      name = "Aegis of Dawn",
+      image = "/cards/images/56cjg0bo2f.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["56djg0bo2f"] = {
+      uuid = "56djg0bo2f",
+      slug = "claude-fated-visionary",
+      name = "Claude, Fated Visionary",
+      image = "/cards/images/56djg0bo2f.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["571itod02g"] = {
+      uuid = "571itod02g",
+      slug = "atmos-shield",
+      name = "Atmos Shield",
+      image = "/cards/images/571itod02g.jpg",
+      orientation = "front",
+      types = { "ALLY", "TOKEN" },
+      orientations = {
+      },
     },
     ["57yojnfhie"] = {
       uuid = "57yojnfhie",
       slug = "tidestone-seeker",
       name = "Tidestone Seeker",
       image = "/cards/images/57yojnfhie.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["58izeeyz7h"] = {
+      uuid = "58izeeyz7h",
+      slug = "dredging-streams",
+      name = "Dredging Streams",
+      image = "/cards/images/58izeeyz7h.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["598eHX66qM"] = {
       uuid = "598eHX66qM",
       slug = "rosewinged-hollow",
       name = "Rosewinged Hollow",
       image = "/cards/images/598eHX66qM.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["5BJS0oVTng"] = {
       uuid = "5BJS0oVTng",
       slug = "stillshard-strike",
       name = "Stillshard Strike",
       image = "/cards/images/5BJS0oVTng.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["5K9g445aO9"] = {
       uuid = "5K9g445aO9",
       slug = "misty-whispertail",
       name = "Misty Whispertail",
       image = "/cards/images/5K9g445aO9.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["5PLRKj8uAE"] = {
       uuid = "5PLRKj8uAE",
       slug = "turm-schwartz-rook",
       name = "Turm, Schwartz Rook",
       image = "/cards/images/5PLRKj8uAE.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["5QNmcCbs8y"] = {
       uuid = "5QNmcCbs8y",
       slug = "stardust-oracle",
       name = "Stardust Oracle",
       image = "/cards/images/5QNmcCbs8y.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["5UI3spnOk4"] = {
+      uuid = "5UI3spnOk4",
+      slug = "noire-ace-of-spades",
+      name = "Noire, Ace of Spades",
+      image = "/cards/images/5UI3spnOk4.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["5ajxcgg238"] = {
       uuid = "5ajxcgg238",
       slug = "auspicious-feast",
       name = "Auspicious Feast",
       image = "/cards/images/5ajxcgg238.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["5c00rragp8"] = {
+      uuid = "5c00rragp8",
+      slug = "exalted-dorumegian-throne",
+      name = "Exalted Dorumegian Throne",
+      image = "/cards/images/5c00rragp8.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["5dgq56cjg0"] = {
+      uuid = "5dgq56cjg0",
+      slug = "tristan-underhanded",
+      name = "Tristan, Underhanded",
+      image = "/cards/images/5dgq56cjg0.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["5g9b5m6sqe"] = {
+      uuid = "5g9b5m6sqe",
+      slug = "critical-recovery",
+      name = "Critical Recovery",
+      image = "/cards/images/5g9b5m6sqe.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["5g9b5m7sqe"] = {
+      uuid = "5g9b5m7sqe",
+      slug = "obelisk-of-armaments",
+      name = "Obelisk of Armaments",
+      image = "/cards/images/5g9b5m7sqe.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "TOKEN", "UNIQUE" },
+      orientations = {
+      },
     },
     ["5hmftxnwce"] = {
       uuid = "5hmftxnwce",
       slug = "glorious-presence",
       name = "Glorious Presence",
       image = "/cards/images/5hmftxnwce.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
     },
     ["5jncwuv710"] = {
       uuid = "5jncwuv710",
       slug = "zhou-yu-enlightened-sage",
       name = "Zhou Yu, Enlightened Sage",
       image = "/cards/images/5jncwuv710.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["5jwvbidz93"] = {
       uuid = "5jwvbidz93",
       slug = "byakkos-command",
       name = "Byakko's Command",
       image = "/cards/images/5jwvbidz93.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["5m6rgd6kd7"] = {
+      uuid = "5m6rgd6kd7",
+      slug = "supply-drone",
+      name = "Supply Drone",
+      image = "/cards/images/5m6rgd6kd7.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["5m6sqe6kd7"] = {
+      uuid = "5m6sqe6kd7",
+      slug = "vicious-slice",
+      name = "Vicious Slice",
+      image = "/cards/images/5m6sqe6kd7.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["5min726zpx"] = {
+      uuid = "5min726zpx",
+      slug = "hire-mercenaries",
+      name = "Hire Mercenaries",
+      image = "/cards/images/5min726zpx.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["5mt21wcg7r"] = {
+      uuid = "5mt21wcg7r",
+      slug = "heavenly-guide",
+      name = "Heavenly Guide",
+      image = "/cards/images/5mt21wcg7r.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["5p0c9tK2zB"] = {
+      uuid = "5p0c9tK2zB",
+      slug = "summon-gale",
+      name = "Summon Gale",
+      image = "/cards/images/5p0c9tK2zB.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["5p47j2meum"] = {
+      uuid = "5p47j2meum",
+      slug = "inundating-clash",
+      name = "Inundating Clash",
+      image = "/cards/images/5p47j2meum.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["5s6umbum9o"] = {
+      uuid = "5s6umbum9o",
+      slug = "inner-court-schemer",
+      name = "Inner Court Schemer",
+      image = "/cards/images/5s6umbum9o.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["5tzkf48n2l"] = {
+      uuid = "5tzkf48n2l",
+      slug = "adorned-stag",
+      name = "Adorned Stag",
+      image = "/cards/images/5tzkf48n2l.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["5ua11kdder"] = {
+      uuid = "5ua11kdder",
+      slug = "brusque-neige",
+      name = "Brusque Neige",
+      image = "/cards/images/5ua11kdder.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["5uay6a7fr1"] = {
+      uuid = "5uay6a7fr1",
+      slug = "scavenge-the-distillery",
+      name = "Scavenge the Distillery",
+      image = "/cards/images/5uay6a7fr1.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["5uhxrxpnnc"] = {
+      uuid = "5uhxrxpnnc",
+      slug = "spirit-of-fire",
+      name = "Spirit of Fire",
+      image = "/cards/images/5uhxrxpnnc.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["5vl6lwocza"] = {
       uuid = "5vl6lwocza",
       slug = "kongming-erudite-strategist",
       name = "Kongming, Erudite Strategist",
       image = "/cards/images/5vl6lwocza.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["5vqnkl31cm"] = {
+      uuid = "5vqnkl31cm",
+      slug = "cure-the-flesh",
+      name = "Cure the Flesh",
+      image = "/cards/images/5vqnkl31cm.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["5w3jf01o25"] = {
+      uuid = "5w3jf01o25",
+      slug = "automaton-drone",
+      name = "Automaton Drone",
+      image = "/cards/images/5w3jf01o25.jpg",
+      orientation = "front",
+      types = { "ALLY", "TOKEN" },
+      orientations = {
+      },
     },
     ["5wqgwuidru"] = {
       uuid = "5wqgwuidru",
       slug = "ritai-berserker",
       name = "Ritai Berserker",
       image = "/cards/images/5wqgwuidru.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["5zkjomqu16"] = {
       uuid = "5zkjomqu16",
       slug = "censer-of-restful-peace",
       name = "Censer of Restful Peace",
       image = "/cards/images/5zkjomqu16.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["63jyfa7fr1"] = {
+      uuid = "63jyfa7fr1",
+      slug = "purification",
+      name = "Purification",
+      image = "/cards/images/63jyfa7fr1.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["64jzga7gr2"] = {
+      uuid = "64jzga7gr2",
+      slug = "umbra-sight",
+      name = "Umbra Sight",
+      image = "/cards/images/64jzga7gr2.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["64p0zjpgd4"] = {
+      uuid = "64p0zjpgd4",
+      slug = "pupil-of-sacred-flames",
+      name = "Pupil of Sacred Flames",
+      image = "/cards/images/64p0zjpgd4.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["65JcQCoITA"] = {
+      uuid = "65JcQCoITA",
+      slug = "hypothermia",
+      name = "Hypothermia",
+      image = "/cards/images/65JcQCoITA.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["66IntD1X2V"] = {
       uuid = "66IntD1X2V",
       slug = "royal-oathguard",
       name = "Royal Oathguard",
       image = "/cards/images/66IntD1X2V.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["66wylrvymv"] = {
+      uuid = "66wylrvymv",
+      slug = "focusing-round",
+      name = "Focusing Round",
+      image = "/cards/images/66wylrvymv.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["67eurbcz3h"] = {
+      uuid = "67eurbcz3h",
+      slug = "scry-the-skies",
+      name = "Scry the Skies",
+      image = "/cards/images/67eurbcz3h.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["67gh2h9yxb"] = {
+      uuid = "67gh2h9yxb",
+      slug = "cone-of-frost",
+      name = "Cone of Frost",
+      image = "/cards/images/67gh2h9yxb.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["68vmoyslWt"] = {
+      uuid = "68vmoyslWt",
+      slug = "duchess-six-of-hearts",
+      name = "Duchess, Six of Hearts",
+      image = "/cards/images/68vmoyslWt.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["6FRC3ipja8"] = {
       uuid = "6FRC3ipja8",
       slug = "labyrinth-jeweled-opus",
       name = "Labyrinth, Jeweled Opus",
       image = "/cards/images/6FRC3ipja8.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["6J2CTbLZLs"] = {
+      uuid = "6J2CTbLZLs",
+      slug = "lawsur-the-carpenter",
+      name = "Lawsur, the Carpenter",
+      image = "/cards/images/6J2CTbLZLs.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["6Tpdxz3VoD"] = {
       uuid = "6Tpdxz3VoD",
       slug = "queens-cinderhog",
       name = "Queen's Cinderhog",
       image = "/cards/images/6Tpdxz3VoD.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["6WDLJTPFGx"] = {
       uuid = "6WDLJTPFGx",
       slug = "night-barker",
       name = "Night Barker",
       image = "/cards/images/6WDLJTPFGx.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["6WFPZDZZKK"] = {
       uuid = "6WFPZDZZKK",
       slug = "mirrored-confrontation",
       name = "Mirrored Confrontation",
       image = "/cards/images/6WFPZDZZKK.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6a7fr167eu"] = {
+      uuid = "6a7fr167eu",
+      slug = "excoriate",
+      name = "Excoriate",
+      image = "/cards/images/6a7fr167eu.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6bn55g9b5m"] = {
+      uuid = "6bn55g9b5m",
+      slug = "veiled-dash",
+      name = "Veiled Dash",
+      image = "/cards/images/6bn55g9b5m.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["6ce5rzrjd9"] = {
       uuid = "6ce5rzrjd9",
       slug = "fabled-azurite-fatestone",
       name = "Fabled Azurite Fatestone",
       image = "/cards/images/6ce5rzrjd9.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+        {
+          name = "Seiryuu, Azure Dragon",
+          slug = "seiryuu-azure-dragon",
+          uuid = "fcfxhkqda6",
+          image = "/cards/images/fcfxhkqda6.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["6dagz15x3s"] = {
+      uuid = "6dagz15x3s",
+      slug = "cosmic-alignment",
+      name = "Cosmic Alignment",
+      image = "/cards/images/6dagz15x3s.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6egq56djg0"] = {
+      uuid = "6egq56djg0",
+      slug = "draught-of-stamina",
+      name = "Draught of Stamina",
+      image = "/cards/images/6egq56djg0.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
     },
     ["6emw0apj1d"] = {
       uuid = "6emw0apj1d",
       slug = "genbus-command",
       name = "Genbu's Command",
       image = "/cards/images/6emw0apj1d.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6h78rl4sdx"] = {
+      uuid = "6h78rl4sdx",
+      slug = "bathe-in-light",
+      name = "Bathe in Light",
+      image = "/cards/images/6h78rl4sdx.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6h8ncmybjm"] = {
+      uuid = "6h8ncmybjm",
+      slug = "longtail-grovesward",
+      name = "Longtail Grovesward",
+      image = "/cards/images/6h8ncmybjm.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["6hkmgx83sf"] = {
+      uuid = "6hkmgx83sf",
+      slug = "unearth-revelations",
+      name = "Unearth Revelations",
+      image = "/cards/images/6hkmgx83sf.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6i9ctljfsq"] = {
+      uuid = "6i9ctljfsq",
+      slug = "revenants-scourge",
+      name = "Revenant’s Scourge",
+      image = "/cards/images/6i9ctljfsq.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["6ikmgyi3sp"] = {
+      uuid = "6ikmgyi3sp",
+      slug = "cell-handler",
+      name = "Cell Handler",
+      image = "/cards/images/6ikmgyi3sp.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["6jqb3nufu3"] = {
+      uuid = "6jqb3nufu3",
+      slug = "honorable-vanguard",
+      name = "Honorable Vanguard",
+      image = "/cards/images/6jqb3nufu3.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["6jxa6zlrrq"] = {
+      uuid = "6jxa6zlrrq",
+      slug = "ravishing-finale",
+      name = "Ravishing Finale",
+      image = "/cards/images/6jxa6zlrrq.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["6kd7gncb2t"] = {
+      uuid = "6kd7gncb2t",
+      slug = "into-the-fray",
+      name = "Into the Fray",
+      image = "/cards/images/6kd7gncb2t.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6kd7gocb33"] = {
+      uuid = "6kd7gocb33",
+      slug = "dodge-roll",
+      name = "Dodge Roll",
+      image = "/cards/images/6kd7gocb33.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6kd7hocc33"] = {
+      uuid = "6kd7hocc33",
+      slug = "obelisk-of-fabrication",
+      name = "Obelisk of Fabrication",
+      image = "/cards/images/6kd7hocc33.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "TOKEN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["6l263bdo34"] = {
+      uuid = "6l263bdo34",
+      slug = "sinister-mindreaver",
+      name = "Sinister Mindreaver",
+      image = "/cards/images/6l263bdo34.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["6m3fyliu4k"] = {
+      uuid = "6m3fyliu4k",
+      slug = "exorcism",
+      name = "Exorcism",
+      image = "/cards/images/6m3fyliu4k.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6nhenubmrt"] = {
+      uuid = "6nhenubmrt",
+      slug = "straight-flare",
+      name = "Straight Flare",
+      image = "/cards/images/6nhenubmrt.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6pj56rn3vq"] = {
+      uuid = "6pj56rn3vq",
+      slug = "idle-thoughts",
+      name = "Idle Thoughts",
+      image = "/cards/images/6pj56rn3vq.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6pmkq9x9x9"] = {
+      uuid = "6pmkq9x9x9",
+      slug = "imperial-seal",
+      name = "Imperial Seal",
+      image = "/cards/images/6pmkq9x9x9.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["6rgd6kd7gn"] = {
+      uuid = "6rgd6kd7gn",
+      slug = "cascading-round",
+      name = "Cascading Round",
+      image = "/cards/images/6rgd6kd7gn.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["6sqe6kd7go"] = {
+      uuid = "6sqe6kd7go",
+      slug = "krustallan-longsword",
+      name = "Krustallan Longsword",
+      image = "/cards/images/6sqe6kd7go.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["6tDseF3o1J"] = {
       uuid = "6tDseF3o1J",
       slug = "chamberlain-toad",
       name = "Chamberlain Toad",
       image = "/cards/images/6tDseF3o1J.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["6tjws1trws"] = {
       uuid = "6tjws1trws",
       slug = "felicitous-flock",
       name = "Felicitous Flock",
       image = "/cards/images/6tjws1trws.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["6wuPwINVR7"] = {
       uuid = "6wuPwINVR7",
       slug = "flared-iridescence",
       name = "Flared Iridescence",
       image = "/cards/images/6wuPwINVR7.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["6yik8iibla"] = {
+      uuid = "6yik8iibla",
+      slug = "everflame-staff",
+      name = "Everflame Staff",
+      image = "/cards/images/6yik8iibla.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["7299v2i08s"] = {
+      uuid = "7299v2i08s",
+      slug = "rippleback-terrapin",
+      name = "Rippleback Terrapin",
+      image = "/cards/images/7299v2i08s.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["73xC9J8a7B"] = {
+      uuid = "73xC9J8a7B",
+      slug = "mortal-ambition",
+      name = "Mortal Ambition",
+      image = "/cards/images/73xC9J8a7B.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["75lahlir23"] = {
+      uuid = "75lahlir23",
+      slug = "firetuned-automaton",
+      name = "Firetuned Automaton",
+      image = "/cards/images/75lahlir23.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["77uw2uesvb"] = {
+      uuid = "77uw2uesvb",
+      slug = "scorchfire-assassin",
+      name = "Scorchfire Assassin",
+      image = "/cards/images/77uw2uesvb.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["793kvqf24i"] = {
+      uuid = "793kvqf24i",
+      slug = "scorching-trap",
+      name = "Scorching Trap",
+      image = "/cards/images/793kvqf24i.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["793lvqf24i"] = {
+      uuid = "793lvqf24i",
+      slug = "overwhelming-swing",
+      name = "Overwhelming Swing",
+      image = "/cards/images/793lvqf24i.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["799nkatizv"] = {
+      uuid = "799nkatizv",
+      slug = "seafletched-serpent",
+      name = "Seafletched Serpent",
+      image = "/cards/images/799nkatizv.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["79eo0pebu9"] = {
       uuid = "79eo0pebu9",
       slug = "sunglory-sentinel",
       name = "Sunglory Sentinel",
       image = "/cards/images/79eo0pebu9.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["79sf1dquzk"] = {
       uuid = "79sf1dquzk",
       slug = "harness-lightning",
       name = "Harness Lightning",
       image = "/cards/images/79sf1dquzk.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["7ML4Ui4aoA"] = {
+      uuid = "7ML4Ui4aoA",
+      slug = "resolute-stand",
+      name = "Resolute Stand",
+      image = "/cards/images/7ML4Ui4aoA.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["7ajdbh9gjr"] = {
+      uuid = "7ajdbh9gjr",
+      slug = "orb-of-sealing",
+      name = "Orb of Sealing",
+      image = "/cards/images/7ajdbh9gjr.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["7bo9ea7i2k"] = {
       uuid = "7bo9ea7i2k",
       slug = "beguiling-bandit",
       name = "Beguiling Bandit",
       image = "/cards/images/7bo9ea7i2k.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["7cltpfb5wj"] = {
+      uuid = "7cltpfb5wj",
+      slug = "dragons-dawn",
+      name = "Dragon's Dawn",
+      image = "/cards/images/7cltpfb5wj.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["7fr167eurb"] = {
+      uuid = "7fr167eurb",
+      slug = "dusklight-communion",
+      name = "Dusklight Communion",
+      image = "/cards/images/7fr167eurb.jpg",
+      orientation = "front",
+      types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["7fr1g8evrb"] = {
+      uuid = "7fr1g8evrb",
+      slug = "atmos-armor-type-hermes",
+      name = "Atmos Armor Type-Hermes",
+      image = "/cards/images/7fr1g8evrb.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["7gr2g8evrc"] = {
+      uuid = "7gr2g8evrc",
+      slug = "spellshield-astra",
+      name = "Spellshield: Astra",
+      image = "/cards/images/7gr2g8evrc.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["7i8lcBm0E9"] = {
+      uuid = "7i8lcBm0E9",
+      slug = "sovereign-sanctuary",
+      name = "Sovereign Sanctuary",
+      image = "/cards/images/7i8lcBm0E9.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["7ifvrykvb2"] = {
+      uuid = "7ifvrykvb2",
+      slug = "veteran-aerotheurge",
+      name = "Veteran Aerotheurge",
+      image = "/cards/images/7ifvrykvb2.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["7it7msh8jx"] = {
       uuid = "7it7msh8jx",
       slug = "coronation-ceremony",
       name = "Coronation Ceremony",
       image = "/cards/images/7it7msh8jx.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["7j48c6h78n"] = {
       uuid = "7j48c6h78n",
       slug = "tabula-of-salvage",
       name = "Tabula of Salvage",
       image = "/cards/images/7j48c6h78n.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["7oyvvkgzdg"] = {
       uuid = "7oyvvkgzdg",
       slug = "kongming-erudite-strategist",
       name = "Kongming, Erudite Strategist",
       image = "/cards/images/7oyvvkgzdg.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["7p3rtuae7d"] = {
+      uuid = "7p3rtuae7d",
+      slug = "sword-saint-of-everflame",
+      name = "Sword Saint of Everflame",
+      image = "/cards/images/7p3rtuae7d.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["7pxt5uay6a"] = {
+      uuid = "7pxt5uay6a",
+      slug = "distilled-atrophy",
+      name = "Distilled Atrophy",
+      image = "/cards/images/7pxt5uay6a.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["7pxt63jyfa"] = {
+      uuid = "7pxt63jyfa",
+      slug = "sorrowcaller",
+      name = "Sorrowcaller",
+      image = "/cards/images/7pxt63jyfa.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["7q1jnl2jrn"] = {
       uuid = "7q1jnl2jrn",
       slug = "wulin-lancer",
       name = "Wulin Lancer",
       image = "/cards/images/7q1jnl2jrn.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["7qjpaipkr7"] = {
+      uuid = "7qjpaipkr7",
+      slug = "materialize-polearm",
+      name = "Materialize Polearm",
+      image = "/cards/images/7qjpaipkr7.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["7qxt64jzga"] = {
+      uuid = "7qxt64jzga",
+      slug = "scry-the-stars",
+      name = "Scry the Stars",
+      image = "/cards/images/7qxt64jzga.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["7sUKIsuUNJ"] = {
       uuid = "7sUKIsuUNJ",
       slug = "nullifying-lantern",
       name = "Nullifying Lantern",
       image = "/cards/images/7sUKIsuUNJ.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["7sqe6kd7ho"] = {
+      uuid = "7sqe6kd7ho",
+      slug = "whirlwind-vizier",
+      name = "Whirlwind Vizier",
+      image = "/cards/images/7sqe6kd7ho.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["7u395jc8um"] = {
+      uuid = "7u395jc8um",
+      slug = "verita-queen-of-hearts",
+      name = "Verita, Queen of Hearts",
+      image = "/cards/images/7u395jc8um.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["7ybz1af6bc"] = {
       uuid = "7ybz1af6bc",
       slug = "convalescing-mare",
       name = "Convalescing Mare",
       image = "/cards/images/7ybz1af6bc.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["810xal1rrz"] = {
+      uuid = "810xal1rrz",
+      slug = "blighted-jewel",
+      name = "Blighted Jewel",
+      image = "/cards/images/810xal1rrz.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["82ntpsw21t"] = {
+      uuid = "82ntpsw21t",
+      slug = "candlelight-hourglass",
+      name = "Candlelight Hourglass",
+      image = "/cards/images/82ntpsw21t.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["82yKzMovXf"] = {
       uuid = "82yKzMovXf",
       slug = "twisted-verdict",
       name = "Twisted Verdict",
       image = "/cards/images/82yKzMovXf.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["83sfhvfisz"] = {
+      uuid = "83sfhvfisz",
+      slug = "organize-the-alliance",
+      name = "Organize the Alliance",
+      image = "/cards/images/83sfhvfisz.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["84h5lahljr"] = {
+      uuid = "84h5lahljr",
+      slug = "blast-shield",
+      name = "Blast Shield",
+      image = "/cards/images/84h5lahljr.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["87aqv0lut4"] = {
+      uuid = "87aqv0lut4",
+      slug = "reduce-to-ash",
+      name = "Reduce to Ash",
+      image = "/cards/images/87aqv0lut4.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["87aqv0lut5"] = {
+      uuid = "87aqv0lut5",
+      slug = "meltdown",
+      name = "Meltdown",
+      image = "/cards/images/87aqv0lut5.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["87fu6lmp0o"] = {
       uuid = "87fu6lmp0o",
       slug = "aphotic-ruin",
       name = "Aphotic Ruin",
       image = "/cards/images/87fu6lmp0o.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["87ps75q8cz"] = {
+      uuid = "87ps75q8cz",
+      slug = "flickering-cinder",
+      name = "Flickering Cinder",
+      image = "/cards/images/87ps75q8cz.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["890bfcng82"] = {
       uuid = "890bfcng82",
       slug = "pelagic-fatestone",
       name = "Pelagic Fatestone",
       image = "/cards/images/890bfcng82.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+        {
+          name = "Slick Torrentrider",
+          slug = "slick-torrentrider",
+          uuid = "u4q9qrmpef",
+          image = "/cards/images/u4q9qrmpef.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["89l5x78uz6"] = {
+      uuid = "89l5x78uz6",
+      slug = "extraction-incision",
+      name = "Extraction Incision",
+      image = "/cards/images/89l5x78uz6.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["8JgjL8IAcM"] = {
       uuid = "8JgjL8IAcM",
       slug = "molten-echo",
       name = "Molten Echo",
       image = "/cards/images/8JgjL8IAcM.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["8QeB4qkLRH"] = {
       uuid = "8QeB4qkLRH",
       slug = "polishing-flourish",
       name = "Polishing Flourish",
       image = "/cards/images/8QeB4qkLRH.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["8RcRKsy7Ye"] = {
       uuid = "8RcRKsy7Ye",
       slug = "sacred-engulfment",
       name = "Sacred Engulfment",
       image = "/cards/images/8RcRKsy7Ye.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["8UM1feHLxO"] = {
       uuid = "8UM1feHLxO",
       slug = "ethereal-absorption",
       name = "Ethereal Absorption",
       image = "/cards/images/8UM1feHLxO.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["8asrY6g9wr"] = {
       uuid = "8asrY6g9wr",
       slug = "merlin-amethysts-glow",
       name = "Merlin, Amethyst's Glow",
       image = "/cards/images/8asrY6g9wr.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["8dy76hkmgx"] = {
+      uuid = "8dy76hkmgx",
+      slug = "oasis-trading-post",
+      name = "Oasis Trading Post",
+      image = "/cards/images/8dy76hkmgx.jpg",
+      orientation = "front",
+      types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["8dyh6ikmgy"] = {
+      uuid = "8dyh6ikmgy",
+      slug = "hide-in-bush",
+      name = "Hide in Bush",
+      image = "/cards/images/8dyh6ikmgy.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["8dyh7ikmhy"] = {
+      uuid = "8dyh7ikmhy",
+      slug = "anathemas-end",
+      name = "Anathema's End",
+      image = "/cards/images/8dyh7ikmhy.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
     },
     ["8eum7j2oke"] = {
       uuid = "8eum7j2oke",
       slug = "dian-wei-valorant-fury",
       name = "Dian Wei, Valorant Fury",
       image = "/cards/images/8eum7j2oke.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["8f8t1smqpu"] = {
+      uuid = "8f8t1smqpu",
+      slug = "slice-and-dice",
+      name = "Slice and Dice",
+      image = "/cards/images/8f8t1smqpu.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["8jvga1cdnt"] = {
+      uuid = "8jvga1cdnt",
+      slug = "flowing-oubli",
+      name = "Flowing Oubli",
+      image = "/cards/images/8jvga1cdnt.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["8ka53y6261"] = {
+      uuid = "8ka53y6261",
+      slug = "sundering-moon",
+      name = "Sundering Moon",
+      image = "/cards/images/8ka53y6261.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["8lbewemhus"] = {
+      uuid = "8lbewemhus",
+      slug = "spirit-of-wind",
+      name = "Spirit of Wind",
+      image = "/cards/images/8lbewemhus.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["8mDHiOolMv"] = {
+      uuid = "8mDHiOolMv",
+      slug = "eternal-directive",
+      name = "Eternal Directive",
+      image = "/cards/images/8mDHiOolMv.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["8mrdeauaeb"] = {
+      uuid = "8mrdeauaeb",
+      slug = "kongming-ascetic-vice",
+      name = "Kongming, Ascetic Vice",
+      image = "/cards/images/8mrdeauaeb.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["8n485dgq56"] = {
+      uuid = "8n485dgq56",
+      slug = "freezing-steel",
+      name = "Freezing Steel",
+      image = "/cards/images/8n485dgq56.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["8n486egq56"] = {
+      uuid = "8n486egq56",
+      slug = "flash-freeze",
+      name = "Flash Freeze",
+      image = "/cards/images/8n486egq56.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["8n4yw4gq5w"] = {
+      uuid = "8n4yw4gq5w",
+      slug = "arisanna-herbalist-prodigy",
+      name = "Arisanna, Herbalist Prodigy",
+      image = "/cards/images/8n4yw4gq5w.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["8nquv7ecqr"] = {
       uuid = "8nquv7ecqr",
       slug = "flamebolt-arbalist",
       name = "Flamebolt Arbalist",
       image = "/cards/images/8nquv7ecqr.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["8o7b2n4wlt"] = {
+      uuid = "8o7b2n4wlt",
+      slug = "legions-wingspan",
+      name = "Legion's Wingspan",
+      image = "/cards/images/8o7b2n4wlt.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["8qgdthzkdg"] = {
       uuid = "8qgdthzkdg",
       slug = "sly-songstress",
       name = "Sly Songstress",
       image = "/cards/images/8qgdthzkdg.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["8qjxl9SzlB"] = {
+      uuid = "8qjxl9SzlB",
+      slug = "galvanizing-gale",
+      name = "Galvanizing Gale",
+      image = "/cards/images/8qjxl9SzlB.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["8rdZzBi4nQ"] = {
+      uuid = "8rdZzBi4nQ",
+      slug = "hector-praetorian-guard",
+      name = "Hector, Praetorian Guard",
+      image = "/cards/images/8rdZzBi4nQ.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["8sbukxra8v"] = {
+      uuid = "8sbukxra8v",
+      slug = "chamber-of-reflections",
+      name = "Chamber of Reflections",
+      image = "/cards/images/8sbukxra8v.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
     },
     ["8wq7de4dde"] = {
       uuid = "8wq7de4dde",
       slug = "cyclonic-fatestone",
       name = "Cyclonic Fatestone",
       image = "/cards/images/8wq7de4dde.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+        {
+          name = "Windstalker Wolf",
+          slug = "windstalker-wolf",
+          uuid = "z4fr707pbr",
+          image = "/cards/images/z4fr707pbr.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
     },
     ["903rbhr6wz"] = {
       uuid = "903rbhr6wz",
       slug = "spirit-of-fortuitous-fire",
       name = "Spirit of Fortuitous Fire",
       image = "/cards/images/903rbhr6wz.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["90iy7h4g69"] = {
+      uuid = "90iy7h4g69",
+      slug = "naia-diviner-of-fortunes",
+      name = "Naia, Diviner of Fortunes",
+      image = "/cards/images/90iy7h4g69.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["90v2ztgvi1"] = {
+      uuid = "90v2ztgvi1",
+      slug = "weaken-resistance",
+      name = "Weaken Resistance",
+      image = "/cards/images/90v2ztgvi1.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["91nmnxS9wZ"] = {
+      uuid = "91nmnxS9wZ",
+      slug = "andronika-eternal-herald",
+      name = "Andronika, Eternal Herald",
+      image = "/cards/images/91nmnxS9wZ.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["91zv75lahl"] = {
+      uuid = "91zv75lahl",
+      slug = "springleaf",
+      name = "Springleaf",
+      image = "/cards/images/91zv75lahl.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["92YCAKlPGm"] = {
+      uuid = "92YCAKlPGm",
+      slug = "bairui-resplendent-barrier",
+      name = "Bairui, Resplendent Barrier",
+      image = "/cards/images/92YCAKlPGm.jpg",
+      orientation = "front",
+      types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["92ollknd8d"] = {
+      uuid = "92ollknd8d",
+      slug = "waverider-protector",
+      name = "Waverider Protector",
+      image = "/cards/images/92ollknd8d.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["94h6lahmjr"] = {
+      uuid = "94h6lahmjr",
+      slug = "shimmercloak-assassin",
+      name = "Shimmercloak Assassin",
+      image = "/cards/images/94h6lahmjr.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["95xa1j051o"] = {
       uuid = "95xa1j051o",
       slug = "provoking-stand",
       name = "Provoking Stand",
       image = "/cards/images/95xa1j051o.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["97krlecaei"] = {
       uuid = "97krlecaei",
       slug = "guo-jia-heavens-favored",
       name = "Guo Jia, Heaven's Favored",
       image = "/cards/images/97krlecaei.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["98c1w1m5v6"] = {
+      uuid = "98c1w1m5v6",
+      slug = "diana-duskstalker",
+      name = "Diana, Duskstalker",
+      image = "/cards/images/98c1w1m5v6.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["99Z26vFjSz"] = {
+      uuid = "99Z26vFjSz",
+      slug = "diana-aether-dilettante",
+      name = "Diana, Aether Dilettante",
+      image = "/cards/images/99Z26vFjSz.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["99eo7u3csp"] = {
+      uuid = "99eo7u3csp",
+      slug = "emergent-dagger",
+      name = "Emergent Dagger",
+      image = "/cards/images/99eo7u3csp.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["9b5m6rgd6k"] = {
+      uuid = "9b5m6rgd6k",
+      slug = "tonoris-lone-mercenary",
+      name = "Tonoris, Lone Mercenary",
+      image = "/cards/images/9b5m6rgd6k.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["9b5m6sqe6k"] = {
+      uuid = "9b5m6sqe6k",
+      slug = "purified-shot",
+      name = "Purified Shot",
+      image = "/cards/images/9b5m6sqe6k.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["9b5m7sqe6k"] = {
+      uuid = "9b5m7sqe6k",
+      slug = "storm-of-thorns",
+      name = "Storm of Thorns",
+      image = "/cards/images/9b5m7sqe6k.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["9bimb7g8y4"] = {
+      uuid = "9bimb7g8y4",
+      slug = "soothing-disillusion",
+      name = "Soothing Disillusion",
+      image = "/cards/images/9bimb7g8y4.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["9cMrGdgvpr"] = {
       uuid = "9cMrGdgvpr",
       slug = "harrow-the-saved",
       name = "Harrow the Saved",
       image = "/cards/images/9cMrGdgvpr.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["9dxl0lm43p"] = {
+      uuid = "9dxl0lm43p",
+      slug = "nascent-blast",
+      name = "Nascent Blast",
+      image = "/cards/images/9dxl0lm43p.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["9iitvxs9je"] = {
+      uuid = "9iitvxs9je",
+      slug = "blightroot",
+      name = "Blightroot",
+      image = "/cards/images/9iitvxs9je.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["9iitwxs9ke"] = {
+      uuid = "9iitwxs9ke",
+      slug = "gloamspire-mantle",
+      name = "Gloamspire Mantle",
+      image = "/cards/images/9iitwxs9ke.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["9kqbFnkRRI"] = {
       uuid = "9kqbFnkRRI",
       slug = "folded-shadows",
       name = "Folded Shadows",
       image = "/cards/images/9kqbFnkRRI.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["9lbewnmhus"] = {
+      uuid = "9lbewnmhus",
+      slug = "fractal-of-rain",
+      name = "Fractal of Rain",
+      image = "/cards/images/9lbewnmhus.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["9lbewomius"] = {
+      uuid = "9lbewomius",
+      slug = "dormant-sacrificial-altar",
+      name = "Dormant Sacrificial Altar",
+      image = "/cards/images/9lbewomius.jpg",
+      orientation = "front",
+      types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["9myigd7zql"] = {
+      uuid = "9myigd7zql",
+      slug = "galewhisper-rogue",
+      name = "Galewhisper Rogue",
+      image = "/cards/images/9myigd7zql.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["9nZPN4dFBC"] = {
+      uuid = "9nZPN4dFBC",
+      slug = "prima-materia",
+      name = "Prima Materia",
+      image = "/cards/images/9nZPN4dFBC.jpg",
+      orientation = "front",
+      types = { "ITEM", "UNIQUE" },
+      orientations = {
+      },
     },
     ["9qs8qaskib"] = {
       uuid = "9qs8qaskib",
       slug = "pang-tong-young-phoenix",
       name = "Pang Tong, Young Phoenix",
       image = "/cards/images/9qs8qaskib.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["A4GMUbKXqn"] = {
+      uuid = "A4GMUbKXqn",
+      slug = "song-of-frost",
+      name = "Song of Frost",
+      image = "/cards/images/A4GMUbKXqn.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["A7jVViRkGt"] = {
       uuid = "A7jVViRkGt",
       slug = "embrace-noir",
       name = "Embrace Noir",
       image = "/cards/images/A7jVViRkGt.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["AJqZWVI52O"] = {
       uuid = "AJqZWVI52O",
       slug = "summon-pawn",
       name = "Summon Pawn",
       image = "/cards/images/AJqZWVI52O.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["APwjbP7G8O"] = {
+      uuid = "APwjbP7G8O",
+      slug = "spirit-of-fire",
+      name = "Spirit of Fire",
+      image = "/cards/images/APwjbP7G8O.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["AXdsMJRr10"] = {
+      uuid = "AXdsMJRr10",
+      slug = "scavenging-raccoon",
+      name = "Scavenging Raccoon",
+      image = "/cards/images/AXdsMJRr10.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["Ac3EbjY4fI"] = {
       uuid = "Ac3EbjY4fI",
       slug = "unmake-duality",
       name = "Unmake Duality",
       image = "/cards/images/Ac3EbjY4fI.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["B77loJm73G"] = {
+      uuid = "B77loJm73G",
+      slug = "decompose",
+      name = "Decompose",
+      image = "/cards/images/B77loJm73G.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["BLbHuLPfeI"] = {
+      uuid = "BLbHuLPfeI",
+      slug = "bertha-spry-howitzer",
+      name = "Bertha, Spry Howitzer",
+      image = "/cards/images/BLbHuLPfeI.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["Bc1e8OgziU"] = {
       uuid = "Bc1e8OgziU",
       slug = "gilded-pyre",
       name = "Gilded Pyre",
       image = "/cards/images/Bc1e8OgziU.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["BnaGR1vS5p"] = {
+      uuid = "BnaGR1vS5p",
+      slug = "juggle-knives",
+      name = "Juggle Knives",
+      image = "/cards/images/BnaGR1vS5p.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["CQLgF8ETYu"] = {
+      uuid = "CQLgF8ETYu",
+      slug = "three-visits",
+      name = "Three Visits",
+      image = "/cards/images/CQLgF8ETYu.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["CyziFxYdGx"] = {
+      uuid = "CyziFxYdGx",
+      slug = "oath-of-the-sakura",
+      name = "Oath of the Sakura",
+      image = "/cards/images/CyziFxYdGx.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["D1IjsLwnVn"] = {
       uuid = "D1IjsLwnVn",
       slug = "jubjub-bird-mimsy-ghast",
       name = "Jubjub Bird, Mimsy Ghast",
       image = "/cards/images/D1IjsLwnVn.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["DHY90nnoW3"] = {
+      uuid = "DHY90nnoW3",
+      slug = "verita-queen-of-hearts",
+      name = "Verita, Queen of Hearts",
+      image = "/cards/images/DHY90nnoW3.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["DIXrp0pkEr"] = {
       uuid = "DIXrp0pkEr",
       slug = "gleaming-smolder",
       name = "Gleaming Smolder",
       image = "/cards/images/DIXrp0pkEr.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["Dq3MLiRxsA"] = {
       uuid = "Dq3MLiRxsA",
       slug = "vorpal-sword",
       name = "Vorpal Sword",
       image = "/cards/images/Dq3MLiRxsA.jpg",
+      orientation = "front",
       types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["EHvaicRYNQ"] = {
       uuid = "EHvaicRYNQ",
       slug = "eminent-lethargy",
       name = "Eminent Lethargy",
       image = "/cards/images/EHvaicRYNQ.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["EI9bNHWDTs"] = {
       uuid = "EI9bNHWDTs",
       slug = "advantageous-perch",
       name = "Advantageous Perch",
       image = "/cards/images/EI9bNHWDTs.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["EKZUuXzXeo"] = {
       uuid = "EKZUuXzXeo",
       slug = "spark-link",
       name = "Spark Link",
       image = "/cards/images/EKZUuXzXeo.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["ENYPElmjDe"] = {
       uuid = "ENYPElmjDe",
       slug = "queen-piece",
       name = "Queen Piece",
       image = "/cards/images/ENYPElmjDe.jpg",
+      orientation = "front",
       types = { "ALLY", "TOKEN" },
+      orientations = {
+      },
     },
     ["F0sAEVAU3E"] = {
       uuid = "F0sAEVAU3E",
       slug = "crux-sight",
       name = "Crux Sight",
       image = "/cards/images/F0sAEVAU3E.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["F1VUvyxhjk"] = {
+      uuid = "F1VUvyxhjk",
+      slug = "winbless-lookout",
+      name = "Winbless Lookout",
+      image = "/cards/images/F1VUvyxhjk.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["F9L8odk8kt"] = {
       uuid = "F9L8odk8kt",
       slug = "alice-phantom-monarch",
       name = "Alice, Phantom Monarch",
       image = "/cards/images/F9L8odk8kt.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["Fgd7o1U6ja"] = {
       uuid = "Fgd7o1U6ja",
       slug = "off-with-her-head",
       name = "Off With Her Head",
       image = "/cards/images/Fgd7o1U6ja.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["Fwbt5hohCt"] = {
+      uuid = "Fwbt5hohCt",
+      slug = "cheshire-cat-impish-grin",
+      name = "Cheshire Cat, Impish Grin",
+      image = "/cards/images/Fwbt5hohCt.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["FzDRJw7Ir2"] = {
+      uuid = "FzDRJw7Ir2",
+      slug = "polearmed-steed",
+      name = "Pole-armed Steed",
+      image = "/cards/images/FzDRJw7Ir2.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["G6K7inEIiX"] = {
       uuid = "G6K7inEIiX",
       slug = "tyrannical-denigration",
       name = "Tyrannical Denigration",
       image = "/cards/images/G6K7inEIiX.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["GG1XAzHmIN"] = {
       uuid = "GG1XAzHmIN",
       slug = "alice-distorted-queen",
       name = "Alice, Distorted Queen",
       image = "/cards/images/GG1XAzHmIN.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["GOgSOGw386"] = {
+      uuid = "GOgSOGw386",
+      slug = "fragmented-spirit-of-wind",
+      name = "Fragmented Spirit of Wind",
+      image = "/cards/images/GOgSOGw386.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["GPtgplsCk1"] = {
+      uuid = "GPtgplsCk1",
+      slug = "vampiric-slime",
+      name = "Vampiric Slime",
+      image = "/cards/images/GPtgplsCk1.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["GarXPgaaxW"] = {
       uuid = "GarXPgaaxW",
       slug = "spectral-haunting",
       name = "Spectral Haunting",
       image = "/cards/images/GarXPgaaxW.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["Gjp5PnfSaj"] = {
       uuid = "Gjp5PnfSaj",
       slug = "ducal-seal",
       name = "Ducal Seal",
       image = "/cards/images/Gjp5PnfSaj.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["GnQNRJxJFF"] = {
+      uuid = "GnQNRJxJFF",
+      slug = "gustguard-bastion",
+      name = "Gustguard Bastion",
+      image = "/cards/images/GnQNRJxJFF.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["HF1s1Gceoj"] = {
       uuid = "HF1s1Gceoj",
       slug = "unmoored-call",
       name = "Unmoored Call",
       image = "/cards/images/HF1s1Gceoj.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["HJUVTQ3p8d"] = {
       uuid = "HJUVTQ3p8d",
       slug = "grave-gateau",
       name = "Grave Gateau",
       image = "/cards/images/HJUVTQ3p8d.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+      },
     },
     ["HaAFvBLqVi"] = {
       uuid = "HaAFvBLqVi",
       slug = "tweedledee-contrarian-poet",
       name = "Tweedledee, Contrarian Poet",
       image = "/cards/images/HaAFvBLqVi.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["I1tKaWBubl"] = {
       uuid = "I1tKaWBubl",
       slug = "merlin-brilliant-vestige",
       name = "Merlin, Brilliant Vestige",
       image = "/cards/images/I1tKaWBubl.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["I4wEhxaCaT"] = {
+      uuid = "I4wEhxaCaT",
+      slug = "tend-the-land",
+      name = "Tend the Land",
+      image = "/cards/images/I4wEhxaCaT.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["I5oQyT6O0R"] = {
+      uuid = "I5oQyT6O0R",
+      slug = "diana-judgments-arrow",
+      name = "Diana, Judgment's Arrow",
+      image = "/cards/images/I5oQyT6O0R.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["I6hK8rRHof"] = {
       uuid = "I6hK8rRHof",
       slug = "veiling-breeze",
       name = "Veiling Breeze",
       image = "/cards/images/I6hK8rRHof.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["I7RQE9Eg4b"] = {
+      uuid = "I7RQE9Eg4b",
+      slug = "humpty-dumpty-fates-fall",
+      name = "Humpty Dumpty, Fate's Fall",
+      image = "/cards/images/I7RQE9Eg4b.jpg",
+      orientation = "front",
+      types = { "ITEM", "UNIQUE" },
+      orientations = {
+      },
     },
     ["INxCCczD2q"] = {
       uuid = "INxCCczD2q",
       slug = "reflected-blight",
       name = "Reflected Blight",
       image = "/cards/images/INxCCczD2q.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["IQmBmy7WeV"] = {
       uuid = "IQmBmy7WeV",
       slug = "cleansing-reunion",
       name = "Cleansing Reunion",
       image = "/cards/images/IQmBmy7WeV.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ISbT44Ijm6"] = {
+      uuid = "ISbT44Ijm6",
+      slug = "mercurial-heart",
+      name = "Mercurial Heart",
+      image = "/cards/images/ISbT44Ijm6.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["ITFVF7RlSM"] = {
       uuid = "ITFVF7RlSM",
       slug = "soultrace-tessellation",
       name = "Soultrace Tessellation",
       image = "/cards/images/ITFVF7RlSM.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["IYqliG1lvS"] = {
       uuid = "IYqliG1lvS",
       slug = "bill-chimney-sweep",
       name = "Bill, Chimney Sweep",
       image = "/cards/images/IYqliG1lvS.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["IfEujSSJ1G"] = {
       uuid = "IfEujSSJ1G",
       slug = "memorite-obelith",
       name = "Memorite Obelith",
       image = "/cards/images/IfEujSSJ1G.jpg",
+      orientation = "front",
       types = { "ALLY", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["Io4OAdpXhv"] = {
+      uuid = "Io4OAdpXhv",
+      slug = "blackmarket-broker",
+      name = "Blackmarket Broker",
+      image = "/cards/images/Io4OAdpXhv.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["J8wlOvXD59"] = {
       uuid = "J8wlOvXD59",
       slug = "nether-dodobird",
       name = "Nether Dodobird",
       image = "/cards/images/J8wlOvXD59.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["JKsR6AtFdK"] = {
       uuid = "JKsR6AtFdK",
       slug = "diana-haunt-reminiscence",
       name = "Diana, Haunt Reminiscence",
       image = "/cards/images/JKsR6AtFdK.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["JMJEpW8ggU"] = {
       uuid = "JMJEpW8ggU",
       slug = "illusory-armsmaster",
       name = "Illusory Armsmaster",
       image = "/cards/images/JMJEpW8ggU.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["JOJI083BbK"] = {
+      uuid = "JOJI083BbK",
+      slug = "snow-white-weiss-queen",
+      name = "Snow White, Weiss Queen",
+      image = "/cards/images/JOJI083BbK.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["JPF6tRvvsL"] = {
+      uuid = "JPF6tRvvsL",
+      slug = "exploit-vulnerability",
+      name = "Exploit Vulnerability",
+      image = "/cards/images/JPF6tRvvsL.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["JZHvEQRzFH"] = {
+      uuid = "JZHvEQRzFH",
+      slug = "take-aim",
+      name = "Take Aim",
+      image = "/cards/images/JZHvEQRzFH.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["JjOpG7OUVl"] = {
+      uuid = "JjOpG7OUVl",
+      slug = "charged-directive",
+      name = "Charged Directive",
+      image = "/cards/images/JjOpG7OUVl.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["JmWjYSXZms"] = {
+      uuid = "JmWjYSXZms",
+      slug = "regal-inquisition",
+      name = "Regal Inquisition",
+      image = "/cards/images/JmWjYSXZms.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["JnrumefSgu"] = {
       uuid = "JnrumefSgu",
       slug = "awaken-ombre",
       name = "Awaken Ombre",
       image = "/cards/images/JnrumefSgu.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["KGiSRHcJ86"] = {
       uuid = "KGiSRHcJ86",
       slug = "bandersnatch-frumious-foe",
       name = "Bandersnatch, Frumious Foe",
       image = "/cards/images/KGiSRHcJ86.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["KIvObmJGyT"] = {
+      uuid = "KIvObmJGyT",
+      slug = "ciel-omenbringer",
+      name = "Ciel, Omenbringer",
+      image = "/cards/images/KIvObmJGyT.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["KtJDTNxiHQ"] = {
       uuid = "KtJDTNxiHQ",
       slug = "frog",
       name = "Croaking Webfoot",
       image = "/cards/images/KtJDTNxiHQ.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["KyfLqogNZI"] = {
       uuid = "KyfLqogNZI",
       slug = "indissoluble-fractal",
       name = "Indissoluble Fractal",
       image = "/cards/images/KyfLqogNZI.jpg",
+      orientation = "front",
       types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["KyzXzNQoc2"] = {
+      uuid = "KyzXzNQoc2",
+      slug = "regal-expulsion",
+      name = "Regal Expulsion",
+      image = "/cards/images/KyzXzNQoc2.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["L1isDprXtz"] = {
+      uuid = "L1isDprXtz",
+      slug = "frostbind",
+      name = "Frostbind",
+      image = "/cards/images/L1isDprXtz.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["LAOSjrRAay"] = {
       uuid = "LAOSjrRAay",
       slug = "alice-phantom-monarch",
       name = "Alice, Phantom Monarch",
       image = "/cards/images/LAOSjrRAay.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["LAPSxeWsmT"] = {
       uuid = "LAPSxeWsmT",
       slug = "biding-cinquedea",
       name = "Biding Cinquedea",
       image = "/cards/images/LAPSxeWsmT.jpg",
+      orientation = "front",
       types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["LAeoGr8P3b"] = {
       uuid = "LAeoGr8P3b",
       slug = "cosmic-focus",
       name = "Cosmic Focus",
       image = "/cards/images/LAeoGr8P3b.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["LNuPxwlcNr"] = {
+      uuid = "LNuPxwlcNr",
+      slug = "diana-judgments-arrow",
+      name = "Diana, Judgment's Arrow",
+      image = "/cards/images/LNuPxwlcNr.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["Lh6ABaQpKH"] = {
+      uuid = "Lh6ABaQpKH",
+      slug = "ciel-loyal-valet",
+      name = "Ciel, Loyal Valet",
+      image = "/cards/images/Lh6ABaQpKH.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["LinblhMXTT"] = {
+      uuid = "LinblhMXTT",
+      slug = "baby-silver-slime",
+      name = "Baby Silver Slime",
+      image = "/cards/images/LinblhMXTT.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["LlQQe8II21"] = {
       uuid = "LlQQe8II21",
       slug = "buffeting-hurricane",
       name = "Buffeting Hurricane",
       image = "/cards/images/LlQQe8II21.jpg",
+      orientation = "front",
       types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["LsHwT67UZF"] = {
       uuid = "LsHwT67UZF",
       slug = "astral-shard",
       name = "Astral Shard",
       image = "/cards/images/LsHwT67UZF.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
     },
     ["LuCeWA4KOH"] = {
       uuid = "LuCeWA4KOH",
       slug = "briars-spindle",
       name = "Briar's Spindle",
       image = "/cards/images/LuCeWA4KOH.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["MMDR4D0kQE"] = {
       uuid = "MMDR4D0kQE",
       slug = "plea-for-peace",
       name = "Plea for Peace",
       image = "/cards/images/MMDR4D0kQE.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["MRG3G9awTv"] = {
       uuid = "MRG3G9awTv",
       slug = "weiss-knight",
       name = "Weiss Knight",
       image = "/cards/images/MRG3G9awTv.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["NS1iodwyz2"] = {
+      uuid = "NS1iodwyz2",
+      slug = "mad-hatter-morose-heritor",
+      name = "Mad Hatter, Morose Heritor",
+      image = "/cards/images/NS1iodwyz2.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["NruUKPHK8p"] = {
       uuid = "NruUKPHK8p",
       slug = "spalling-cleanse",
       name = "Spalling Cleanse",
       image = "/cards/images/NruUKPHK8p.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["NuZnUuqa5g"] = {
       uuid = "NuZnUuqa5g",
       slug = "weiss-bishop",
       name = "Weiss Bishop",
       image = "/cards/images/NuZnUuqa5g.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["NwAv9NX2IN"] = {
       uuid = "NwAv9NX2IN",
       slug = "tanky-specter",
       name = "Drifting Abysshell",
       image = "/cards/images/NwAv9NX2IN.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["OAlyCUd1Nc"] = {
+      uuid = "OAlyCUd1Nc",
+      slug = "accursed-strength",
+      name = "Accursed Strength",
+      image = "/cards/images/OAlyCUd1Nc.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["ODoziiPmZh"] = {
       uuid = "ODoziiPmZh",
       slug = "suffocating-ash",
       name = "Suffocating Ash",
       image = "/cards/images/ODoziiPmZh.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["OLWym7GG1H"] = {
       uuid = "OLWym7GG1H",
       slug = "golden-rook",
       name = "Golden Rook",
       image = "/cards/images/OLWym7GG1H.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["OZ9EHtn7mL"] = {
       uuid = "OZ9EHtn7mL",
       slug = "memorite-shardwing",
       name = "Memorite Shardwing",
       image = "/cards/images/OZ9EHtn7mL.jpg",
+      orientation = "front",
       types = { "ALLY", "TOKEN" },
+      orientations = {
+      },
     },
     ["OgsUPiXCra"] = {
       uuid = "OgsUPiXCra",
       slug = "jubjub-bird-mimsy-ghast",
       name = "Jubjub Bird, Mimsy Ghast",
       image = "/cards/images/OgsUPiXCra.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["Ol9ioj3rZF"] = {
+      uuid = "Ol9ioj3rZF",
+      slug = "atmos-armor-type-ares",
+      name = "Atmos Armor Type-Ares",
+      image = "/cards/images/Ol9ioj3rZF.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["OlWfVeGxYB"] = {
       uuid = "OlWfVeGxYB",
       slug = "teardrop-diadem",
       name = "Teardrop Diadem",
       image = "/cards/images/OlWfVeGxYB.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["OufnyKXSPd"] = {
       uuid = "OufnyKXSPd",
       slug = "burnished-obelith",
       name = "Burnished Obelith",
       image = "/cards/images/OufnyKXSPd.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["P7aAJ2pY3b"] = {
       uuid = "P7aAJ2pY3b",
       slug = "imperious-galebind",
       name = "Imperious Galebind",
       image = "/cards/images/P7aAJ2pY3b.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["Q72PQyyqRx"] = {
+      uuid = "Q72PQyyqRx",
+      slug = "fragmented-spirit-of-fire",
+      name = "Fragmented Spirit of Fire",
+      image = "/cards/images/Q72PQyyqRx.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["Q9RtGh0I0g"] = {
       uuid = "Q9RtGh0I0g",
       slug = "ignition-draw",
       name = "Ignition Draw",
       image = "/cards/images/Q9RtGh0I0g.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["QFctu2NpVk"] = {
       uuid = "QFctu2NpVk",
       slug = "equivalent-exchange",
       name = "Equivalent Exchange",
       image = "/cards/images/QFctu2NpVk.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["QFjTrbgrEM"] = {
       uuid = "QFjTrbgrEM",
       slug = "refreshing-charge",
       name = "Refreshing Charge",
       image = "/cards/images/QFjTrbgrEM.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["QGZmt4iCHF"] = {
       uuid = "QGZmt4iCHF",
       slug = "conjuring-fluorescence",
       name = "Conjuring Fluorescence",
       image = "/cards/images/QGZmt4iCHF.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["QOTMVyjCSK"] = {
       uuid = "QOTMVyjCSK",
       slug = "alice-distorted-queen",
       name = "Alice, Distorted Queen",
       image = "/cards/images/QOTMVyjCSK.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["QPgWZHV0Wl"] = {
       uuid = "QPgWZHV0Wl",
       slug = "tempestuous-conviction",
       name = "Tempestuous Conviction",
       image = "/cards/images/QPgWZHV0Wl.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["QeK7GguwEs"] = {
       uuid = "QeK7GguwEs",
       slug = "fellowships-gale",
       name = "Fellowship's Gale",
       image = "/cards/images/QeK7GguwEs.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["QfR5hwVFSo"] = {
       uuid = "QfR5hwVFSo",
       slug = "merlin-surreal-figment",
       name = "Merlin, Surreal Figment",
       image = "/cards/images/QfR5hwVFSo.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["QyuzJ2mzxs"] = {
+      uuid = "QyuzJ2mzxs",
+      slug = "cosmic-bolt",
+      name = "Cosmic Bolt",
+      image = "/cards/images/QyuzJ2mzxs.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["R1OxcjvOGe"] = {
       uuid = "R1OxcjvOGe",
       slug = "golden-knight",
       name = "Golden Knight",
       image = "/cards/images/R1OxcjvOGe.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["R7vngN0yJ3"] = {
+      uuid = "R7vngN0yJ3",
+      slug = "overlord-mk-iii",
+      name = "Overlord Mk III",
+      image = "/cards/images/R7vngN0yJ3.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["RNQM5amto1"] = {
       uuid = "RNQM5amto1",
       slug = "merlin-amethysts-glow",
       name = "Merlin, Amethyst's Glow",
       image = "/cards/images/RNQM5amto1.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["RkpervIv1H"] = {
       uuid = "RkpervIv1H",
       slug = "crackling-incineration",
       name = "Crackling Incineration",
       image = "/cards/images/RkpervIv1H.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["RtTMK2XRLe"] = {
       uuid = "RtTMK2XRLe",
       slug = "mistral-ranger",
       name = "Mistral Ranger",
       image = "/cards/images/RtTMK2XRLe.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["RynEqAgp6H"] = {
       uuid = "RynEqAgp6H",
       slug = "vacuous-servant",
       name = "Vacuous Servant",
       image = "/cards/images/RynEqAgp6H.jpg",
+      orientation = "front",
       types = { "ALLY", "TOKEN" },
+      orientations = {
+      },
     },
     ["S6yU3huPcD"] = {
       uuid = "S6yU3huPcD",
       slug = "merlin-brilliant-vestige",
       name = "Merlin, Brilliant Vestige",
       image = "/cards/images/S6yU3huPcD.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["S8iDFAJTh2"] = {
       uuid = "S8iDFAJTh2",
       slug = "treacle-drowned-mouse",
       name = "Treacle, Drowned Mouse",
       image = "/cards/images/S8iDFAJTh2.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["SHCP0FGWo9"] = {
       uuid = "SHCP0FGWo9",
       slug = "claimed-from-beyond",
       name = "Claimed From Beyond",
       image = "/cards/images/SHCP0FGWo9.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["TO4qSUnhU9"] = {
       uuid = "TO4qSUnhU9",
       slug = "merlin-memorite-vassal",
       name = "Merlin, Memorite Vassal",
       image = "/cards/images/TO4qSUnhU9.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["TPUl8f6zz6"] = {
       uuid = "TPUl8f6zz6",
       slug = "crystallized-anthem",
       name = "Crystallized Anthem",
       image = "/cards/images/TPUl8f6zz6.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["TWormLpZCf"] = {
+      uuid = "TWormLpZCf",
+      slug = "hector-praetorian-guard",
+      name = "Hector, Praetorian Guard",
+      image = "/cards/images/TWormLpZCf.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["TgYwlGGoZk"] = {
       uuid = "TgYwlGGoZk",
       slug = "reveal-the-hidden",
       name = "Reveal the Hidden",
       image = "/cards/images/TgYwlGGoZk.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["U2YyE6Vjis"] = {
       uuid = "U2YyE6Vjis",
       slug = "betraying-blade",
       name = "Betraying Blade",
       image = "/cards/images/U2YyE6Vjis.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["U6zaaZAFq5"] = {
       uuid = "U6zaaZAFq5",
       slug = "visages-strike",
       name = "Visage's Strike",
       image = "/cards/images/U6zaaZAFq5.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["UL5e62ivCq"] = {
+      uuid = "UL5e62ivCq",
+      slug = "alice-golden-queen",
+      name = "Alice, Golden Queen",
+      image = "/cards/images/UL5e62ivCq.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["UMjiEEvTq0"] = {
+      uuid = "UMjiEEvTq0",
+      slug = "huang-zhong-unerring-aim",
+      name = "Huang Zhong, Unerring Aim",
+      image = "/cards/images/UMjiEEvTq0.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["V7RUZQiNxB"] = {
+      uuid = "V7RUZQiNxB",
+      slug = "floodward-sergeant",
+      name = "Floodward Sergeant",
+      image = "/cards/images/V7RUZQiNxB.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["VE9VOF2spN"] = {
       uuid = "VE9VOF2spN",
       slug = "hunt-weiss-king",
       name = "Hunt, Weiss King",
       image = "/cards/images/VE9VOF2spN.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["VK2qf8Jv8C"] = {
       uuid = "VK2qf8Jv8C",
       slug = "siege-mauler",
       name = "Siege Mauler",
       image = "/cards/images/VK2qf8Jv8C.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["VPaYocJDR4"] = {
+      uuid = "VPaYocJDR4",
+      slug = "torching-reach",
+      name = "Torching Reach",
+      image = "/cards/images/VPaYocJDR4.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["VWCAzFzKaA"] = {
       uuid = "VWCAzFzKaA",
       slug = "infernal-vessel",
       name = "Infernal Vessel",
       image = "/cards/images/VWCAzFzKaA.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["Vq3fE25MlG"] = {
+      uuid = "Vq3fE25MlG",
+      slug = "scorched-conquest",
+      name = "Scorched Conquest",
+      image = "/cards/images/Vq3fE25MlG.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["W1At7P5C98"] = {
       uuid = "W1At7P5C98",
       slug = "mirrorbound-covenant",
       name = "Mirrorbound Covenant",
       image = "/cards/images/W1At7P5C98.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
     },
     ["W6ydSQmAY9"] = {
       uuid = "W6ydSQmAY9",
       slug = "veiled-gambit",
       name = "Veiled Gambit",
       image = "/cards/images/W6ydSQmAY9.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["WBaCt4Tzmd"] = {
       uuid = "WBaCt4Tzmd",
       slug = "turm-schwartz-rook",
       name = "Turm, Schwartz Rook",
       image = "/cards/images/WBaCt4Tzmd.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["WM32HmFRlL"] = {
       uuid = "WM32HmFRlL",
       slug = "remnant-of-will",
       name = "Remnant of Will",
       image = "/cards/images/WM32HmFRlL.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["WNfBCAwOix"] = {
+      uuid = "WNfBCAwOix",
+      slug = "imperial-accord",
+      name = "Imperial Accord",
+      image = "/cards/images/WNfBCAwOix.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["WRDyZ4CkKx"] = {
       uuid = "WRDyZ4CkKx",
       slug = "lurking-assailant",
       name = "Lurking Assailant",
       image = "/cards/images/WRDyZ4CkKx.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["WdamvYq3kt"] = {
+      uuid = "WdamvYq3kt",
+      slug = "volda-smolders-spite",
+      name = "Volda, Smolder's Spite",
+      image = "/cards/images/WdamvYq3kt.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["WeNl3PfM69"] = {
       uuid = "WeNl3PfM69",
       slug = "obscured-offering",
       name = "Obscured Offering",
       image = "/cards/images/WeNl3PfM69.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["X24ccBlFir"] = {
+      uuid = "X24ccBlFir",
+      slug = "windrider-vanguard",
+      name = "Windrider Vanguard",
+      image = "/cards/images/X24ccBlFir.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["X6UGiWHVIo"] = {
       uuid = "X6UGiWHVIo",
       slug = "topsy-decree",
       name = "Topsy Decree",
       image = "/cards/images/X6UGiWHVIo.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["XRLB9cYyln"] = {
+      uuid = "XRLB9cYyln",
+      slug = "ciel-mirages-grave",
+      name = "Ciel, Mirage's Grave",
+      image = "/cards/images/XRLB9cYyln.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["XVdRymzXiF"] = {
       uuid = "XVdRymzXiF",
       slug = "fracturing-slash",
       name = "Fracturing Slash",
       image = "/cards/images/XVdRymzXiF.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["XdEE6wXvj0"] = {
       uuid = "XdEE6wXvj0",
       slug = "spirit-of-purity",
       name = "Spirit of Purity",
       image = "/cards/images/XdEE6wXvj0.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["Y8Y8eiJtN2"] = {
       uuid = "Y8Y8eiJtN2",
       slug = "wool-brook",
       name = "Wool Brook",
       image = "/cards/images/Y8Y8eiJtN2.jpg",
+      orientation = "front",
       types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["YdLUsnU7cA"] = {
+      uuid = "YdLUsnU7cA",
+      slug = "blazing-throw",
+      name = "Blazing Throw",
+      image = "/cards/images/YdLUsnU7cA.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["Yg8wZRplL0"] = {
+      uuid = "Yg8wZRplL0",
+      slug = "blinding-lapse",
+      name = "Blinding Lapse",
+      image = "/cards/images/Yg8wZRplL0.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["YpLgEwxbGe"] = {
       uuid = "YpLgEwxbGe",
       slug = "genuflecting-execution",
       name = "Genuflecting Execution",
       image = "/cards/images/YpLgEwxbGe.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["YvS44Z6Fe4"] = {
       uuid = "YvS44Z6Fe4",
       slug = "castling",
       name = "Castling",
       image = "/cards/images/YvS44Z6Fe4.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["YxAon573Ao"] = {
+      uuid = "YxAon573Ao",
+      slug = "herd-of-the-hearth",
+      name = "Herd of the Hearth",
+      image = "/cards/images/YxAon573Ao.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ZKOU3GSDbD"] = {
+      uuid = "ZKOU3GSDbD",
+      slug = "ciel-loyal-valet",
+      name = "Ciel, Loyal Valet",
+      image = "/cards/images/ZKOU3GSDbD.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["ZURR9Ejxi4"] = {
       uuid = "ZURR9Ejxi4",
       slug = "starstrung-reading",
       name = "Starstrung Reading",
       image = "/cards/images/ZURR9Ejxi4.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ZYf3Geuznm"] = {
+      uuid = "ZYf3Geuznm",
+      slug = "necklace-of-foresight",
+      name = "Necklace of Foresight",
+      image = "/cards/images/ZYf3Geuznm.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["ZtRu29fO87"] = {
       uuid = "ZtRu29fO87",
       slug = "tweedledum-rattled-dancer",
       name = "Tweedledum, Rattled Dancer",
       image = "/cards/images/ZtRu29fO87.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["a0ympv5ou3"] = {
+      uuid = "a0ympv5ou3",
+      slug = "cyclical-breeze",
+      name = "Cyclical Breeze",
+      image = "/cards/images/a0ympv5ou3.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["a1VUJbyVKp"] = {
       uuid = "a1VUJbyVKp",
       slug = "vacuous-call",
       name = "Vacuous Call",
       image = "/cards/images/a1VUJbyVKp.jpg",
+      orientation = "front",
       types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["a1dsuaisot"] = {
       uuid = "a1dsuaisot",
       slug = "protective-helm",
       name = "Protective Helm",
       image = "/cards/images/a1dsuaisot.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["a3tnql6apc"] = {
       uuid = "a3tnql6apc",
       slug = "wrathful-slime",
       name = "Wrathful Slime",
       image = "/cards/images/a3tnql6apc.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["a6jhwbsxu2"] = {
+      uuid = "a6jhwbsxu2",
+      slug = "lone-gunslinger",
+      name = "Lone Gunslinger",
+      image = "/cards/images/a6jhwbsxu2.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["a6jhwltxu2"] = {
+      uuid = "a6jhwltxu2",
+      slug = "gearshift-block",
+      name = "Gearshift Block",
+      image = "/cards/images/a6jhwltxu2.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["a7zd60ah55"] = {
+      uuid = "a7zd60ah55",
+      slug = "blightroot",
+      name = "Blightroot",
+      image = "/cards/images/a7zd60ah55.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["a8c16bn55g"] = {
+      uuid = "a8c16bn55g",
+      slug = "primordial-ritual",
+      name = "Primordial Ritual",
+      image = "/cards/images/a8c16bn55g.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["a8ysq7swwy"] = {
+      uuid = "a8ysq7swwy",
+      slug = "jin-zealous-maverick",
+      name = "Jin, Zealous Maverick",
+      image = "/cards/images/a8ysq7swwy.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["a9c26bn55g"] = {
+      uuid = "a9c26bn55g",
+      slug = "shatterfall-keep",
+      name = "Shatterfall Keep",
+      image = "/cards/images/a9c26bn55g.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
     },
     ["aDu5Z8fs7e"] = {
       uuid = "aDu5Z8fs7e",
       slug = "doubled-pawns",
       name = "Doubled Pawns",
       image = "/cards/images/aDu5Z8fs7e.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["aFicjA0A5r"] = {
       uuid = "aFicjA0A5r",
       slug = "whisperwind-compass",
       name = "Whisperwind Compass",
       image = "/cards/images/aFicjA0A5r.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["aN19GoOgNt"] = {
+      uuid = "aN19GoOgNt",
+      slug = "poisoned-dagger",
+      name = "Poisoned Dagger",
+      image = "/cards/images/aN19GoOgNt.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["aVyP2bglRc"] = {
       uuid = "aVyP2bglRc",
       slug = "glassgale-flock",
       name = "Glassgale Flock",
       image = "/cards/images/aVyP2bglRc.jpg",
+      orientation = "front",
       types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["aerw4i1s9o"] = {
       uuid = "aerw4i1s9o",
       slug = "guo-jia-blessed-scion",
       name = "Guo Jia, Blessed Scion",
       image = "/cards/images/aerw4i1s9o.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["afQHuvrZuO"] = {
+      uuid = "afQHuvrZuO",
+      slug = "hua-xiong-insurgents-fang",
+      name = "Hua Xiong, Insurgent’s Fang",
+      image = "/cards/images/afQHuvrZuO.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["agp8m7o091"] = {
+      uuid = "agp8m7o091",
+      slug = "temporal-spectrometer",
+      name = "Temporal Spectrometer",
+      image = "/cards/images/agp8m7o091.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["agp8m7o1i1"] = {
+      uuid = "agp8m7o1i1",
+      slug = "worn-diary",
+      name = "Worn Diary",
+      image = "/cards/images/agp8m7o1i1.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["agp8m8o1j1"] = {
+      uuid = "agp8m8o1j1",
+      slug = "rousing-slam",
+      name = "Rousing Slam",
+      image = "/cards/images/agp8m8o1j1.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["ahdy9mzd92"] = {
+      uuid = "ahdy9mzd92",
+      slug = "siphoning-fractal",
+      name = "Siphoning Fractal",
+      image = "/cards/images/ahdy9mzd92.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["ahsdnrugjm"] = {
+      uuid = "ahsdnrugjm",
+      slug = "vanitas-dominus-rex",
+      name = "Vanitas, Dominus Rex",
+      image = "/cards/images/ahsdnrugjm.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["ai5n9t7q4x"] = {
       uuid = "ai5n9t7q4x",
       slug = "wildgrowth-fatestone",
       name = "Wildgrowth Fatestone",
       image = "/cards/images/ai5n9t7q4x.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+        {
+          name = "Elder Mandrill",
+          slug = "elder-mandrill",
+          uuid = "wu20yoje86",
+          image = "/cards/images/wu20yoje86.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["ajitwys9kf"] = {
+      uuid = "ajitwys9kf",
+      slug = "cometfall",
+      name = "Cometfall",
+      image = "/cards/images/ajitwys9kf.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["al40hudzgq"] = {
+      uuid = "al40hudzgq",
+      slug = "the-eternal-kingdom",
+      name = "The Eternal Kingdom",
+      image = "/cards/images/al40hudzgq.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
     },
     ["amfnlceicl"] = {
       uuid = "amfnlceicl",
       slug = "immaterial-dissolution",
       name = "Immaterial Dissolution",
       image = "/cards/images/amfnlceicl.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["aowYEGJgPe"] = {
+      uuid = "aowYEGJgPe",
+      slug = "sundering-moon",
+      name = "Sundering Moon",
+      image = "/cards/images/aowYEGJgPe.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["aqewobjk29"] = {
       uuid = "aqewobjk29",
       slug = "changban-heroic-impasse",
       name = "Changban, Heroic Impasse",
       image = "/cards/images/aqewobjk29.jpg",
+      orientation = "front",
       types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["aqv0lut479"] = {
+      uuid = "aqv0lut479",
+      slug = "bandage-wound",
+      name = "Bandage Wound",
+      image = "/cards/images/aqv0lut479.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["aqv0lut579"] = {
+      uuid = "aqv0lut579",
+      slug = "amorphous-strike",
+      name = "Amorphous Strike",
+      image = "/cards/images/aqv0lut579.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["arwkmhkbgf"] = {
+      uuid = "arwkmhkbgf",
+      slug = "enfeebled-dagger",
+      name = "Enfeebled Dagger",
+      image = "/cards/images/arwkmhkbgf.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["asmcrgt9tn"] = {
       uuid = "asmcrgt9tn",
       slug = "frostbitten-etui",
       name = "Frostbitten Etui",
       image = "/cards/images/asmcrgt9tn.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["astnhm6dch"] = {
       uuid = "astnhm6dch",
       slug = "direwolf-alpha",
       name = "Direwolf Alpha",
       image = "/cards/images/astnhm6dch.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["av9urdn0hx"] = {
+      uuid = "av9urdn0hx",
+      slug = "embercrypt-burn",
+      name = "Embercrypt Burn",
+      image = "/cards/images/av9urdn0hx.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["awdp7pxt5u"] = {
+      uuid = "awdp7pxt5u",
+      slug = "navigation-compass",
+      name = "Navigation Compass",
+      image = "/cards/images/awdp7pxt5u.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["ay6a7fr167"] = {
+      uuid = "ay6a7fr167",
+      slug = "orb-of-hubris",
+      name = "Orb of Hubris",
+      image = "/cards/images/ay6a7fr167.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["az49k32e78"] = {
+      uuid = "az49k32e78",
+      slug = "skirting-step",
+      name = "Skirting Step",
+      image = "/cards/images/az49k32e78.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["b066c9h9sn"] = {
+      uuid = "b066c9h9sn",
+      slug = "cataleptic-constellation",
+      name = "Cataleptic Constellation",
+      image = "/cards/images/b066c9h9sn.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["b0cjwxq7xw"] = {
       uuid = "b0cjwxq7xw",
       slug = "scorching-imperilment",
       name = "Scorching Imperilment",
       image = "/cards/images/b0cjwxq7xw.jpg",
+      orientation = "front",
       types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["b1ouff9vjk"] = {
+      uuid = "b1ouff9vjk",
+      slug = "ashwound-shot",
+      name = "Ashwound Shot",
+      image = "/cards/images/b1ouff9vjk.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["b2jwcu7zoc"] = {
+      uuid = "b2jwcu7zoc",
+      slug = "froglet-footman",
+      name = "Froglet Footman",
+      image = "/cards/images/b2jwcu7zoc.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["b4qwwvyfjo"] = {
+      uuid = "b4qwwvyfjo",
+      slug = "barter-herbs",
+      name = "Barter Herbs",
+      image = "/cards/images/b4qwwvyfjo.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["b4qwwvzojo"] = {
+      uuid = "b4qwwvzojo",
+      slug = "alchemical-scripture",
+      name = "Alchemical Scripture",
+      image = "/cards/images/b4qwwvzojo.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["b6jhxltxu2"] = {
+      uuid = "b6jhxltxu2",
+      slug = "provoke-obstinance",
+      name = "Provoke Obstinance",
+      image = "/cards/images/b6jhxltxu2.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["b6lqf7q0f4"] = {
       uuid = "b6lqf7q0f4",
       slug = "rilewind-sentinel",
       name = "Rilewind Sentinel",
       image = "/cards/images/b6lqf7q0f4.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["b7elaaardd"] = {
+      uuid = "b7elaaardd",
+      slug = "extorting-blackjack",
+      name = "Extorting Blackjack",
+      image = "/cards/images/b7elaaardd.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["b8wdiomi99"] = {
+      uuid = "b8wdiomi99",
+      slug = "wuji-of-lingering-fate",
+      name = "Wuji of Lingering Fate",
+      image = "/cards/images/b8wdiomi99.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["bDe3man57n"] = {
+      uuid = "bDe3man57n",
+      slug = "gloamspire-mantle",
+      name = "Gloamspire Mantle",
+      image = "/cards/images/bDe3man57n.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["bIdFxQouWH"] = {
       uuid = "bIdFxQouWH",
       slug = "brookside-scout",
       name = "Brookside Scout",
       image = "/cards/images/bIdFxQouWH.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["bafmaqsd4r"] = {
+      uuid = "bafmaqsd4r",
+      slug = "backdash",
+      name = "Backdash",
+      image = "/cards/images/bafmaqsd4r.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["bdcufqax41"] = {
+      uuid = "bdcufqax41",
+      slug = "invigoration",
+      name = "Invigoration",
+      image = "/cards/images/bdcufqax41.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["bdeLjGONbP"] = {
       uuid = "bdeLjGONbP",
       slug = "plage-aux-homards",
       name = "Plage aux Homards",
       image = "/cards/images/bdeLjGONbP.jpg",
+      orientation = "front",
       types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["bewemhus8n"] = {
+      uuid = "bewemhus8n",
+      slug = "plea-for-peace",
+      name = "Plea for Peace",
+      image = "/cards/images/bewemhus8n.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["bewnmhus8n"] = {
+      uuid = "bewnmhus8n",
+      slug = "machined-monstrosity",
+      name = "Machined Monstrosity",
+      image = "/cards/images/bewnmhus8n.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["bewomius8n"] = {
+      uuid = "bewomius8n",
+      slug = "demons-aim",
+      name = "Demon's Aim",
+      image = "/cards/images/bewomius8n.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["bf06lxbcuy"] = {
       uuid = "bf06lxbcuy",
       slug = "sage-protection",
       name = "Sage Protection",
       image = "/cards/images/bf06lxbcuy.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["bh3yn5kqba"] = {
+      uuid = "bh3yn5kqba",
+      slug = "strategem-of-myriad-ice",
+      name = "Strategem of Myriad Ice",
+      image = "/cards/images/bh3yn5kqba.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["bhbcs8c2ta"] = {
+      uuid = "bhbcs8c2ta",
+      slug = "fractal-of-insight",
+      name = "Fractal of Insight",
+      image = "/cards/images/bhbcs8c2ta.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["bhmabrx0bo"] = {
       uuid = "bhmabrx0bo",
       slug = "sun-ce-weaponsmaster",
       name = "Sun Ce, Weaponsmaster",
       image = "/cards/images/bhmabrx0bo.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["bj7YbY4NjU"] = {
+      uuid = "bj7YbY4NjU",
+      slug = "furnace-drone",
+      name = "Furnace Drone",
+      image = "/cards/images/bj7YbY4NjU.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["bo2fb4qwwv"] = {
+      uuid = "bo2fb4qwwv",
+      slug = "tristan-hired-blade",
+      name = "Tristan, Hired Blade",
+      image = "/cards/images/bo2fb4qwwv.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["bo2fb4qwxv"] = {
+      uuid = "bo2fb4qwxv",
+      slug = "enchaining-gale",
+      name = "Enchaining Gale",
+      image = "/cards/images/bo2fb4qwxv.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["bu04yx3y7g"] = {
       uuid = "bu04yx3y7g",
       slug = "rearing-rebound",
       name = "Rearing Rebound",
       image = "/cards/images/bu04yx3y7g.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["bu3h14w2g7"] = {
       uuid = "bu3h14w2g7",
       slug = "maiden-of-glimmers-dusk",
       name = "Maiden of Glimmer's Dusk",
       image = "/cards/images/bu3h14w2g7.jpg",
+      orientation = "front",
       types = { "ALLY", "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["buhdecy6op"] = {
+      uuid = "buhdecy6op",
+      slug = "trivariate-dream",
+      name = "Trivariate Dream",
+      image = "/cards/images/buhdecy6op.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["but4xztbvg"] = {
+      uuid = "but4xztbvg",
+      slug = "serum-of-wisdom",
+      name = "Serum of Wisdom",
+      image = "/cards/images/but4xztbvg.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["bviukn5nvr"] = {
+      uuid = "bviukn5nvr",
+      slug = "concealed-marksman",
+      name = "Concealed Marksman",
+      image = "/cards/images/bviukn5nvr.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["bvpguuo37o"] = {
       uuid = "bvpguuo37o",
       slug = "guo-jia-chosen-disciple",
       name = "Guo Jia, Chosen Disciple",
       image = "/cards/images/bvpguuo37o.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["bwarh31afq"] = {
       uuid = "bwarh31afq",
       slug = "forged-scalemail",
       name = "Forged Scalemail",
       image = "/cards/images/bwarh31afq.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["c0do81afgf"] = {
+      uuid = "c0do81afgf",
+      slug = "mystic-purifier",
+      name = "Mystic Purifier",
+      image = "/cards/images/c0do81afgf.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["c16bn55g9b"] = {
+      uuid = "c16bn55g9b",
+      slug = "turbo-charge",
+      name = "Turbo Charge",
+      image = "/cards/images/c16bn55g9b.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["c19rt12vfa"] = {
       uuid = "c19rt12vfa",
       slug = "hidden-longbowman",
       name = "Hidden Longbowman",
       image = "/cards/images/c19rt12vfa.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["c1w1m5v69b"] = {
+      uuid = "c1w1m5v69b",
+      slug = "subjugating-lash",
+      name = "Subjugating Lash",
+      image = "/cards/images/c1w1m5v69b.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["c29umop66f"] = {
+      uuid = "c29umop66f",
+      slug = "ghostsight-glass",
+      name = "Ghostsight Glass",
+      image = "/cards/images/c29umop66f.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["c440t27ftr"] = {
+      uuid = "c440t27ftr",
+      slug = "intervention",
+      name = "Intervention",
+      image = "/cards/images/c440t27ftr.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["c5owescxw5"] = {
       uuid = "c5owescxw5",
       slug = "fatestone-of-progress",
       name = "Fatestone of Progress",
       image = "/cards/images/c5owescxw5.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+        {
+          name = "Airborne Squirrel",
+          slug = "airborne-squirrel",
+          uuid = "d3e311f211",
+          image = "/cards/images/d3e311f211.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["c5s8n8ba13"] = {
+      uuid = "c5s8n8ba13",
+      slug = "ritai-guard",
+      name = "Ritai Guard",
+      image = "/cards/images/c5s8n8ba13.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["c761i9ix0c"] = {
+      uuid = "c761i9ix0c",
+      slug = "tailwinds-blessing",
+      name = "Tailwind's Blessing",
+      image = "/cards/images/c761i9ix0c.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["c7bve8czn0"] = {
       uuid = "c7bve8czn0",
       slug = "bloodshroud-temper",
       name = "Bloodshroud Temper",
       image = "/cards/images/c7bve8czn0.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["c91f82bj76"] = {
+      uuid = "c91f82bj76",
+      slug = "atmos-armor-type-hermes",
+      name = "Atmos Armor Type-Hermes",
+      image = "/cards/images/c91f82bj76.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["c998c1w1m5"] = {
+      uuid = "c998c1w1m5",
+      slug = "harvest-herbs",
+      name = "Harvest Herbs",
+      image = "/cards/images/c998c1w1m5.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["c9a8c16bn5"] = {
+      uuid = "c9a8c16bn5",
+      slug = "city-protector",
+      name = "City Protector",
+      image = "/cards/images/c9a8c16bn5.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["c9qa31ifmi"] = {
+      uuid = "c9qa31ifmi",
+      slug = "kongming-fel-eidolon",
+      name = "Kongming, Fel Eidolon",
+      image = "/cards/images/c9qa31ifmi.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["cDjsUfr4Ji"] = {
       uuid = "cDjsUfr4Ji",
       slug = "burning-aethercharge",
       name = "Burning Aethercharge",
       image = "/cards/images/cDjsUfr4Ji.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["cQIfJqADH6"] = {
       uuid = "cQIfJqADH6",
       slug = "ranger-healer-ally",
       name = "Balmshot Nurse",
       image = "/cards/images/cQIfJqADH6.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["cUNoAnC0qD"] = {
       uuid = "cUNoAnC0qD",
       slug = "dropped-band",
       name = "Dropped Band",
       image = "/cards/images/cUNoAnC0qD.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["cYbpTSWWEr"] = {
+      uuid = "cYbpTSWWEr",
+      slug = "shield-fragmentation",
+      name = "Shield Fragmentation",
+      image = "/cards/images/cYbpTSWWEr.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["cay0epuv8s"] = {
       uuid = "cay0epuv8s",
       slug = "disciple-of-the-waves",
       name = "Disciple of the Waves",
       image = "/cards/images/cay0epuv8s.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["cb2tcr0ax9"] = {
+      uuid = "cb2tcr0ax9",
+      slug = "crystalline-mirror",
+      name = "Crystalline Mirror",
+      image = "/cards/images/cb2tcr0ax9.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["cb33mr0kxj"] = {
+      uuid = "cb33mr0kxj",
+      slug = "loaded-thoughts",
+      name = "Loaded Thoughts",
+      image = "/cards/images/cb33mr0kxj.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["cbufhw7c6l"] = {
       uuid = "cbufhw7c6l",
       slug = "lycoria",
       name = "Lycoria",
       image = "/cards/images/cbufhw7c6l.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["cc33ms0kxj"] = {
+      uuid = "cc33ms0kxj",
+      slug = "wildgrowth-elixir",
+      name = "Wildgrowth Elixir",
+      image = "/cards/images/cc33ms0kxj.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["cd4hitsmil"] = {
+      uuid = "cd4hitsmil",
+      slug = "tera-sight",
+      name = "Tera Sight",
+      image = "/cards/images/cd4hitsmil.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["cjg0bo2fb4"] = {
+      uuid = "cjg0bo2fb4",
+      slug = "frost-shard",
+      name = "Frost Shard",
+      image = "/cards/images/cjg0bo2fb4.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["cl9lbewnmh"] = {
+      uuid = "cl9lbewnmh",
+      slug = "windpiercer",
+      name = "Windpiercer",
+      image = "/cards/images/cl9lbewnmh.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["cm9lbewomi"] = {
+      uuid = "cm9lbewomi",
+      slug = "astral-seal",
+      name = "Astral Seal",
+      image = "/cards/images/cm9lbewomi.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["cmaugnit1d"] = {
+      uuid = "cmaugnit1d",
+      slug = "shackled-theurgist",
+      name = "Shackled Theurgist",
+      image = "/cards/images/cmaugnit1d.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["cn7fgmzt94"] = {
+      uuid = "cn7fgmzt94",
+      slug = "stolid-vanguard",
+      name = "Stolid Vanguard",
+      image = "/cards/images/cn7fgmzt94.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["coaahbojc0"] = {
+      uuid = "coaahbojc0",
+      slug = "savage-attack",
+      name = "Savage Attack",
+      image = "/cards/images/coaahbojc0.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["coap10wgnd"] = {
+      uuid = "coap10wgnd",
+      slug = "arrow-trap",
+      name = "Arrow Trap",
+      image = "/cards/images/coap10wgnd.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["cp1si0sx31"] = {
+      uuid = "cp1si0sx31",
+      slug = "illuminating-charge",
+      name = "Illuminating Charge",
+      image = "/cards/images/cp1si0sx31.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["cpl3ao5vdy"] = {
+      uuid = "cpl3ao5vdy",
+      slug = "two-of-spades",
+      name = "Two of Spades",
+      image = "/cards/images/cpl3ao5vdy.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["cr0ax9z2kc"] = {
+      uuid = "cr0ax9z2kc",
+      slug = "lena-dorumegias-herald",
+      name = "Lena, Dorumegia's Herald",
+      image = "/cards/images/cr0ax9z2kc.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["crkuby0pyy"] = {
+      uuid = "crkuby0pyy",
+      slug = "butlers-augury",
+      name = "Butler's Augury",
+      image = "/cards/images/crkuby0pyy.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ct9f3fdk79"] = {
+      uuid = "ct9f3fdk79",
+      slug = "gloamspire-prowler",
+      name = "Gloamspire Prowler",
+      image = "/cards/images/ct9f3fdk79.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["ctfj2vm0c0"] = {
+      uuid = "ctfj2vm0c0",
+      slug = "alacritous-huntress",
+      name = "Alacritous Huntress",
+      image = "/cards/images/ctfj2vm0c0.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["cugntlzotj"] = {
+      uuid = "cugntlzotj",
+      slug = "vengeful-gust",
+      name = "Vengeful Gust",
+      image = "/cards/images/cugntlzotj.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["cvh60ajzb6"] = {
+      uuid = "cvh60ajzb6",
+      slug = "solar-pinnacle",
+      name = "Solar Pinnacle",
+      image = "/cards/images/cvh60ajzb6.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["cxq4348mde"] = {
       uuid = "cxq4348mde",
       slug = "innocuous-disposer",
       name = "Innocuous Disposer",
       image = "/cards/images/cxq4348mde.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["cz3hmf1yyx"] = {
+      uuid = "cz3hmf1yyx",
+      slug = "empowering-prayer",
+      name = "Empowering Prayer",
+      image = "/cards/images/cz3hmf1yyx.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["d02g03cay7"] = {
+      uuid = "d02g03cay7",
+      slug = "liquid-amnesia",
+      name = "Liquid Amnesia",
+      image = "/cards/images/d02g03cay7.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["d0favv35p3"] = {
+      uuid = "d0favv35p3",
+      slug = "blazing-cindercharge",
+      name = "Blazing Cindercharge",
+      image = "/cards/images/d0favv35p3.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["d0hid7cyij"] = {
       uuid = "d0hid7cyij",
       slug = "sunblessed-gazelle",
       name = "Sunblessed Gazelle",
       image = "/cards/images/d0hid7cyij.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["d53zcaq5mq"] = {
+      uuid = "d53zcaq5mq",
+      slug = "manaroot",
+      name = "Manaroot",
+      image = "/cards/images/d53zcaq5mq.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
     },
     ["d5Kvks2GJd"] = {
       uuid = "d5Kvks2GJd",
       slug = "gustmark-gauge",
       name = "Gustmark Gauge",
       image = "/cards/images/d5Kvks2GJd.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["d7gocb33mr"] = {
+      uuid = "d7gocb33mr",
+      slug = "ravishing-finale",
+      name = "Ravishing Finale",
+      image = "/cards/images/d7gocb33mr.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["d7hocc33ms"] = {
+      uuid = "d7hocc33ms",
+      slug = "stream-of-consciousness",
+      name = "Stream of Consciousness",
+      image = "/cards/images/d7hocc33ms.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["d7lc8qjw0s"] = {
       uuid = "d7lc8qjw0s",
       slug = "fabled-emerald-fatestone",
       name = "Fabled Emerald Fatestone",
       image = "/cards/images/d7lc8qjw0s.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+        {
+          name = "Byakko, White Tiger",
+          slug = "byakko-white-tiger",
+          uuid = "mhilppwfgx",
+          image = "/cards/images/mhilppwfgx.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["d7vm3tyrkn"] = {
+      uuid = "d7vm3tyrkn",
+      slug = "resonant-aether",
+      name = "Resonant Aether",
+      image = "/cards/images/d7vm3tyrkn.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["d85dpze5cs"] = {
+      uuid = "d85dpze5cs",
+      slug = "stargazers-portent",
+      name = "Stargazer's Portent",
+      image = "/cards/images/d85dpze5cs.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["d9a9c26bn5"] = {
+      uuid = "d9a9c26bn5",
+      slug = "neos-sight",
+      name = "Neos Sight",
+      image = "/cards/images/d9a9c26bn5.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["dGVMmApwS0"] = {
       uuid = "dGVMmApwS0",
       slug = "condemning-evisceration",
       name = "Condemning Evisceration",
       image = "/cards/images/dGVMmApwS0.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["dJQjlMupAE"] = {
       uuid = "dJQjlMupAE",
       slug = "palvor-sword",
       name = "Palvor Sword",
       image = "/cards/images/dJQjlMupAE.jpg",
+      orientation = "front",
       types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["dJmIMQXq0B"] = {
       uuid = "dJmIMQXq0B",
       slug = "rowland-schwartz-knight",
       name = "Rowland, Schwartz Knight",
       image = "/cards/images/dJmIMQXq0B.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["dKRSVJ6P0l"] = {
+      uuid = "dKRSVJ6P0l",
+      slug = "lunge-of-evoking-winds",
+      name = "Lunge of Evoking Winds",
+      image = "/cards/images/dKRSVJ6P0l.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["dYqaHFv48T"] = {
       uuid = "dYqaHFv48T",
       slug = "enveloping-soulmist",
       name = "Enveloping Soulmist",
       image = "/cards/images/dYqaHFv48T.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["dYtV2K9FP2"] = {
       uuid = "dYtV2K9FP2",
       slug = "lagomorph-piece",
       name = "Lagomorph Piece",
       image = "/cards/images/dYtV2K9FP2.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["da2g93dk88"] = {
+      uuid = "da2g93dk88",
+      slug = "mechanical-hare",
+      name = "Mechanical Hare",
+      image = "/cards/images/da2g93dk88.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["dbi7zwm6m2"] = {
+      uuid = "dbi7zwm6m2",
+      slug = "trained-sharpshooter",
+      name = "Trained Sharpshooter",
+      image = "/cards/images/dbi7zwm6m2.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["de9xtba76x"] = {
       uuid = "de9xtba76x",
       slug = "harbinger-of-lightning",
       name = "Harbinger of Lightning",
       image = "/cards/images/de9xtba76x.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["dfsQgeYS1w"] = {
       uuid = "dfsQgeYS1w",
       slug = "return-to-the-depths",
       name = "Return to the Depths",
       image = "/cards/images/dfsQgeYS1w.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["dhmf1787aq"] = {
+      uuid = "dhmf1787aq",
+      slug = "krustallan-ruins",
+      name = "Krustallan Ruins",
+      image = "/cards/images/dhmf1787aq.jpg",
+      orientation = "front",
+      types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["dhnf1887aq"] = {
+      uuid = "dhnf1887aq",
+      slug = "perfect-repulsion",
+      name = "Perfect Repulsion",
+      image = "/cards/images/dhnf1887aq.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["difeeqvrii"] = {
+      uuid = "difeeqvrii",
+      slug = "carter-synthetic-reaper",
+      name = "Carter, Synthetic Reaper",
+      image = "/cards/images/difeeqvrii.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["djg0bo2fb4"] = {
+      uuid = "djg0bo2fb4",
+      slug = "fractal-of-snow",
+      name = "Fractal of Snow",
+      image = "/cards/images/djg0bo2fb4.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["dkifnjvoyd"] = {
       uuid = "dkifnjvoyd",
       slug = "sylphs-envelopment",
       name = "Sylph's Envelopment",
       image = "/cards/images/dkifnjvoyd.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["dne4n32l8l"] = {
+      uuid = "dne4n32l8l",
+      slug = "palatial-concourse",
+      name = "Palatial Concourse",
+      image = "/cards/images/dne4n32l8l.jpg",
+      orientation = "front",
+      types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["dnf6cfdbp9"] = {
+      uuid = "dnf6cfdbp9",
+      slug = "glow-forth",
+      name = "Glow Forth",
+      image = "/cards/images/dnf6cfdbp9.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["do34ahdy9m"] = {
+      uuid = "do34ahdy9m",
+      slug = "foretold-bloom",
+      name = "Foretold Bloom",
+      image = "/cards/images/do34ahdy9m.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["dqsnubryz3"] = {
+      uuid = "dqsnubryz3",
+      slug = "raised-slash",
+      name = "Raised Slash",
+      image = "/cards/images/dqsnubryz3.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["dtgkKfoaX5"] = {
+      uuid = "dtgkKfoaX5",
+      slug = "leading-charge",
+      name = "Leading Charge",
+      image = "/cards/images/dtgkKfoaX5.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["dv1u5hixr2"] = {
+      uuid = "dv1u5hixr2",
+      slug = "skewering-advance",
+      name = "Skewering Advance",
+      image = "/cards/images/dv1u5hixr2.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["dv7zz5n8h7"] = {
+      uuid = "dv7zz5n8h7",
+      slug = "aethercloak-sentinel",
+      name = "Aethercloak Sentinel",
+      image = "/cards/images/dv7zz5n8h7.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["dvwxfue73k"] = {
       uuid = "dvwxfue73k",
       slug = "kingdoms-divide",
       name = "Kingdom's Divide",
       image = "/cards/images/dvwxfue73k.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["dw4hsb2t91"] = {
+      uuid = "dw4hsb2t91",
+      slug = "xiao-qiao-cinderkeeper",
+      name = "Xiao Qiao, Cinderkeeper",
+      image = "/cards/images/dw4hsb2t91.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["dxawdp7pxt"] = {
+      uuid = "dxawdp7pxt",
+      slug = "sanctum-of-esoteric-truth",
+      name = "Sanctum of Esoteric Truth",
+      image = "/cards/images/dxawdp7pxt.jpg",
+      orientation = "front",
+      types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["dxkwmp7pxt"] = {
+      uuid = "dxkwmp7pxt",
+      slug = "powercell",
+      name = "Powercell",
+      image = "/cards/images/dxkwmp7pxt.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["dy9mzd92nu"] = {
+      uuid = "dy9mzd92nu",
+      slug = "cell-generator",
+      name = "Cell Generator",
+      image = "/cards/images/dy9mzd92nu.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["dyhxw5d9n5"] = {
       uuid = "dyhxw5d9n5",
       slug = "spirit-of-fortuitous-water",
       name = "Spirit of Fortuitous Water",
       image = "/cards/images/dyhxw5d9n5.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["dzdhmf1787"] = {
+      uuid = "dzdhmf1787",
+      slug = "automaton-beastkeeper",
+      name = "Automaton Beastkeeper",
+      image = "/cards/images/dzdhmf1787.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["dzdhnf1887"] = {
+      uuid = "dzdhnf1887",
+      slug = "the-constellatory-spire",
+      name = "The Constellatory Spire",
+      image = "/cards/images/dzdhnf1887.jpg",
+      orientation = "front",
+      types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["dzp7wnmx54"] = {
+      uuid = "dzp7wnmx54",
+      slug = "tidal-tirade",
+      name = "Tidal Tirade",
+      image = "/cards/images/dzp7wnmx54.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["e0r8aqvyti"] = {
+      uuid = "e0r8aqvyti",
+      slug = "renascent-sharpshooter",
+      name = "Renascent Sharpshooter",
+      image = "/cards/images/e0r8aqvyti.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["e2Rsg9X1o9"] = {
+      uuid = "e2Rsg9X1o9",
+      slug = "dorumegian-foundry",
+      name = "Dorumegian Foundry",
+      image = "/cards/images/e2Rsg9X1o9.jpg",
+      orientation = "front",
+      types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["e4n32l8lbe"] = {
+      uuid = "e4n32l8lbe",
+      slug = "polkhawk-bombastic-shot",
+      name = "Polkhawk, Bombastic Shot",
+      image = "/cards/images/e4n32l8lbe.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["e5csp9axbf"] = {
+      uuid = "e5csp9axbf",
+      slug = "diablerie",
+      name = "Diablerie",
+      image = "/cards/images/e5csp9axbf.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["e5n3cl9lbe"] = {
+      uuid = "e5n3cl9lbe",
+      slug = "fragmented-spirit-of-water",
+      name = "Fragmented Spirit of Water",
+      image = "/cards/images/e5n3cl9lbe.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["e5o3cm9lbe"] = {
+      uuid = "e5o3cm9lbe",
+      slug = "cyclonic-strike",
+      name = "Cyclonic Strike",
+      image = "/cards/images/e5o3cm9lbe.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["e6nbpc4e6h"] = {
+      uuid = "e6nbpc4e6h",
+      slug = "royal-bear",
+      name = "Royal Bear",
+      image = "/cards/images/e6nbpc4e6h.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["e8csj7tbyi"] = {
+      uuid = "e8csj7tbyi",
+      slug = "thronekeeper-bullfrog",
+      name = "Throne-Keeper Bullfrog",
+      image = "/cards/images/e8csj7tbyi.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["eLK1tePCZD"] = {
+      uuid = "eLK1tePCZD",
+      slug = "punishing-cartridge",
+      name = "Punishing Cartridge",
+      image = "/cards/images/eLK1tePCZD.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["eLgBwnq3T8"] = {
+      uuid = "eLgBwnq3T8",
+      slug = "spark-alight",
+      name = "Spark Alight",
+      image = "/cards/images/eLgBwnq3T8.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["ec6qwe7vep"] = {
       uuid = "ec6qwe7vep",
       slug = "revealing-mesmer",
       name = "Revealing Mesmer",
       image = "/cards/images/ec6qwe7vep.jpg",
+      orientation = "front",
       types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["eftu1h4pzm"] = {
+      uuid = "eftu1h4pzm",
+      slug = "geldus-terror-of-dorumegia",
+      name = "Geldus, Terror of Dorumegia",
+      image = "/cards/images/eftu1h4pzm.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["efuv1i4p0m"] = {
+      uuid = "efuv1i4p0m",
+      slug = "smash-with-obelisk",
+      name = "Smash with Obelisk",
+      image = "/cards/images/efuv1i4p0m.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["egjqdv0c4z"] = {
+      uuid = "egjqdv0c4z",
+      slug = "radiant-vega",
+      name = "Radiant Vega",
+      image = "/cards/images/egjqdv0c4z.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["eic999g7pr"] = {
+      uuid = "eic999g7pr",
+      slug = "exsanguinating-wallop",
+      name = "Exsanguinating Wallop",
+      image = "/cards/images/eic999g7pr.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["ejPn2RLR9W"] = {
       uuid = "ejPn2RLR9W",
       slug = "chance-seven-of-spades",
       name = "Chance, Seven of Spades",
       image = "/cards/images/ejPn2RLR9W.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["ek6qp16epm"] = {
+      uuid = "ek6qp16epm",
+      slug = "ruinous-pillars-of-qidao",
+      name = "Ruinous Pillars of Qidao",
+      image = "/cards/images/ek6qp16epm.jpg",
+      orientation = "front",
+      types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["eklknd8dy7"] = {
+      uuid = "eklknd8dy7",
+      slug = "trained-sharpshooter",
+      name = "Trained Sharpshooter",
+      image = "/cards/images/eklknd8dy7.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["el9900jpyh"] = {
+      uuid = "el9900jpyh",
+      slug = "tempest-downfall",
+      name = "Tempest Downfall",
+      image = "/cards/images/el9900jpyh.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["elw4r5yyof"] = {
+      uuid = "elw4r5yyof",
+      slug = "tempus-stalker",
+      name = "Tempus Stalker",
+      image = "/cards/images/elw4r5yyof.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["em6216b9jg"] = {
+      uuid = "em6216b9jg",
+      slug = "reckonings-wake",
+      name = "Reckoning's Wake",
+      image = "/cards/images/em6216b9jg.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["emaQ5P1gTo"] = {
       uuid = "emaQ5P1gTo",
       slug = "diana-haunt-reminiscence",
       name = "Diana, Haunt Reminiscence",
       image = "/cards/images/emaQ5P1gTo.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["emnjlzdv2h"] = {
       uuid = "emnjlzdv2h",
       slug = "shangxiang-fierce-princess",
       name = "Shangxiang, Fierce Princess",
       image = "/cards/images/emnjlzdv2h.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["emozdelso9"] = {
+      uuid = "emozdelso9",
+      slug = "tristan-shadowreaver",
+      name = "Tristan, Shadowreaver",
+      image = "/cards/images/emozdelso9.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["emrxle1pql"] = {
+      uuid = "emrxle1pql",
+      slug = "drifting-rogue",
+      name = "Drifting Rogue",
+      image = "/cards/images/emrxle1pql.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["eohumfxe04"] = {
+      uuid = "eohumfxe04",
+      slug = "castling-boon",
+      name = "Castling Boon",
+      image = "/cards/images/eohumfxe04.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["eqglog8cyf"] = {
+      uuid = "eqglog8cyf",
+      slug = "imperial-panzer",
+      name = "Imperial Panzer",
+      image = "/cards/images/eqglog8cyf.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["erviwKfW5G"] = {
+      uuid = "erviwKfW5G",
+      slug = "sudden-steel",
+      name = "Sudden Steel",
+      image = "/cards/images/erviwKfW5G.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["eurbcz3hmf"] = {
+      uuid = "eurbcz3hmf",
+      slug = "resplendent-kite-shield",
+      name = "Resplendent Kite Shield",
+      image = "/cards/images/eurbcz3hmf.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["evf1qnftmg"] = {
+      uuid = "evf1qnftmg",
+      slug = "possessed-remnant",
+      name = "Possessed Remnant",
+      image = "/cards/images/evf1qnftmg.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["evrbdzdhmf"] = {
+      uuid = "evrbdzdhmf",
+      slug = "mercenarys-blade",
+      name = "Mercenary's Blade",
+      image = "/cards/images/evrbdzdhmf.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["evrcdzdhnf"] = {
+      uuid = "evrcdzdhnf",
+      slug = "rapid-reload",
+      name = "Rapid Reload",
+      image = "/cards/images/evrcdzdhnf.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["exkwnp7qxt"] = {
+      uuid = "exkwnp7qxt",
+      slug = "shadecursed-hunter",
+      name = "Shadecursed Hunter",
+      image = "/cards/images/exkwnp7qxt.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["f01o25b4qw"] = {
+      uuid = "f01o25b4qw",
+      slug = "raze-the-land",
+      name = "Raze the Land",
+      image = "/cards/images/f01o25b4qw.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["f0ijjj1ugi"] = {
+      uuid = "f0ijjj1ugi",
+      slug = "gloamspire-lance",
+      name = "Gloamspire Lance",
+      image = "/cards/images/f0ijjj1ugi.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["f24i25fc0a"] = {
+      uuid = "f24i25fc0a",
+      slug = "savage-smash",
+      name = "Savage Smash",
+      image = "/cards/images/f24i25fc0a.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["f2u82v5c00"] = {
+      uuid = "f2u82v5c00",
+      slug = "sidestep",
+      name = "Sidestep",
+      image = "/cards/images/f2u82v5c00.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["f3j8fjgo0a"] = {
+      uuid = "f3j8fjgo0a",
+      slug = "convoking-slime",
+      name = "Convoking Slime",
+      image = "/cards/images/f3j8fjgo0a.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["f3od8vrih9"] = {
       uuid = "f3od8vrih9",
       slug = "crystallized-destiny",
       name = "Crystallized Destiny",
       image = "/cards/images/f3od8vrih9.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["f4s3aoe9xk"] = {
       uuid = "f4s3aoe9xk",
       slug = "dynasty-chancellor",
       name = "Dynasty Chancellor",
       image = "/cards/images/f4s3aoe9xk.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["f6CDb7RNWr"] = {
+      uuid = "f6CDb7RNWr",
+      slug = "ciel-omenbringer",
+      name = "Ciel, Omenbringer",
+      image = "/cards/images/f6CDb7RNWr.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["f70916sda5"] = {
       uuid = "f70916sda5",
       slug = "da-qiao-cinderbinder",
       name = "Da Qiao, Cinderbinder",
       image = "/cards/images/f70916sda5.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["f896j7wmkr"] = {
+      uuid = "f896j7wmkr",
+      slug = "sheath-of-faceted-lapis",
+      name = "Sheath of Faceted Lapis",
+      image = "/cards/images/f896j7wmkr.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["fC4z2g4oDu"] = {
       uuid = "fC4z2g4oDu",
       slug = "crumbling-reign",
       name = "Crumbling Reign",
       image = "/cards/images/fC4z2g4oDu.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["fCLmlc2Y36"] = {
       uuid = "fCLmlc2Y36",
       slug = "hunt-weiss-king",
       name = "Hunt, Weiss King",
       image = "/cards/images/fCLmlc2Y36.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["fN2NGUGUfF"] = {
+      uuid = "fN2NGUGUfF",
+      slug = "shadows-claw",
+      name = "Shadow's Claw",
+      image = "/cards/images/fN2NGUGUfF.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["fa7fr1g8ev"] = {
+      uuid = "fa7fr1g8ev",
+      slug = "priestess-of-flame",
+      name = "Priestess of Flame",
+      image = "/cards/images/fa7fr1g8ev.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["fc0arragp8"] = {
+      uuid = "fc0arragp8",
+      slug = "buried-grief",
+      name = "Buried Grief",
+      image = "/cards/images/fc0arragp8.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["fc1arsagp8"] = {
+      uuid = "fc1arsagp8",
+      slug = "aurousteel-greatsword",
+      name = "Aurousteel Greatsword",
+      image = "/cards/images/fc1arsagp8.jpg",
+      orientation = "front",
+      types = { "TOKEN", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["fcng06fi6r"] = {
+      uuid = "fcng06fi6r",
+      slug = "absolving-flames",
+      name = "Absolving Flames",
+      image = "/cards/images/fcng06fi6r.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["fdj78jn94a"] = {
       uuid = "fdj78jn94a",
       slug = "dire-requiem",
       name = "Dire Requiem",
       image = "/cards/images/fdj78jn94a.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["fgj09a4q17"] = {
       uuid = "fgj09a4q17",
       slug = "horse-archer",
       name = "Horse Archer",
       image = "/cards/images/fgj09a4q17.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["fhafssv5hj"] = {
+      uuid = "fhafssv5hj",
+      slug = "ignis-deus",
+      name = "Ignis Deus",
+      image = "/cards/images/fhafssv5hj.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["fhk5mn4tth"] = {
       uuid = "fhk5mn4tth",
       slug = "tinderflare-pivot",
       name = "Tinderflare Pivot",
       image = "/cards/images/fhk5mn4tth.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["fiszdne4n3"] = {
+      uuid = "fiszdne4n3",
+      slug = "academy-attendant",
+      name = "Academy Attendant",
+      image = "/cards/images/fiszdne4n3.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["flaoatte50"] = {
+      uuid = "flaoatte50",
+      slug = "excalibur-reflected-edge",
+      name = "Excalibur, Reflected Edge",
+      image = "/cards/images/flaoatte50.jpg",
+      orientation = "front",
+      types = { "UNIQUE", "WEAPON" },
+      orientations = {
+      },
     },
     ["fmpi8dpoxb"] = {
       uuid = "fmpi8dpoxb",
       slug = "zhang-he-cloak-of-night",
       name = "Zhang He, Cloak of Night",
       image = "/cards/images/fmpi8dpoxb.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["fojh46kxtj"] = {
       uuid = "fojh46kxtj",
       slug = "windspire-crest",
       name = "Windspire Crest",
       image = "/cards/images/fojh46kxtj.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["fokw35hv3j"] = {
       uuid = "fokw35hv3j",
       slug = "red-hare-unrivaled-stallion",
       name = "Red Hare, Unrivaled Stallion",
       image = "/cards/images/fokw35hv3j.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["fpbr6gtkxa"] = {
+      uuid = "fpbr6gtkxa",
+      slug = "viridescent-aetherstreak",
+      name = "Viridescent Aetherstreak",
+      image = "/cards/images/fpbr6gtkxa.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["frhk2kso1z"] = {
+      uuid = "frhk2kso1z",
+      slug = "penumbral-waltz",
+      name = "Penumbral Waltz",
+      image = "/cards/images/frhk2kso1z.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["fsw85dhmfq"] = {
+      uuid = "fsw85dhmfq",
+      slug = "accompanying-guard",
+      name = "Accompanying Guard",
+      image = "/cards/images/fsw85dhmfq.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["fsyqc998c1"] = {
+      uuid = "fsyqc998c1",
+      slug = "forgelight-scepter",
+      name = "Forgelight Scepter",
+      image = "/cards/images/fsyqc998c1.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["fsyrc9a8c1"] = {
+      uuid = "fsyrc9a8c1",
+      slug = "forgelight-blade",
+      name = "Forgelight Blade",
+      image = "/cards/images/fsyrc9a8c1.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["fsyrd9a9c2"] = {
+      uuid = "fsyrd9a9c2",
+      slug = "vanishing-shot",
+      name = "Vanishing Shot",
+      image = "/cards/images/fsyrd9a9c2.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["ftmgqxllc2"] = {
+      uuid = "ftmgqxllc2",
+      slug = "winbless-rangefinder",
+      name = "Winbless Rangefinder",
+      image = "/cards/images/ftmgqxllc2.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["ftss3ttc3n"] = {
       uuid = "ftss3ttc3n",
       slug = "waterlogged-ranger",
       name = "Waterlogged Ranger",
       image = "/cards/images/ftss3ttc3n.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["ftsws0j6sh"] = {
+      uuid = "ftsws0j6sh",
+      slug = "rouge-ace-of-hearts",
+      name = "Rouge, Ace of Hearts",
+      image = "/cards/images/ftsws0j6sh.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["fwt6otustu"] = {
       uuid = "fwt6otustu",
       slug = "annul-spell",
       name = "Annul Spell",
       image = "/cards/images/fwt6otustu.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["fxr0q4hmfh"] = {
       uuid = "fxr0q4hmfh",
       slug = "steady-sharpshooter",
       name = "Steady Sharpshooter",
       image = "/cards/images/fxr0q4hmfh.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["fyqd7ksne7"] = {
+      uuid = "fyqd7ksne7",
+      slug = "planted-explosive",
+      name = "Planted Explosive",
+      image = "/cards/images/fyqd7ksne7.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["fzok1wk9cb"] = {
       uuid = "fzok1wk9cb",
       slug = "gentle-respite",
       name = "Gentle Respite",
       image = "/cards/images/fzok1wk9cb.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["g0bo2fb4qw"] = {
+      uuid = "g0bo2fb4qw",
+      slug = "gloamspire-wraith",
+      name = "Gloamspire Wraith",
+      image = "/cards/images/g0bo2fb4qw.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["g2LxNFNz15"] = {
+      uuid = "g2LxNFNz15",
+      slug = "restoring-embers",
+      name = "Restoring Embers",
+      image = "/cards/images/g2LxNFNz15.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["g4JJM7KZtC"] = {
+      uuid = "g4JJM7KZtC",
+      slug = "take-point",
+      name = "Take Point",
+      image = "/cards/images/g4JJM7KZtC.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["g5oceibvzq"] = {
+      uuid = "g5oceibvzq",
+      slug = "vanitas-convergent-ruin",
+      name = "Vanitas, Convergent Ruin",
+      image = "/cards/images/g5oceibvzq.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["g616r00bdf"] = {
+      uuid = "g616r00bdf",
+      slug = "springleaf",
+      name = "Springleaf",
+      image = "/cards/images/g616r00bdf.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
     },
     ["g6bxsel1j3"] = {
       uuid = "g6bxsel1j3",
       slug = "yuan-shao-crown-general",
       name = "Yuan Shao, Crown General",
       image = "/cards/images/g6bxsel1j3.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["g7wdah0gsj"] = {
+      uuid = "g7wdah0gsj",
+      slug = "perdition",
+      name = "Perdition",
+      image = "/cards/images/g7wdah0gsj.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["g8evrbdzdh"] = {
+      uuid = "g8evrbdzdh",
+      slug = "reprogram",
+      name = "Reprogram",
+      image = "/cards/images/g8evrbdzdh.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["g8evrcdzdh"] = {
+      uuid = "g8evrcdzdh",
+      slug = "umbral-tithe",
+      name = "Umbral Tithe",
+      image = "/cards/images/g8evrcdzdh.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["g9grx5bm5k"] = {
+      uuid = "g9grx5bm5k",
+      slug = "fortifying-manashot",
+      name = "Fortifying Manashot",
+      image = "/cards/images/g9grx5bm5k.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["gFpbepcxV8"] = {
       uuid = "gFpbepcxV8",
       slug = "queens-gambit",
       name = "Queen's Gambit",
       image = "/cards/images/gFpbepcxV8.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["ga7gr2g8ev"] = {
+      uuid = "ga7gr2g8ev",
+      slug = "lavaheated-brew",
+      name = "Lavaheated Brew",
+      image = "/cards/images/ga7gr2g8ev.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["gcgbyzi296"] = {
+      uuid = "gcgbyzi296",
+      slug = "confidants-oath",
+      name = "Confidant's Oath",
+      image = "/cards/images/gcgbyzi296.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["gd06sut2vg"] = {
+      uuid = "gd06sut2vg",
+      slug = "fan-of-insight",
+      name = "Fan of Insight",
+      image = "/cards/images/gd06sut2vg.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["gd5kd7gncb"] = {
+      uuid = "gd5kd7gncb",
+      slug = "dominating-strike",
+      name = "Dominating Strike",
+      image = "/cards/images/gd5kd7gncb.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["gdnZ1LN76y"] = {
       uuid = "gdnZ1LN76y",
       slug = "gemini-starbearer",
       name = "Gemini Starbearer",
       image = "/cards/images/gdnZ1LN76y.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["gdz666jkmu"] = {
+      uuid = "gdz666jkmu",
+      slug = "weaving-manastream",
+      name = "Weaving Manastream",
+      image = "/cards/images/gdz666jkmu.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["gee7j5mpl9"] = {
+      uuid = "gee7j5mpl9",
+      slug = "lead-with-force",
+      name = "Lead with Force",
+      image = "/cards/images/gee7j5mpl9.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["geeyYoNxdO"] = {
       uuid = "geeyYoNxdO",
       slug = "righteous-retribution",
       name = "Righteous Retribution",
       image = "/cards/images/geeyYoNxdO.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["gfbvwkmmlv"] = {
+      uuid = "gfbvwkmmlv",
+      slug = "adept-swordmaster",
+      name = "Adept Swordmaster",
+      image = "/cards/images/gfbvwkmmlv.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["ggliackmst"] = {
+      uuid = "ggliackmst",
+      slug = "alice-golden-queen",
+      name = "Alice, Golden Queen",
+      image = "/cards/images/ggliackmst.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["ggz5dxawdp"] = {
+      uuid = "ggz5dxawdp",
+      slug = "deploy-gunshield",
+      name = "Deploy Gunshield",
+      image = "/cards/images/ggz5dxawdp.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ghNpFuC6em"] = {
+      uuid = "ghNpFuC6em",
+      slug = "equanimitys-ashes",
+      name = "Equanimity's Ashes",
+      image = "/cards/images/ghNpFuC6em.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ghn40km8dq"] = {
+      uuid = "ghn40km8dq",
+      slug = "cordelia-aurous-kaiser",
+      name = "Cordelia, Aurous Kaiser",
+      image = "/cards/images/ghn40km8dq.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["giaidsyfgn"] = {
+      uuid = "giaidsyfgn",
+      slug = "peppered-chef",
+      name = "Peppered Chef",
+      image = "/cards/images/giaidsyfgn.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["gjbhcypm3u"] = {
+      uuid = "gjbhcypm3u",
+      slug = "jueying-shadowmare",
+      name = "Jueying, Shadowmare",
+      image = "/cards/images/gjbhcypm3u.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["gkwjhk4ncq"] = {
+      uuid = "gkwjhk4ncq",
+      slug = "veiled-oracle",
+      name = "Veiled Oracle",
+      image = "/cards/images/gkwjhk4ncq.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["glkpo0w8eg"] = {
+      uuid = "glkpo0w8eg",
+      slug = "seal-the-past",
+      name = "Seal the Past",
+      image = "/cards/images/glkpo0w8eg.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["gncb2tcr0a"] = {
+      uuid = "gncb2tcr0a",
+      slug = "swooping-talons",
+      name = "Swooping Talons",
+      image = "/cards/images/gncb2tcr0a.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["go0aghn40k"] = {
+      uuid = "go0aghn40k",
+      slug = "scout-the-land",
+      name = "Scout the Land",
+      image = "/cards/images/go0aghn40k.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["gocb33mr0k"] = {
+      uuid = "gocb33mr0k",
+      slug = "airship-captain",
+      name = "Airship Captain",
+      image = "/cards/images/gocb33mr0k.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["goof3n1eqm"] = {
+      uuid = "goof3n1eqm",
+      slug = "rapid-combustion",
+      name = "Rapid Combustion",
+      image = "/cards/images/goof3n1eqm.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["gq56cjg0bo"] = {
+      uuid = "gq56cjg0bo",
+      slug = "embershield-keeper",
+      name = "Embershield Keeper",
+      image = "/cards/images/gq56cjg0bo.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["gq5w3jf01o"] = {
+      uuid = "gq5w3jf01o",
+      slug = "attune-with-flames",
+      name = "Attune with Flames",
+      image = "/cards/images/gq5w3jf01o.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["grtvp7hc1p"] = {
+      uuid = "grtvp7hc1p",
+      slug = "suffocating-miasma",
+      name = "Suffocating Miasma",
+      image = "/cards/images/grtvp7hc1p.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["gvhZKN1gyP"] = {
       uuid = "gvhZKN1gyP",
       slug = "bandersnatch-frumious-foe",
       name = "Bandersnatch, Frumious Foe",
       image = "/cards/images/gvhZKN1gyP.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["gvk1h8jcvj"] = {
       uuid = "gvk1h8jcvj",
       slug = "maiden-of-shimmering-air",
       name = "Maiden of Shimmering Air",
       image = "/cards/images/gvk1h8jcvj.jpg",
+      orientation = "front",
       types = { "ALLY", "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["gx83sfhvfi"] = {
+      uuid = "gx83sfhvfi",
+      slug = "spirit-of-fire",
+      name = "Spirit of Fire",
+      image = "/cards/images/gx83sfhvfi.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["gxjjf7ca7g"] = {
+      uuid = "gxjjf7ca7g",
+      slug = "purging-tempest",
+      name = "Purging Tempest",
+      image = "/cards/images/gxjjf7ca7g.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["gxw0q94fym"] = {
+      uuid = "gxw0q94fym",
+      slug = "duchess-six-of-hearts",
+      name = "Duchess, Six of Hearts",
+      image = "/cards/images/gxw0q94fym.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["gxzcg5aox7"] = {
       uuid = "gxzcg5aox7",
       slug = "usurp-the-winds",
       name = "Usurp the Winds",
       image = "/cards/images/gxzcg5aox7.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["gy62f3j8fj"] = {
+      uuid = "gy62f3j8fj",
+      slug = "potion-infusion-growth",
+      name = "Potion Infusion: Growth",
+      image = "/cards/images/gy62f3j8fj.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["gydkrget5m"] = {
+      uuid = "gydkrget5m",
+      slug = "proof-of-life",
+      name = "Proof of Life",
+      image = "/cards/images/gydkrget5m.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["gyi3sphvpi"] = {
+      uuid = "gyi3sphvpi",
+      slug = "enthralling-visage",
+      name = "Enthralling Visage",
+      image = "/cards/images/gyi3sphvpi.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["h24hztzd5x"] = {
       uuid = "h24hztzd5x",
       slug = "dian-wei-valorant-fury",
       name = "Dian Wei, Valorant Fury",
       image = "/cards/images/h24hztzd5x.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["h3UcW0UzHC"] = {
+      uuid = "h3UcW0UzHC",
+      slug = "rouge-ace-of-hearts",
+      name = "Rouge, Ace of Hearts",
+      image = "/cards/images/h3UcW0UzHC.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["h4zzb4evm9"] = {
+      uuid = "h4zzb4evm9",
+      slug = "burst-asunder",
+      name = "Burst Asunder",
+      image = "/cards/images/h4zzb4evm9.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["h5lahljr2d"] = {
+      uuid = "h5lahljr2d",
+      slug = "surging-bolt",
+      name = "Surging Bolt",
+      image = "/cards/images/h5lahljr2d.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["h6lahmjr3d"] = {
+      uuid = "h6lahmjr3d",
+      slug = "tether-in-flames",
+      name = "Tether in Flames",
+      image = "/cards/images/h6lahmjr3d.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["h8GXZxZUR2"] = {
+      uuid = "h8GXZxZUR2",
+      slug = "royal-ordinance",
+      name = "Royal Ordinance",
+      image = "/cards/images/h8GXZxZUR2.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["h8ielEKFwA"] = {
+      uuid = "h8ielEKFwA",
+      slug = "moonveil-android",
+      name = "Moonveil Android",
+      image = "/cards/images/h8ielEKFwA.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["hSz0jFk2ic"] = {
       uuid = "hSz0jFk2ic",
       slug = "alizarin-longbowman",
       name = "Alizarin Longbowman",
       image = "/cards/images/hSz0jFk2ic.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["haf3tfsnfh"] = {
       uuid = "haf3tfsnfh",
       slug = "restorative-flame",
       name = "Restorative Flame",
       image = "/cards/images/haf3tfsnfh.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["hc1pq4or18"] = {
+      uuid = "hc1pq4or18",
+      slug = "prima-materia",
+      name = "Prima Materia",
+      image = "/cards/images/hc1pq4or18.jpg",
+      orientation = "front",
+      types = { "ITEM", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["hcp0ccafb1"] = {
+      uuid = "hcp0ccafb1",
+      slug = "servants-obligation",
+      name = "Servant's Obligation",
+      image = "/cards/images/hcp0ccafb1.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["hes6yxwnco"] = {
+      uuid = "hes6yxwnco",
+      slug = "lily-marine-castellan",
+      name = "Lily, Marine Castellan",
+      image = "/cards/images/hes6yxwnco.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["hg1n8hqa75"] = {
+      uuid = "hg1n8hqa75",
+      slug = "mortal-ambition",
+      name = "Mortal Ambition",
+      image = "/cards/images/hg1n8hqa75.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["hg6iq0qe1p"] = {
+      uuid = "hg6iq0qe1p",
+      slug = "temper-in-flames",
+      name = "Temper in Flames",
+      image = "/cards/images/hg6iq0qe1p.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["hi3pk17781"] = {
+      uuid = "hi3pk17781",
+      slug = "shining-marchador",
+      name = "Shining Marchador",
+      image = "/cards/images/hi3pk17781.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["hjyutZHSuC"] = {
       uuid = "hjyutZHSuC",
       slug = "freezing-gambit",
       name = "Freezing Gambit",
       image = "/cards/images/hjyutZHSuC.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["hlir23ijp6"] = {
+      uuid = "hlir23ijp6",
+      slug = "diana-cursebreaker",
+      name = "Diana, Cursebreaker",
+      image = "/cards/images/hlir23ijp6.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["hljr2dijq6"] = {
+      uuid = "hljr2dijq6",
+      slug = "powered-defender",
+      name = "Powered Defender",
+      image = "/cards/images/hljr2dijq6.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["hlv6121ial"] = {
+      uuid = "hlv6121ial",
+      slug = "sleight-of-hand",
+      name = "Sleight of Hand",
+      image = "/cards/images/hlv6121ial.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["hm7ggrtvp7"] = {
+      uuid = "hm7ggrtvp7",
+      slug = "meteor-strike",
+      name = "Meteor Strike",
+      image = "/cards/images/hm7ggrtvp7.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["hmjr3dijq6"] = {
+      uuid = "hmjr3dijq6",
+      slug = "rimesoul-bishop",
+      name = "Rimesoul Bishop",
+      image = "/cards/images/hmjr3dijq6.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["hq6byzsrfd"] = {
+      uuid = "hq6byzsrfd",
+      slug = "crossroads-specter",
+      name = "Crossroads Specter",
+      image = "/cards/images/hq6byzsrfd.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["hqujjd0g2k"] = {
+      uuid = "hqujjd0g2k",
+      slug = "trump-set",
+      name = "Trump Set",
+      image = "/cards/images/hqujjd0g2k.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["hud0lvrnsp"] = {
+      uuid = "hud0lvrnsp",
+      slug = "spirelle-schwartz-queen",
+      name = "Spirelle, Schwartz Queen",
+      image = "/cards/images/hud0lvrnsp.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["hvfiszdne4"] = {
+      uuid = "hvfiszdne4",
+      slug = "vanish-from-sight",
+      name = "Vanish from Sight",
+      image = "/cards/images/hvfiszdne4.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["hvpisznne5"] = {
+      uuid = "hvpisznne5",
+      slug = "charged-alchemist",
+      name = "Charged Alchemist",
+      image = "/cards/images/hvpisznne5.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["i0jtmnf018"] = {
+      uuid = "i0jtmnf018",
+      slug = "evasive-positioning",
+      name = "Evasive Positioning",
+      image = "/cards/images/i0jtmnf018.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["i0lu0mno5r"] = {
+      uuid = "i0lu0mno5r",
+      slug = "expose-darkness",
+      name = "Expose Darkness",
+      image = "/cards/images/i0lu0mno5r.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["i184h5lahl"] = {
+      uuid = "i184h5lahl",
+      slug = "spirit-shard",
+      name = "Spirit Shard",
+      image = "/cards/images/i184h5lahl.jpg",
+      orientation = "front",
+      types = { "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
     },
     ["i2onnr5zw2"] = {
       uuid = "i2onnr5zw2",
       slug = "zhang-liao-bloodmonger",
       name = "Zhang Liao, Bloodmonger",
       image = "/cards/images/i2onnr5zw2.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["i3sphvpisz"] = {
+      uuid = "i3sphvpisz",
+      slug = "hub-of-innovation",
+      name = "Hub of Innovation",
+      image = "/cards/images/i3sphvpisz.jpg",
+      orientation = "front",
+      types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["i3sphwpisz"] = {
+      uuid = "i3sphwpisz",
+      slug = "carter-synthetic-reaper",
+      name = "Carter, Synthetic Reaper",
+      image = "/cards/images/i3sphwpisz.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["i57sc0SOnc"] = {
+      uuid = "i57sc0SOnc",
+      slug = "noble-dissolution",
+      name = "Noble Dissolution",
+      image = "/cards/images/i57sc0SOnc.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["i6a41bkufm"] = {
       uuid = "i6a41bkufm",
       slug = "ritai-stablemaster",
       name = "Ritai Stablemaster",
       image = "/cards/images/i6a41bkufm.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["i6egu9kxde"] = {
+      uuid = "i6egu9kxde",
+      slug = "relentless-outburst",
+      name = "Relentless Outburst",
+      image = "/cards/images/i6egu9kxde.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["i7livfxrd1"] = {
+      uuid = "i7livfxrd1",
+      slug = "horticounter",
+      name = "Horticounter",
+      image = "/cards/images/i7livfxrd1.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["i8oilv5lih"] = {
+      uuid = "i8oilv5lih",
+      slug = "clean-cut",
+      name = "Clean Cut",
+      image = "/cards/images/i8oilv5lih.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["i8xlANlKNf"] = {
       uuid = "i8xlANlKNf",
       slug = "six-of-spades",
       name = "Six of Spades",
       image = "/cards/images/i8xlANlKNf.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["iCUgPLxj0X"] = {
+      uuid = "iCUgPLxj0X",
+      slug = "seasoned-archer",
+      name = "Seasoned Archer",
+      image = "/cards/images/iCUgPLxj0X.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["iSmHMTPwm2"] = {
       uuid = "iSmHMTPwm2",
       slug = "alice-whims-monarch",
       name = "Alice, Whim's Monarch",
       image = "/cards/images/iSmHMTPwm2.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["ia84heujqu"] = {
+      uuid = "ia84heujqu",
+      slug = "final-stroke",
+      name = "Final Stroke",
+      image = "/cards/images/ia84heujqu.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["ic9rmv80hu"] = {
       uuid = "ic9rmv80hu",
       slug = "sigil-of-budding-embers",
       name = "Sigil of Budding Embers",
       image = "/cards/images/ic9rmv80hu.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["idm9wbnx1z"] = {
+      uuid = "idm9wbnx1z",
+      slug = "consumption-ring",
+      name = "Consumption Ring",
+      image = "/cards/images/idm9wbnx1z.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["iflzr0jr2h"] = {
+      uuid = "iflzr0jr2h",
+      slug = "bauble-of-scarcity",
+      name = "Bauble of Scarcity",
+      image = "/cards/images/iflzr0jr2h.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["ijp6tdoafs"] = {
+      uuid = "ijp6tdoafs",
+      slug = "fireworks-display",
+      name = "Fireworks Display",
+      image = "/cards/images/ijp6tdoafs.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ijq62nobfs"] = {
+      uuid = "ijq62nobfs",
+      slug = "under-fire",
+      name = "Under Fire",
+      image = "/cards/images/ijq62nobfs.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ijq63nobfs"] = {
+      uuid = "ijq63nobfs",
+      slug = "veteran-blazebearer",
+      name = "Veteran Blazebearer",
+      image = "/cards/images/ijq63nobfs.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["ik31y7hrs9"] = {
       uuid = "ik31y7hrs9",
       slug = "diao-chan-enchantress",
       name = "Diao Chan, Enchantress",
       image = "/cards/images/ik31y7hrs9.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["ikaSD9puBG"] = {
       uuid = "ikaSD9puBG",
       slug = "feu-awakening",
       name = "Feu Awakening",
       image = "/cards/images/ikaSD9puBG.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["in1rj6qet0"] = {
+      uuid = "in1rj6qet0",
+      slug = "fiery-interference",
+      name = "Fiery Interference",
+      image = "/cards/images/in1rj6qet0.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["inCNp5SEGb"] = {
       uuid = "inCNp5SEGb",
       slug = "en-passant",
       name = "En Passant",
       image = "/cards/images/inCNp5SEGb.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["incqGs7S6Z"] = {
       uuid = "incqGs7S6Z",
       slug = "seven-of-hearts",
       name = "Seven of Hearts",
       image = "/cards/images/incqGs7S6Z.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["inqol08m9p"] = {
+      uuid = "inqol08m9p",
+      slug = "evercurrent-raider",
+      name = "Evercurrent Raider",
+      image = "/cards/images/inqol08m9p.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["inzhhg8pct"] = {
+      uuid = "inzhhg8pct",
+      slug = "sudden-deluge",
+      name = "Sudden Deluge",
+      image = "/cards/images/inzhhg8pct.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["iod8bfeh00"] = {
+      uuid = "iod8bfeh00",
+      slug = "reckless-slash",
+      name = "Reckless Slash",
+      image = "/cards/images/iod8bfeh00.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["iqc5s0o57y"] = {
+      uuid = "iqc5s0o57y",
+      slug = "spellward-scepter",
+      name = "Spellward Scepter",
+      image = "/cards/images/iqc5s0o57y.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["iqechbdpx7"] = {
+      uuid = "iqechbdpx7",
+      slug = "galed-erasure",
+      name = "Galed Erasure",
+      image = "/cards/images/iqechbdpx7.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ir23ijp6td"] = {
+      uuid = "ir23ijp6td",
+      slug = "strategic-warfare",
+      name = "Strategic Warfare",
+      image = "/cards/images/ir23ijp6td.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["irlofoshl5"] = {
+      uuid = "irlofoshl5",
+      slug = "kind-beastcaller",
+      name = "Kind Beastcaller",
+      image = "/cards/images/irlofoshl5.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["itwxs9ke3r"] = {
+      uuid = "itwxs9ke3r",
+      slug = "hidden-enclave",
+      name = "Hidden Enclave",
+      image = "/cards/images/itwxs9ke3r.jpg",
+      orientation = "front",
+      types = { "DOMAIN" },
+      orientations = {
+      },
+    },
+    ["itwys9kf4r"] = {
+      uuid = "itwys9kf4r",
+      slug = "frigid-bash",
+      name = "Frigid Bash",
+      image = "/cards/images/itwys9kf4r.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["ixfl3w8doj"] = {
+      uuid = "ixfl3w8doj",
+      slug = "ordinary-horse",
+      name = "Ordinary Horse",
+      image = "/cards/images/ixfl3w8doj.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["iy1qhu2zl7"] = {
+      uuid = "iy1qhu2zl7",
+      slug = "magebane-lash",
+      name = "Magebane Lash",
+      image = "/cards/images/iy1qhu2zl7.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["iyngd7g2lq"] = {
+      uuid = "iyngd7g2lq",
+      slug = "fight-for-the-crown",
+      name = "Fight for the Crown",
+      image = "/cards/images/iyngd7g2lq.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["iyyqnulad2"] = {
       uuid = "iyyqnulad2",
       slug = "maiden-of-reverent-gale",
       name = "Maiden of Reverent Gale",
       image = "/cards/images/iyyqnulad2.jpg",
+      orientation = "front",
       types = { "ALLY", "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["izse32bro8"] = {
+      uuid = "izse32bro8",
+      slug = "intricate-longbow",
+      name = "Intricate Longbow",
+      image = "/cards/images/izse32bro8.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["j254ojp96p"] = {
       uuid = "j254ojp96p",
       slug = "misteye-archer",
       name = "Misteye Archer",
       image = "/cards/images/j254ojp96p.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["j2tyhdhvr1"] = {
+      uuid = "j2tyhdhvr1",
+      slug = "nightmare-coil",
+      name = "Nightmare Coil",
+      image = "/cards/images/j2tyhdhvr1.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["j5m1tjk0gb"] = {
+      uuid = "j5m1tjk0gb",
+      slug = "sunken-battle-priest",
+      name = "Sunken Battle Priest",
+      image = "/cards/images/j5m1tjk0gb.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["j9g17kfx37"] = {
       uuid = "j9g17kfx37",
       slug = "waterfall-veiler",
       name = "Waterfall Veiler",
       image = "/cards/images/j9g17kfx37.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["jXVCdutqsv"] = {
       uuid = "jXVCdutqsv",
       slug = "lost-promises",
       name = "Lost Promises",
       image = "/cards/images/jXVCdutqsv.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["jahvrma97h"] = {
+      uuid = "jahvrma97h",
+      slug = "wind-cutter",
+      name = "Wind Cutter",
+      image = "/cards/images/jahvrma97h.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["jauh39r889"] = {
       uuid = "jauh39r889",
       slug = "searing-truth",
       name = "Searing Truth",
       image = "/cards/images/jauh39r889.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["jc1js3sl6p"] = {
+      uuid = "jc1js3sl6p",
+      slug = "hemorrhaging-rend",
+      name = "Hemorrhaging Rend",
+      image = "/cards/images/jc1js3sl6p.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["jd3tcix4e4"] = {
+      uuid = "jd3tcix4e4",
+      slug = "rainweaver-mage",
+      name = "Rainweaver Mage",
+      image = "/cards/images/jd3tcix4e4.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["je3rs7qt31"] = {
+      uuid = "je3rs7qt31",
+      slug = "bottled-forgelight",
+      name = "Bottled Forgelight",
+      image = "/cards/images/je3rs7qt31.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["je6i56f3zf"] = {
+      uuid = "je6i56f3zf",
+      slug = "votive-runeblade",
+      name = "Votive Runeblade",
+      image = "/cards/images/je6i56f3zf.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["jfii2l6my7"] = {
+      uuid = "jfii2l6my7",
+      slug = "sun-quan-sealbearer",
+      name = "Sun Quan, Sealbearer",
+      image = "/cards/images/jfii2l6my7.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["jfleo75zyb"] = {
+      uuid = "jfleo75zyb",
+      slug = "fairy-whispers",
+      name = "Fairy Whispers",
+      image = "/cards/images/jfleo75zyb.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["jfsq6l263b"] = {
+      uuid = "jfsq6l263b",
+      slug = "astromech-attendant",
+      name = "Astromech Attendant",
+      image = "/cards/images/jfsq6l263b.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["jgwlicqlif"] = {
+      uuid = "jgwlicqlif",
+      slug = "rile-the-abyss",
+      name = "Rile the Abyss",
+      image = "/cards/images/jgwlicqlif.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["jhwltxu2ef"] = {
+      uuid = "jhwltxu2ef",
+      slug = "water-herbs",
+      name = "Water Herbs",
+      image = "/cards/images/jhwltxu2ef.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["jhxltxu2ef"] = {
+      uuid = "jhxltxu2ef",
+      slug = "torrential-blast",
+      name = "Torrential Blast",
+      image = "/cards/images/jhxltxu2ef.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["jnmcqq2u9p"] = {
       uuid = "jnmcqq2u9p",
       slug = "resonating-fugue",
       name = "Resonating Fugue",
       image = "/cards/images/jnmcqq2u9p.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["jo9iitvxs9"] = {
+      uuid = "jo9iitvxs9",
+      slug = "blazing-charge",
+      name = "Blazing Charge",
+      image = "/cards/images/jo9iitvxs9.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["jo9iitwxs9"] = {
+      uuid = "jo9iitwxs9",
+      slug = "molten-cinder",
+      name = "Molten Cinder",
+      image = "/cards/images/jo9iitwxs9.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["jr2dijq62n"] = {
+      uuid = "jr2dijq62n",
+      slug = "synthetic-strike",
+      name = "Synthetic Strike",
+      image = "/cards/images/jr2dijq62n.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["jr89jgioaf"] = {
       uuid = "jr89jgioaf",
       slug = "rescue-the-heir",
       name = "Rescue the Heir",
       image = "/cards/images/jr89jgioaf.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["jryb2yj6wf"] = {
+      uuid = "jryb2yj6wf",
+      slug = "wildgrowth-feline",
+      name = "Wildgrowth Feline",
+      image = "/cards/images/jryb2yj6wf.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["jsr2571ito"] = {
+      uuid = "jsr2571ito",
+      slug = "gearstride-academy",
+      name = "Gearstride Academy",
+      image = "/cards/images/jsr2571ito.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
     },
     ["jss75nls47"] = {
       uuid = "jss75nls47",
       slug = "floodbloom",
       name = "Floodbloom",
       image = "/cards/images/jss75nls47.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
     },
     ["jvaoc946l0"] = {
       uuid = "jvaoc946l0",
       slug = "guo-jia-blessed-scion",
       name = "Guo Jia, Blessed Scion",
       image = "/cards/images/jvaoc946l0.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["jvxht1sgi2"] = {
+      uuid = "jvxht1sgi2",
+      slug = "malevolent-vow",
+      name = "Malevolent Vow",
+      image = "/cards/images/jvxht1sgi2.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["jwaokcy554"] = {
+      uuid = "jwaokcy554",
+      slug = "calamity-cannon",
+      name = "Calamity Cannon",
+      image = "/cards/images/jwaokcy554.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["jwhn963wih"] = {
+      uuid = "jwhn963wih",
+      slug = "horned-knight",
+      name = "Horned Knight",
+      image = "/cards/images/jwhn963wih.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["jy4kteybg2"] = {
+      uuid = "jy4kteybg2",
+      slug = "swift-recruit",
+      name = "Swift Recruit",
+      image = "/cards/images/jy4kteybg2.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["jyfa7fr1g8"] = {
+      uuid = "jyfa7fr1g8",
+      slug = "framework-sidearm",
+      name = "Framework Sidearm",
+      image = "/cards/images/jyfa7fr1g8.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["jzga7gr2g8"] = {
+      uuid = "jzga7gr2g8",
+      slug = "perse-relentless-raptor",
+      name = "Perse, Relentless Raptor",
+      image = "/cards/images/jzga7gr2g8.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["k0fa9m17ca"] = {
       uuid = "k0fa9m17ca",
       slug = "surreptitious-scheme",
       name = "Surreptitious Scheme",
       image = "/cards/images/k0fa9m17ca.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["k1fe1h278d"] = {
       uuid = "k1fe1h278d",
       slug = "fluvial-fatestone",
       name = "Fluvial Fatestone",
       image = "/cards/images/k1fe1h278d.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+        {
+          name = "Mocking Otter",
+          slug = "mocking-otter",
+          uuid = "84oyeld6dn",
+          image = "/cards/images/84oyeld6dn.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["k1vkj1hh31"] = {
+      uuid = "k1vkj1hh31",
+      slug = "skilled-plainsman",
+      name = "Skilled Plainsman",
+      image = "/cards/images/k1vkj1hh31.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["k2c1uwgo72"] = {
+      uuid = "k2c1uwgo72",
+      slug = "polkhawk-boisterous-riot",
+      name = "Polkhawk, Boisterous Riot",
+      image = "/cards/images/k2c1uwgo72.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["k32e783k4p"] = {
+      uuid = "k32e783k4p",
+      slug = "curse-amplification",
+      name = "Curse Amplification",
+      image = "/cards/images/k32e783k4p.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["k6u88ut5qm"] = {
       uuid = "k6u88ut5qm",
       slug = "captain-archer",
       name = "Captain Archer",
       image = "/cards/images/k6u88ut5qm.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["k9fuegkoep"] = {
       uuid = "k9fuegkoep",
       slug = "submerged-fatestone",
       name = "Submerged Fatestone",
       image = "/cards/images/k9fuegkoep.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+        {
+          name = "Commanding Sea Titan",
+          slug = "commanding-sea-titan",
+          uuid = "y5e4a8a23l",
+          image = "/cards/images/y5e4a8a23l.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
     },
     ["kKqRI7JcQr"] = {
       uuid = "kKqRI7JcQr",
       slug = "treacle-drowned-mouse",
       name = "Treacle, Drowned Mouse",
       image = "/cards/images/kKqRI7JcQr.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["kLRSK16Nw9"] = {
+      uuid = "kLRSK16Nw9",
+      slug = "vanguards-reversal",
+      name = "Vanguard's Reversal",
+      image = "/cards/images/kLRSK16Nw9.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["kPx6DVtPBq"] = {
       uuid = "kPx6DVtPBq",
       slug = "phantasmagoria",
       name = "Phantasmagoria",
       image = "/cards/images/kPx6DVtPBq.jpg",
+      orientation = "front",
       types = { "MASTERY" },
+      orientations = {
+      },
+    },
+    ["kWN8dxsDu6"] = {
+      uuid = "kWN8dxsDu6",
+      slug = "astra-sight",
+      name = "Astra Sight",
+      image = "/cards/images/kWN8dxsDu6.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["kca6jhwltx"] = {
+      uuid = "kca6jhwltx",
+      slug = "cell-sharpshooter",
+      name = "Cell Sharpshooter",
+      image = "/cards/images/kca6jhwltx.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["kcv0fefbkj"] = {
+      uuid = "kcv0fefbkj",
+      slug = "safeguard-paragon",
+      name = "Safeguard Paragon",
+      image = "/cards/images/kcv0fefbkj.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["kdz5548oty"] = {
+      uuid = "kdz5548oty",
+      slug = "eternal-magistrate",
+      name = "Eternal Magistrate",
+      image = "/cards/images/kdz5548oty.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["ke3rs7qu3a"] = {
+      uuid = "ke3rs7qu3a",
+      slug = "potion-infusion-blaze",
+      name = "Potion Infusion: Blaze",
+      image = "/cards/images/ke3rs7qu3a.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["kf4rt7ru3b"] = {
+      uuid = "kf4rt7ru3b",
+      slug = "forgelight-shieldmaiden",
+      name = "Forgelight Shieldmaiden",
+      image = "/cards/images/kf4rt7ru3b.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["kh9ngakrff"] = {
+      uuid = "kh9ngakrff",
+      slug = "powercell",
+      name = "Powercell",
+      image = "/cards/images/kh9ngakrff.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
     },
     ["khxEPy4gy3"] = {
       uuid = "khxEPy4gy3",
       slug = "perilous-mend",
       name = "Perilous Mend",
       image = "/cards/images/khxEPy4gy3.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["kiekuqmdaf"] = {
+      uuid = "kiekuqmdaf",
+      slug = "liminal-guide",
+      name = "Liminal Guide",
+      image = "/cards/images/kiekuqmdaf.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["kiz0kaxute"] = {
+      uuid = "kiz0kaxute",
+      slug = "deep-sea-fractal",
+      name = "Deep Sea Fractal",
+      image = "/cards/images/kiz0kaxute.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["kk1xmwie98"] = {
       uuid = "kk1xmwie98",
       slug = "diao-chan-dreaming-wish",
       name = "Diao Chan, Dreaming Wish",
       image = "/cards/images/kk1xmwie98.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["kmb21aa1hc"] = {
+      uuid = "kmb21aa1hc",
+      slug = "fumant-shieldmaiden",
+      name = "Fumant Shieldmaiden",
+      image = "/cards/images/kmb21aa1hc.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["kmgx83sfhv"] = {
+      uuid = "kmgx83sfhv",
+      slug = "gloamspire-lance",
+      name = "Gloamspire Lance",
+      image = "/cards/images/kmgx83sfhv.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["kmgyi3sphv"] = {
+      uuid = "kmgyi3sphv",
+      slug = "mechanized-smasher",
+      name = "Mechanized Smasher",
+      image = "/cards/images/kmgyi3sphv.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["kmhyi3sphw"] = {
+      uuid = "kmhyi3sphw",
+      slug = "astarte-celestial-dawn",
+      name = "Astarte, Celestial Dawn",
+      image = "/cards/images/kmhyi3sphw.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["kmskvetnu3"] = {
       uuid = "kmskvetnu3",
       slug = "sword-saint-of-eveswind",
       name = "Sword Saint of Eveswind",
       image = "/cards/images/kmskvetnu3.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["kn5nvr31hw"] = {
+      uuid = "kn5nvr31hw",
+      slug = "refracted-twilight",
+      name = "Refracted Twilight",
+      image = "/cards/images/kn5nvr31hw.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["knjhpl8ld5"] = {
+      uuid = "knjhpl8ld5",
+      slug = "fiery-swing",
+      name = "Fiery Swing",
+      image = "/cards/images/knjhpl8ld5.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["kpsuwe2hqq"] = {
+      uuid = "kpsuwe2hqq",
+      slug = "rafales-slash",
+      name = "Rafale's Slash",
+      image = "/cards/images/kpsuwe2hqq.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["kq84s0jqkr"] = {
+      uuid = "kq84s0jqkr",
+      slug = "nocturnal-blossom",
+      name = "Nocturnal Blossom",
+      image = "/cards/images/kq84s0jqkr.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["kqwxfpj6xb"] = {
+      uuid = "kqwxfpj6xb",
+      slug = "sword-of-shadows",
+      name = "Sword of Shadows",
+      image = "/cards/images/kqwxfpj6xb.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["krhrajj6kl"] = {
       uuid = "krhrajj6kl",
       slug = "whirlwind-reaper",
       name = "Whirlwind Reaper",
       image = "/cards/images/krhrajj6kl.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["ksav3sk5eb"] = {
+      uuid = "ksav3sk5eb",
+      slug = "liu-bei-oathkeeper",
+      name = "Liu Bei, Oathkeeper",
+      image = "/cards/images/ksav3sk5eb.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["kud1wxl2yv"] = {
+      uuid = "kud1wxl2yv",
+      slug = "flashfire-horse",
+      name = "Flashfire Horse",
+      image = "/cards/images/kud1wxl2yv.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["kvwi5y2w6g"] = {
+      uuid = "kvwi5y2w6g",
+      slug = "spectral-diffusion",
+      name = "Spectral Diffusion",
+      image = "/cards/images/kvwi5y2w6g.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["kvzld31ttm"] = {
+      uuid = "kvzld31ttm",
+      slug = "effluve-guard",
+      name = "Effluve Guard",
+      image = "/cards/images/kvzld31ttm.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["kwmp7pxt63"] = {
+      uuid = "kwmp7pxt63",
+      slug = "clockwork-musicbox",
+      name = "Clockwork Musicbox",
+      image = "/cards/images/kwmp7pxt63.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["kwnp7qxt64"] = {
+      uuid = "kwnp7qxt64",
+      slug = "imperial-alchemist",
+      name = "Imperial Alchemist",
+      image = "/cards/images/kwnp7qxt64.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["kxeyacquiw"] = {
       uuid = "kxeyacquiw",
       slug = "sun-jian-wolvesbane",
       name = "Sun Jian, Wolvesbane",
       image = "/cards/images/kxeyacquiw.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["ky7rcauz5l"] = {
+      uuid = "ky7rcauz5l",
+      slug = "fractal-of-mana",
+      name = "Fractal of Mana",
+      image = "/cards/images/ky7rcauz5l.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["kyfk7mj19r"] = {
+      uuid = "kyfk7mj19r",
+      slug = "leeching-bolt",
+      name = "Leeching Bolt",
+      image = "/cards/images/kyfk7mj19r.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["kzpkarhfr8"] = {
+      uuid = "kzpkarhfr8",
+      slug = "enchanted-fete",
+      name = "Enchanted Fete",
+      image = "/cards/images/kzpkarhfr8.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["l19j6i9ctl"] = {
+      uuid = "l19j6i9ctl",
+      slug = "windmill-engineer",
+      name = "Windmill Engineer",
+      image = "/cards/images/l19j6i9ctl.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["l2RksQnEkf"] = {
       uuid = "l2RksQnEkf",
       slug = "pawn-piece",
       name = "Pawn Piece",
       image = "/cards/images/l2RksQnEkf.jpg",
+      orientation = "front",
       types = { "ALLY", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["l2oty6z16w"] = {
+      uuid = "l2oty6z16w",
+      slug = "eventide-spear",
+      name = "Eventide Spear",
+      image = "/cards/images/l2oty6z16w.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["l32hksynna"] = {
       uuid = "l32hksynna",
       slug = "general-at-arms",
       name = "General at Arms",
       image = "/cards/images/l32hksynna.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["l39s1u0aby"] = {
+      uuid = "l39s1u0aby",
+      slug = "three-of-hearts",
+      name = "Three of Hearts",
+      image = "/cards/images/l39s1u0aby.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["l4zh11099v"] = {
+      uuid = "l4zh11099v",
+      slug = "kongming-fel-eidolon",
+      name = "Kongming, Fel Eidolon",
+      image = "/cards/images/l4zh11099v.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["l5dowb68cn"] = {
       uuid = "l5dowb68cn",
       slug = "drowned-exorcist",
       name = "Drowned Exorcist",
       image = "/cards/images/l5dowb68cn.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["l5y3ra5hhv"] = {
+      uuid = "l5y3ra5hhv",
+      slug = "dilu-auspicious-charger",
+      name = "Dilu, Auspicious Charger",
+      image = "/cards/images/l5y3ra5hhv.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["l7oifnlnu2"] = {
+      uuid = "l7oifnlnu2",
+      slug = "halocline-scout",
+      name = "Halocline Scout",
+      image = "/cards/images/l7oifnlnu2.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["l7uuck6umx"] = {
+      uuid = "l7uuck6umx",
+      slug = "dawns-reversal",
+      name = "Dawn's Reversal",
+      image = "/cards/images/l7uuck6umx.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["l8WIwNnS9k"] = {
       uuid = "l8WIwNnS9k",
       slug = "golden-pawn",
       name = "Golden Pawn",
       image = "/cards/images/l8WIwNnS9k.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["lCPHta6UUx"] = {
       uuid = "lCPHta6UUx",
       slug = "ghastly-slime",
       name = "Ghastly Slime",
       image = "/cards/images/lCPHta6UUx.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["lMqmIc1yYx"] = {
+      uuid = "lMqmIc1yYx",
+      slug = "umbra-sight",
+      name = "Umbra Sight",
+      image = "/cards/images/lMqmIc1yYx.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["lW8Lolpz3Z"] = {
       uuid = "lW8Lolpz3Z",
       slug = "aetherwings-ward",
       name = "Aetherwing's Ward",
       image = "/cards/images/lW8Lolpz3Z.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["lWACrzywnQ"] = {
       uuid = "lWACrzywnQ",
       slug = "aetherial-projection",
       name = "Aetherial Projection",
       image = "/cards/images/lWACrzywnQ.jpg",
+      orientation = "front",
       types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["lahlir23ij"] = {
+      uuid = "lahlir23ij",
+      slug = "fraysia",
+      name = "Fraysia",
+      image = "/cards/images/lahlir23ij.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["lahljr2dij"] = {
+      uuid = "lahljr2dij",
+      slug = "charged-hunter",
+      name = "Charged Hunter",
+      image = "/cards/images/lahljr2dij.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["lahmjr3dij"] = {
+      uuid = "lahmjr3dij",
+      slug = "fractal-of-creation",
+      name = "Fractal of Creation",
+      image = "/cards/images/lahmjr3dij.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["lb6bwe4fik"] = {
+      uuid = "lb6bwe4fik",
+      slug = "penumbral-waltz",
+      name = "Penumbral Waltz",
+      image = "/cards/images/lb6bwe4fik.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["lbtl8ipjiy"] = {
+      uuid = "lbtl8ipjiy",
+      slug = "devouring-malice",
+      name = "Devouring Malice",
+      image = "/cards/images/lbtl8ipjiy.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["lcb6jhxltx"] = {
+      uuid = "lcb6jhxltx",
+      slug = "calculated-foresight",
+      name = "Calculated Foresight",
+      image = "/cards/images/lcb6jhxltx.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ldizr5nujt"] = {
+      uuid = "ldizr5nujt",
+      slug = "pristine-scourge",
+      name = "Pristine Scourge",
+      image = "/cards/images/ldizr5nujt.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["li9rj8nltg"] = {
+      uuid = "li9rj8nltg",
+      slug = "snow-white-weiss-queen",
+      name = "Snow White, Weiss Queen",
+      image = "/cards/images/li9rj8nltg.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["lk7q9vfdqn"] = {
+      uuid = "lk7q9vfdqn",
+      slug = "noire-ace-of-spades",
+      name = "Noire, Ace of Spades",
+      image = "/cards/images/lk7q9vfdqn.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["lkan6loimq"] = {
+      uuid = "lkan6loimq",
+      slug = "orb-of-regret",
+      name = "Orb of Regret",
+      image = "/cards/images/lkan6loimq.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["lknd8dy76h"] = {
+      uuid = "lknd8dy76h",
+      slug = "the-elysian-astrolabe",
+      name = "The Elysian Astrolabe",
+      image = "/cards/images/lknd8dy76h.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["lknd8dyh6i"] = {
+      uuid = "lknd8dyh6i",
+      slug = "emerald-pistol",
+      name = "Emerald Pistol",
+      image = "/cards/images/lknd8dyh6i.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["lknd8dyh7i"] = {
+      uuid = "lknd8dyh7i",
+      slug = "young-peacekeeper",
+      name = "Young Peacekeeper",
+      image = "/cards/images/lknd8dyh7i.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["lky1psl4ii"] = {
+      uuid = "lky1psl4ii",
+      slug = "brisk-windtrotter",
+      name = "Brisk Windtrotter",
+      image = "/cards/images/lky1psl4ii.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["llkvc00h4j"] = {
+      uuid = "llkvc00h4j",
+      slug = "lure-the-abyss",
+      name = "Lure the Abyss",
+      image = "/cards/images/llkvc00h4j.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["lmw44ptpoo"] = {
       uuid = "lmw44ptpoo",
       slug = "mistsworn-magister",
       name = "Mistsworn Magister",
       image = "/cards/images/lmw44ptpoo.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["lnmk4anq1k"] = {
       uuid = "lnmk4anq1k",
       slug = "maiden-of-shrouded-fog",
       name = "Maiden of Shrouded Fog",
       image = "/cards/images/lnmk4anq1k.jpg",
+      orientation = "front",
       types = { "ALLY", "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["lp91uw83ze"] = {
+      uuid = "lp91uw83ze",
+      slug = "apprentice-aeromancer",
+      name = "Apprentice Aeromancer",
+      image = "/cards/images/lp91uw83ze.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["lqOacnbq0W"] = {
       uuid = "lqOacnbq0W",
       slug = "mote-sear",
       name = "Mote Sear",
       image = "/cards/images/lqOacnbq0W.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["lut4793kvq"] = {
+      uuid = "lut4793kvq",
+      slug = "sadi-blood-harvester",
+      name = "Sadi, Blood Harvester",
+      image = "/cards/images/lut4793kvq.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["lutzw2g3qa"] = {
       uuid = "lutzw2g3qa",
       slug = "minister-of-ceremony",
       name = "Minister of Ceremony",
       image = "/cards/images/lutzw2g3qa.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["lvyenlfg9s"] = {
+      uuid = "lvyenlfg9s",
+      slug = "channel-manifold-desire",
+      name = "Channel Manifold Desire",
+      image = "/cards/images/lvyenlfg9s.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["lvyiakp4j0"] = {
+      uuid = "lvyiakp4j0",
+      slug = "yunzhou-cavalry",
+      name = "Yunzhou Cavalry",
+      image = "/cards/images/lvyiakp4j0.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["ly8dbmw89s"] = {
+      uuid = "ly8dbmw89s",
+      slug = "scry-the-stars",
+      name = "Scry the Stars",
+      image = "/cards/images/ly8dbmw89s.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["m14a9gpt6s"] = {
       uuid = "m14a9gpt6s",
       slug = "nullifying-mirror",
       name = "Nullifying Mirror",
       image = "/cards/images/m14a9gpt6s.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["m1t5ghxm88"] = {
+      uuid = "m1t5ghxm88",
+      slug = "tricky-chimps",
+      name = "Tricky Chimps",
+      image = "/cards/images/m1t5ghxm88.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["m3Od2gJogh"] = {
       uuid = "m3Od2gJogh",
       slug = "surveil-the-winds",
       name = "Surveil the Winds",
       image = "/cards/images/m3Od2gJogh.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["m3jf6lpc5g"] = {
       uuid = "m3jf6lpc5g",
       slug = "silent-firebrand",
       name = "Silent Firebrand",
       image = "/cards/images/m3jf6lpc5g.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["m3n3p61924"] = {
       uuid = "m3n3p61924",
       slug = "nightshade",
       name = "Nightshade",
       image = "/cards/images/m3n3p61924.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["m59wpgo2mi"] = {
+      uuid = "m59wpgo2mi",
+      slug = "the-elysian-astrolabe",
+      name = "The Elysian Astrolabe",
+      image = "/cards/images/m59wpgo2mi.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["m5qm8k9goq"] = {
+      uuid = "m5qm8k9goq",
+      slug = "suspicious-concoction",
+      name = "Suspicious Concoction",
+      image = "/cards/images/m5qm8k9goq.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["m5v69b5m6r"] = {
+      uuid = "m5v69b5m6r",
+      slug = "force-load",
+      name = "Force Load",
+      image = "/cards/images/m5v69b5m6r.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["m7o091zv75"] = {
+      uuid = "m7o091zv75",
+      slug = "exorcise-curses",
+      name = "Exorcise Curses",
+      image = "/cards/images/m7o091zv75.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["m7o1i184h5"] = {
+      uuid = "m7o1i184h5",
+      slug = "cell-assembler",
+      name = "Cell Assembler",
+      image = "/cards/images/m7o1i184h5.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["m8dqwoa776"] = {
+      uuid = "m8dqwoa776",
+      slug = "shred-to-ribbons",
+      name = "Shred to Ribbons",
+      image = "/cards/images/m8dqwoa776.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["m8o1j194h6"] = {
+      uuid = "m8o1j194h6",
+      slug = "clockwork-amalgam",
+      name = "Clockwork Amalgam",
+      image = "/cards/images/m8o1j194h6.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["m9RSOXPljW"] = {
       uuid = "m9RSOXPljW",
       slug = "oneiric-key",
       name = "Oneiric Key",
       image = "/cards/images/m9RSOXPljW.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["mNEi7tQRyT"] = {
       uuid = "mNEi7tQRyT",
       slug = "lusters-shroud",
       name = "Luster's Shroud",
       image = "/cards/images/mNEi7tQRyT.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["mVP5P6No1w"] = {
       uuid = "mVP5P6No1w",
       slug = "sworn-windhand",
       name = "Sworn Windhand",
       image = "/cards/images/mVP5P6No1w.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["mas3b5ax8r"] = {
+      uuid = "mas3b5ax8r",
+      slug = "cao-cao-aspirant-of-chaos",
+      name = "Cao Cao, Aspirant of Chaos",
+      image = "/cards/images/mas3b5ax8r.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["md12wkcs9m"] = {
+      uuid = "md12wkcs9m",
+      slug = "xiao-qiao-cinderkeeper",
+      name = "Xiao Qiao, Cinderkeeper",
+      image = "/cards/images/md12wkcs9m.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["md3lyke9rn"] = {
       uuid = "md3lyke9rn",
       slug = "stabilizing-capacitance",
       name = "Stabilizing Capacitance",
       image = "/cards/images/md3lyke9rn.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["md5c00g2cc"] = {
       uuid = "md5c00g2cc",
       slug = "direwolf",
       name = "Direwolf",
       image = "/cards/images/md5c00g2cc.jpg",
+      orientation = "front",
       types = { "ALLY", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["mdhvw24yc4"] = {
+      uuid = "mdhvw24yc4",
+      slug = "xia-hou-dun-gloryseeker",
+      name = "Xia Hou Dun, Gloryseeker",
+      image = "/cards/images/mdhvw24yc4.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["met15igt0y"] = {
+      uuid = "met15igt0y",
+      slug = "condemned-trinket",
+      name = "Condemned Trinket",
+      image = "/cards/images/met15igt0y.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["mf1787aqv0"] = {
+      uuid = "mf1787aqv0",
+      slug = "retold-fortune",
+      name = "Retold Fortune",
+      image = "/cards/images/mf1787aqv0.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["mf1yyx0qv0"] = {
+      uuid = "mf1yyx0qv0",
+      slug = "seasoned-shieldmaster",
+      name = "Seasoned Shieldmaster",
+      image = "/cards/images/mf1yyx0qv0.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["mg3jnrfuvt"] = {
       uuid = "mg3jnrfuvt",
       slug = "glowering-conflagration",
       name = "Glowering Conflagration",
       image = "/cards/images/mg3jnrfuvt.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["mgw0mewmbo"] = {
+      uuid = "mgw0mewmbo",
+      slug = "backstep",
+      name = "Backstep",
+      image = "/cards/images/mgw0mewmbo.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["mhus8n485d"] = {
+      uuid = "mhus8n485d",
+      slug = "cinderbloom-tender",
+      name = "Cinderbloom Tender",
+      image = "/cards/images/mhus8n485d.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["mhus8n4yw4"] = {
+      uuid = "mhus8n4yw4",
+      slug = "airship-engineer",
+      name = "Airship Engineer",
+      image = "/cards/images/mhus8n4yw4.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["mijilb6bwe"] = {
+      uuid = "mijilb6bwe",
+      slug = "winbless-forecaster",
+      name = "Winbless Forecaster",
+      image = "/cards/images/mijilb6bwe.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["mjbpiclthg"] = {
+      uuid = "mjbpiclthg",
+      slug = "favorable-winds",
+      name = "Favorable Winds",
+      image = "/cards/images/mjbpiclthg.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["mp7pxt63jy"] = {
+      uuid = "mp7pxt63jy",
+      slug = "powered-sentinel",
+      name = "Powered Sentinel",
+      image = "/cards/images/mp7pxt63jy.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["mr0kxj0ckc"] = {
+      uuid = "mr0kxj0ckc",
+      slug = "engineered-slime",
+      name = "Engineered Slime",
+      image = "/cards/images/mr0kxj0ckc.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["ms0kxj0clc"] = {
+      uuid = "ms0kxj0clc",
+      slug = "obelisk-of-protection",
+      name = "Obelisk of Protection",
+      image = "/cards/images/ms0kxj0clc.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "TOKEN", "UNIQUE" },
+      orientations = {
+      },
     },
     ["mt1wguib7j"] = {
       uuid = "mt1wguib7j",
       slug = "sun-ce-weaponsmaster",
       name = "Sun Ce, Weaponsmaster",
       image = "/cards/images/mt1wguib7j.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["mtk7emqbjx"] = {
+      uuid = "mtk7emqbjx",
+      slug = "bloodbond-bladesworn",
+      name = "Bloodbond Bladesworn",
+      image = "/cards/images/mtk7emqbjx.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["mxz20u1jqx"] = {
       uuid = "mxz20u1jqx",
       slug = "galewind-scout",
       name = "Galewind Scout",
       image = "/cards/images/mxz20u1jqx.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["my4ewbvtio"] = {
       uuid = "my4ewbvtio",
       slug = "fatestone-of-balance",
       name = "Fatestone of Balance",
       image = "/cards/images/my4ewbvtio.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+        {
+          name = "Woodland Shoats",
+          slug = "woodland-shoats",
+          uuid = "0qmwwihhn2",
+          image = "/cards/images/0qmwwihhn2.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
     },
     ["n0ymex2d5b"] = {
       uuid = "n0ymex2d5b",
       slug = "coiled-fatestone",
       name = "Coiled Fatestone",
       image = "/cards/images/n0ymex2d5b.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+        {
+          name = "Serpentine Judicator",
+          slug = "serpentine-judicator",
+          uuid = "koyegh1snb",
+          image = "/cards/images/koyegh1snb.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["n2ijz8ofdb"] = {
+      uuid = "n2ijz8ofdb",
+      slug = "mnemonic-charm",
+      name = "Mnemonic Charm",
+      image = "/cards/images/n2ijz8ofdb.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["n32l8lbewe"] = {
+      uuid = "n32l8lbewe",
+      slug = "airship-cannoneer",
+      name = "Airship Cannoneer",
+      image = "/cards/images/n32l8lbewe.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["n3cl9lbewn"] = {
+      uuid = "n3cl9lbewn",
+      slug = "charged-gunslinger",
+      name = "Charged Gunslinger",
+      image = "/cards/images/n3cl9lbewn.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["n431k9f9wu"] = {
       uuid = "n431k9f9wu",
       slug = "extricating-touch",
       name = "Extricating Touch",
       image = "/cards/images/n431k9f9wu.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["n4chq8roe1"] = {
+      uuid = "n4chq8roe1",
+      slug = "yudi-gossamer-jade",
+      name = "Yudi, Gossamer Jade",
+      image = "/cards/images/n4chq8roe1.jpg",
+      orientation = "front",
+      types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["n4f9ymo2mp"] = {
+      uuid = "n4f9ymo2mp",
+      slug = "tristan-underhanded",
+      name = "Tristan, Underhanded",
+      image = "/cards/images/n4f9ymo2mp.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["n55g9b5m6s"] = {
+      uuid = "n55g9b5m6s",
+      slug = "volatile-fusilier",
+      name = "Volatile Fusilier",
+      image = "/cards/images/n55g9b5m6s.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["n55g9b5m7s"] = {
+      uuid = "n55g9b5m7s",
+      slug = "aqueous-armor",
+      name = "Aqueous Armor",
+      image = "/cards/images/n55g9b5m7s.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["n6155eguc8"] = {
       uuid = "n6155eguc8",
       slug = "fabled-ruby-fatestone",
       name = "Fabled Ruby Fatestone",
       image = "/cards/images/n6155eguc8.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+        {
+          name = "Suzaku, Vermillion Phoenix",
+          slug = "suzaku-vermillion-phoenix",
+          uuid = "h57jayq7l2",
+          image = "/cards/images/h57jayq7l2.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["n6k5mygy62"] = {
+      uuid = "n6k5mygy62",
+      slug = "bolster-ranks",
+      name = "Bolster Ranks",
+      image = "/cards/images/n6k5mygy62.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["n7jhj65w4e"] = {
+      uuid = "n7jhj65w4e",
+      slug = "thunderclap",
+      name = "Thunderclap",
+      image = "/cards/images/n7jhj65w4e.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["n9y3rbvo49"] = {
       uuid = "n9y3rbvo49",
       slug = "stand-fast",
       name = "Stand Fast",
       image = "/cards/images/n9y3rbvo49.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["nBPOl8vfJ3"] = {
       uuid = "nBPOl8vfJ3",
       slug = "lost-being",
       name = "Lost Being",
       image = "/cards/images/nBPOl8vfJ3.jpg",
+      orientation = "front",
       types = { "ALLY", "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["nCSjSh8PvW"] = {
+      uuid = "nCSjSh8PvW",
+      slug = "final-stroke",
+      name = "Final Stroke",
+      image = "/cards/images/nCSjSh8PvW.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["nMFpkop1B4"] = {
       uuid = "nMFpkop1B4",
       slug = "sighing-crownwing",
       name = "Sighing Crownwing",
       image = "/cards/images/nMFpkop1B4.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["nauaibdiil"] = {
       uuid = "nauaibdiil",
       slug = "searing-rebuke",
       name = "Searing Rebuke",
       image = "/cards/images/nauaibdiil.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["nchty2hijI"] = {
+      uuid = "nchty2hijI",
+      slug = "tempered-steel",
+      name = "Tempered Steel",
+      image = "/cards/images/nchty2hijI.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["nd8dyh6ikm"] = {
+      uuid = "nd8dyh6ikm",
+      slug = "desperate-dive",
+      name = "Desperate Dive",
+      image = "/cards/images/nd8dyh6ikm.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["nd8dyh7ikm"] = {
+      uuid = "nd8dyh7ikm",
+      slug = "dahlia-idyllic-dreamer",
+      name = "Dahlia, Idyllic Dreamer",
+      image = "/cards/images/nd8dyh7ikm.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["ndwckuhtkm"] = {
+      uuid = "ndwckuhtkm",
+      slug = "atmos-armor-type-ares",
+      name = "Atmos Armor Type-Ares",
+      image = "/cards/images/ndwckuhtkm.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["nf1887aqv0"] = {
+      uuid = "nf1887aqv0",
+      slug = "violet-haze",
+      name = "Violet Haze",
+      image = "/cards/images/nf1887aqv0.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["nh46htn192"] = {
+      uuid = "nh46htn192",
+      slug = "infusion-of-crescent-jade",
+      name = "Infusion of Crescent Jade",
+      image = "/cards/images/nh46htn192.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["nipk96n231"] = {
+      uuid = "nipk96n231",
+      slug = "humpty-dumpty-fates-fall",
+      name = "Humpty Dumpty, Fate's Fall",
+      image = "/cards/images/nipk96n231.jpg",
+      orientation = "front",
+      types = { "ITEM", "UNIQUE" },
+      orientations = {
+      },
     },
     ["niv9jxv9y1"] = {
       uuid = "niv9jxv9y1",
       slug = "forgetful-concoction",
       name = "Forgetful Concoction",
       image = "/cards/images/niv9jxv9y1.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["niyguld7c4"] = {
+      uuid = "niyguld7c4",
+      slug = "cavalier-rescue",
+      name = "Cavalier Rescue",
+      image = "/cards/images/niyguld7c4.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["nkcqjdmuih"] = {
+      uuid = "nkcqjdmuih",
+      slug = "impact-hammer",
+      name = "Impact Hammer",
+      image = "/cards/images/nkcqjdmuih.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
     },
     ["nke4cgqh82"] = {
       uuid = "nke4cgqh82",
       slug = "tidebreaker-sentinel",
       name = "Tidebreaker Sentinel",
       image = "/cards/images/nke4cgqh82.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["nl8zetvwmd"] = {
+      uuid = "nl8zetvwmd",
+      slug = "creative-shock",
+      name = "Creative Shock",
+      image = "/cards/images/nl8zetvwmd.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["nmf5mkc3s9"] = {
+      uuid = "nmf5mkc3s9",
+      slug = "memento-pocketwatch",
+      name = "Memento Pocketwatch",
+      image = "/cards/images/nmf5mkc3s9.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["nne5n3cl9l"] = {
+      uuid = "nne5n3cl9l",
+      slug = "imperial-spy",
+      name = "Imperial Spy",
+      image = "/cards/images/nne5n3cl9l.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["nne5o3cm9l"] = {
+      uuid = "nne5o3cm9l",
+      slug = "creeping-torment",
+      name = "Creeping Torment",
+      image = "/cards/images/nne5o3cm9l.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["nngjbk3t0y"] = {
       uuid = "nngjbk3t0y",
       slug = "striking-illuminance",
       name = "Striking Illuminance",
       image = "/cards/images/nngjbk3t0y.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["noaZ7jhaAn"] = {
+      uuid = "noaZ7jhaAn",
+      slug = "ebbing-tide",
+      name = "Ebbing Tide",
+      image = "/cards/images/noaZ7jhaAn.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["np7qxt64jz"] = {
+      uuid = "np7qxt64jz",
+      slug = "inzali-unshackled-blaze",
+      name = "Inzali, Unshackled Blaze",
+      image = "/cards/images/np7qxt64jz.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["nsZ6sR7MPh"] = {
+      uuid = "nsZ6sR7MPh",
+      slug = "scathing-seminary",
+      name = "Scathing Seminary",
+      image = "/cards/images/nsZ6sR7MPh.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["nuutwmhm7g"] = {
+      uuid = "nuutwmhm7g",
+      slug = "slip-away",
+      name = "Slip Away",
+      image = "/cards/images/nuutwmhm7g.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["nv47o27xgn"] = {
+      uuid = "nv47o27xgn",
+      slug = "favorable-winds",
+      name = "Favorable Winds",
+      image = "/cards/images/nv47o27xgn.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["nv8yrvc0vb"] = {
+      uuid = "nv8yrvc0vb",
+      slug = "zhao-yun-dragonsblood",
+      name = "Zhao Yun, Dragonsblood",
+      image = "/cards/images/nv8yrvc0vb.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["nvx8nou1xi"] = {
+      uuid = "nvx8nou1xi",
+      slug = "razorvine",
+      name = "Razorvine",
+      image = "/cards/images/nvx8nou1xi.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["nwnexcbviu"] = {
+      uuid = "nwnexcbviu",
+      slug = "reflect-the-skies",
+      name = "Reflect the Skies",
+      image = "/cards/images/nwnexcbviu.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["nx7vk7giz7"] = {
+      uuid = "nx7vk7giz7",
+      slug = "neos-elemental",
+      name = "Neos Elemental",
+      image = "/cards/images/nx7vk7giz7.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["nyo113do1y"] = {
+      uuid = "nyo113do1y",
+      slug = "landscape-corsair",
+      name = "Landscape Corsair",
+      image = "/cards/images/nyo113do1y.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["nz1v23ehok"] = {
       uuid = "nz1v23ehok",
       slug = "scepter-of-awakening",
       name = "Scepter of Awakening",
       image = "/cards/images/nz1v23ehok.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["nzcq5p5vdw"] = {
       uuid = "nzcq5p5vdw",
       slug = "fleetfoot-filly",
       name = "Fleetfoot Filly",
       image = "/cards/images/nzcq5p5vdw.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["o01zv9vkdi"] = {
+      uuid = "o01zv9vkdi",
+      slug = "lumbering-steed",
+      name = "Lumbering Steed",
+      image = "/cards/images/o01zv9vkdi.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["o1i184h5la"] = {
+      uuid = "o1i184h5la",
+      slug = "potion-infusion-seal",
+      name = "Potion Infusion: Seal",
+      image = "/cards/images/o1i184h5la.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["o1j194h6la"] = {
+      uuid = "o1j194h6la",
+      slug = "refresh-chamber",
+      name = "Refresh Chamber",
+      image = "/cards/images/o1j194h6la.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["o1nlgqlqy0"] = {
+      uuid = "o1nlgqlqy0",
+      slug = "flamebound-draug",
+      name = "Flamebound Draug",
+      image = "/cards/images/o1nlgqlqy0.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["o1xw6lwpx5"] = {
       uuid = "o1xw6lwpx5",
       slug = "courtside-beastkeeper",
       name = "Courtside Beastkeeper",
       image = "/cards/images/o1xw6lwpx5.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["o2o3fakm31"] = {
       uuid = "o2o3fakm31",
       slug = "shattering-discharge",
       name = "Shattering Discharge",
       image = "/cards/images/o2o3fakm31.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["o35gc7o78p"] = {
       uuid = "o35gc7o78p",
       slug = "poised-bowman",
       name = "Poised Bowman",
       image = "/cards/images/o35gc7o78p.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["o3dl6x95s4"] = {
+      uuid = "o3dl6x95s4",
+      slug = "invective-instruction",
+      name = "Invective Instruction",
+      image = "/cards/images/o3dl6x95s4.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["o56arxxu83"] = {
       uuid = "o56arxxu83",
       slug = "demolition",
       name = "Demolition",
       image = "/cards/images/o56arxxu83.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["o9n3f98wmf"] = {
+      uuid = "o9n3f98wmf",
+      slug = "the-looking-glass",
+      name = "The Looking Glass",
+      image = "/cards/images/o9n3f98wmf.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["oHUoNhTnTu"] = {
       uuid = "oHUoNhTnTu",
       slug = "ticket-to-the-afterlife",
       name = "Ticket to the Afterlife",
       image = "/cards/images/oHUoNhTnTu.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["oJ8DxXdXEN"] = {
       uuid = "oJ8DxXdXEN",
       slug = "stolen-chance",
       name = "Stolen Chance",
       image = "/cards/images/oJ8DxXdXEN.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["oafsyqc998"] = {
+      uuid = "oafsyqc998",
+      slug = "study-the-fables",
+      name = "Study the Fables",
+      image = "/cards/images/oafsyqc998.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ob3ib5el99"] = {
+      uuid = "ob3ib5el99",
+      slug = "debilitating-grasp",
+      name = "Debilitating Grasp",
+      image = "/cards/images/ob3ib5el99.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["ob5u6c91q3"] = {
       uuid = "ob5u6c91q3",
       slug = "splashing-spearguard",
       name = "Splashing Spearguard",
       image = "/cards/images/ob5u6c91q3.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["obf19et3ar"] = {
+      uuid = "obf19et3ar",
+      slug = "skilled-aerotheurge",
+      name = "Skilled Aerotheurge",
+      image = "/cards/images/obf19et3ar.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["obfsyrc9a8"] = {
+      uuid = "obfsyrc9a8",
+      slug = "tonic-of-remembrance",
+      name = "Tonic of Remembrance",
+      image = "/cards/images/obfsyrc9a8.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
     },
     ["oocpcqt9n7"] = {
       uuid = "oocpcqt9n7",
       slug = "captivating-opulence",
       name = "Captivating Opulence",
       image = "/cards/images/oocpcqt9n7.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["or18nwnexc"] = {
+      uuid = "or18nwnexc",
+      slug = "cleansing-reunion",
+      name = "Cleansing Reunion",
+      image = "/cards/images/or18nwnexc.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["or49kb9590"] = {
+      uuid = "or49kb9590",
+      slug = "sun-quan-sealbearer",
+      name = "Sun Quan, Sealbearer",
+      image = "/cards/images/or49kb9590.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["orn94r1IU1"] = {
       uuid = "orn94r1IU1",
       slug = "inverted-pyroslash",
       name = "Inverted Pyroslash",
       image = "/cards/images/orn94r1IU1.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["ouv8ew7k6z"] = {
+      uuid = "ouv8ew7k6z",
+      slug = "tidestone-bovine",
+      name = "Tidestone Bovine",
+      image = "/cards/images/ouv8ew7k6z.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["ow762v48z3"] = {
       uuid = "ow762v48z3",
       slug = "wildheart-hymn",
       name = "Wildheart Hymn",
       image = "/cards/images/ow762v48z3.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["ox4gsv618d"] = {
       uuid = "ox4gsv618d",
       slug = "austere-priestess",
       name = "Austere Priestess",
       image = "/cards/images/ox4gsv618d.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["oxam9yfox4"] = {
+      uuid = "oxam9yfox4",
+      slug = "relic-of-sunken-past",
+      name = "Relic of Sunken Past",
+      image = "/cards/images/oxam9yfox4.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["oxt4s90iwy"] = {
       uuid = "oxt4s90iwy",
       slug = "explosive-concoction",
       name = "Explosive Concoction",
       image = "/cards/images/oxt4s90iwy.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+      },
     },
     ["oydcc8dbgf"] = {
       uuid = "oydcc8dbgf",
       slug = "arcane-blast",
       name = "Arcane Blast",
       image = "/cards/images/oydcc8dbgf.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["oyzs3f5dnr"] = {
+      uuid = "oyzs3f5dnr",
+      slug = "unyielding-wraithguard",
+      name = "Unyielding Wraithguard",
+      image = "/cards/images/oyzs3f5dnr.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["ozr8r72081"] = {
+      uuid = "ozr8r72081",
+      slug = "vanishing-eclipse",
+      name = "Vanishing Eclipse",
+      image = "/cards/images/ozr8r72081.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["p0dgUM1Alr"] = {
       uuid = "p0dgUM1Alr",
       slug = "bill-chimney-sweep",
       name = "Bill, Chimney Sweep",
       image = "/cards/images/p0dgUM1Alr.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["p0xhojoay9"] = {
+      uuid = "p0xhojoay9",
+      slug = "four-of-hearts",
+      name = "Four of Hearts",
+      image = "/cards/images/p0xhojoay9.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["p1blkel7t9"] = {
+      uuid = "p1blkel7t9",
+      slug = "devoted-martyr",
+      name = "Devoted Martyr",
+      image = "/cards/images/p1blkel7t9.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["p2blsznabj"] = {
+      uuid = "p2blsznabj",
+      slug = "marksman-captain",
+      name = "Marksman Captain",
+      image = "/cards/images/p2blsznabj.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["p6tdoafsyq"] = {
+      uuid = "p6tdoafsyq",
+      slug = "freydis-master-tactician",
+      name = "Freydis, Master Tactician",
+      image = "/cards/images/p6tdoafsyq.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["p7whzr4oiq"] = {
+      uuid = "p7whzr4oiq",
+      slug = "inert-sword",
+      name = "Inert Sword",
+      image = "/cards/images/p7whzr4oiq.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["p8m7o091zv"] = {
+      uuid = "p8m7o091zv",
+      slug = "fireblooded-oath",
+      name = "Fireblooded Oath",
+      image = "/cards/images/p8m7o091zv.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["p8m7o1i184"] = {
+      uuid = "p8m7o1i184",
+      slug = "surge-protector",
+      name = "Surge Protector",
+      image = "/cards/images/p8m7o1i184.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["p8m8o1j194"] = {
+      uuid = "p8m8o1j194",
+      slug = "rococo-explosive-maven",
+      name = "Rococo, Explosive Maven",
+      image = "/cards/images/p8m8o1j194.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["p90l7heq7j"] = {
+      uuid = "p90l7heq7j",
+      slug = "intensified-pyre",
+      name = "Intensified Pyre",
+      image = "/cards/images/p90l7heq7j.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["p9axbfkdz5"] = {
+      uuid = "p9axbfkdz5",
+      slug = "twilight-slime",
+      name = "Twilight Slime",
+      image = "/cards/images/p9axbfkdz5.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["pBKsJeP8mo"] = {
+      uuid = "pBKsJeP8mo",
+      slug = "chrysalis-hazy-caterpillar",
+      name = "Chrysalis, Hazy Caterpillar",
+      image = "/cards/images/pBKsJeP8mo.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["pKkFOWqXW7"] = {
       uuid = "pKkFOWqXW7",
       slug = "flickering-afterglow",
       name = "Flickering Afterglow",
       image = "/cards/images/pKkFOWqXW7.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["pRAMNLSX52"] = {
       uuid = "pRAMNLSX52",
       slug = "rowland-schwartz-knight",
       name = "Rowland, Schwartz Knight",
       image = "/cards/images/pRAMNLSX52.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["pXitiMdBgP"] = {
+      uuid = "pXitiMdBgP",
+      slug = "armed-and-dangerous",
+      name = "Armed and Dangerous",
+      image = "/cards/images/pXitiMdBgP.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["pa4zg0ppmv"] = {
       uuid = "pa4zg0ppmv",
       slug = "acerbica",
       name = "Acerbica",
       image = "/cards/images/pa4zg0ppmv.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
     },
     ["pad88gbrd6"] = {
       uuid = "pad88gbrd6",
       slug = "fabled-ruby-fatestone",
       name = "Fabled Ruby Fatestone",
       image = "/cards/images/pad88gbrd6.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+        {
+          name = "Suzaku, Vermillion Phoenix",
+          slug = "suzaku-vermillion-phoenix",
+          uuid = "42mdt7ge5d",
+          image = "/cards/images/42mdt7ge5d.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["paqm8uowyt"] = {
+      uuid = "paqm8uowyt",
+      slug = "wandering-glaivier",
+      name = "Wandering Glaivier",
+      image = "/cards/images/paqm8uowyt.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["pc9bula41o"] = {
+      uuid = "pc9bula41o",
+      slug = "swerving-spring",
+      name = "Swerving Spring",
+      image = "/cards/images/pc9bula41o.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["pgniladoej"] = {
+      uuid = "pgniladoej",
+      slug = "imperial-assassin",
+      name = "Imperial Assassin",
+      image = "/cards/images/pgniladoej.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["pgwsinbgwv"] = {
+      uuid = "pgwsinbgwv",
+      slug = "poisonous-breezecap",
+      name = "Poisonous Breezecap",
+      image = "/cards/images/pgwsinbgwv.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["pgzedxkwmp"] = {
+      uuid = "pgzedxkwmp",
+      slug = "shadows-claw",
+      name = "Shadow's Claw",
+      image = "/cards/images/pgzedxkwmp.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["phjx9gtfrd"] = {
+      uuid = "phjx9gtfrd",
+      slug = "seize-fate",
+      name = "Seize Fate",
+      image = "/cards/images/phjx9gtfrd.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["pisznne5n3"] = {
+      uuid = "pisznne5n3",
+      slug = "winbless-kiteshield",
+      name = "Winbless Kiteshield",
+      image = "/cards/images/pisznne5n3.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["pisznne5o3"] = {
+      uuid = "pisznne5o3",
+      slug = "astra-sight",
+      name = "Astra Sight",
+      image = "/cards/images/pisznne5o3.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["pmeslfpwkk"] = {
+      uuid = "pmeslfpwkk",
+      slug = "automaton-drone",
+      name = "Automaton Drone",
+      image = "/cards/images/pmeslfpwkk.jpg",
+      orientation = "front",
+      types = { "ALLY", "TOKEN" },
+      orientations = {
+      },
     },
     ["pmo37yoti9"] = {
       uuid = "pmo37yoti9",
       slug = "smoke-out",
       name = "Smoke Out",
       image = "/cards/images/pmo37yoti9.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["pmr2cefzdk"] = {
+      uuid = "pmr2cefzdk",
+      slug = "relic-of-dancing-embers",
+      name = "Relic of Dancing Embers",
+      image = "/cards/images/pmr2cefzdk.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["pmzpuk8uwz"] = {
+      uuid = "pmzpuk8uwz",
+      slug = "guandu-theater-of-war",
+      name = "Guandu, Theater of War",
+      image = "/cards/images/pmzpuk8uwz.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["pn2t15wzta"] = {
+      uuid = "pn2t15wzta",
+      slug = "razorgale-calling",
+      name = "Razorgale Calling",
+      image = "/cards/images/pn2t15wzta.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["pofqndl6i6"] = {
+      uuid = "pofqndl6i6",
+      slug = "beastbond-claws",
+      name = "Beastbond Claws",
+      image = "/cards/images/pofqndl6i6.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["pp8en6k5my"] = {
+      uuid = "pp8en6k5my",
+      slug = "orchestrated-seizure",
+      name = "Orchestrated Seizure",
+      image = "/cards/images/pp8en6k5my.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["pq2d1ocacp"] = {
       uuid = "pq2d1ocacp",
       slug = "winds-of-destiny",
       name = "Winds of Destiny",
       image = "/cards/images/pq2d1ocacp.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["prawtayu4e"] = {
       uuid = "prawtayu4e",
       slug = "fledgling",
       name = "Fledgling",
       image = "/cards/images/prawtayu4e.jpg",
+      orientation = "front",
       types = { "ALLY", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["ps83dvw4z6"] = {
+      uuid = "ps83dvw4z6",
+      slug = "ghostsight-mare",
+      name = "Ghostsight Mare",
+      image = "/cards/images/ps83dvw4z6.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["psl4cweoys"] = {
       uuid = "psl4cweoys",
       slug = "outrider-of-waves",
       name = "Outrider of Waves",
       image = "/cards/images/psl4cweoys.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["pvfxptotgw"] = {
+      uuid = "pvfxptotgw",
+      slug = "aquifer-seneschal",
+      name = "Aquifer Seneschal",
+      image = "/cards/images/pvfxptotgw.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["pvr68aw7bs"] = {
+      uuid = "pvr68aw7bs",
+      slug = "rivulet-adjutant",
+      name = "Rivulet Adjutant",
+      image = "/cards/images/pvr68aw7bs.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["pxmo37d1pu"] = {
+      uuid = "pxmo37d1pu",
+      slug = "mark-of-fervor",
+      name = "Mark of Fervor",
+      image = "/cards/images/pxmo37d1pu.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["py5fm4ev7s"] = {
+      uuid = "py5fm4ev7s",
+      slug = "water-barrier",
+      name = "Water Barrier",
+      image = "/cards/images/py5fm4ev7s.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["pyggz5dxaw"] = {
+      uuid = "pyggz5dxaw",
+      slug = "crimson-tear",
+      name = "Crimson Tear",
+      image = "/cards/images/pyggz5dxaw.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["pypgzedxkw"] = {
+      uuid = "pypgzedxkw",
+      slug = "powered-bishop",
+      name = "Powered Bishop",
+      image = "/cards/images/pypgzedxkw.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["pyqgzeexkw"] = {
+      uuid = "pyqgzeexkw",
+      slug = "gloamspire-black-market",
+      name = "Gloamspire, Black Market",
+      image = "/cards/images/pyqgzeexkw.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
     },
     ["pz7v2esopg"] = {
       uuid = "pz7v2esopg",
       slug = "ameliorating-mantra",
       name = "Ameliorating Mantra",
       image = "/cards/images/pz7v2esopg.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["pzjazzyu28"] = {
       uuid = "pzjazzyu28",
       slug = "clear-pastures",
       name = "Clear Pastures",
       image = "/cards/images/pzjazzyu28.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["q19diby84b"] = {
+      uuid = "q19diby84b",
+      slug = "stellaria-shower",
+      name = "Stellaria Shower",
+      image = "/cards/images/q19diby84b.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["q1l6b3r5ae"] = {
+      uuid = "q1l6b3r5ae",
+      slug = "lucenias-reign",
+      name = "Lucenia's Reign",
+      image = "/cards/images/q1l6b3r5ae.jpg",
+      orientation = "front",
+      types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["q28n9e8f9q"] = {
+      uuid = "q28n9e8f9q",
+      slug = "reconnaissance-scout",
+      name = "Reconnaissance Scout",
+      image = "/cards/images/q28n9e8f9q.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["q30seklknd"] = {
+      uuid = "q30seklknd",
+      slug = "navigate-the-streets",
+      name = "Navigate the Streets",
+      image = "/cards/images/q30seklknd.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["q3i7ocnh4f"] = {
+      uuid = "q3i7ocnh4f",
+      slug = "death-essence-amulet",
+      name = "Death Essence Amulet",
+      image = "/cards/images/q3i7ocnh4f.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["q3zjz3eqmh"] = {
+      uuid = "q3zjz3eqmh",
+      slug = "kongming-wayward-maven",
+      name = "Kongming, Wayward Maven",
+      image = "/cards/images/q3zjz3eqmh.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["q492ollknd"] = {
+      uuid = "q492ollknd",
+      slug = "harvester-mk-ii",
+      name = "Harvester Mk II",
+      image = "/cards/images/q492ollknd.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["q4or18nwne"] = {
+      uuid = "q4or18nwne",
+      slug = "vampiric-slime",
+      name = "Vampiric Slime",
+      image = "/cards/images/q4or18nwne.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["q5z6utn5tk"] = {
+      uuid = "q5z6utn5tk",
+      slug = "gem-of-searing-flame",
+      name = "Gem of Searing Flame",
+      image = "/cards/images/q5z6utn5tk.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["q62nobfsyr"] = {
+      uuid = "q62nobfsyr",
+      slug = "charged-mannequin",
+      name = "Charged Mannequin",
+      image = "/cards/images/q62nobfsyr.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["q63nobfsyr"] = {
+      uuid = "q63nobfsyr",
+      slug = "neos-elemental",
+      name = "Neos Elemental",
+      image = "/cards/images/q63nobfsyr.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["q6i2i6dm23"] = {
       uuid = "q6i2i6dm23",
       slug = "shangxiang-fierce-princess",
       name = "Shangxiang, Fierce Princess",
       image = "/cards/images/q6i2i6dm23.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["q7et125tum"] = {
       uuid = "q7et125tum",
       slug = "suzakus-command",
       name = "Suzaku's Command",
       image = "/cards/images/q7et125tum.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["q8s47otuk7"] = {
+      uuid = "q8s47otuk7",
+      slug = "briar-schwartz-king",
+      name = "Briar, Schwartz King",
+      image = "/cards/images/q8s47otuk7.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["q9unb9h1wu"] = {
+      uuid = "q9unb9h1wu",
+      slug = "mad-tea-party",
+      name = "Mad Tea Party",
+      image = "/cards/images/q9unb9h1wu.jpg",
+      orientation = "front",
+      types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
     },
     ["qJjjgnNdJr"] = {
       uuid = "qJjjgnNdJr",
       slug = "bishops-cross",
       name = "Bishop's Cross",
       image = "/cards/images/qJjjgnNdJr.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["qYJ96rrbBe"] = {
+      uuid = "qYJ96rrbBe",
+      slug = "sink-the-mind",
+      name = "Sink the Mind",
+      image = "/cards/images/qYJ96rrbBe.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["qbaVYt2mzj"] = {
       uuid = "qbaVYt2mzj",
       slug = "waited-accord",
       name = "Waited Accord",
       image = "/cards/images/qbaVYt2mzj.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["qd66adqccn"] = {
+      uuid = "qd66adqccn",
+      slug = "glacial-evocation",
+      name = "Glacial Evocation",
+      image = "/cards/images/qd66adqccn.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["qe6kd7gocb"] = {
+      uuid = "qe6kd7gocb",
+      slug = "aqua-vitae",
+      name = "Aqua Vitae",
+      image = "/cards/images/qe6kd7gocb.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["qe6kd7hocc"] = {
+      uuid = "qe6kd7hocc",
+      slug = "awakened-deacon",
+      name = "Awakened Deacon",
+      image = "/cards/images/qe6kd7hocc.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["qf4zLj6He3"] = {
+      uuid = "qf4zLj6He3",
+      slug = "flamebreak-chorus",
+      name = "Flamebreak Chorus",
+      image = "/cards/images/qf4zLj6He3.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["qfnv68ul91"] = {
+      uuid = "qfnv68ul91",
+      slug = "crimson-prescience",
+      name = "Crimson Prescience",
+      image = "/cards/images/qfnv68ul91.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["qgkiejanp6"] = {
+      uuid = "qgkiejanp6",
+      slug = "slash-and-burn",
+      name = "Slash and Burn",
+      image = "/cards/images/qgkiejanp6.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["qgzeexkwnp"] = {
+      uuid = "qgzeexkwnp",
+      slug = "potion-infusion-starlight",
+      name = "Potion Infusion: Starlight",
+      image = "/cards/images/qgzeexkwnp.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["qh6sclyexp"] = {
       uuid = "qh6sclyexp",
       slug = "pluming-crescendo",
       name = "Pluming Crescendo",
       image = "/cards/images/qh6sclyexp.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["qhcobDi556"] = {
       uuid = "qhcobDi556",
       slug = "peer-beyond",
       name = "Peer Beyond",
       image = "/cards/images/qhcobDi556.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["qn0xtry2ek"] = {
+      uuid = "qn0xtry2ek",
+      slug = "teasing-aerocharge",
+      name = "Teasing Aerocharge",
+      image = "/cards/images/qn0xtry2ek.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["qt31pyggz5"] = {
+      uuid = "qt31pyggz5",
+      slug = "reposition",
+      name = "Reposition",
+      image = "/cards/images/qt31pyggz5.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["qt8db0bl6x"] = {
       uuid = "qt8db0bl6x",
       slug = "whirlwind-threads",
       name = "Whirlwind Threads",
       image = "/cards/images/qt8db0bl6x.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["qtbd0nts73"] = {
+      uuid = "qtbd0nts73",
+      slug = "cao-cao-aspirant-of-chaos",
+      name = "Cao Cao, Aspirant of Chaos",
+      image = "/cards/images/qtbd0nts73.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["qu3apypgze"] = {
+      uuid = "qu3apypgze",
+      slug = "overlord-mk-iii",
+      name = "Overlord Mk III",
+      image = "/cards/images/qu3apypgze.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["qwsuo0214d"] = {
+      uuid = "qwsuo0214d",
+      slug = "desperate-cavalier",
+      name = "Desperate Cavalier",
+      image = "/cards/images/qwsuo0214d.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["qwwvyfjo9i"] = {
+      uuid = "qwwvyfjo9i",
+      slug = "arisanna-master-alchemist",
+      name = "Arisanna, Master Alchemist",
+      image = "/cards/images/qwwvyfjo9i.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["qwwvzojo9i"] = {
+      uuid = "qwwvzojo9i",
+      slug = "hailstorm-guard",
+      name = "Hailstorm Guard",
+      image = "/cards/images/qwwvzojo9i.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["qwxvzokpaj"] = {
+      uuid = "qwxvzokpaj",
+      slug = "freezing-round",
+      name = "Freezing Round",
+      image = "/cards/images/qwxvzokpaj.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["qx0hb93o7e"] = {
+      uuid = "qx0hb93o7e",
+      slug = "ignite-fate",
+      name = "Ignite Fate",
+      image = "/cards/images/qx0hb93o7e.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["qxllc2l19j"] = {
+      uuid = "qxllc2l19j",
+      slug = "powered-armsmaster",
+      name = "Powered Armsmaster",
+      image = "/cards/images/qxllc2l19j.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["qxvut6f4ix"] = {
+      uuid = "qxvut6f4ix",
+      slug = "march-hare-mottled-host",
+      name = "March Hare, Mottled Host",
+      image = "/cards/images/qxvut6f4ix.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["qy61dfh5f4"] = {
       uuid = "qy61dfh5f4",
       slug = "lively-chorale",
       name = "Lively Chorale",
       image = "/cards/images/qy61dfh5f4.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["qyhqZTPSDY"] = {
       uuid = "qyhqZTPSDY",
       slug = "tricastles-of-lucenia",
       name = "Tricastles of Lucenia",
       image = "/cards/images/qyhqZTPSDY.jpg",
+      orientation = "front",
       types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["qzh8cj2ooz"] = {
+      uuid = "qzh8cj2ooz",
+      slug = "fervent-lancer",
+      name = "Fervent Lancer",
+      image = "/cards/images/qzh8cj2ooz.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["r07d4q0cax"] = {
+      uuid = "r07d4q0cax",
+      slug = "sempiternal-sage",
+      name = "Sempiternal Sage",
+      image = "/cards/images/r07d4q0cax.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["r1g8evrbdz"] = {
+      uuid = "r1g8evrbdz",
+      slug = "krustallan-patrol",
+      name = "Krustallan Patrol",
+      image = "/cards/images/r1g8evrbdz.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["r2g8evrcdz"] = {
+      uuid = "r2g8evrcdz",
+      slug = "krustallan-distiller",
+      name = "Krustallan Distiller",
+      image = "/cards/images/r2g8evrcdz.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["r492ollknd"] = {
+      uuid = "r492ollknd",
+      slug = "summon-sentinels",
+      name = "Summon Sentinels",
+      image = "/cards/images/r492ollknd.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["r5y1cSoayT"] = {
+      uuid = "r5y1cSoayT",
+      slug = "fragmented-spirit-of-water",
+      name = "Fragmented Spirit of Water",
+      image = "/cards/images/r5y1cSoayT.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["r6y2is7yu8"] = {
       uuid = "r6y2is7yu8",
       slug = "clash-of-fates",
       name = "Clash of Fates",
       image = "/cards/images/r6y2is7yu8.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["r6yo11z8z5"] = {
+      uuid = "r6yo11z8z5",
+      slug = "nascent-barrier",
+      name = "Nascent Barrier",
+      image = "/cards/images/r6yo11z8z5.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["r8y2vca8a9"] = {
+      uuid = "r8y2vca8a9",
+      slug = "two-of-hearts",
+      name = "Two of Hearts",
+      image = "/cards/images/r8y2vca8a9.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["r96a6hhhvz"] = {
       uuid = "r96a6hhhvz",
       slug = "empowering-enlightenment",
       name = "Empowering Enlightenment",
       image = "/cards/images/r96a6hhhvz.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["rNHX8IUeCZ"] = {
+      uuid = "rNHX8IUeCZ",
+      slug = "dong-zhou-false-liege",
+      name = "Dong Zhou, False Liege",
+      image = "/cards/images/rNHX8IUeCZ.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["rTbcxcwN6D"] = {
+      uuid = "rTbcxcwN6D",
+      slug = "zhao-yun-dragonsblood",
+      name = "Zhao Yun, Dragonsblood",
+      image = "/cards/images/rTbcxcwN6D.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["raWHgSc8G1"] = {
+      uuid = "raWHgSc8G1",
+      slug = "volda-smolders-spite",
+      name = "Volda, Smolder's Spite",
+      image = "/cards/images/raWHgSc8G1.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["rbcz3hmf1y"] = {
+      uuid = "rbcz3hmf1y",
+      slug = "explosive-fractal",
+      name = "Explosive Fractal",
+      image = "/cards/images/rbcz3hmf1y.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["rbdzdhmf17"] = {
+      uuid = "rbdzdhmf17",
+      slug = "pyroclastic-flow",
+      name = "Pyroclastic Flow",
+      image = "/cards/images/rbdzdhmf17.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["rcdzdhnf18"] = {
+      uuid = "rcdzdhnf18",
+      slug = "manic-zealot",
+      name = "Manic Zealot",
+      image = "/cards/images/rcdzdhnf18.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["rcuj0vkrrn"] = {
+      uuid = "rcuj0vkrrn",
+      slug = "suited-trickery",
+      name = "Suited Trickery",
+      image = "/cards/images/rcuj0vkrrn.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["rd90o4myfz"] = {
+      uuid = "rd90o4myfz",
+      slug = "deadly-opportunist",
+      name = "Deadly Opportunist",
+      image = "/cards/images/rd90o4myfz.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["rftquefvws"] = {
+      uuid = "rftquefvws",
+      slug = "bring-down-the-mighty",
+      name = "Bring Down the Mighty",
+      image = "/cards/images/rftquefvws.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["rg2skn08r6"] = {
+      uuid = "rg2skn08r6",
+      slug = "tome-of-ignorance",
+      name = "Tome of Ignorance",
+      image = "/cards/images/rg2skn08r6.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["rj87jd0g7l"] = {
+      uuid = "rj87jd0g7l",
+      slug = "blazing-lunge",
+      name = "Blazing Lunge",
+      image = "/cards/images/rj87jd0g7l.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["rjhdpn3iz3"] = {
+      uuid = "rjhdpn3iz3",
+      slug = "sadi-blood-harvester",
+      name = "Sadi, Blood Harvester",
+      image = "/cards/images/rjhdpn3iz3.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["rjkfm3rjgb"] = {
       uuid = "rjkfm3rjgb",
       slug = "lu-bu-indomitable-titan",
       name = "Lu Bu, Indomitable Titan",
       image = "/cards/images/rjkfm3rjgb.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+        {
+          name = "Lu Bu, Wrath Incarnate",
+          slug = "lu-bu-wrath-incarnate",
+          uuid = "l5izukgdmh",
+          image = "/cards/images/l5izukgdmh.jpg",
+          orientation = "back",
+          types = { "CHAMPION" },
+        },
+      },
+    },
+    ["rl8w1ab8pw"] = {
+      uuid = "rl8w1ab8pw",
+      slug = "aetheric-reforging",
+      name = "Aetheric Reforging",
+      image = "/cards/images/rl8w1ab8pw.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["rn5tmp74g1"] = {
+      uuid = "rn5tmp74g1",
+      slug = "kongming-ascetic-vice",
+      name = "Kongming, Ascetic Vice",
+      image = "/cards/images/rn5tmp74g1.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["rolvyxk3ih"] = {
+      uuid = "rolvyxk3ih",
+      slug = "brash-defender",
+      name = "Brash Defender",
+      image = "/cards/images/rolvyxk3ih.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["rragp8m7o0"] = {
+      uuid = "rragp8m7o0",
+      slug = "silvershine",
+      name = "Silvershine",
+      image = "/cards/images/rragp8m7o0.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["rragp8m7o1"] = {
+      uuid = "rragp8m7o1",
+      slug = "sharpen-blade",
+      name = "Sharpen Blade",
+      image = "/cards/images/rragp8m7o1.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["rtc4xft6kr"] = {
+      uuid = "rtc4xft6kr",
+      slug = "hoarfrost-spine",
+      name = "Hoarfrost Spine",
+      image = "/cards/images/rtc4xft6kr.jpg",
+      orientation = "front",
+      types = { "WEAPON" },
+      orientations = {
+      },
+    },
+    ["ru3bpyqgze"] = {
+      uuid = "ru3bpyqgze",
+      slug = "relentless-hexchaser",
+      name = "Relentless Hexchaser",
+      image = "/cards/images/ru3bpyqgze.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["rx9d2t9kus"] = {
+      uuid = "rx9d2t9kus",
+      slug = "aqueous-stallion",
+      name = "Aqueous Stallion",
+      image = "/cards/images/rx9d2t9kus.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["rzq7t0mgou"] = {
+      uuid = "rzq7t0mgou",
+      slug = "fraternal-garrison",
+      name = "Fraternal Garrison",
+      image = "/cards/images/rzq7t0mgou.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["s0ccrszf2m"] = {
+      uuid = "s0ccrszf2m",
+      slug = "gloamspire-sniper",
+      name = "Gloamspire Sniper",
+      image = "/cards/images/s0ccrszf2m.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["s2QJpC31qE"] = {
       uuid = "s2QJpC31qE",
       slug = "myopic-lens",
       name = "Myopic Lens",
       image = "/cards/images/s2QJpC31qE.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["s3579hr973"] = {
+      uuid = "s3579hr973",
+      slug = "surging-undertow",
+      name = "Surging Undertow",
+      image = "/cards/images/s3579hr973.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["s7qu3apypg"] = {
+      uuid = "s7qu3apypg",
+      slug = "icebound-slam",
+      name = "Icebound Slam",
+      image = "/cards/images/s7qu3apypg.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["s8kw1lr5x1"] = {
       uuid = "s8kw1lr5x1",
       slug = "fabled-emerald-fatestone",
       name = "Fabled Emerald Fatestone",
       image = "/cards/images/s8kw1lr5x1.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+        {
+          name = "Byakko, White Tiger",
+          slug = "byakko-white-tiger",
+          uuid = "kkkcxq93ul",
+          image = "/cards/images/kkkcxq93ul.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["s8mrpw2ivw"] = {
+      uuid = "s8mrpw2ivw",
+      slug = "war-marshal",
+      name = "War Marshal",
+      image = "/cards/images/s8mrpw2ivw.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["s97qp33nlt"] = {
+      uuid = "s97qp33nlt",
+      slug = "regenerate",
+      name = "Regenerate",
+      image = "/cards/images/s97qp33nlt.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["s9je3rs7qt"] = {
+      uuid = "s9je3rs7qt",
+      slug = "alliance-gearshield",
+      name = "Alliance Gearshield",
+      image = "/cards/images/s9je3rs7qt.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["s9ke3rs7qu"] = {
+      uuid = "s9ke3rs7qu",
+      slug = "alkahest",
+      name = "Alkahest",
+      image = "/cards/images/s9ke3rs7qu.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["s9kf4rt7ru"] = {
+      uuid = "s9kf4rt7ru",
+      slug = "enhance-potency",
+      name = "Enhance Potency",
+      image = "/cards/images/s9kf4rt7ru.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["sE15iVTiOD"] = {
       uuid = "sE15iVTiOD",
       slug = "squallsnare",
       name = "Squallsnare",
       image = "/cards/images/sE15iVTiOD.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["sd4sgp3pfv"] = {
       uuid = "sd4sgp3pfv",
       slug = "yuan-shao-crown-general",
       name = "Yuan Shao, Crown General",
       image = "/cards/images/sd4sgp3pfv.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["seHqtpfGDu"] = {
+      uuid = "seHqtpfGDu",
+      slug = "beastbond-paws",
+      name = "Beastbond Paws",
+      image = "/cards/images/seHqtpfGDu.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["sfhvfiszdn"] = {
+      uuid = "sfhvfiszdn",
+      slug = "tonoris-genesis-aegis",
+      name = "Tonoris, Genesis Aegis",
+      image = "/cards/images/sfhvfiszdn.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["sgdrtxyoad"] = {
+      uuid = "sgdrtxyoad",
+      slug = "beguiling-coup",
+      name = "Beguiling Coup",
+      image = "/cards/images/sgdrtxyoad.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
     },
     ["sl0YCI2MGg"] = {
       uuid = "sl0YCI2MGg",
       slug = "smoke-bombs",
       name = "Smoke Bombs",
       image = "/cards/images/sl0YCI2MGg.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["sl3h52hiqj"] = {
+      uuid = "sl3h52hiqj",
+      slug = "fluffy-shopkeep",
+      name = "Fluffy Shopkeep",
+      image = "/cards/images/sl3h52hiqj.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["slmivkusde"] = {
       uuid = "slmivkusde",
       slug = "cinder-geyser",
       name = "Cinder Geyser",
       image = "/cards/images/slmivkusde.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["slzybrcuh8"] = {
+      uuid = "slzybrcuh8",
+      slug = "ash-filcher",
+      name = "Ash Filcher",
+      image = "/cards/images/slzybrcuh8.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["so8bmm9xnr"] = {
+      uuid = "so8bmm9xnr",
+      slug = "zhang-fei-spirited-steel",
+      name = "Zhang Fei, Spirited Steel",
+      image = "/cards/images/so8bmm9xnr.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["sphwpisznn"] = {
+      uuid = "sphwpisznn",
+      slug = "battlefield-spotter",
+      name = "Battlefield Spotter",
+      image = "/cards/images/sphwpisznn.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["sphwpjsznn"] = {
+      uuid = "sphwpjsznn",
+      slug = "fragmented-spirit-of-fire",
+      name = "Fragmented Spirit of Fire",
+      image = "/cards/images/sphwpjsznn.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["spswzjcb8a"] = {
       uuid = "spswzjcb8a",
       slug = "xuchang-frozen-citadel",
       name = "Xuchang, Frozen Citadel",
       image = "/cards/images/spswzjcb8a.jpg",
+      orientation = "front",
       types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["sqe0a841af"] = {
+      uuid = "sqe0a841af",
+      slug = "crescent-glaive",
+      name = "Crescent Glaive",
+      image = "/cards/images/sqe0a841af.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["srkkm872na"] = {
+      uuid = "srkkm872na",
+      slug = "tsunami-of-nanyue",
+      name = "Tsunami of Nanyue",
+      image = "/cards/images/srkkm872na.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ss3q657cmi"] = {
+      uuid = "ss3q657cmi",
+      slug = "spellshield-tera",
+      name = "Spellshield: Tera",
+      image = "/cards/images/ss3q657cmi.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["sts14i6k1w"] = {
+      uuid = "sts14i6k1w",
+      slug = "duplicitous-replication",
+      name = "Duplicitous Replication",
+      image = "/cards/images/sts14i6k1w.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["styvJU3c51"] = {
       uuid = "styvJU3c51",
       slug = "lost-providence",
       name = "Lost Providence",
       image = "/cards/images/styvJU3c51.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["suwsdpvwk1"] = {
+      uuid = "suwsdpvwk1",
+      slug = "cometary-vantage",
+      name = "Cometary Vantage",
+      image = "/cards/images/suwsdpvwk1.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["svyzyg7n15"] = {
+      uuid = "svyzyg7n15",
+      slug = "unrelenting-warden",
+      name = "Unrelenting Warden",
+      image = "/cards/images/svyzyg7n15.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["sw69xqa4qh"] = {
+      uuid = "sw69xqa4qh",
+      slug = "torpid-fractal",
+      name = "Torpid Fractal",
+      image = "/cards/images/sw69xqa4qh.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["sx8yh7p5uz"] = {
       uuid = "sx8yh7p5uz",
       slug = "floating-peace",
       name = "Floating Peace",
       image = "/cards/images/sx8yh7p5uz.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["sxu24etu18"] = {
+      uuid = "sxu24etu18",
+      slug = "brewing-kit",
+      name = "Brewing Kit",
+      image = "/cards/images/sxu24etu18.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["szdne4n32l"] = {
+      uuid = "szdne4n32l",
+      slug = "spirit-of-water",
+      name = "Spirit of Water",
+      image = "/cards/images/szdne4n32l.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["szigpFX24M"] = {
       uuid = "szigpFX24M",
       slug = "purifying-thurible",
       name = "Purifying Thurible",
       image = "/cards/images/szigpFX24M.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["sznne5n3cl"] = {
+      uuid = "sznne5n3cl",
+      slug = "eternal-dreamer",
+      name = "Eternal Dreamer",
+      image = "/cards/images/sznne5n3cl.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["sznne5o3cm"] = {
+      uuid = "sznne5o3cm",
+      slug = "diffusive-block",
+      name = "Diffusive Block",
+      image = "/cards/images/sznne5o3cm.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["t2bpfx5wbu"] = {
+      uuid = "t2bpfx5wbu",
+      slug = "jin-fate-defiant",
+      name = "Jin, Fate Defiant",
+      image = "/cards/images/t2bpfx5wbu.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["t4793kvqf2"] = {
+      uuid = "t4793kvqf2",
+      slug = "prototype-shield",
+      name = "Prototype Shield",
+      image = "/cards/images/t4793kvqf2.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["t4xztbvgf2"] = {
+      uuid = "t4xztbvgf2",
+      slug = "seekers-rifle",
+      name = "Seeker's Rifle",
+      image = "/cards/images/t4xztbvgf2.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["t5793lvqf2"] = {
+      uuid = "t5793lvqf2",
+      slug = "rose-eternal-paragon",
+      name = "Rose, Eternal Paragon",
+      image = "/cards/images/t5793lvqf2.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["t6jxtm7eed"] = {
+      uuid = "t6jxtm7eed",
+      slug = "silvershine",
+      name = "Silvershine",
+      image = "/cards/images/t6jxtm7eed.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["t7ru3bpyqg"] = {
+      uuid = "t7ru3bpyqg",
+      slug = "geni-gifted-mechanist",
+      name = "Geni, Gifted Mechanist",
+      image = "/cards/images/t7ru3bpyqg.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["t8hwGuYPYg"] = {
+      uuid = "t8hwGuYPYg",
+      slug = "sword-of-seeking",
+      name = "Sword of Seeking",
+      image = "/cards/images/t8hwGuYPYg.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["t8oeztniac"] = {
+      uuid = "t8oeztniac",
+      slug = "necklace-of-hindsight",
+      name = "Necklace of Hindsight",
+      image = "/cards/images/t8oeztniac.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["t8pqvt94cn"] = {
+      uuid = "t8pqvt94cn",
+      slug = "razor-broadhead",
+      name = "Razor Broadhead",
+      image = "/cards/images/t8pqvt94cn.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
     },
     ["tYGzgYYi7h"] = {
       uuid = "tYGzgYYi7h",
       slug = "alice-whims-monarch",
       name = "Alice, Whim's Monarch",
       image = "/cards/images/tYGzgYYi7h.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["ta30u9d465"] = {
+      uuid = "ta30u9d465",
+      slug = "refabrication",
+      name = "Refabrication",
+      image = "/cards/images/ta30u9d465.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["tb4fr2763u"] = {
+      uuid = "tb4fr2763u",
+      slug = "nico-raptures-embrace",
+      name = "Nico, Rapture's Embrace",
+      image = "/cards/images/tb4fr2763u.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["tbvgf2u82v"] = {
+      uuid = "tbvgf2u82v",
+      slug = "escape-the-wreckage",
+      name = "Escape the Wreckage",
+      image = "/cards/images/tbvgf2u82v.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["teLqIsIqBX"] = {
+      uuid = "teLqIsIqBX",
+      slug = "natures-insight",
+      name = "Nature's Insight",
+      image = "/cards/images/teLqIsIqBX.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["tet9ocqs6b"] = {
+      uuid = "tet9ocqs6b",
+      slug = "wisdoms-reprise",
+      name = "Wisdom's Reprise",
+      image = "/cards/images/tet9ocqs6b.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["ti69zux2ut"] = {
       uuid = "ti69zux2ut",
       slug = "evanescent-winds",
       name = "Evanescent Winds",
       image = "/cards/images/ti69zux2ut.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["tk2qdhwebs"] = {
       uuid = "tk2qdhwebs",
       slug = "razorblade-execution",
       name = "Razorblade Execution",
       image = "/cards/images/tk2qdhwebs.jpg",
+      orientation = "front",
       types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["tnzLKbSZ8R"] = {
+      uuid = "tnzLKbSZ8R",
+      slug = "huang-zhong-unerring-aim",
+      name = "Huang Zhong, Unerring Aim",
+      image = "/cards/images/tnzLKbSZ8R.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["tp1dvid91m"] = {
       uuid = "tp1dvid91m",
       slug = "bell-of-the-chosen",
       name = "Bell of the Chosen",
       image = "/cards/images/tp1dvid91m.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["tqveezw40i"] = {
+      uuid = "tqveezw40i",
+      slug = "rictus-tiding",
+      name = "Rictus Tiding",
+      image = "/cards/images/tqveezw40i.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["trg8idr6s7"] = {
       uuid = "trg8idr6s7",
       slug = "dazzling-courtesan",
       name = "Dazzling Courtesan",
       image = "/cards/images/trg8idr6s7.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["trzhehzkte"] = {
+      uuid = "trzhehzkte",
+      slug = "unwelcome-fortune",
+      name = "Unwelcome Fortune",
+      image = "/cards/images/trzhehzkte.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["tssightkxn"] = {
+      uuid = "tssightkxn",
+      slug = "fleeting-guard",
+      name = "Fleeting Guard",
+      image = "/cards/images/tssightkxn.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["tsyrw26gsm"] = {
+      uuid = "tsyrw26gsm",
+      slug = "mire-reparation",
+      name = "Mire Reparation",
+      image = "/cards/images/tsyrw26gsm.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ttfsotc620"] = {
+      uuid = "ttfsotc620",
+      slug = "clumsy-apprentice",
+      name = "Clumsy Apprentice",
+      image = "/cards/images/ttfsotc620.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["tu1h4pzmq4"] = {
+      uuid = "tu1h4pzmq4",
+      slug = "waterveil-apostle",
+      name = "Waterveil Apostle",
+      image = "/cards/images/tu1h4pzmq4.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["tv3rwg4urt"] = {
+      uuid = "tv3rwg4urt",
+      slug = "shu-frontliner",
+      name = "Shu Frontliner",
+      image = "/cards/images/tv3rwg4urt.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["tvp7hc1pq4"] = {
+      uuid = "tvp7hc1pq4",
+      slug = "charged-assailant",
+      name = "Charged Assailant",
+      image = "/cards/images/tvp7hc1pq4.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["txt83d6aa7"] = {
+      uuid = "txt83d6aa7",
+      slug = "liu-bei-oathkeeper",
+      name = "Liu Bei, Oathkeeper",
+      image = "/cards/images/txt83d6aa7.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["txu2eftu1h"] = {
+      uuid = "txu2eftu1h",
+      slug = "vaporjet-shield",
+      name = "Vaporjet Shield",
+      image = "/cards/images/txu2eftu1h.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["txu2efuv1i"] = {
+      uuid = "txu2efuv1i",
+      slug = "winbless-gatekeeper",
+      name = "Winbless Gatekeeper",
+      image = "/cards/images/txu2efuv1i.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["tzcg1YksaH"] = {
       uuid = "tzcg1YksaH",
       slug = "field-of-ranks-and-files",
       name = "Field of Ranks and Files",
       image = "/cards/images/tzcg1YksaH.jpg",
+      orientation = "front",
       types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["tzf97fet0q"] = {
+      uuid = "tzf97fet0q",
+      slug = "natures-appeal",
+      name = "Nature's Appeal",
+      image = "/cards/images/tzf97fet0q.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["tzkye0zcy2"] = {
       uuid = "tzkye0zcy2",
       slug = "solar-providence",
       name = "Solar Providence",
       image = "/cards/images/tzkye0zcy2.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["u0kkktq7av"] = {
       uuid = "u0kkktq7av",
       slug = "firebloom-flourish",
       name = "Firebloom Flourish",
       image = "/cards/images/u0kkktq7av.jpg",
+      orientation = "front",
       types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["u1dbjng1nz"] = {
       uuid = "u1dbjng1nz",
       slug = "baidi-oathsworn-palace",
       name = "Baidi, Oathsworn Palace",
       image = "/cards/images/u1dbjng1nz.jpg",
+      orientation = "front",
       types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["u2eftu1h4p"] = {
+      uuid = "u2eftu1h4p",
+      slug = "cerulean-decree",
+      name = "Cerulean Decree",
+      image = "/cards/images/u2eftu1h4p.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["u2efuv1i4p"] = {
+      uuid = "u2efuv1i4p",
+      slug = "conjure-downpour",
+      name = "Conjure Downpour",
+      image = "/cards/images/u2efuv1i4p.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["u3lhsrk29f"] = {
+      uuid = "u3lhsrk29f",
+      slug = "beseeching-flourish",
+      name = "Beseeching Flourish",
+      image = "/cards/images/u3lhsrk29f.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["u5ewxq0sle"] = {
+      uuid = "u5ewxq0sle",
+      slug = "oath-of-the-sakura",
+      name = "Oath of the Sakura",
+      image = "/cards/images/u5ewxq0sle.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["u82v5c00rr"] = {
+      uuid = "u82v5c00rr",
+      slug = "synthetic-core",
+      name = "Synthetic Core",
+      image = "/cards/images/u82v5c00rr.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["u8W2m7Dufc"] = {
+      uuid = "u8W2m7Dufc",
+      slug = "magnificent-banquet",
+      name = "Magnificent Banquet",
+      image = "/cards/images/u8W2m7Dufc.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["u8oqpj7q76"] = {
       uuid = "u8oqpj7q76",
       slug = "conniving-plans",
       name = "Conniving Plans",
       image = "/cards/images/u8oqpj7q76.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["u97ro86b3f"] = {
+      uuid = "u97ro86b3f",
+      slug = "prides-vanguard",
+      name = "Pride's Vanguard",
+      image = "/cards/images/u97ro86b3f.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["uYJu6kjvZU"] = {
+      uuid = "uYJu6kjvZU",
+      slug = "scarlet-tassel",
+      name = "Scarlet Tassel",
+      image = "/cards/images/uYJu6kjvZU.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["uYeGqGst1M"] = {
       uuid = "uYeGqGst1M",
       slug = "overflow-the-barrow",
       name = "Overflow the Barrow",
       image = "/cards/images/uYeGqGst1M.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ub5lbedbfy"] = {
+      uuid = "ub5lbedbfy",
+      slug = "languid-toadtroll",
+      name = "Languid Toadtroll",
+      image = "/cards/images/ub5lbedbfy.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["udrxu77s17"] = {
       uuid = "udrxu77s17",
       slug = "enthralling-chime",
       name = "Enthralling Chime",
       image = "/cards/images/udrxu77s17.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["udwUx6B12S"] = {
       uuid = "udwUx6B12S",
       slug = "fast-cure",
       name = "Fast Cure",
       image = "/cards/images/udwUx6B12S.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ufu5h2v9so"] = {
+      uuid = "ufu5h2v9so",
+      slug = "jin-undying-resolve",
+      name = "Jin, Undying Resolve",
+      image = "/cards/images/ufu5h2v9so.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["uhq8Js2TZa"] = {
+      uuid = "uhq8Js2TZa",
+      slug = "torrential-blast",
+      name = "Torrential Blast",
+      image = "/cards/images/uhq8Js2TZa.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["uhsxfhcc8f"] = {
       uuid = "uhsxfhcc8f",
       slug = "increasing-danger",
       name = "Increasing Danger",
       image = "/cards/images/uhsxfhcc8f.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["ui8bvpm1ea"] = {
       uuid = "ui8bvpm1ea",
       slug = "zhang-jiao-way-of-peace",
       name = "Zhang Jiao, Way of Peace",
       image = "/cards/images/ui8bvpm1ea.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["ujej4ddort"] = {
+      uuid = "ujej4ddort",
+      slug = "vainglory-retribution",
+      name = "Vainglory Retribution",
+      image = "/cards/images/ujej4ddort.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ujqus0ccrs"] = {
+      uuid = "ujqus0ccrs",
+      slug = "verdigris-decree",
+      name = "Verdigris Decree",
+      image = "/cards/images/ujqus0ccrs.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["ukhioaub17"] = {
       uuid = "ukhioaub17",
       slug = "diao-chan-dreaming-wish",
       name = "Diao Chan, Dreaming Wish",
       image = "/cards/images/ukhioaub17.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["ulzpyeoif4"] = {
       uuid = "ulzpyeoif4",
       slug = "annihilation",
       name = "Annihilation",
       image = "/cards/images/ulzpyeoif4.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["um2nsig3b4"] = {
+      uuid = "um2nsig3b4",
+      slug = "mad-hatter-morose-heritor",
+      name = "Mad Hatter, Morose Heritor",
+      image = "/cards/images/um2nsig3b4.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["uotvvmhgik"] = {
+      uuid = "uotvvmhgik",
+      slug = "axis-gale-scholar",
+      name = "Axis Gale Scholar",
+      image = "/cards/images/uotvvmhgik.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["upf8let8w1"] = {
+      uuid = "upf8let8w1",
+      slug = "nanyue-portsman",
+      name = "Nanyue Portsman",
+      image = "/cards/images/upf8let8w1.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["ur5cvyxqx6"] = {
+      uuid = "ur5cvyxqx6",
+      slug = "nico-raptures-embrace",
+      name = "Nico, Rapture's Embrace",
+      image = "/cards/images/ur5cvyxqx6.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["us1nos2sih"] = {
+      uuid = "us1nos2sih",
+      slug = "frozen-quill",
+      name = "Frozen Quill",
+      image = "/cards/images/us1nos2sih.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["us8n485dgq"] = {
+      uuid = "us8n485dgq",
+      slug = "lunar-conduit",
+      name = "Lunar Conduit",
+      image = "/cards/images/us8n485dgq.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["us8n486egq"] = {
+      uuid = "us8n486egq",
+      slug = "celestial-calling",
+      name = "Celestial Calling",
+      image = "/cards/images/us8n486egq.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["us8n4yw4gq"] = {
+      uuid = "us8n4yw4gq",
+      slug = "allied-warpriestess",
+      name = "Allied Warpriestess",
+      image = "/cards/images/us8n4yw4gq.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["ut5tmonabb"] = {
       uuid = "ut5tmonabb",
       slug = "flowerbud",
       name = "Flowerbud",
       image = "/cards/images/ut5tmonabb.jpg",
+      orientation = "front",
       types = { "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
     },
     ["ut6bwzqrox"] = {
       uuid = "ut6bwzqrox",
       slug = "spirit-of-fortuitous-wind",
       name = "Spirit of Fortuitous Wind",
       image = "/cards/images/ut6bwzqrox.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["utwmhm7ggr"] = {
+      uuid = "utwmhm7ggr",
+      slug = "cell-vanguard",
+      name = "Cell Vanguard",
+      image = "/cards/images/utwmhm7ggr.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["uv1i4p0mr4"] = {
+      uuid = "uv1i4p0mr4",
+      slug = "vaporjet-shieldbearer",
+      name = "Vaporjet Shieldbearer",
+      image = "/cards/images/uv1i4p0mr4.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["uxdce7d03v"] = {
+      uuid = "uxdce7d03v",
+      slug = "manaflare-barrage",
+      name = "Manaflare Barrage",
+      image = "/cards/images/uxdce7d03v.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["v0lut4793k"] = {
+      uuid = "v0lut4793k",
+      slug = "lost-in-thought",
+      name = "Lost in Thought",
+      image = "/cards/images/v0lut4793k.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["v0lut5793l"] = {
+      uuid = "v0lut5793l",
+      slug = "potion-infusion-clarity",
+      name = "Potion Infusion: Clarity",
+      image = "/cards/images/v0lut5793l.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["v45y9wnnpo"] = {
       uuid = "v45y9wnnpo",
       slug = "seaside-rangefinder",
       name = "Seaside Rangefinder",
       image = "/cards/images/v45y9wnnpo.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["v5eq2i4tta"] = {
+      uuid = "v5eq2i4tta",
+      slug = "promising-recruit",
+      name = "Promising Recruit",
+      image = "/cards/images/v5eq2i4tta.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["v69b5m6rgd"] = {
+      uuid = "v69b5m6rgd",
+      slug = "healing-aura",
+      name = "Healing Aura",
+      image = "/cards/images/v69b5m6rgd.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["v7pw48lz90"] = {
+      uuid = "v7pw48lz90",
+      slug = "fang-of-dragons-breath",
+      name = "Fang of Dragon's Breath",
+      image = "/cards/images/v7pw48lz90.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["vDivSdwHLE"] = {
       uuid = "vDivSdwHLE",
       slug = "vestal-priestess",
       name = "Vestal Priestess",
       image = "/cards/images/vDivSdwHLE.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["vIln86PAaX"] = {
       uuid = "vIln86PAaX",
       slug = "alice-phantom-monarch",
       name = "Alice, Phantom Monarch",
       image = "/cards/images/vIln86PAaX.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["vQdizn102c"] = {
+      uuid = "vQdizn102c",
+      slug = "naia-diviner-of-fortunes",
+      name = "Naia, Diviner of Fortunes",
+      image = "/cards/images/vQdizn102c.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["vaCbrSfcx0"] = {
       uuid = "vaCbrSfcx0",
       slug = "jabberwocky-calamitys-call",
       name = "Jabberwocky, Calamity's Call",
       image = "/cards/images/vaCbrSfcx0.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["vaeVmLcdgu"] = {
       uuid = "vaeVmLcdgu",
       slug = "golden-gambit",
       name = "Golden Gambit",
       image = "/cards/images/vaeVmLcdgu.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["ve2xbe3gbp"] = {
       uuid = "ve2xbe3gbp",
       slug = "dissonant-fractal",
       name = "Dissonant Fractal",
       image = "/cards/images/ve2xbe3gbp.jpg",
+      orientation = "front",
       types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["vf7ud232wi"] = {
       uuid = "vf7ud232wi",
       slug = "guo-jia-chosen-disciple",
       name = "Guo Jia, Chosen Disciple",
       image = "/cards/images/vf7ud232wi.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["vg7d0jtcv7"] = {
       uuid = "vg7d0jtcv7",
       slug = "diao-chan-idyll-corsage",
       name = "Diao Chan, Idyll Corsage",
       image = "/cards/images/vg7d0jtcv7.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["vgf2u82v5c"] = {
+      uuid = "vgf2u82v5c",
+      slug = "diana-deadly-duelist",
+      name = "Diana, Deadly Duelist",
+      image = "/cards/images/vgf2u82v5c.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["vhxaia84he"] = {
+      uuid = "vhxaia84he",
+      slug = "vainglory-retribution",
+      name = "Vainglory Retribution",
+      image = "/cards/images/vhxaia84he.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["vij6svb0x8"] = {
       uuid = "vij6svb0x8",
       slug = "blitz-charger",
       name = "Blitz Charger",
       image = "/cards/images/vij6svb0x8.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["vlen1w40fj"] = {
+      uuid = "vlen1w40fj",
+      slug = "vanitas-obliviate-schemer",
+      name = "Vanitas, Obliviate Schemer",
+      image = "/cards/images/vlen1w40fj.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["vmyiuir380"] = {
+      uuid = "vmyiuir380",
+      slug = "baleful-oblation",
+      name = "Baleful Oblation",
+      image = "/cards/images/vmyiuir380.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["vo5bxrg4eb"] = {
+      uuid = "vo5bxrg4eb",
+      slug = "unbroken-mustang",
+      name = "Unbroken Mustang",
+      image = "/cards/images/vo5bxrg4eb.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["vo9nkntl7q"] = {
+      uuid = "vo9nkntl7q",
+      slug = "wonderlands-reign",
+      name = "Wonderland's Reign",
+      image = "/cards/images/vo9nkntl7q.jpg",
+      orientation = "front",
+      types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
     },
     ["vpTaYKNfDy"] = {
       uuid = "vpTaYKNfDy",
       slug = "infinite-scintillation",
       name = "Infinite Scintillation",
       image = "/cards/images/vpTaYKNfDy.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["vqd2c4e9xp"] = {
+      uuid = "vqd2c4e9xp",
+      slug = "soutirer-vortex",
+      name = "Soutirer Vortex",
+      image = "/cards/images/vqd2c4e9xp.jpg",
+      orientation = "front",
+      types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["vqf24i25fc"] = {
+      uuid = "vqf24i25fc",
+      slug = "potion-infusion-frostbite",
+      name = "Potion Infusion: Frostbite",
+      image = "/cards/images/vqf24i25fc.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["vrxlctj0ja"] = {
+      uuid = "vrxlctj0ja",
+      slug = "furnace-lavabolt",
+      name = "Furnace Lavabolt",
+      image = "/cards/images/vrxlctj0ja.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["vtyvopikh8"] = {
+      uuid = "vtyvopikh8",
+      slug = "xia-hou-dun-gloryseeker",
+      name = "Xia Hou Dun, Gloryseeker",
+      image = "/cards/images/vtyvopikh8.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["vwto0xrkv3"] = {
+      uuid = "vwto0xrkv3",
+      slug = "lurid-dreaming",
+      name = "Lurid Dreaming",
+      image = "/cards/images/vwto0xrkv3.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["vwyc11bnyn"] = {
+      uuid = "vwyc11bnyn",
+      slug = "sidestep",
+      name = "Sidestep",
+      image = "/cards/images/vwyc11bnyn.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["vxlre1fgoq"] = {
       uuid = "vxlre1fgoq",
       slug = "huaji-of-heavens-rise",
       name = "Huaji of Heaven's Rise",
       image = "/cards/images/vxlre1fgoq.jpg",
+      orientation = "front",
       types = { "REGALIA", "WEAPON" },
+      orientations = {
+        {
+          name = "Huaji of Abyssal Fall",
+          slug = "huaji-of-abyssal-fall",
+          uuid = "ntnm81369o",
+          image = "/cards/images/ntnm81369o.jpg",
+          orientation = "back",
+          types = { "REGALIA", "WEAPON" },
+        },
+      },
+    },
+    ["vxs9je3rs7"] = {
+      uuid = "vxs9je3rs7",
+      slug = "reconstructive-surgery",
+      name = "Reconstructive Surgery",
+      image = "/cards/images/vxs9je3rs7.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["vyl5atd26v"] = {
       uuid = "vyl5atd26v",
       slug = "keeper-of-the-wild",
       name = "Keeper of the Wild",
       image = "/cards/images/vyl5atd26v.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["vyziadinbt"] = {
+      uuid = "vyziadinbt",
+      slug = "undying-dreams",
+      name = "Undying Dreams",
+      image = "/cards/images/vyziadinbt.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["w07t8ckcza"] = {
+      uuid = "w07t8ckcza",
+      slug = "favorable-omens",
+      name = "Favorable Omens",
+      image = "/cards/images/w07t8ckcza.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["w1m5v69b5m"] = {
+      uuid = "w1m5v69b5m",
+      slug = "heatwave-generator",
+      name = "Heatwave Generator",
+      image = "/cards/images/w1m5v69b5m.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["w3oa09534s"] = {
+      uuid = "w3oa09534s",
+      slug = "three-of-spades",
+      name = "Three of Spades",
+      image = "/cards/images/w3oa09534s.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["w4gq5w3jf0"] = {
+      uuid = "w4gq5w3jf0",
+      slug = "vanitas-obliviate-schemer",
+      name = "Vanitas, Obliviate Schemer",
+      image = "/cards/images/w4gq5w3jf0.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["w4lcu60c3q"] = {
+      uuid = "w4lcu60c3q",
+      slug = "five-of-spades",
+      name = "Five of Spades",
+      image = "/cards/images/w4lcu60c3q.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["w8a42oedz9"] = {
+      uuid = "w8a42oedz9",
+      slug = "nico-whiplash-allure",
+      name = "Nico, Whiplash Allure",
+      image = "/cards/images/w8a42oedz9.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["wViAsugAWh"] = {
       uuid = "wViAsugAWh",
       slug = "facet-together",
       name = "Facet Together",
       image = "/cards/images/wViAsugAWh.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["wbkh09outj"] = {
       uuid = "wbkh09outj",
       slug = "lu-bu-indomitable-titan",
       name = "Lu Bu, Indomitable Titan",
       image = "/cards/images/wbkh09outj.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+        {
+          name = "Lu Bu, Wrath Incarnate",
+          slug = "lu-bu-wrath-incarnate",
+          uuid = "pkp61yhi4k",
+          image = "/cards/images/pkp61yhi4k.jpg",
+          orientation = "back",
+          types = { "CHAMPION" },
+        },
+      },
+    },
+    ["wbsxu24etu"] = {
+      uuid = "wbsxu24etu",
+      slug = "take-cover",
+      name = "Take Cover",
+      image = "/cards/images/wbsxu24etu.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["wdqbjc75r5"] = {
+      uuid = "wdqbjc75r5",
+      slug = "tome-of-sorcery",
+      name = "Tome of Sorcery",
+      image = "/cards/images/wdqbjc75r5.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["wemhus8n4y"] = {
+      uuid = "wemhus8n4y",
+      slug = "nico-whiplash-allure",
+      name = "Nico, Whiplash Allure",
+      image = "/cards/images/wemhus8n4y.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["wj64mn9bca"] = {
       uuid = "wj64mn9bca",
       slug = "rebounding-gust",
       name = "Rebounding Gust",
       image = "/cards/images/wj64mn9bca.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["wjmb6fbit2"] = {
+      uuid = "wjmb6fbit2",
+      slug = "bagua-of-cardinal-fate",
+      name = "Bagua of Cardinal Fate",
+      image = "/cards/images/wjmb6fbit2.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["wl81mzhm70"] = {
+      uuid = "wl81mzhm70",
+      slug = "primal-whip",
+      name = "Primal Whip",
+      image = "/cards/images/wl81mzhm70.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["wltxu2eftu"] = {
+      uuid = "wltxu2eftu",
+      slug = "calamity-cannon",
+      name = "Calamity Cannon",
+      image = "/cards/images/wltxu2eftu.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["wm5lt3q2tw"] = {
+      uuid = "wm5lt3q2tw",
+      slug = "fraysia",
+      name = "Fraysia",
+      image = "/cards/images/wm5lt3q2tw.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
     },
     ["wnh4cz332q"] = {
       uuid = "wnh4cz332q",
       slug = "flamelash-beastmaster",
       name = "Flamelash Beastmaster",
       image = "/cards/images/wnh4cz332q.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["wnmhus8n48"] = {
+      uuid = "wnmhus8n48",
+      slug = "fragmented-spirit-of-wind",
+      name = "Fragmented Spirit of Wind",
+      image = "/cards/images/wnmhus8n48.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["wo5zz7paki"] = {
+      uuid = "wo5zz7paki",
+      slug = "bombastic-sprint",
+      name = "Bombastic Sprint",
+      image = "/cards/images/wo5zz7paki.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["woa776az49"] = {
+      uuid = "woa776az49",
+      slug = "echoic-guard",
+      name = "Echoic Guard",
+      image = "/cards/images/woa776az49.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["wpDwuZID1a"] = {
+      uuid = "wpDwuZID1a",
+      slug = "everflame-staff",
+      name = "Everflame Staff",
+      image = "/cards/images/wpDwuZID1a.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["wrdbxb0qzu"] = {
       uuid = "wrdbxb0qzu",
       slug = "wingpeak-patriarch",
       name = "Wingpeak Patriarch",
       image = "/cards/images/wrdbxb0qzu.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["wrzeqns021"] = {
       uuid = "wrzeqns021",
       slug = "bagua-of-vital-demise",
       name = "Bagua of Vital Demise",
       image = "/cards/images/wrzeqns021.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["wvyfjo9iit"] = {
+      uuid = "wvyfjo9iit",
+      slug = "razorvine",
+      name = "Razorvine",
+      image = "/cards/images/wvyfjo9iit.jpg",
+      orientation = "front",
+      types = { "ITEM", "TOKEN" },
+      orientations = {
+      },
+    },
+    ["wvzojo9iit"] = {
+      uuid = "wvzojo9iit",
+      slug = "novice-healer",
+      name = "Novice Healer",
+      image = "/cards/images/wvzojo9iit.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["ww3sy4l8c4"] = {
+      uuid = "ww3sy4l8c4",
+      slug = "obsequious-blow",
+      name = "Obsequious Blow",
+      image = "/cards/images/ww3sy4l8c4.jpg",
+      orientation = "front",
+      types = { "ATTACK" },
+      orientations = {
+      },
+    },
+    ["wxs9ke3rs7"] = {
+      uuid = "wxs9ke3rs7",
+      slug = "nurture-crops",
+      name = "Nurture Crops",
+      image = "/cards/images/wxs9ke3rs7.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["wys9kf4rt7"] = {
+      uuid = "wys9kf4rt7",
+      slug = "mindbreak-bullet",
+      name = "Mindbreak Bullet",
+      image = "/cards/images/wys9kf4rt7.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
     },
     ["x0uykmbn6u"] = {
       uuid = "x0uykmbn6u",
       slug = "ashwick-cremator",
       name = "Ashwick Cremator",
       image = "/cards/images/x0uykmbn6u.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["x1KWVt6OSp"] = {
+      uuid = "x1KWVt6OSp",
+      slug = "spirit-of-water",
+      name = "Spirit of Water",
+      image = "/cards/images/x1KWVt6OSp.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["x6itul8td3"] = {
+      uuid = "x6itul8td3",
+      slug = "spirit-of-water",
+      name = "Spirit of Water",
+      image = "/cards/images/x6itul8td3.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["x6t377lcha"] = {
       uuid = "x6t377lcha",
       slug = "moontide-illusionist",
       name = "Moontide Illusionist",
       image = "/cards/images/x6t377lcha.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["x6zox73ssx"] = {
       uuid = "x6zox73ssx",
       slug = "disenchant",
       name = "Disenchant",
       image = "/cards/images/x6zox73ssx.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["x9z2kca6jh"] = {
+      uuid = "x9z2kca6jh",
+      slug = "take-aim",
+      name = "Take Aim",
+      image = "/cards/images/x9z2kca6jh.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["xFk6RkDSE3"] = {
+      uuid = "xFk6RkDSE3",
+      slug = "hua-xiong-insurgents-fang",
+      name = "Hua Xiong, Insurgent’s Fang",
+      image = "/cards/images/xFk6RkDSE3.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["xK6kaWIORt"] = {
       uuid = "xK6kaWIORt",
       slug = "memorite-blade",
       name = "Memorite Blade",
       image = "/cards/images/xK6kaWIORt.jpg",
+      orientation = "front",
       types = { "TOKEN", "WEAPON" },
+      orientations = {
+      },
     },
     ["xMXku7G3RY"] = {
       uuid = "xMXku7G3RY",
       slug = "orbiting-cosmos",
       name = "Orbiting Cosmos",
       image = "/cards/images/xMXku7G3RY.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["xOOdwuTak8"] = {
+      uuid = "xOOdwuTak8",
+      slug = "bairui-resplendent-barrier",
+      name = "Bairui, Resplendent Barrier",
+      image = "/cards/images/xOOdwuTak8.jpg",
+      orientation = "front",
+      types = { "PHANTASIA", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["xaesjpwvyq"] = {
+      uuid = "xaesjpwvyq",
+      slug = "oppressive-presence",
+      name = "Oppressive Presence",
+      image = "/cards/images/xaesjpwvyq.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["xdddx44933"] = {
+      uuid = "xdddx44933",
+      slug = "cloudstone-orb",
+      name = "Cloudstone Orb",
+      image = "/cards/images/xdddx44933.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["xehj3hfb32"] = {
       uuid = "xehj3hfb32",
       slug = "ravenous-pyre",
       name = "Ravenous Pyre",
       image = "/cards/images/xehj3hfb32.jpg",
+      orientation = "front",
       types = { "PHANTASIA" },
+      orientations = {
+      },
+    },
+    ["xgbpckqpac"] = {
+      uuid = "xgbpckqpac",
+      slug = "vanitas-dominus-rex",
+      name = "Vanitas, Dominus Rex",
+      image = "/cards/images/xgbpckqpac.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["xh3rjq2j9k"] = {
       uuid = "xh3rjq2j9k",
       slug = "guo-jia-heavens-favored",
       name = "Guo Jia, Heaven's Favored",
       image = "/cards/images/xh3rjq2j9k.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["xip6ewsgp4"] = {
       uuid = "xip6ewsgp4",
       slug = "rotund-squirrel",
       name = "Rotund Squirrel",
       image = "/cards/images/xip6ewsgp4.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["xj0ckca6jh"] = {
+      uuid = "xj0ckca6jh",
+      slug = "arsenal-keeper",
+      name = "Arsenal Keeper",
+      image = "/cards/images/xj0ckca6jh.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["xj2wh6ipu7"] = {
+      uuid = "xj2wh6ipu7",
+      slug = "incinerated-templar",
+      name = "Incinerated Templar",
+      image = "/cards/images/xj2wh6ipu7.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["xjKrLQ9D5M"] = {
+      uuid = "xjKrLQ9D5M",
+      slug = "radiant-repudiation",
+      name = "Radiant Repudiation",
+      image = "/cards/images/xjKrLQ9D5M.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["xko170miji"] = {
+      uuid = "xko170miji",
+      slug = "ominous-shadow",
+      name = "Ominous Shadow",
+      image = "/cards/images/xko170miji.jpg",
+      orientation = "front",
+      types = { "ALLY", "PHANTASIA", "TOKEN" },
+      orientations = {
+      },
     },
     ["xlo9ys4sh6"] = {
       uuid = "xlo9ys4sh6",
       slug = "art-of-war",
       name = "Art of War",
       image = "/cards/images/xlo9ys4sh6.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["xmqjwtlslr"] = {
+      uuid = "xmqjwtlslr",
+      slug = "ingress-of-sanguine-ire",
+      name = "Ingress of Sanguine Ire",
+      image = "/cards/images/xmqjwtlslr.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["xoi0m8bp8d"] = {
+      uuid = "xoi0m8bp8d",
+      slug = "manabolt-convergence",
+      name = "Manabolt Convergence",
+      image = "/cards/images/xoi0m8bp8d.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["xpd62273t2"] = {
+      uuid = "xpd62273t2",
+      slug = "galestream-insight",
+      name = "Galestream Insight",
+      image = "/cards/images/xpd62273t2.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["xqrrfskz7v"] = {
       uuid = "xqrrfskz7v",
       slug = "caretaker-horse",
       name = "Caretaker Horse",
       image = "/cards/images/xqrrfskz7v.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["xt5uay6a7f"] = {
+      uuid = "xt5uay6a7f",
+      slug = "arisanna-lucent-arbiter",
+      name = "Arisanna, Lucent Arbiter",
+      image = "/cards/images/xt5uay6a7f.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["xt63jyfa7f"] = {
+      uuid = "xt63jyfa7f",
+      slug = "imperial-scout",
+      name = "Imperial Scout",
+      image = "/cards/images/xt63jyfa7f.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["xt64jzga7g"] = {
+      uuid = "xt64jzga7g",
+      slug = "krustallan-archer",
+      name = "Krustallan Archer",
+      image = "/cards/images/xt64jzga7g.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["xt806epkx2"] = {
+      uuid = "xt806epkx2",
+      slug = "phalanx-captain",
+      name = "Phalanx Captain",
+      image = "/cards/images/xt806epkx2.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["xthddildp7"] = {
+      uuid = "xthddildp7",
+      slug = "paired-minds-kindred-souls",
+      name = "Paired Minds, Kindred Souls",
+      image = "/cards/images/xthddildp7.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["xv4q0t14dy"] = {
+      uuid = "xv4q0t14dy",
+      slug = "lacunas-grasp",
+      name = "Lacuna's Grasp",
+      image = "/cards/images/xv4q0t14dy.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["xv5in4t3wc"] = {
+      uuid = "xv5in4t3wc",
+      slug = "spirit-of-wind",
+      name = "Spirit of Wind",
+      image = "/cards/images/xv5in4t3wc.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["xvHBomW1s6"] = {
       uuid = "xvHBomW1s6",
       slug = "crystal-accretion",
       name = "Crystal Accretion",
       image = "/cards/images/xvHBomW1s6.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["xvzokpajit"] = {
+      uuid = "xvzokpajit",
+      slug = "load-soul",
+      name = "Load Soul",
+      image = "/cards/images/xvzokpajit.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["xxqf9xzeie"] = {
       uuid = "xxqf9xzeie",
       slug = "diao-chan-idyll-corsage",
       name = "Diao Chan, Idyll Corsage",
       image = "/cards/images/xxqf9xzeie.jpg",
+      orientation = "front",
       types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["xztbvgf2u8"] = {
+      uuid = "xztbvgf2u8",
+      slug = "fiery-duelist",
+      name = "Fiery Duelist",
+      image = "/cards/images/xztbvgf2u8.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["y5ktkbu98s"] = {
+      uuid = "y5ktkbu98s",
+      slug = "tristan-hired-blade",
+      name = "Tristan, Hired Blade",
+      image = "/cards/images/y5ktkbu98s.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
     },
     ["yJaVaMwXkO"] = {
       uuid = "yJaVaMwXkO",
       slug = "golden-bishop",
       name = "Golden Bishop",
       image = "/cards/images/yJaVaMwXkO.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
     },
     ["yRPihgyHAH"] = {
       uuid = "yRPihgyHAH",
       slug = "calming-breeze",
       name = "Calming Breeze",
       image = "/cards/images/yRPihgyHAH.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["ySAwi1v6sA"] = {
       uuid = "ySAwi1v6sA",
       slug = "maledictum-vitae",
       name = "Maledictum Vitae",
       image = "/cards/images/ySAwi1v6sA.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["yen1zxejh4"] = {
+      uuid = "yen1zxejh4",
+      slug = "temporal-spectrometer",
+      name = "Temporal Spectrometer",
+      image = "/cards/images/yen1zxejh4.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["yf9riu5xa6"] = {
+      uuid = "yf9riu5xa6",
+      slug = "zephyr",
+      name = "Zephyr",
+      image = "/cards/images/yf9riu5xa6.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["yfjo9iitvx"] = {
+      uuid = "yfjo9iitvx",
+      slug = "alchemists-kit",
+      name = "Alchemist's Kit",
+      image = "/cards/images/yfjo9iitvx.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["yh6ikmgyi3"] = {
+      uuid = "yh6ikmgyi3",
+      slug = "blessed-clergy",
+      name = "Blessed Clergy",
+      image = "/cards/images/yh6ikmgyi3.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["yh7ikmhyi3"] = {
+      uuid = "yh7ikmhyi3",
+      slug = "armored-valkyrie",
+      name = "Armored Valkyrie",
+      image = "/cards/images/yh7ikmhyi3.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["yiddzuquam"] = {
+      uuid = "yiddzuquam",
+      slug = "ghost-hunter",
+      name = "Ghost Hunter",
+      image = "/cards/images/yiddzuquam.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["yisbb41wcx"] = {
+      uuid = "yisbb41wcx",
+      slug = "fireball",
+      name = "Fireball",
+      image = "/cards/images/yisbb41wcx.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["ymyb55u7vo"] = {
+      uuid = "ymyb55u7vo",
+      slug = "dreamy-unicorn",
+      name = "Dreamy Unicorn",
+      image = "/cards/images/ymyb55u7vo.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["yo72l2r8g0"] = {
+      uuid = "yo72l2r8g0",
+      slug = "dungeon-guide",
+      name = "Dungeon Guide",
+      image = "/cards/images/yo72l2r8g0.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["yo7mv5s4ux"] = {
+      uuid = "yo7mv5s4ux",
+      slug = "curse-amplification",
+      name = "Curse Amplification",
+      image = "/cards/images/yo7mv5s4ux.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["yoh431onu1"] = {
+      uuid = "yoh431onu1",
+      slug = "fortifying-aroma",
+      name = "Fortifying Aroma",
+      image = "/cards/images/yoh431onu1.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["yqc998c1w1"] = {
+      uuid = "yqc998c1w1",
+      slug = "flameblessed-trainee",
+      name = "Flameblessed Trainee",
+      image = "/cards/images/yqc998c1w1.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["yrc9a8c16b"] = {
+      uuid = "yrc9a8c16b",
+      slug = "vermilion-decree",
+      name = "Vermilion Decree",
+      image = "/cards/images/yrc9a8c16b.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["yrd9a9c26b"] = {
+      uuid = "yrd9a9c26b",
+      slug = "airship-cruiser",
+      name = "Airship Cruiser",
+      image = "/cards/images/yrd9a9c26b.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["ys8rkitz4x"] = {
       uuid = "ys8rkitz4x",
       slug = "enervating-decay",
       name = "Enervating Decay",
       image = "/cards/images/ys8rkitz4x.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
     },
     ["yu1L7cwxRf"] = {
       uuid = "yu1L7cwxRf",
       slug = "enfeebling-orb",
       name = "Enfeebling Orb",
       image = "/cards/images/yu1L7cwxRf.jpg",
+      orientation = "front",
       types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
+    },
+    ["yucycnpokl"] = {
+      uuid = "yucycnpokl",
+      slug = "planar-abyss",
+      name = "Planar Abyss",
+      image = "/cards/images/yucycnpokl.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["yv6jktvm8h"] = {
+      uuid = "yv6jktvm8h",
+      slug = "guan-yu-prime-exemplar",
+      name = "Guan Yu, Prime Exemplar",
+      image = "/cards/images/yv6jktvm8h.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["yvk9npv5zi"] = {
+      uuid = "yvk9npv5zi",
+      slug = "inspiring-call",
+      name = "Inspiring Call",
+      image = "/cards/images/yvk9npv5zi.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["yx0qv0but4"] = {
+      uuid = "yx0qv0but4",
+      slug = "fanatical-devotee",
+      name = "Fanatical Devotee",
+      image = "/cards/images/yx0qv0but4.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["yxq6hz8052"] = {
+      uuid = "yxq6hz8052",
+      slug = "lawsur-the-carpenter",
+      name = "Lawsur, the Carpenter",
+      image = "/cards/images/yxq6hz8052.jpg",
+      orientation = "front",
+      types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["yxy1zbtdvM"] = {
+      uuid = "yxy1zbtdvM",
+      slug = "counter-interference",
+      name = "Counter Interference",
+      image = "/cards/images/yxy1zbtdvM.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["yyui32uwyz"] = {
+      uuid = "yyui32uwyz",
+      slug = "fractal-of-polar-depths",
+      name = "Fractal of Polar Depths",
+      image = "/cards/images/yyui32uwyz.jpg",
+      orientation = "front",
+      types = { "PHANTASIA" },
+      orientations = {
+      },
     },
     ["z0TZKqSxtj"] = {
       uuid = "z0TZKqSxtj",
       slug = "recursive-confidant",
       name = "Recursive Confidant",
       image = "/cards/images/z0TZKqSxtj.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["z110mf0wuo"] = {
+      uuid = "z110mf0wuo",
+      slug = "conduit-of-bloodfire",
+      name = "Conduit of Bloodfire",
+      image = "/cards/images/z110mf0wuo.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["z1p85r3z6p"] = {
+      uuid = "z1p85r3z6p",
+      slug = "hydroguard-retainer",
+      name = "Hydroguard Retainer",
+      image = "/cards/images/z1p85r3z6p.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["z1xbip69si"] = {
+      uuid = "z1xbip69si",
+      slug = "exia-sight",
+      name = "Exia Sight",
+      image = "/cards/images/z1xbip69si.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["z2a5rvl775"] = {
+      uuid = "z2a5rvl775",
+      slug = "charging-galeshot",
+      name = "Charging Galeshot",
+      image = "/cards/images/z2a5rvl775.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["z2kca6jhwb"] = {
+      uuid = "z2kca6jhwb",
+      slug = "magebane-lash",
+      name = "Magebane Lash",
+      image = "/cards/images/z2kca6jhwb.jpg",
+      orientation = "front",
+      types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["z4jpx3jn65"] = {
+      uuid = "z4jpx3jn65",
+      slug = "slipstream-vault",
+      name = "Slipstream Vault",
+      image = "/cards/images/z4jpx3jn65.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["z5dxawdp7p"] = {
+      uuid = "z5dxawdp7p",
+      slug = "arisanna-astral-zenith",
+      name = "Arisanna, Astral Zenith",
+      image = "/cards/images/z5dxawdp7p.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["z60awtzv1y"] = {
+      uuid = "z60awtzv1y",
+      slug = "rising-tides",
+      name = "Rising Tides",
+      image = "/cards/images/z60awtzv1y.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["zDYB9Wb0tu"] = {
+      uuid = "zDYB9Wb0tu",
+      slug = "spirit-of-wind",
+      name = "Spirit of Wind",
+      image = "/cards/images/zDYB9Wb0tu.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["zP5nMxjuD9"] = {
+      uuid = "zP5nMxjuD9",
+      slug = "hailfinch",
+      name = "Hailfinch",
+      image = "/cards/images/zP5nMxjuD9.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["zRYKP4YYfx"] = {
+      uuid = "zRYKP4YYfx",
+      slug = "alice-golden-queen",
+      name = "Alice, Golden Queen",
+      image = "/cards/images/zRYKP4YYfx.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["zck6ru6mvt"] = {
+      uuid = "zck6ru6mvt",
+      slug = "chained-charge",
+      name = "Chained Charge",
+      image = "/cards/images/zck6ru6mvt.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["zckmvhvm0e"] = {
       uuid = "zckmvhvm0e",
       slug = "sword-saints-vow",
       name = "Sword Saint's Vow",
       image = "/cards/images/zckmvhvm0e.jpg",
+      orientation = "front",
       types = { "REGALIA", "WEAPON" },
+      orientations = {
+      },
+    },
+    ["zd92nuutwm"] = {
+      uuid = "zd92nuutwm",
+      slug = "lunar-seer",
+      name = "Lunar Seer",
+      image = "/cards/images/zd92nuutwm.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["zedxkwmp7p"] = {
+      uuid = "zedxkwmp7p",
+      slug = "imperial-apprentice",
+      name = "Imperial Apprentice",
+      image = "/cards/images/zedxkwmp7p.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["zeexkwnp7q"] = {
+      uuid = "zeexkwnp7q",
+      slug = "hypothermia",
+      name = "Hypothermia",
+      image = "/cards/images/zeexkwnp7q.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["zf2mxko170"] = {
+      uuid = "zf2mxko170",
+      slug = "vigilant-sentry",
+      name = "Vigilant Sentry",
+      image = "/cards/images/zf2mxko170.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["zfazy5f9gh"] = {
+      uuid = "zfazy5f9gh",
+      slug = "feed-nourishment",
+      name = "Feed Nourishment",
+      image = "/cards/images/zfazy5f9gh.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["zgvucklftz"] = {
+      uuid = "zgvucklftz",
+      slug = "chronowarp",
+      name = "Chronowarp",
+      image = "/cards/images/zgvucklftz.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["zmq492ollk"] = {
+      uuid = "zmq492ollk",
+      slug = "collapsing-trap",
+      name = "Collapsing Trap",
+      image = "/cards/images/zmq492ollk.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["zmqgokmrl8"] = {
       uuid = "zmqgokmrl8",
       slug = "seiryuus-command",
       name = "Seiryuu's Command",
       image = "/cards/images/zmqgokmrl8.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["zn8y4eax22"] = {
+      uuid = "zn8y4eax22",
+      slug = "nefarious-timepiece",
+      name = "Nefarious Timepiece",
+      image = "/cards/images/zn8y4eax22.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["znvma98fbk"] = {
       uuid = "znvma98fbk",
       slug = "lu-xun-pyre-strategist",
       name = "Lu Xun, Pyre Strategist",
       image = "/cards/images/znvma98fbk.jpg",
+      orientation = "front",
       types = { "ALLY", "UNIQUE" },
+      orientations = {
+      },
     },
     ["zo7f5P3rcV"] = {
       uuid = "zo7f5P3rcV",
       slug = "bladed-riftseer",
       name = "Bladed Riftseer",
       image = "/cards/images/zo7f5P3rcV.jpg",
+      orientation = "front",
       types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["zojo9iitwx"] = {
+      uuid = "zojo9iitwx",
+      slug = "tristan-shadowreaver",
+      name = "Tristan, Shadowreaver",
+      image = "/cards/images/zojo9iitwx.jpg",
+      orientation = "front",
+      types = { "CHAMPION" },
+      orientations = {
+      },
+    },
+    ["zokpajitwy"] = {
+      uuid = "zokpajitwy",
+      slug = "enhance-hearing",
+      name = "Enhance Hearing",
+      image = "/cards/images/zokpajitwy.jpg",
+      orientation = "front",
+      types = { "ACTION" },
+      orientations = {
+      },
     },
     ["zpt9te9ztk"] = {
       uuid = "zpt9te9ztk",
       slug = "chibi-battle-of-red-cliffs",
       name = "Chibi, Battle of Red Cliffs",
       image = "/cards/images/zpt9te9ztk.jpg",
+      orientation = "front",
       types = { "DOMAIN", "UNIQUE" },
+      orientations = {
+      },
+    },
+    ["zrdc3loukm"] = {
+      uuid = "zrdc3loukm",
+      slug = "molten-arrow",
+      name = "Molten Arrow",
+      image = "/cards/images/zrdc3loukm.jpg",
+      orientation = "front",
+      types = { "ITEM" },
+      orientations = {
+      },
+    },
+    ["zs0l6bozti"] = {
+      uuid = "zs0l6bozti",
+      slug = "hasty-messenger",
+      name = "Hasty Messenger",
+      image = "/cards/images/zs0l6bozti.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
     ["zss3seprzg"] = {
       uuid = "zss3seprzg",
       slug = "idle-fatestone",
       name = "Idle Fatestone",
       image = "/cards/images/zss3seprzg.jpg",
+      orientation = "front",
       types = { "ITEM" },
+      orientations = {
+        {
+          name = "Bolstered Boar",
+          slug = "bolstered-boar",
+          uuid = "0v8zzzb83i",
+          image = "/cards/images/0v8zzzb83i.jpg",
+          orientation = "back",
+          types = { "ALLY" },
+        },
+      },
+    },
+    ["zu0ulzluer"] = {
+      uuid = "zu0ulzluer",
+      slug = "vengeful-paramour",
+      name = "Vengeful Paramour",
+      image = "/cards/images/zu0ulzluer.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
+    },
+    ["zv75lahlir"] = {
+      uuid = "zv75lahlir",
+      slug = "wayfinders-map",
+      name = "Wayfinder's Map",
+      image = "/cards/images/zv75lahlir.jpg",
+      orientation = "front",
+      types = { "ITEM", "REGALIA" },
+      orientations = {
+      },
     },
     ["zvp2hjk2ai"] = {
       uuid = "zvp2hjk2ai",
       slug = "mana-resonance",
       name = "Mana Resonance",
       image = "/cards/images/zvp2hjk2ai.jpg",
+      orientation = "front",
       types = { "ACTION" },
+      orientations = {
+      },
+    },
+    ["zwk2nrweto"] = {
+      uuid = "zwk2nrweto",
+      slug = "armed-squallguard",
+      name = "Armed Squallguard",
+      image = "/cards/images/zwk2nrweto.jpg",
+      orientation = "front",
+      types = { "ALLY" },
+      orientations = {
+      },
     },
   },
   pools = {
@@ -4037,6 +15551,3405 @@ local M = {
       "i2onnr5zw2", -- zhang-liao-bloodmonger | Zhang Liao, Bloodmonger | Abyssal Heaven
       "5jncwuv710", -- zhou-yu-enlightened-sage | Zhou Yu, Enlightened Sage | Abyssal Heaven
     },
+    ["DTR__COMMON"] = {
+      "3t2x4xhnag", -- aethers-embrace | Aether's Embrace | Distorted Reflections
+      "zwk2nrweto", -- armed-squallguard | Armed Squallguard | Distorted Reflections
+      "b1ouff9vjk", -- ashwound-shot | Ashwound Shot | Distorted Reflections
+      "53a2FB6qvS", -- astral-shard | Astral Shard | Distorted Reflections
+      "bafmaqsd4r", -- backdash | Backdash | Distorted Reflections
+      "seHqtpfGDu", -- beastbond-paws | Beastbond Paws | Distorted Reflections
+      "Io4OAdpXhv", -- blackmarket-broker | Blackmarket Broker | Distorted Reflections
+      "YdLUsnU7cA", -- blazing-throw | Blazing Throw | Distorted Reflections
+      "z2a5rvl775", -- charging-galeshot | Charging Galeshot | Distorted Reflections
+      "Lh6ABaQpKH", -- ciel-loyal-valet | Ciel, Loyal Valet | Distorted Reflections
+      "XRLB9cYyln", -- ciel-mirages-grave | Ciel, Mirage's Grave | Distorted Reflections
+      "f6CDb7RNWr", -- ciel-omenbringer | Ciel, Omenbringer | Distorted Reflections
+      "31zm4phhf3", -- conflagrative-trounce | Conflagrative Trounce | Distorted Reflections
+      "rd90o4myfz", -- deadly-opportunist | Deadly Opportunist | Distorted Reflections
+      "p1blkel7t9", -- devoted-martyr | Devoted Martyr | Distorted Reflections
+      "99Z26vFjSz", -- diana-aether-dilettante | Diana, Aether Dilettante | Distorted Reflections
+      "I5oQyT6O0R", -- diana-judgments-arrow | Diana, Judgment's Arrow | Distorted Reflections
+      "0Avsq65WRh", -- diana-moonpiercer | Diana, Moonpiercer | Distorted Reflections
+      "ymyb55u7vo", -- dreamy-unicorn | Dreamy Unicorn | Distorted Reflections
+      "58izeeyz7h", -- dredging-streams | Dredging Streams | Distorted Reflections
+      "av9urdn0hx", -- embercrypt-burn | Embercrypt Burn | Distorted Reflections
+      "kzpkarhfr8", -- enchanted-fete | Enchanted Fete | Distorted Reflections
+      "i0jtmnf018", -- evasive-positioning | Evasive Positioning | Distorted Reflections
+      "inqol08m9p", -- evercurrent-raider | Evercurrent Raider | Distorted Reflections
+      "i0lu0mno5r", -- expose-darkness | Expose Darkness | Distorted Reflections
+      "w07t8ckcza", -- favorable-omens | Favorable Omens | Distorted Reflections
+      "iyngd7g2lq", -- fight-for-the-crown | Fight for the Crown | Distorted Reflections
+      "2o65qh82qw", -- five-of-hearts | Five of Hearts | Distorted Reflections
+      "w4lcu60c3q", -- five-of-spades | Five of Spades | Distorted Reflections
+      "o1nlgqlqy0", -- flamebound-draug | Flamebound Draug | Distorted Reflections
+      "qf4zLj6He3", -- flamebreak-chorus | Flamebreak Chorus | Distorted Reflections
+      "87ps75q8cz", -- flickering-cinder | Flickering Cinder | Distorted Reflections
+      "8jvga1cdnt", -- flowing-oubli | Flowing Oubli | Distorted Reflections
+      "g9grx5bm5k", -- fortifying-manashot | Fortifying Manashot | Distorted Reflections
+      "4m8l8rginp", -- four-of-spades | Four of Spades | Distorted Reflections
+      "vrxlctj0ja", -- furnace-lavabolt | Furnace Lavabolt | Distorted Reflections
+      "jwhn963wih", -- horned-knight | Horned Knight | Distorted Reflections
+      "3mobo7fvb4", -- infernal-manastreak | Infernal Manastreak | Distorted Reflections
+      "BnaGR1vS5p", -- juggle-knives | Juggle Knives | Distorted Reflections
+      "vwto0xrkv3", -- lurid-dreaming | Lurid Dreaming | Distorted Reflections
+      "tsyrw26gsm", -- mire-reparation | Mire Reparation | Distorted Reflections
+      "ZYf3Geuznm", -- necklace-of-foresight | Necklace of Foresight | Distorted Reflections
+      "kq84s0jqkr", -- nocturnal-blossom | Nocturnal Blossom | Distorted Reflections
+      "giaidsyfgn", -- peppered-chef | Peppered Chef | Distorted Reflections
+      "2w8kx0bowc", -- prides-smith | Pride's Smith | Distorted Reflections
+      "u97ro86b3f", -- prides-vanguard | Pride's Vanguard | Distorted Reflections
+      "gxjjf7ca7g", -- purging-tempest | Purging Tempest | Distorted Reflections
+      "3vymm6v9kh", -- purling-footman | Purling Footman | Distorted Reflections
+      "2j61i2ejg5", -- quadrilles-gryphon | Quadrille's Gryphon | Distorted Reflections
+      "1paxc1gwgq", -- recurring-invocation | Recurring Invocation | Distorted Reflections
+      "d7vm3tyrkn", -- resonant-aether | Resonant Aether | Distorted Reflections
+      "h8GXZxZUR2", -- royal-ordinance | Royal Ordinance | Distorted Reflections
+      "AXdsMJRr10", -- scavenging-raccoon | Scavenging Raccoon | Distorted Reflections
+      "iCUgPLxj0X", -- seasoned-archer | Seasoned Archer | Distorted Reflections
+      "eLgBwnq3T8", -- spark-alight | Spark Alight | Distorted Reflections
+      "APwjbP7G8O", -- spirit-of-fire | Spirit of Fire | Distorted Reflections
+      "x1KWVt6OSp", -- spirit-of-water | Spirit of Water | Distorted Reflections
+      "zDYB9Wb0tu", -- spirit-of-wind | Spirit of Wind | Distorted Reflections
+      "erviwKfW5G", -- sudden-steel | Sudden Steel | Distorted Reflections
+      "5p0c9tK2zB", -- summon-gale | Summon Gale | Distorted Reflections
+      "JZHvEQRzFH", -- take-aim | Take Aim | Distorted Reflections
+      "g4JJM7KZtC", -- take-point | Take Point | Distorted Reflections
+      "nchty2hijI", -- tempered-steel | Tempered Steel | Distorted Reflections
+      "e8csj7tbyi", -- thronekeeper-bullfrog | Throne-Keeper Bullfrog | Distorted Reflections
+      "4Bp8tqi9wX", -- trained-sharpshooter | Trained Sharpshooter | Distorted Reflections
+      "cpl3ao5vdy", -- two-of-spades | Two of Spades | Distorted Reflections
+      "vyziadinbt", -- undying-dreams | Undying Dreams | Distorted Reflections
+      "trzhehzkte", -- unwelcome-fortune | Unwelcome Fortune | Distorted Reflections
+      "oyzs3f5dnr", -- unyielding-wraithguard | Unyielding Wraithguard | Distorted Reflections
+      "2N2YfL8WVj", -- vacuous-servant | Vacuous Servant | Distorted Reflections
+      "gkwjhk4ncq", -- veiled-oracle | Veiled Oracle | Distorted Reflections
+      "X24ccBlFir", -- windrider-vanguard | Windrider Vanguard | Distorted Reflections
+    },
+    ["DTR__UNCOMMON"] = {
+      "rl8w1ab8pw", -- aetheric-reforging | Aetheric Reforging | Distorted Reflections
+      "kWN8dxsDu6", -- astra-sight | Astra Sight | Distorted Reflections
+      "iflzr0jr2h", -- bauble-of-scarcity | Bauble of Scarcity | Distorted Reflections
+      "pofqndl6i6", -- beastbond-claws | Beastbond Claws | Distorted Reflections
+      "q8s47otuk7", -- briar-schwartz-king | Briar, Schwartz King | Distorted Reflections
+      "5ua11kdder", -- brusque-neige | Brusque Neige | Distorted Reflections
+      "eohumfxe04", -- castling-boon | Castling Boon | Distorted Reflections
+      "zck6ru6mvt", -- chained-charge | Chained Charge | Distorted Reflections
+      "idm9wbnx1z", -- consumption-ring | Consumption Ring | Distorted Reflections
+      "q3i7ocnh4f", -- death-essence-amulet | Death Essence Amulet | Distorted Reflections
+      "arwkmhkbgf", -- enfeebled-dagger | Enfeebled Dagger | Distorted Reflections
+      "JPF6tRvvsL", -- exploit-vulnerability | Exploit Vulnerability | Distorted Reflections
+      "eic999g7pr", -- exsanguinating-wallop | Exsanguinating Wallop | Distorted Reflections
+      "in1rj6qet0", -- fiery-interference | Fiery Interference | Distorted Reflections
+      "tssightkxn", -- fleeting-guard | Fleeting Guard | Distorted Reflections
+      "b2jwcu7zoc", -- froglet-footman | Froglet Footman | Distorted Reflections
+      "L1isDprXtz", -- frostbind | Frostbind | Distorted Reflections
+      "kmb21aa1hc", -- fumant-shieldmaiden | Fumant Shieldmaiden | Distorted Reflections
+      "iqechbdpx7", -- galed-erasure | Galed Erasure | Distorted Reflections
+      "2ga2p9tt7j", -- ghastly-corrosion | Ghastly Corrosion | Distorted Reflections
+      "yiddzuquam", -- ghost-hunter | Ghost Hunter | Distorted Reflections
+      "65JcQCoITA", -- hypothermia | Hypothermia | Distorted Reflections
+      "p7whzr4oiq", -- inert-sword | Inert Sword | Distorted Reflections
+      "p90l7heq7j", -- intensified-pyre | Intensified Pyre | Distorted Reflections
+      "ub5lbedbfy", -- languid-toadtroll | Languid Toadtroll | Distorted Reflections
+      "6h8ncmybjm", -- longtail-grovesward | Longtail Grovesward | Distorted Reflections
+      "llkvc00h4j", -- lure-the-abyss | Lure the Abyss | Distorted Reflections
+      "t8oeztniac", -- necklace-of-hindsight | Necklace of Hindsight | Distorted Reflections
+      "3ew0egwmde", -- ouragan-sentinel | Ouragan Sentinel | Distorted Reflections
+      "46rvf6lr2d", -- piercing-aetherfuel | Piercing Aetherfuel | Distorted Reflections
+      "aN19GoOgNt", -- poisoned-dagger | Poisoned Dagger | Distorted Reflections
+      "pgwsinbgwv", -- poisonous-breezecap | Poisonous Breezecap | Distorted Reflections
+      "kpsuwe2hqq", -- rafales-slash | Rafale's Slash | Distorted Reflections
+      "dqsnubryz3", -- raised-slash | Raised Slash | Distorted Reflections
+      "02n8ya9ha8", -- ranger-strides | Ranger Strides | Distorted Reflections
+      "goof3n1eqm", -- rapid-combustion | Rapid Combustion | Distorted Reflections
+      "em6216b9jg", -- reckonings-wake | Reckoning's Wake | Distorted Reflections
+      "e0r8aqvyti", -- renascent-sharpshooter | Renascent Sharpshooter | Distorted Reflections
+      "7ML4Ui4aoA", -- resolute-stand | Resolute Stand | Distorted Reflections
+      "tqveezw40i", -- rictus-tiding | Rictus Tiding | Distorted Reflections
+      "pvr68aw7bs", -- rivulet-adjutant | Rivulet Adjutant | Distorted Reflections
+      "kcv0fefbkj", -- safeguard-paragon | Safeguard Paragon | Distorted Reflections
+      "dv1u5hixr2", -- skewering-advance | Skewering Advance | Distorted Reflections
+      "obf19et3ar", -- skilled-aerotheurge | Skilled Aerotheurge | Distorted Reflections
+      "hlv6121ial", -- sleight-of-hand | Sleight of Hand | Distorted Reflections
+      "A4GMUbKXqn", -- song-of-frost | Song of Frost | Distorted Reflections
+      "6nhenubmrt", -- straight-flare | Straight Flare | Distorted Reflections
+      "rcuj0vkrrn", -- suited-trickery | Suited Trickery | Distorted Reflections
+      "t8hwGuYPYg", -- sword-of-seeking | Sword of Seeking | Distorted Reflections
+      "kqwxfpj6xb", -- sword-of-shadows | Sword of Shadows | Distorted Reflections
+      "w3oa09534s", -- three-of-spades | Three of Spades | Distorted Reflections
+      "rg2skn08r6", -- tome-of-ignorance | Tome of Ignorance | Distorted Reflections
+      "4STqzRTRYG", -- tome-of-knowledge | Tome of Knowledge | Distorted Reflections
+      "uhq8Js2TZa", -- torrential-blast | Torrential Blast | Distorted Reflections
+      "hqujjd0g2k", -- trump-set | Trump Set | Distorted Reflections
+      "r8y2vca8a9", -- two-of-hearts | Two of Hearts | Distorted Reflections
+      "lMqmIc1yYx", -- umbra-sight | Umbra Sight | Distorted Reflections
+      "zu0ulzluer", -- vengeful-paramour | Vengeful Paramour | Distorted Reflections
+      "vo9nkntl7q", -- wonderlands-reign | Wonderland's Reign | Distorted Reflections
+    },
+    ["DTR__RARE"] = {
+      "dv7zz5n8h7", -- aethercloak-sentinel | Aethercloak Sentinel | Distorted Reflections
+      "ctfj2vm0c0", -- alacritous-huntress | Alacritous Huntress | Distorted Reflections
+      "pvfxptotgw", -- aquifer-seneschal | Aquifer Seneschal | Distorted Reflections
+      "3tcae41mhi", -- ashen-riffle | Ashen Riffle | Distorted Reflections
+      "vmyiuir380", -- baleful-oblation | Baleful Oblation | Distorted Reflections
+      "d0favv35p3", -- blazing-cindercharge | Blazing Cindercharge | Distorted Reflections
+      "810xal1rrz", -- blighted-jewel | Blighted Jewel | Distorted Reflections
+      "crkuby0pyy", -- butlers-augury | Butler's Augury | Distorted Reflections
+      "82ntpsw21t", -- candlelight-hourglass | Candlelight Hourglass | Distorted Reflections
+      "b066c9h9sn", -- cataleptic-constellation | Cataleptic Constellation | Distorted Reflections
+      "016aq6yjdd", -- chateau-de-coeurs | Chateau de Coeurs | Distorted Reflections
+      "1an84hjee2", -- chrysalis-hazy-caterpillar | Chrysalis, Hazy Caterpillar | Distorted Reflections
+      "met15igt0y", -- condemned-trinket | Condemned Trinket | Distorted Reflections
+      "gcgbyzi296", -- confidants-oath | Confidant's Oath | Distorted Reflections
+      "6dagz15x3s", -- cosmic-alignment | Cosmic Alignment | Distorted Reflections
+      "hq6byzsrfd", -- crossroads-specter | Crossroads Specter | Distorted Reflections
+      "53xhstgzyt", -- devious-welcome | Devious Welcome | Distorted Reflections
+      "sts14i6k1w", -- duplicitous-replication | Duplicitous Replication | Distorted Reflections
+      "37h9kudsqv", -- dyadic-fletcher | Dyadic Fletcher | Distorted Reflections
+      "kvzld31ttm", -- effluve-guard | Effluve Guard | Distorted Reflections
+      "6m3fyliu4k", -- exorcism | Exorcism | Distorted Reflections
+      "b7elaaardd", -- extorting-blackjack | Extorting Blackjack | Distorted Reflections
+      "sl3h52hiqj", -- fluffy-shopkeep | Fluffy Shopkeep | Distorted Reflections
+      "p0xhojoay9", -- four-of-hearts | Four of Hearts | Distorted Reflections
+      "1nre31o6ea", -- grim-pastiche | Grim Pastiche | Distorted Reflections
+      "xj2wh6ipu7", -- incinerated-templar | Incinerated Templar | Distorted Reflections
+      "xv4q0t14dy", -- lacunas-grasp | Lacuna's Grasp | Distorted Reflections
+      "16ib21f6mb", -- lingering-banshee | Lingering Banshee | Distorted Reflections
+      "q1l6b3r5ae", -- lucenias-reign | Lucenia's Reign | Distorted Reflections
+      "um2nsig3b4", -- mad-hatter-morose-heritor | Mad Hatter, Morose Heritor | Distorted Reflections
+      "q9unb9h1wu", -- mad-tea-party | Mad Tea Party | Distorted Reflections
+      "jvxht1sgi2", -- malevolent-vow | Malevolent Vow | Distorted Reflections
+      "xoi0m8bp8d", -- manabolt-convergence | Manabolt Convergence | Distorted Reflections
+      "uxdce7d03v", -- manaflare-barrage | Manaflare Barrage | Distorted Reflections
+      "nmf5mkc3s9", -- memento-pocketwatch | Memento Pocketwatch | Distorted Reflections
+      "zn8y4eax22", -- nefarious-timepiece | Nefarious Timepiece | Distorted Reflections
+      "j2tyhdhvr1", -- nightmare-coil | Nightmare Coil | Distorted Reflections
+      "ww3sy4l8c4", -- obsequious-blow | Obsequious Blow | Distorted Reflections
+      "16yqogunj0", -- poisonous-apple | Poisonous Apple | Distorted Reflections
+      "ldizr5nujt", -- pristine-scourge | Pristine Scourge | Distorted Reflections
+      "43b62c36zy", -- profane-bindings | Profane Bindings | Distorted Reflections
+      "jgwlicqlif", -- rile-the-abyss | Rile the Abyss | Distorted Reflections
+      "cmaugnit1d", -- shackled-theurgist | Shackled Theurgist | Distorted Reflections
+      "7i8lcBm0E9", -- sovereign-sanctuary | Sovereign Sanctuary | Distorted Reflections
+      "kvwi5y2w6g", -- spectral-diffusion | Spectral Diffusion | Distorted Reflections
+      "iqc5s0o57y", -- spellward-scepter | Spellward Scepter | Distorted Reflections
+      "q19diby84b", -- stellaria-shower | Stellaria Shower | Distorted Reflections
+      "m5qm8k9goq", -- suspicious-concoction | Suspicious Concoction | Distorted Reflections
+      "qn0xtry2ek", -- teasing-aerocharge | Teasing Aerocharge | Distorted Reflections
+      "l39s1u0aby", -- three-of-hearts | Three of Hearts | Distorted Reflections
+      "buhdecy6op", -- trivariate-dream | Trivariate Dream | Distorted Reflections
+      "ozr8r72081", -- vanishing-eclipse | Vanishing Eclipse | Distorted Reflections
+      "7ifvrykvb2", -- veteran-aerotheurge | Veteran Aerotheurge | Distorted Reflections
+    },
+    ["DTR__SUPER_RARE"] = {
+      "ggliackmst", -- alice-golden-queen | Alice, Golden Queen | Distorted Reflections
+      "sgdrtxyoad", -- beguiling-coup | Beguiling Coup | Distorted Reflections
+      "8sbukxra8v", -- chamber-of-reflections | Chamber of Reflections | Distorted Reflections
+      "suwsdpvwk1", -- cometary-vantage | Cometary Vantage | Distorted Reflections
+      "gxw0q94fym", -- duchess-six-of-hearts | Duchess, Six of Hearts | Distorted Reflections
+      "3vane3r6ej", -- expeditious-opening | Expeditious Opening | Distorted Reflections
+      "nipk96n231", -- humpty-dumpty-fates-fall | Humpty Dumpty, Fate's Fall | Distorted Reflections
+      "WNfBCAwOix", -- imperial-accord | Imperial Accord | Distorted Reflections
+      "yxq6hz8052", -- lawsur-the-carpenter | Lawsur, the Carpenter | Distorted Reflections
+      "8o7b2n4wlt", -- legions-wingspan | Legion's Wingspan | Distorted Reflections
+      "hes6yxwnco", -- lily-marine-castellan | Lily, Marine Castellan | Distorted Reflections
+      "kiekuqmdaf", -- liminal-guide | Liminal Guide | Distorted Reflections
+      "11ytei4rbw", -- manas-cascade | Mana's Cascade | Distorted Reflections
+      "qxvut6f4ix", -- march-hare-mottled-host | March Hare, Mottled Host | Distorted Reflections
+      "1t8d7f0epo", -- mary-ann-maladroit-maid | Mary Ann, Maladroit Maid | Distorted Reflections
+      "i57sc0SOnc", -- noble-dissolution | Noble Dissolution | Distorted Reflections
+      "lk7q9vfdqn", -- noire-ace-of-spades | Noire, Ace of Spades | Distorted Reflections
+      "JmWjYSXZms", -- regal-inquisition | Regal Inquisition | Distorted Reflections
+      "ftsws0j6sh", -- rouge-ace-of-hearts | Rouge, Ace of Hearts | Distorted Reflections
+      "1ucb15ecol", -- salamanders-breath | Salamander's Breath | Distorted Reflections
+      "Vq3fE25MlG", -- scorched-conquest | Scorched Conquest | Distorted Reflections
+      "hcp0ccafb1", -- servants-obligation | Servant's Obligation | Distorted Reflections
+      "li9rj8nltg", -- snow-white-weiss-queen | Snow White, Weiss Queen | Distorted Reflections
+      "hud0lvrnsp", -- spirelle-schwartz-queen | Spirelle, Schwartz Queen | Distorted Reflections
+      "3bstey3ux8", -- stellarion-shift | Stellarion Shift | Distorted Reflections
+      "j5m1tjk0gb", -- sunken-battle-priest | Sunken Battle Priest | Distorted Reflections
+      "7u395jc8um", -- verita-queen-of-hearts | Verita, Queen of Hearts | Distorted Reflections
+      "fpbr6gtkxa", -- viridescent-aetherstreak | Viridescent Aetherstreak | Distorted Reflections
+      "je6i56f3zf", -- votive-runeblade | Votive Runeblade | Distorted Reflections
+      "gdz666jkmu", -- weaving-manastream | Weaving Manastream | Distorted Reflections
+    },
+    ["DTR__ULTRA_RARE"] = {
+      "Fwbt5hohCt", -- cheshire-cat-impish-grin | Cheshire Cat, Impish Grin | Distorted Reflections First Edition
+      "zgvucklftz", -- chronowarp | Chronowarp | Distorted Reflections First Edition
+      "lbtl8ipjiy", -- devouring-malice | Devouring Malice | Distorted Reflections First Edition
+      "flaoatte50", -- excalibur-reflected-edge | Excalibur, Reflected Edge | Distorted Reflections First Edition
+      "fhafssv5hj", -- ignis-deus | Ignis Deus | Distorted Reflections First Edition
+      "egjqdv0c4z", -- radiant-vega | Radiant Vega | Distorted Reflections First Edition
+      "vqd2c4e9xp", -- soutirer-vortex | Soutirer Vortex | Distorted Reflections First Edition
+      "o9n3f98wmf", -- the-looking-glass | The Looking Glass | Distorted Reflections First Edition
+    },
+    ["DTR__CSR"] = {
+      "UL5e62ivCq", -- alice-golden-queen | Alice, Golden Queen | Distorted Reflections First Edition
+      "pBKsJeP8mo", -- chrysalis-hazy-caterpillar | Chrysalis, Hazy Caterpillar | Distorted Reflections First Edition
+      "ZKOU3GSDbD", -- ciel-loyal-valet | Ciel, Loyal Valet | Distorted Reflections First Edition
+      "KIvObmJGyT", -- ciel-omenbringer | Ciel, Omenbringer | Distorted Reflections First Edition
+      "3H5OyYXR7E", -- diana-aether-dilettante | Diana, Aether Dilettante | Distorted Reflections First Edition
+      "LNuPxwlcNr", -- diana-judgments-arrow | Diana, Judgment's Arrow | Distorted Reflections First Edition
+      "68vmoyslWt", -- duchess-six-of-hearts | Duchess, Six of Hearts | Distorted Reflections First Edition
+      "I7RQE9Eg4b", -- humpty-dumpty-fates-fall | Humpty Dumpty, Fate's Fall | Distorted Reflections First Edition
+      "6J2CTbLZLs", -- lawsur-the-carpenter | Lawsur, the Carpenter | Distorted Reflections First Edition
+      "NS1iodwyz2", -- mad-hatter-morose-heritor | Mad Hatter, Morose Heritor | Distorted Reflections First Edition
+      "5UI3spnOk4", -- noire-ace-of-spades | Noire, Ace of Spades | Distorted Reflections First Edition
+      "h3UcW0UzHC", -- rouge-ace-of-hearts | Rouge, Ace of Hearts | Distorted Reflections First Edition
+      "JOJI083BbK", -- snow-white-weiss-queen | Snow White, Weiss Queen | Distorted Reflections First Edition
+      "2XWceICSGG", -- spirelle-schwartz-queen | Spirelle, Schwartz Queen | Distorted Reflections First Edition
+      "DHY90nnoW3", -- verita-queen-of-hearts | Verita, Queen of Hearts | Distorted Reflections First Edition
+    },
+    ["DTR__CUR"] = {
+      "zRYKP4YYfx", -- alice-golden-queen | Alice, Golden Queen | Distorted Reflections First Edition
+    },
+    ["DTR__TOKEN"] = {
+      "53a2FB6qvS", -- astral-shard | Astral Shard | Distorted Reflections
+      "2N2YfL8WVj", -- vacuous-servant | Vacuous Servant | Distorted Reflections
+    },
+    ["DTR__TOKEN_OR_COMMON_CHAMPION"] = {
+      "53a2FB6qvS", -- astral-shard | Astral Shard | Distorted Reflections
+      "Lh6ABaQpKH", -- ciel-loyal-valet | Ciel, Loyal Valet | Distorted Reflections
+      "XRLB9cYyln", -- ciel-mirages-grave | Ciel, Mirage's Grave | Distorted Reflections
+      "f6CDb7RNWr", -- ciel-omenbringer | Ciel, Omenbringer | Distorted Reflections
+      "99Z26vFjSz", -- diana-aether-dilettante | Diana, Aether Dilettante | Distorted Reflections
+      "I5oQyT6O0R", -- diana-judgments-arrow | Diana, Judgment's Arrow | Distorted Reflections
+      "0Avsq65WRh", -- diana-moonpiercer | Diana, Moonpiercer | Distorted Reflections
+      "APwjbP7G8O", -- spirit-of-fire | Spirit of Fire | Distorted Reflections
+      "x1KWVt6OSp", -- spirit-of-water | Spirit of Water | Distorted Reflections
+      "zDYB9Wb0tu", -- spirit-of-wind | Spirit of Wind | Distorted Reflections
+      "2N2YfL8WVj", -- vacuous-servant | Vacuous Servant | Distorted Reflections
+    },
+    ["DTR__FOIL_ANY"] = {
+      "dv7zz5n8h7", -- aethercloak-sentinel | Aethercloak Sentinel | Distorted Reflections
+      "rl8w1ab8pw", -- aetheric-reforging | Aetheric Reforging | Distorted Reflections
+      "3t2x4xhnag", -- aethers-embrace | Aether's Embrace | Distorted Reflections
+      "ctfj2vm0c0", -- alacritous-huntress | Alacritous Huntress | Distorted Reflections
+      "UL5e62ivCq", -- alice-golden-queen | Alice, Golden Queen | Distorted Reflections First Edition
+      "ggliackmst", -- alice-golden-queen | Alice, Golden Queen | Distorted Reflections
+      "zRYKP4YYfx", -- alice-golden-queen | Alice, Golden Queen | Distorted Reflections First Edition
+      "pvfxptotgw", -- aquifer-seneschal | Aquifer Seneschal | Distorted Reflections
+      "zwk2nrweto", -- armed-squallguard | Armed Squallguard | Distorted Reflections
+      "3tcae41mhi", -- ashen-riffle | Ashen Riffle | Distorted Reflections
+      "b1ouff9vjk", -- ashwound-shot | Ashwound Shot | Distorted Reflections
+      "kWN8dxsDu6", -- astra-sight | Astra Sight | Distorted Reflections
+      "53a2FB6qvS", -- astral-shard | Astral Shard | Distorted Reflections
+      "bafmaqsd4r", -- backdash | Backdash | Distorted Reflections
+      "vmyiuir380", -- baleful-oblation | Baleful Oblation | Distorted Reflections
+      "iflzr0jr2h", -- bauble-of-scarcity | Bauble of Scarcity | Distorted Reflections
+      "pofqndl6i6", -- beastbond-claws | Beastbond Claws | Distorted Reflections
+      "seHqtpfGDu", -- beastbond-paws | Beastbond Paws | Distorted Reflections
+      "sgdrtxyoad", -- beguiling-coup | Beguiling Coup | Distorted Reflections
+      "Io4OAdpXhv", -- blackmarket-broker | Blackmarket Broker | Distorted Reflections
+      "d0favv35p3", -- blazing-cindercharge | Blazing Cindercharge | Distorted Reflections
+      "YdLUsnU7cA", -- blazing-throw | Blazing Throw | Distorted Reflections
+      "810xal1rrz", -- blighted-jewel | Blighted Jewel | Distorted Reflections
+      "q8s47otuk7", -- briar-schwartz-king | Briar, Schwartz King | Distorted Reflections
+      "5ua11kdder", -- brusque-neige | Brusque Neige | Distorted Reflections
+      "crkuby0pyy", -- butlers-augury | Butler's Augury | Distorted Reflections
+      "82ntpsw21t", -- candlelight-hourglass | Candlelight Hourglass | Distorted Reflections
+      "eohumfxe04", -- castling-boon | Castling Boon | Distorted Reflections
+      "b066c9h9sn", -- cataleptic-constellation | Cataleptic Constellation | Distorted Reflections
+      "zck6ru6mvt", -- chained-charge | Chained Charge | Distorted Reflections
+      "8sbukxra8v", -- chamber-of-reflections | Chamber of Reflections | Distorted Reflections
+      "z2a5rvl775", -- charging-galeshot | Charging Galeshot | Distorted Reflections
+      "016aq6yjdd", -- chateau-de-coeurs | Chateau de Coeurs | Distorted Reflections
+      "Fwbt5hohCt", -- cheshire-cat-impish-grin | Cheshire Cat, Impish Grin | Distorted Reflections First Edition
+      "zgvucklftz", -- chronowarp | Chronowarp | Distorted Reflections First Edition
+      "1an84hjee2", -- chrysalis-hazy-caterpillar | Chrysalis, Hazy Caterpillar | Distorted Reflections
+      "pBKsJeP8mo", -- chrysalis-hazy-caterpillar | Chrysalis, Hazy Caterpillar | Distorted Reflections First Edition
+      "Lh6ABaQpKH", -- ciel-loyal-valet | Ciel, Loyal Valet | Distorted Reflections
+      "ZKOU3GSDbD", -- ciel-loyal-valet | Ciel, Loyal Valet | Distorted Reflections First Edition
+      "XRLB9cYyln", -- ciel-mirages-grave | Ciel, Mirage's Grave | Distorted Reflections
+      "KIvObmJGyT", -- ciel-omenbringer | Ciel, Omenbringer | Distorted Reflections First Edition
+      "f6CDb7RNWr", -- ciel-omenbringer | Ciel, Omenbringer | Distorted Reflections
+      "suwsdpvwk1", -- cometary-vantage | Cometary Vantage | Distorted Reflections
+      "met15igt0y", -- condemned-trinket | Condemned Trinket | Distorted Reflections
+      "gcgbyzi296", -- confidants-oath | Confidant's Oath | Distorted Reflections
+      "31zm4phhf3", -- conflagrative-trounce | Conflagrative Trounce | Distorted Reflections
+      "idm9wbnx1z", -- consumption-ring | Consumption Ring | Distorted Reflections
+      "6dagz15x3s", -- cosmic-alignment | Cosmic Alignment | Distorted Reflections
+      "hq6byzsrfd", -- crossroads-specter | Crossroads Specter | Distorted Reflections
+      "rd90o4myfz", -- deadly-opportunist | Deadly Opportunist | Distorted Reflections
+      "q3i7ocnh4f", -- death-essence-amulet | Death Essence Amulet | Distorted Reflections
+      "53xhstgzyt", -- devious-welcome | Devious Welcome | Distorted Reflections
+      "p1blkel7t9", -- devoted-martyr | Devoted Martyr | Distorted Reflections
+      "lbtl8ipjiy", -- devouring-malice | Devouring Malice | Distorted Reflections First Edition
+      "3H5OyYXR7E", -- diana-aether-dilettante | Diana, Aether Dilettante | Distorted Reflections First Edition
+      "99Z26vFjSz", -- diana-aether-dilettante | Diana, Aether Dilettante | Distorted Reflections
+      "I5oQyT6O0R", -- diana-judgments-arrow | Diana, Judgment's Arrow | Distorted Reflections
+      "LNuPxwlcNr", -- diana-judgments-arrow | Diana, Judgment's Arrow | Distorted Reflections First Edition
+      "0Avsq65WRh", -- diana-moonpiercer | Diana, Moonpiercer | Distorted Reflections
+      "ymyb55u7vo", -- dreamy-unicorn | Dreamy Unicorn | Distorted Reflections
+      "58izeeyz7h", -- dredging-streams | Dredging Streams | Distorted Reflections
+      "68vmoyslWt", -- duchess-six-of-hearts | Duchess, Six of Hearts | Distorted Reflections First Edition
+      "gxw0q94fym", -- duchess-six-of-hearts | Duchess, Six of Hearts | Distorted Reflections
+      "sts14i6k1w", -- duplicitous-replication | Duplicitous Replication | Distorted Reflections
+      "37h9kudsqv", -- dyadic-fletcher | Dyadic Fletcher | Distorted Reflections
+      "kvzld31ttm", -- effluve-guard | Effluve Guard | Distorted Reflections
+      "av9urdn0hx", -- embercrypt-burn | Embercrypt Burn | Distorted Reflections
+      "kzpkarhfr8", -- enchanted-fete | Enchanted Fete | Distorted Reflections
+      "arwkmhkbgf", -- enfeebled-dagger | Enfeebled Dagger | Distorted Reflections
+      "i0jtmnf018", -- evasive-positioning | Evasive Positioning | Distorted Reflections
+      "inqol08m9p", -- evercurrent-raider | Evercurrent Raider | Distorted Reflections
+      "flaoatte50", -- excalibur-reflected-edge | Excalibur, Reflected Edge | Distorted Reflections First Edition
+      "6m3fyliu4k", -- exorcism | Exorcism | Distorted Reflections
+      "3vane3r6ej", -- expeditious-opening | Expeditious Opening | Distorted Reflections
+      "JPF6tRvvsL", -- exploit-vulnerability | Exploit Vulnerability | Distorted Reflections
+      "i0lu0mno5r", -- expose-darkness | Expose Darkness | Distorted Reflections
+      "eic999g7pr", -- exsanguinating-wallop | Exsanguinating Wallop | Distorted Reflections
+      "b7elaaardd", -- extorting-blackjack | Extorting Blackjack | Distorted Reflections
+      "w07t8ckcza", -- favorable-omens | Favorable Omens | Distorted Reflections
+      "in1rj6qet0", -- fiery-interference | Fiery Interference | Distorted Reflections
+      "iyngd7g2lq", -- fight-for-the-crown | Fight for the Crown | Distorted Reflections
+      "2o65qh82qw", -- five-of-hearts | Five of Hearts | Distorted Reflections
+      "w4lcu60c3q", -- five-of-spades | Five of Spades | Distorted Reflections
+      "o1nlgqlqy0", -- flamebound-draug | Flamebound Draug | Distorted Reflections
+      "qf4zLj6He3", -- flamebreak-chorus | Flamebreak Chorus | Distorted Reflections
+      "tssightkxn", -- fleeting-guard | Fleeting Guard | Distorted Reflections
+      "87ps75q8cz", -- flickering-cinder | Flickering Cinder | Distorted Reflections
+      "8jvga1cdnt", -- flowing-oubli | Flowing Oubli | Distorted Reflections
+      "sl3h52hiqj", -- fluffy-shopkeep | Fluffy Shopkeep | Distorted Reflections
+      "g9grx5bm5k", -- fortifying-manashot | Fortifying Manashot | Distorted Reflections
+      "p0xhojoay9", -- four-of-hearts | Four of Hearts | Distorted Reflections
+      "4m8l8rginp", -- four-of-spades | Four of Spades | Distorted Reflections
+      "b2jwcu7zoc", -- froglet-footman | Froglet Footman | Distorted Reflections
+      "L1isDprXtz", -- frostbind | Frostbind | Distorted Reflections
+      "kmb21aa1hc", -- fumant-shieldmaiden | Fumant Shieldmaiden | Distorted Reflections
+      "vrxlctj0ja", -- furnace-lavabolt | Furnace Lavabolt | Distorted Reflections
+      "iqechbdpx7", -- galed-erasure | Galed Erasure | Distorted Reflections
+      "2ga2p9tt7j", -- ghastly-corrosion | Ghastly Corrosion | Distorted Reflections
+      "yiddzuquam", -- ghost-hunter | Ghost Hunter | Distorted Reflections
+      "1nre31o6ea", -- grim-pastiche | Grim Pastiche | Distorted Reflections
+      "jwhn963wih", -- horned-knight | Horned Knight | Distorted Reflections
+      "I7RQE9Eg4b", -- humpty-dumpty-fates-fall | Humpty Dumpty, Fate's Fall | Distorted Reflections First Edition
+      "nipk96n231", -- humpty-dumpty-fates-fall | Humpty Dumpty, Fate's Fall | Distorted Reflections
+      "65JcQCoITA", -- hypothermia | Hypothermia | Distorted Reflections
+      "fhafssv5hj", -- ignis-deus | Ignis Deus | Distorted Reflections First Edition
+      "WNfBCAwOix", -- imperial-accord | Imperial Accord | Distorted Reflections
+      "xj2wh6ipu7", -- incinerated-templar | Incinerated Templar | Distorted Reflections
+      "p7whzr4oiq", -- inert-sword | Inert Sword | Distorted Reflections
+      "3mobo7fvb4", -- infernal-manastreak | Infernal Manastreak | Distorted Reflections
+      "p90l7heq7j", -- intensified-pyre | Intensified Pyre | Distorted Reflections
+      "BnaGR1vS5p", -- juggle-knives | Juggle Knives | Distorted Reflections
+      "xv4q0t14dy", -- lacunas-grasp | Lacuna's Grasp | Distorted Reflections
+      "ub5lbedbfy", -- languid-toadtroll | Languid Toadtroll | Distorted Reflections
+      "6J2CTbLZLs", -- lawsur-the-carpenter | Lawsur, the Carpenter | Distorted Reflections First Edition
+      "yxq6hz8052", -- lawsur-the-carpenter | Lawsur, the Carpenter | Distorted Reflections
+      "8o7b2n4wlt", -- legions-wingspan | Legion's Wingspan | Distorted Reflections
+      "hes6yxwnco", -- lily-marine-castellan | Lily, Marine Castellan | Distorted Reflections
+      "kiekuqmdaf", -- liminal-guide | Liminal Guide | Distorted Reflections
+      "16ib21f6mb", -- lingering-banshee | Lingering Banshee | Distorted Reflections
+      "6h8ncmybjm", -- longtail-grovesward | Longtail Grovesward | Distorted Reflections
+      "q1l6b3r5ae", -- lucenias-reign | Lucenia's Reign | Distorted Reflections
+      "llkvc00h4j", -- lure-the-abyss | Lure the Abyss | Distorted Reflections
+      "vwto0xrkv3", -- lurid-dreaming | Lurid Dreaming | Distorted Reflections
+      "NS1iodwyz2", -- mad-hatter-morose-heritor | Mad Hatter, Morose Heritor | Distorted Reflections First Edition
+      "um2nsig3b4", -- mad-hatter-morose-heritor | Mad Hatter, Morose Heritor | Distorted Reflections
+      "q9unb9h1wu", -- mad-tea-party | Mad Tea Party | Distorted Reflections
+      "jvxht1sgi2", -- malevolent-vow | Malevolent Vow | Distorted Reflections
+      "xoi0m8bp8d", -- manabolt-convergence | Manabolt Convergence | Distorted Reflections
+      "uxdce7d03v", -- manaflare-barrage | Manaflare Barrage | Distorted Reflections
+      "11ytei4rbw", -- manas-cascade | Mana's Cascade | Distorted Reflections
+      "qxvut6f4ix", -- march-hare-mottled-host | March Hare, Mottled Host | Distorted Reflections
+      "1t8d7f0epo", -- mary-ann-maladroit-maid | Mary Ann, Maladroit Maid | Distorted Reflections
+      "nmf5mkc3s9", -- memento-pocketwatch | Memento Pocketwatch | Distorted Reflections
+      "tsyrw26gsm", -- mire-reparation | Mire Reparation | Distorted Reflections
+      "ZYf3Geuznm", -- necklace-of-foresight | Necklace of Foresight | Distorted Reflections
+      "t8oeztniac", -- necklace-of-hindsight | Necklace of Hindsight | Distorted Reflections
+      "zn8y4eax22", -- nefarious-timepiece | Nefarious Timepiece | Distorted Reflections
+      "j2tyhdhvr1", -- nightmare-coil | Nightmare Coil | Distorted Reflections
+      "i57sc0SOnc", -- noble-dissolution | Noble Dissolution | Distorted Reflections
+      "kq84s0jqkr", -- nocturnal-blossom | Nocturnal Blossom | Distorted Reflections
+      "5UI3spnOk4", -- noire-ace-of-spades | Noire, Ace of Spades | Distorted Reflections First Edition
+      "lk7q9vfdqn", -- noire-ace-of-spades | Noire, Ace of Spades | Distorted Reflections
+      "ww3sy4l8c4", -- obsequious-blow | Obsequious Blow | Distorted Reflections
+      "3ew0egwmde", -- ouragan-sentinel | Ouragan Sentinel | Distorted Reflections
+      "giaidsyfgn", -- peppered-chef | Peppered Chef | Distorted Reflections
+      "46rvf6lr2d", -- piercing-aetherfuel | Piercing Aetherfuel | Distorted Reflections
+      "aN19GoOgNt", -- poisoned-dagger | Poisoned Dagger | Distorted Reflections
+      "16yqogunj0", -- poisonous-apple | Poisonous Apple | Distorted Reflections
+      "pgwsinbgwv", -- poisonous-breezecap | Poisonous Breezecap | Distorted Reflections
+      "2w8kx0bowc", -- prides-smith | Pride's Smith | Distorted Reflections
+      "u97ro86b3f", -- prides-vanguard | Pride's Vanguard | Distorted Reflections
+      "ldizr5nujt", -- pristine-scourge | Pristine Scourge | Distorted Reflections
+      "43b62c36zy", -- profane-bindings | Profane Bindings | Distorted Reflections
+      "gxjjf7ca7g", -- purging-tempest | Purging Tempest | Distorted Reflections
+      "3vymm6v9kh", -- purling-footman | Purling Footman | Distorted Reflections
+      "2j61i2ejg5", -- quadrilles-gryphon | Quadrille's Gryphon | Distorted Reflections
+      "egjqdv0c4z", -- radiant-vega | Radiant Vega | Distorted Reflections First Edition
+      "kpsuwe2hqq", -- rafales-slash | Rafale's Slash | Distorted Reflections
+      "dqsnubryz3", -- raised-slash | Raised Slash | Distorted Reflections
+      "02n8ya9ha8", -- ranger-strides | Ranger Strides | Distorted Reflections
+      "goof3n1eqm", -- rapid-combustion | Rapid Combustion | Distorted Reflections
+      "em6216b9jg", -- reckonings-wake | Reckoning's Wake | Distorted Reflections
+      "1paxc1gwgq", -- recurring-invocation | Recurring Invocation | Distorted Reflections
+      "JmWjYSXZms", -- regal-inquisition | Regal Inquisition | Distorted Reflections
+      "e0r8aqvyti", -- renascent-sharpshooter | Renascent Sharpshooter | Distorted Reflections
+      "7ML4Ui4aoA", -- resolute-stand | Resolute Stand | Distorted Reflections
+      "d7vm3tyrkn", -- resonant-aether | Resonant Aether | Distorted Reflections
+      "tqveezw40i", -- rictus-tiding | Rictus Tiding | Distorted Reflections
+      "jgwlicqlif", -- rile-the-abyss | Rile the Abyss | Distorted Reflections
+      "pvr68aw7bs", -- rivulet-adjutant | Rivulet Adjutant | Distorted Reflections
+      "ftsws0j6sh", -- rouge-ace-of-hearts | Rouge, Ace of Hearts | Distorted Reflections
+      "h3UcW0UzHC", -- rouge-ace-of-hearts | Rouge, Ace of Hearts | Distorted Reflections First Edition
+      "h8GXZxZUR2", -- royal-ordinance | Royal Ordinance | Distorted Reflections
+      "kcv0fefbkj", -- safeguard-paragon | Safeguard Paragon | Distorted Reflections
+      "1ucb15ecol", -- salamanders-breath | Salamander's Breath | Distorted Reflections
+      "AXdsMJRr10", -- scavenging-raccoon | Scavenging Raccoon | Distorted Reflections
+      "Vq3fE25MlG", -- scorched-conquest | Scorched Conquest | Distorted Reflections
+      "iCUgPLxj0X", -- seasoned-archer | Seasoned Archer | Distorted Reflections
+      "hcp0ccafb1", -- servants-obligation | Servant's Obligation | Distorted Reflections
+      "cmaugnit1d", -- shackled-theurgist | Shackled Theurgist | Distorted Reflections
+      "dv1u5hixr2", -- skewering-advance | Skewering Advance | Distorted Reflections
+      "obf19et3ar", -- skilled-aerotheurge | Skilled Aerotheurge | Distorted Reflections
+      "hlv6121ial", -- sleight-of-hand | Sleight of Hand | Distorted Reflections
+      "JOJI083BbK", -- snow-white-weiss-queen | Snow White, Weiss Queen | Distorted Reflections First Edition
+      "li9rj8nltg", -- snow-white-weiss-queen | Snow White, Weiss Queen | Distorted Reflections
+      "A4GMUbKXqn", -- song-of-frost | Song of Frost | Distorted Reflections
+      "vqd2c4e9xp", -- soutirer-vortex | Soutirer Vortex | Distorted Reflections First Edition
+      "7i8lcBm0E9", -- sovereign-sanctuary | Sovereign Sanctuary | Distorted Reflections
+      "eLgBwnq3T8", -- spark-alight | Spark Alight | Distorted Reflections
+      "kvwi5y2w6g", -- spectral-diffusion | Spectral Diffusion | Distorted Reflections
+      "iqc5s0o57y", -- spellward-scepter | Spellward Scepter | Distorted Reflections
+      "2XWceICSGG", -- spirelle-schwartz-queen | Spirelle, Schwartz Queen | Distorted Reflections First Edition
+      "hud0lvrnsp", -- spirelle-schwartz-queen | Spirelle, Schwartz Queen | Distorted Reflections
+      "APwjbP7G8O", -- spirit-of-fire | Spirit of Fire | Distorted Reflections
+      "x1KWVt6OSp", -- spirit-of-water | Spirit of Water | Distorted Reflections
+      "zDYB9Wb0tu", -- spirit-of-wind | Spirit of Wind | Distorted Reflections
+      "q19diby84b", -- stellaria-shower | Stellaria Shower | Distorted Reflections
+      "3bstey3ux8", -- stellarion-shift | Stellarion Shift | Distorted Reflections
+      "6nhenubmrt", -- straight-flare | Straight Flare | Distorted Reflections
+      "erviwKfW5G", -- sudden-steel | Sudden Steel | Distorted Reflections
+      "rcuj0vkrrn", -- suited-trickery | Suited Trickery | Distorted Reflections
+      "5p0c9tK2zB", -- summon-gale | Summon Gale | Distorted Reflections
+      "j5m1tjk0gb", -- sunken-battle-priest | Sunken Battle Priest | Distorted Reflections
+      "m5qm8k9goq", -- suspicious-concoction | Suspicious Concoction | Distorted Reflections
+      "t8hwGuYPYg", -- sword-of-seeking | Sword of Seeking | Distorted Reflections
+      "kqwxfpj6xb", -- sword-of-shadows | Sword of Shadows | Distorted Reflections
+      "JZHvEQRzFH", -- take-aim | Take Aim | Distorted Reflections
+      "g4JJM7KZtC", -- take-point | Take Point | Distorted Reflections
+      "qn0xtry2ek", -- teasing-aerocharge | Teasing Aerocharge | Distorted Reflections
+      "nchty2hijI", -- tempered-steel | Tempered Steel | Distorted Reflections
+      "o9n3f98wmf", -- the-looking-glass | The Looking Glass | Distorted Reflections First Edition
+      "l39s1u0aby", -- three-of-hearts | Three of Hearts | Distorted Reflections
+      "w3oa09534s", -- three-of-spades | Three of Spades | Distorted Reflections
+      "e8csj7tbyi", -- thronekeeper-bullfrog | Throne-Keeper Bullfrog | Distorted Reflections
+      "rg2skn08r6", -- tome-of-ignorance | Tome of Ignorance | Distorted Reflections
+      "4STqzRTRYG", -- tome-of-knowledge | Tome of Knowledge | Distorted Reflections
+      "uhq8Js2TZa", -- torrential-blast | Torrential Blast | Distorted Reflections
+      "4Bp8tqi9wX", -- trained-sharpshooter | Trained Sharpshooter | Distorted Reflections
+      "buhdecy6op", -- trivariate-dream | Trivariate Dream | Distorted Reflections
+      "hqujjd0g2k", -- trump-set | Trump Set | Distorted Reflections
+      "r8y2vca8a9", -- two-of-hearts | Two of Hearts | Distorted Reflections
+      "cpl3ao5vdy", -- two-of-spades | Two of Spades | Distorted Reflections
+      "lMqmIc1yYx", -- umbra-sight | Umbra Sight | Distorted Reflections
+      "vyziadinbt", -- undying-dreams | Undying Dreams | Distorted Reflections
+      "trzhehzkte", -- unwelcome-fortune | Unwelcome Fortune | Distorted Reflections
+      "oyzs3f5dnr", -- unyielding-wraithguard | Unyielding Wraithguard | Distorted Reflections
+      "2N2YfL8WVj", -- vacuous-servant | Vacuous Servant | Distorted Reflections
+      "ozr8r72081", -- vanishing-eclipse | Vanishing Eclipse | Distorted Reflections
+      "gkwjhk4ncq", -- veiled-oracle | Veiled Oracle | Distorted Reflections
+      "zu0ulzluer", -- vengeful-paramour | Vengeful Paramour | Distorted Reflections
+      "7u395jc8um", -- verita-queen-of-hearts | Verita, Queen of Hearts | Distorted Reflections
+      "DHY90nnoW3", -- verita-queen-of-hearts | Verita, Queen of Hearts | Distorted Reflections First Edition
+      "7ifvrykvb2", -- veteran-aerotheurge | Veteran Aerotheurge | Distorted Reflections
+      "fpbr6gtkxa", -- viridescent-aetherstreak | Viridescent Aetherstreak | Distorted Reflections
+      "je6i56f3zf", -- votive-runeblade | Votive Runeblade | Distorted Reflections
+      "gdz666jkmu", -- weaving-manastream | Weaving Manastream | Distorted Reflections
+      "X24ccBlFir", -- windrider-vanguard | Windrider Vanguard | Distorted Reflections
+      "vo9nkntl7q", -- wonderlands-reign | Wonderland's Reign | Distorted Reflections
+    },
+    ["MRC1E__COMMON"] = {
+      "gocb33mr0k", -- airship-captain | Airship Captain | Mercurial Heart
+      "xj0ckca6jh", -- arsenal-keeper | Arsenal Keeper | Mercurial Heart
+      "571itod02g", -- atmos-shield | Atmos Shield | Mercurial Heart
+      "pmeslfpwkk", -- automaton-drone | Automaton Drone | Mercurial Heart
+      "aqv0lut479", -- bandage-wound | Bandage Wound | Mercurial Heart
+      "a7zd60ah55", -- blightroot | Blightroot | Mercurial Heart
+      "1h4pzmq492", -- captivating-cutthroat | Captivating Cutthroat | Mercurial Heart
+      "m7o1i184h5", -- cell-assembler | Cell Assembler | Mercurial Heart
+      "0dnzlu21xA", -- cell-forging | Cell Forging | Mercurial Heart
+      "utwmhm7ggr", -- cell-vanguard | Cell Vanguard | Mercurial Heart
+      "hvpisznne5", -- charged-alchemist | Charged Alchemist | Mercurial Heart
+      "tvp7hc1pq4", -- charged-assailant | Charged Assailant | Mercurial Heart
+      "q62nobfsyr", -- charged-mannequin | Charged Mannequin | Mercurial Heart
+      "mhus8n485d", -- cinderbloom-tender | Cinderbloom Tender | Mercurial Heart
+      "bviukn5nvr", -- concealed-marksman | Concealed Marksman | Mercurial Heart
+      "31hwd85dpz", -- cultivate | Cultivate | Mercurial Heart
+      "nd8dyh6ikm", -- desperate-dive | Desperate Dive | Mercurial Heart
+      "6kd7gocb33", -- dodge-roll | Dodge Roll | Mercurial Heart
+      "gq56cjg0bo", -- embershield-keeper | Embershield Keeper | Mercurial Heart
+      "gyi3sphvpi", -- enthralling-visage | Enthralling Visage | Mercurial Heart
+      "mjbpiclthg", -- favorable-winds | Favorable Winds | Mercurial Heart
+      "wm5lt3q2tw", -- fraysia | Fraysia | Mercurial Heart
+      "8n485dgq56", -- freezing-steel | Freezing Steel | Mercurial Heart
+      "a6jhwltxu2", -- gearshift-block | Gearshift Block | Mercurial Heart
+      "itwxs9ke3r", -- hidden-enclave | Hidden Enclave | Mercurial Heart
+      "i3sphvpisz", -- hub-of-innovation | Hub of Innovation | Mercurial Heart
+      "xt63jyfa7f", -- imperial-scout | Imperial Scout | Mercurial Heart
+      "nne5n3cl9l", -- imperial-spy | Imperial Spy | Mercurial Heart
+      "bewnmhus8n", -- machined-monstrosity | Machined Monstrosity | Mercurial Heart
+      "d53zcaq5mq", -- manaroot | Manaroot | Mercurial Heart
+      "485dgq56cj", -- manufacture-cell | Manufacture Cell | Mercurial Heart
+      "wvzojo9iit", -- novice-healer | Novice Healer | Mercurial Heart
+      "wxs9ke3rs7", -- nurture-crops | Nurture Crops | Mercurial Heart
+      "xko170miji", -- ominous-shadow | Ominous Shadow | Mercurial Heart
+      "gy62f3j8fj", -- potion-infusion-growth | Potion Infusion: Growth | Mercurial Heart
+      "dxkwmp7pxt", -- powercell | Powercell | Mercurial Heart
+      "kh9ngakrff", -- powercell | Powercell | Mercurial Heart
+      "pypgzedxkw", -- powered-bishop | Powered Bishop | Mercurial Heart
+      "mp7pxt63jy", -- powered-sentinel | Powered Sentinel | Mercurial Heart
+      "2nobfsyrc9", -- powered-swordsman | Powered Swordsman | Mercurial Heart
+      "63jyfa7fr1", -- purification | Purification | Mercurial Heart
+      "9b5m6sqe6k", -- purified-shot | Purified Shot | Mercurial Heart
+      "rbdzdhmf17", -- pyroclastic-flow | Pyroclastic Flow | Mercurial Heart
+      "nvx8nou1xi", -- razorvine | Razorvine | Mercurial Heart
+      "87aqv0lut4", -- reduce-to-ash | Reduce to Ash | Mercurial Heart
+      "g8evrbdzdh", -- reprogram | Reprogram | Mercurial Heart
+      "mf1787aqv0", -- retold-fortune | Retold Fortune | Mercurial Heart
+      "f24i25fc0a", -- savage-smash | Savage Smash | Mercurial Heart
+      "go0aghn40k", -- scout-the-land | Scout the Land | Mercurial Heart
+      "rragp8m7o1", -- sharpen-blade | Sharpen Blade | Mercurial Heart
+      "m8dqwoa776", -- shred-to-ribbons | Shred to Ribbons | Mercurial Heart
+      "t6jxtm7eed", -- silvershine | Silvershine | Mercurial Heart
+      "i184h5lahl", -- spirit-shard | Spirit Shard | Mercurial Heart
+      "g616r00bdf", -- springleaf | Springleaf | Mercurial Heart
+      "h5lahljr2d", -- surging-bolt | Surging Bolt | Mercurial Heart
+      "jr2dijq62n", -- synthetic-strike | Synthetic Strike | Mercurial Heart
+      "bo2fb4qwwv", -- tristan-hired-blade | Tristan, Hired Blade | Mercurial Heart
+      "5dgq56cjg0", -- tristan-underhanded | Tristan, Underhanded | Mercurial Heart
+      "c16bn55g9b", -- turbo-charge | Turbo Charge | Mercurial Heart
+      "5m6sqe6kd7", -- vicious-slice | Vicious Slice | Mercurial Heart
+      "zf2mxko170", -- vigilant-sentry | Vigilant Sentry | Mercurial Heart
+      "jhwltxu2ef", -- water-herbs | Water Herbs | Mercurial Heart
+      "tu1h4pzmq4", -- waterveil-apostle | Waterveil Apostle | Mercurial Heart
+    },
+    ["MRC1E__UNCOMMON"] = {
+      "qe6kd7gocb", -- aqua-vitae | Aqua Vitae | Mercurial Heart
+      "dzdhmf1787", -- automaton-beastkeeper | Automaton Beastkeeper | Mercurial Heart
+      "fc0arragp8", -- buried-grief | Buried Grief | Mercurial Heart
+      "33mr0kxj0c", -- cell-converter | Cell Converter | Mercurial Heart
+      "dy9mzd92nu", -- cell-generator | Cell Generator | Mercurial Heart
+      "kca6jhwltx", -- cell-sharpshooter | Cell Sharpshooter | Mercurial Heart
+      "n3cl9lbewn", -- charged-gunslinger | Charged Gunslinger | Mercurial Heart
+      "lahljr2dij", -- charged-hunter | Charged Hunter | Mercurial Heart
+      "c9a8c16bn5", -- city-protector | City Protector | Mercurial Heart
+      "zmq492ollk", -- collapsing-trap | Collapsing Trap | Mercurial Heart
+      "sznne5n3cl", -- eternal-dreamer | Eternal Dreamer | Mercurial Heart
+      "9lbewnmhus", -- fractal-of-rain | Fractal of Rain | Mercurial Heart
+      "s0ccrszf2m", -- gloamspire-sniper | Gloamspire Sniper | Mercurial Heart
+      "qwwvzojo9i", -- hailstorm-guard | Hailstorm Guard | Mercurial Heart
+      "8dyh6ikmgy", -- hide-in-bush | Hide in Bush | Mercurial Heart
+      "2fb4qwwvzo", -- kindling-flare | Kindling Flare | Mercurial Heart
+      "dhmf1787aq", -- krustallan-ruins | Krustallan Ruins | Mercurial Heart
+      "d02g03cay7", -- liquid-amnesia | Liquid Amnesia | Mercurial Heart
+      "zd92nuutwm", -- lunar-seer | Lunar Seer | Mercurial Heart
+      "da2g93dk88", -- mechanical-hare | Mechanical Hare | Mercurial Heart
+      "jo9iitwxs9", -- molten-cinder | Molten Cinder | Mercurial Heart
+      "0arragp8m7", -- portside-pirate | Portside Pirate | Mercurial Heart
+      "evf1qnftmg", -- possessed-remnant | Possessed Remnant | Mercurial Heart
+      "ke3rs7qu3a", -- potion-infusion-blaze | Potion Infusion: Blaze | Mercurial Heart
+      "o1i184h5la", -- potion-infusion-seal | Potion Infusion: Seal | Mercurial Heart
+      "qxllc2l19j", -- powered-armsmaster | Powered Armsmaster | Mercurial Heart
+      "fa7fr1g8ev", -- priestess-of-flame | Priestess of Flame | Mercurial Heart
+      "nwnexcbviu", -- reflect-the-skies | Reflect the Skies | Mercurial Heart
+      "kn5nvr31hw", -- refracted-twilight | Refracted Twilight | Mercurial Heart
+      "793kvqf24i", -- scorching-trap | Scorching Trap | Mercurial Heart
+      "6l263bdo34", -- sinister-mindreaver | Sinister Mindreaver | Mercurial Heart
+      "ahdy9mzd92", -- siphoning-fractal | Siphoning Fractal | Mercurial Heart
+      "az49k32e78", -- skirting-step | Skirting Step | Mercurial Heart
+      "nuutwmhm7g", -- slip-away | Slip Away | Mercurial Heart
+      "25fc0arrag", -- smashing-force | Smashing Force | Mercurial Heart
+      "3k4pob3ib5", -- spirited-falconer | Spirited Falconer | Mercurial Heart
+      "d85dpze5cs", -- stargazers-portent | Stargazer's Portent | Mercurial Heart
+      "p8m7o1i184", -- surge-protector | Surge Protector | Mercurial Heart
+      "el9900jpyh", -- tempest-downfall | Tempest Downfall | Mercurial Heart
+      "obfsyrc9a8", -- tonic-of-remembrance | Tonic of Remembrance | Mercurial Heart
+      "ijq62nobfs", -- under-fire | Under Fire | Mercurial Heart
+      "n55g9b5m6s", -- volatile-fusilier | Volatile Fusilier | Mercurial Heart
+      "4fikevf1qn", -- winbless-hurricane-farm | Winbless Hurricane Farm | Mercurial Heart
+      "ftmgqxllc2", -- winbless-rangefinder | Winbless Rangefinder | Mercurial Heart
+      "l19j6i9ctl", -- windmill-engineer | Windmill Engineer | Mercurial Heart
+    },
+    ["MRC1E__RARE"] = {
+      "b4qwwvzojo", -- alchemical-scripture | Alchemical Scripture | Mercurial Heart
+      "s9ke3rs7qu", -- alkahest | Alkahest | Mercurial Heart
+      "3apypgzedx", -- backup-charger | Backup Charger | Mercurial Heart
+      "03cay7pp8e", -- blade-of-creation | Blade of Creation | Mercurial Heart
+      "84h5lahljr", -- blast-shield | Blast Shield | Mercurial Heart
+      "yh6ikmgyi3", -- blessed-clergy | Blessed Clergy | Mercurial Heart
+      "n6k5mygy62", -- bolster-ranks | Bolster Ranks | Mercurial Heart
+      "6ikmgyi3sp", -- cell-handler | Cell Handler | Mercurial Heart
+      "4pzmq492ol", -- ceremonial-stormblade | Ceremonial Stormblade | Mercurial Heart
+      "or18nwnexc", -- cleansing-reunion | Cleansing Reunion | Mercurial Heart
+      "2dijq62nob", -- contraband-revolver | Contraband Revolver | Mercurial Heart
+      "f3j8fjgo0a", -- convoking-slime | Convoking Slime | Mercurial Heart
+      "5g9b5m6sqe", -- critical-recovery | Critical Recovery | Mercurial Heart
+      "ob3ib5el99", -- debilitating-grasp | Debilitating Grasp | Mercurial Heart
+      "woa776az49", -- echoic-guard | Echoic Guard | Mercurial Heart
+      "lknd8dyh6i", -- emerald-pistol | Emerald Pistol | Mercurial Heart
+      "00jpyhvhxa", -- expunge | Expunge | Mercurial Heart
+      "fsyrc9a8c1", -- forgelight-blade | Forgelight Blade | Mercurial Heart
+      "jyfa7fr1g8", -- framework-sidearm | Framework Sidearm | Mercurial Heart
+      "cjg0bo2fb4", -- frost-shard | Frost Shard | Mercurial Heart
+      "jsr2571ito", -- gearstride-academy | Gearstride Academy | Mercurial Heart
+      "eftu1h4pzm", -- geldus-terror-of-dorumegia | Geldus, Terror of Dorumegia | Mercurial Heart
+      "q492ollknd", -- harvester-mk-ii | Harvester Mk II | Mercurial Heart
+      "nkcqjdmuih", -- impact-hammer | Impact Hammer | Mercurial Heart
+      "zedxkwmp7p", -- imperial-apprentice | Imperial Apprentice | Mercurial Heart
+      "6sqe6kd7go", -- krustallan-longsword | Krustallan Longsword | Mercurial Heart
+      "r1g8evrbdz", -- krustallan-patrol | Krustallan Patrol | Mercurial Heart
+      "cb33mr0kxj", -- loaded-thoughts | Loaded Thoughts | Mercurial Heart
+      "v0lut4793k", -- lost-in-thought | Lost in Thought | Mercurial Heart
+      "us8n485dgq", -- lunar-conduit | Lunar Conduit | Mercurial Heart
+      "3rs7qu3apy", -- memento-mori | Memento Mori | Mercurial Heart
+      "evrbdzdhmf", -- mercenarys-blade | Mercenary's Blade | Mercurial Heart
+      "pp8en6k5my", -- orchestrated-seizure | Orchestrated Seizure | Mercurial Heart
+      "hljr2dijq6", -- powered-defender | Powered Defender | Mercurial Heart
+      "a8c16bn55g", -- primordial-ritual | Primordial Ritual | Mercurial Heart
+      "t4793kvqf2", -- prototype-shield | Prototype Shield | Mercurial Heart
+      "4i25fc0arr", -- steel-slug | Steel Slug | Mercurial Heart
+      "grtvp7hc1p", -- suffocating-miasma | Suffocating Miasma | Mercurial Heart
+      "txu2eftu1h", -- vaporjet-shield | Vaporjet Shield | Mercurial Heart
+      "mijilb6bwe", -- winbless-forecaster | Winbless Forecaster | Mercurial Heart
+      "pisznne5n3", -- winbless-kiteshield | Winbless Kiteshield | Mercurial Heart
+      "agp8m7o1i1", -- worn-diary | Worn Diary | Mercurial Heart
+    },
+    ["MRC1E__SUPER_RARE"] = {
+      "56cjg0bo2f", -- aegis-of-dawn | Aegis of Dawn | Mercurial Heart
+      "91nmnxS9wZ", -- andronika-eternal-herald | Andronika, Eternal Herald | Mercurial Heart
+      "jfsq6l263b", -- astromech-attendant | Astromech Attendant | Mercurial Heart
+      "7fr1g8evrb", -- atmos-armor-type-hermes | Atmos Armor Type-Hermes | Mercurial Heart
+      "3kvqf24i25", -- bertha-spry-howitzer | Bertha, Spry Howitzer | Mercurial Heart
+      "wltxu2eftu", -- calamity-cannon | Calamity Cannon | Mercurial Heart
+      "u2eftu1h4p", -- cerulean-decree | Cerulean Decree | Mercurial Heart
+      "kwmp7pxt63", -- clockwork-musicbox | Clockwork Musicbox | Mercurial Heart
+      "ghn40km8dq", -- cordelia-aurous-kaiser | Cordelia, Aurous Kaiser | Mercurial Heart
+      "k32e783k4p", -- curse-amplification | Curse Amplification | Mercurial Heart
+      "e5csp9axbf", -- diablerie | Diablerie | Mercurial Heart
+      "mr0kxj0ckc", -- engineered-slime | Engineered Slime | Mercurial Heart
+      "kdz5548oty", -- eternal-magistrate | Eternal Magistrate | Mercurial Heart
+      "do34ahdy9m", -- foretold-bloom | Foretold Bloom | Mercurial Heart
+      "9iitwxs9ke", -- gloamspire-mantle | Gloamspire Mantle | Mercurial Heart
+      "s7qu3apypg", -- icebound-slam | Icebound Slam | Mercurial Heart
+      "kmgyi3sphv", -- mechanized-smasher | Mechanized Smasher | Mercurial Heart
+      "hm7ggrtvp7", -- meteor-strike | Meteor Strike | Mercurial Heart
+      "vQdizn102c", -- naia-diviner-of-fortunes | Naia, Diviner of Fortunes | Mercurial Heart
+      "lb6bwe4fik", -- penumbral-waltz | Penumbral Waltz | Mercurial Heart
+      "d7gocb33mr", -- ravishing-finale | Ravishing Finale | Mercurial Heart
+      "6i9ctljfsq", -- revenants-scourge | Revenant’s Scourge | Mercurial Heart
+      "lut4793kvq", -- sadi-blood-harvester | Sadi, Blood Harvester | Mercurial Heart
+      "0kxj0ckca6", -- seaside-ringleader | Seaside Ringleader | Mercurial Heart
+      "7pxt63jyfa", -- sorrowcaller | Sorrowcaller | Mercurial Heart
+      "0ckca6jhwl", -- tideholder-claymore | Tideholder Claymore | Mercurial Heart
+      "zojo9iitwx", -- tristan-shadowreaver | Tristan, Shadowreaver | Mercurial Heart
+      "p9axbfkdz5", -- twilight-slime | Twilight Slime | Mercurial Heart
+      "vhxaia84he", -- vainglory-retribution | Vainglory Retribution | Mercurial Heart
+      "ujqus0ccrs", -- verdigris-decree | Verdigris Decree | Mercurial Heart
+      "yrc9a8c16b", -- vermilion-decree | Vermilion Decree | Mercurial Heart
+      "cl9lbewnmh", -- windpiercer | Windpiercer | Mercurial Heart
+    },
+    ["MRC1E__ULTRA_RARE"] = {
+      "548otyjsr2", -- atmos-armor-type-ares | Atmos Armor Type-Ares | Mercurial Heart
+      "ia84heujqu", -- final-stroke | Final Stroke | Mercurial Heart
+      "sphwpjsznn", -- fragmented-spirit-of-fire | Fragmented Spirit of Fire | Mercurial Heart
+      "e5n3cl9lbe", -- fragmented-spirit-of-water | Fragmented Spirit of Water | Mercurial Heart
+      "wnmhus8n48", -- fragmented-spirit-of-wind | Fragmented Spirit of Wind | Mercurial Heart
+      "1787aqv0lu", -- mercurial-heart | Mercurial Heart | Mercurial Heart
+      "qu3apypgze", -- overlord-mk-iii | Overlord Mk III | Mercurial Heart
+      "hc1pq4or18", -- prima-materia | Prima Materia | Mercurial Heart
+      "pgzedxkwmp", -- shadows-claw | Shadow's Claw | Mercurial Heart
+      "q4or18nwne", -- vampiric-slime | Vampiric Slime | Mercurial Heart
+    },
+    ["MRC1E__CSR"] = {
+      "4wuq31hwdh", -- andronika-eternal-herald | Andronika, Eternal Herald | Mercurial Heart First Edition
+      "ndwckuhtkm", -- atmos-armor-type-ares | Atmos Armor Type-Ares | Mercurial Heart First Edition
+      "c91f82bj76", -- atmos-armor-type-hermes | Atmos Armor Type-Hermes | Mercurial Heart First Edition
+      "jwaokcy554", -- calamity-cannon | Calamity Cannon | Mercurial Heart First Edition
+      "0isncz1fz2", -- cordelia-aurous-kaiser | Cordelia, Aurous Kaiser | Mercurial Heart First Edition
+      "yo7mv5s4ux", -- curse-amplification | Curse Amplification | Mercurial Heart First Edition
+      "90iy7h4g69", -- naia-diviner-of-fortunes | Naia, Diviner of Fortunes | Mercurial Heart First Edition
+      "frhk2kso1z", -- penumbral-waltz | Penumbral Waltz | Mercurial Heart First Edition
+      "09bl017ebv", -- prima-materia | Prima Materia | Mercurial Heart First Edition
+      "6jxa6zlrrq", -- ravishing-finale | Ravishing Finale | Mercurial Heart First Edition
+      "rjhdpn3iz3", -- sadi-blood-harvester | Sadi, Blood Harvester | Mercurial Heart First Edition
+      "y5ktkbu98s", -- tristan-hired-blade | Tristan, Hired Blade | Mercurial Heart First Edition
+      "n4f9ymo2mp", -- tristan-underhanded | Tristan, Underhanded | Mercurial Heart First Edition
+      "ujej4ddort", -- vainglory-retribution | Vainglory Retribution | Mercurial Heart First Edition
+    },
+    ["MRC1E__CUR"] = {
+      "emozdelso9", -- tristan-shadowreaver | Tristan, Shadowreaver | Mercurial Heart First Edition
+    },
+    ["MRC1E__TOKEN"] = {
+      "571itod02g", -- atmos-shield | Atmos Shield | Mercurial Heart
+      "pmeslfpwkk", -- automaton-drone | Automaton Drone | Mercurial Heart
+      "a7zd60ah55", -- blightroot | Blightroot | Mercurial Heart
+      "wm5lt3q2tw", -- fraysia | Fraysia | Mercurial Heart
+      "d53zcaq5mq", -- manaroot | Manaroot | Mercurial Heart
+      "xko170miji", -- ominous-shadow | Ominous Shadow | Mercurial Heart
+      "dxkwmp7pxt", -- powercell | Powercell | Mercurial Heart
+      "kh9ngakrff", -- powercell | Powercell | Mercurial Heart
+      "nvx8nou1xi", -- razorvine | Razorvine | Mercurial Heart
+      "t6jxtm7eed", -- silvershine | Silvershine | Mercurial Heart
+      "i184h5lahl", -- spirit-shard | Spirit Shard | Mercurial Heart
+      "g616r00bdf", -- springleaf | Springleaf | Mercurial Heart
+    },
+    ["MRC1E__TOKEN_OR_COMMON_CHAMPION"] = {
+      "571itod02g", -- atmos-shield | Atmos Shield | Mercurial Heart
+      "pmeslfpwkk", -- automaton-drone | Automaton Drone | Mercurial Heart
+      "a7zd60ah55", -- blightroot | Blightroot | Mercurial Heart
+      "wm5lt3q2tw", -- fraysia | Fraysia | Mercurial Heart
+      "d53zcaq5mq", -- manaroot | Manaroot | Mercurial Heart
+      "xko170miji", -- ominous-shadow | Ominous Shadow | Mercurial Heart
+      "dxkwmp7pxt", -- powercell | Powercell | Mercurial Heart
+      "kh9ngakrff", -- powercell | Powercell | Mercurial Heart
+      "nvx8nou1xi", -- razorvine | Razorvine | Mercurial Heart
+      "t6jxtm7eed", -- silvershine | Silvershine | Mercurial Heart
+      "i184h5lahl", -- spirit-shard | Spirit Shard | Mercurial Heart
+      "g616r00bdf", -- springleaf | Springleaf | Mercurial Heart
+      "bo2fb4qwwv", -- tristan-hired-blade | Tristan, Hired Blade | Mercurial Heart
+      "5dgq56cjg0", -- tristan-underhanded | Tristan, Underhanded | Mercurial Heart
+    },
+    ["MRC1E__FOIL_ANY"] = {
+      "56cjg0bo2f", -- aegis-of-dawn | Aegis of Dawn | Mercurial Heart
+      "gocb33mr0k", -- airship-captain | Airship Captain | Mercurial Heart
+      "b4qwwvzojo", -- alchemical-scripture | Alchemical Scripture | Mercurial Heart
+      "s9ke3rs7qu", -- alkahest | Alkahest | Mercurial Heart
+      "91nmnxS9wZ", -- andronika-eternal-herald | Andronika, Eternal Herald | Mercurial Heart
+      "qe6kd7gocb", -- aqua-vitae | Aqua Vitae | Mercurial Heart
+      "xj0ckca6jh", -- arsenal-keeper | Arsenal Keeper | Mercurial Heart
+      "jfsq6l263b", -- astromech-attendant | Astromech Attendant | Mercurial Heart
+      "548otyjsr2", -- atmos-armor-type-ares | Atmos Armor Type-Ares | Mercurial Heart
+      "7fr1g8evrb", -- atmos-armor-type-hermes | Atmos Armor Type-Hermes | Mercurial Heart
+      "571itod02g", -- atmos-shield | Atmos Shield | Mercurial Heart
+      "dzdhmf1787", -- automaton-beastkeeper | Automaton Beastkeeper | Mercurial Heart
+      "pmeslfpwkk", -- automaton-drone | Automaton Drone | Mercurial Heart
+      "3apypgzedx", -- backup-charger | Backup Charger | Mercurial Heart
+      "aqv0lut479", -- bandage-wound | Bandage Wound | Mercurial Heart
+      "3kvqf24i25", -- bertha-spry-howitzer | Bertha, Spry Howitzer | Mercurial Heart
+      "03cay7pp8e", -- blade-of-creation | Blade of Creation | Mercurial Heart
+      "84h5lahljr", -- blast-shield | Blast Shield | Mercurial Heart
+      "yh6ikmgyi3", -- blessed-clergy | Blessed Clergy | Mercurial Heart
+      "a7zd60ah55", -- blightroot | Blightroot | Mercurial Heart
+      "n6k5mygy62", -- bolster-ranks | Bolster Ranks | Mercurial Heart
+      "fc0arragp8", -- buried-grief | Buried Grief | Mercurial Heart
+      "wltxu2eftu", -- calamity-cannon | Calamity Cannon | Mercurial Heart
+      "1h4pzmq492", -- captivating-cutthroat | Captivating Cutthroat | Mercurial Heart
+      "m7o1i184h5", -- cell-assembler | Cell Assembler | Mercurial Heart
+      "33mr0kxj0c", -- cell-converter | Cell Converter | Mercurial Heart
+      "0dnzlu21xA", -- cell-forging | Cell Forging | Mercurial Heart
+      "dy9mzd92nu", -- cell-generator | Cell Generator | Mercurial Heart
+      "6ikmgyi3sp", -- cell-handler | Cell Handler | Mercurial Heart
+      "kca6jhwltx", -- cell-sharpshooter | Cell Sharpshooter | Mercurial Heart
+      "utwmhm7ggr", -- cell-vanguard | Cell Vanguard | Mercurial Heart
+      "4pzmq492ol", -- ceremonial-stormblade | Ceremonial Stormblade | Mercurial Heart
+      "u2eftu1h4p", -- cerulean-decree | Cerulean Decree | Mercurial Heart
+      "hvpisznne5", -- charged-alchemist | Charged Alchemist | Mercurial Heart
+      "tvp7hc1pq4", -- charged-assailant | Charged Assailant | Mercurial Heart
+      "n3cl9lbewn", -- charged-gunslinger | Charged Gunslinger | Mercurial Heart
+      "lahljr2dij", -- charged-hunter | Charged Hunter | Mercurial Heart
+      "q62nobfsyr", -- charged-mannequin | Charged Mannequin | Mercurial Heart
+      "mhus8n485d", -- cinderbloom-tender | Cinderbloom Tender | Mercurial Heart
+      "c9a8c16bn5", -- city-protector | City Protector | Mercurial Heart
+      "or18nwnexc", -- cleansing-reunion | Cleansing Reunion | Mercurial Heart
+      "kwmp7pxt63", -- clockwork-musicbox | Clockwork Musicbox | Mercurial Heart
+      "zmq492ollk", -- collapsing-trap | Collapsing Trap | Mercurial Heart
+      "bviukn5nvr", -- concealed-marksman | Concealed Marksman | Mercurial Heart
+      "2dijq62nob", -- contraband-revolver | Contraband Revolver | Mercurial Heart
+      "f3j8fjgo0a", -- convoking-slime | Convoking Slime | Mercurial Heart
+      "ghn40km8dq", -- cordelia-aurous-kaiser | Cordelia, Aurous Kaiser | Mercurial Heart
+      "5g9b5m6sqe", -- critical-recovery | Critical Recovery | Mercurial Heart
+      "31hwd85dpz", -- cultivate | Cultivate | Mercurial Heart
+      "k32e783k4p", -- curse-amplification | Curse Amplification | Mercurial Heart
+      "ob3ib5el99", -- debilitating-grasp | Debilitating Grasp | Mercurial Heart
+      "nd8dyh6ikm", -- desperate-dive | Desperate Dive | Mercurial Heart
+      "e5csp9axbf", -- diablerie | Diablerie | Mercurial Heart
+      "6kd7gocb33", -- dodge-roll | Dodge Roll | Mercurial Heart
+      "woa776az49", -- echoic-guard | Echoic Guard | Mercurial Heart
+      "gq56cjg0bo", -- embershield-keeper | Embershield Keeper | Mercurial Heart
+      "lknd8dyh6i", -- emerald-pistol | Emerald Pistol | Mercurial Heart
+      "mr0kxj0ckc", -- engineered-slime | Engineered Slime | Mercurial Heart
+      "gyi3sphvpi", -- enthralling-visage | Enthralling Visage | Mercurial Heart
+      "sznne5n3cl", -- eternal-dreamer | Eternal Dreamer | Mercurial Heart
+      "kdz5548oty", -- eternal-magistrate | Eternal Magistrate | Mercurial Heart
+      "00jpyhvhxa", -- expunge | Expunge | Mercurial Heart
+      "mjbpiclthg", -- favorable-winds | Favorable Winds | Mercurial Heart
+      "ia84heujqu", -- final-stroke | Final Stroke | Mercurial Heart
+      "do34ahdy9m", -- foretold-bloom | Foretold Bloom | Mercurial Heart
+      "fsyrc9a8c1", -- forgelight-blade | Forgelight Blade | Mercurial Heart
+      "9lbewnmhus", -- fractal-of-rain | Fractal of Rain | Mercurial Heart
+      "sphwpjsznn", -- fragmented-spirit-of-fire | Fragmented Spirit of Fire | Mercurial Heart
+      "e5n3cl9lbe", -- fragmented-spirit-of-water | Fragmented Spirit of Water | Mercurial Heart
+      "wnmhus8n48", -- fragmented-spirit-of-wind | Fragmented Spirit of Wind | Mercurial Heart
+      "jyfa7fr1g8", -- framework-sidearm | Framework Sidearm | Mercurial Heart
+      "wm5lt3q2tw", -- fraysia | Fraysia | Mercurial Heart
+      "8n485dgq56", -- freezing-steel | Freezing Steel | Mercurial Heart
+      "cjg0bo2fb4", -- frost-shard | Frost Shard | Mercurial Heart
+      "a6jhwltxu2", -- gearshift-block | Gearshift Block | Mercurial Heart
+      "jsr2571ito", -- gearstride-academy | Gearstride Academy | Mercurial Heart
+      "eftu1h4pzm", -- geldus-terror-of-dorumegia | Geldus, Terror of Dorumegia | Mercurial Heart
+      "9iitwxs9ke", -- gloamspire-mantle | Gloamspire Mantle | Mercurial Heart
+      "s0ccrszf2m", -- gloamspire-sniper | Gloamspire Sniper | Mercurial Heart
+      "qwwvzojo9i", -- hailstorm-guard | Hailstorm Guard | Mercurial Heart
+      "q492ollknd", -- harvester-mk-ii | Harvester Mk II | Mercurial Heart
+      "itwxs9ke3r", -- hidden-enclave | Hidden Enclave | Mercurial Heart
+      "8dyh6ikmgy", -- hide-in-bush | Hide in Bush | Mercurial Heart
+      "i3sphvpisz", -- hub-of-innovation | Hub of Innovation | Mercurial Heart
+      "s7qu3apypg", -- icebound-slam | Icebound Slam | Mercurial Heart
+      "nkcqjdmuih", -- impact-hammer | Impact Hammer | Mercurial Heart
+      "zedxkwmp7p", -- imperial-apprentice | Imperial Apprentice | Mercurial Heart
+      "xt63jyfa7f", -- imperial-scout | Imperial Scout | Mercurial Heart
+      "nne5n3cl9l", -- imperial-spy | Imperial Spy | Mercurial Heart
+      "2fb4qwwvzo", -- kindling-flare | Kindling Flare | Mercurial Heart
+      "6sqe6kd7go", -- krustallan-longsword | Krustallan Longsword | Mercurial Heart
+      "r1g8evrbdz", -- krustallan-patrol | Krustallan Patrol | Mercurial Heart
+      "dhmf1787aq", -- krustallan-ruins | Krustallan Ruins | Mercurial Heart
+      "d02g03cay7", -- liquid-amnesia | Liquid Amnesia | Mercurial Heart
+      "cb33mr0kxj", -- loaded-thoughts | Loaded Thoughts | Mercurial Heart
+      "v0lut4793k", -- lost-in-thought | Lost in Thought | Mercurial Heart
+      "us8n485dgq", -- lunar-conduit | Lunar Conduit | Mercurial Heart
+      "zd92nuutwm", -- lunar-seer | Lunar Seer | Mercurial Heart
+      "bewnmhus8n", -- machined-monstrosity | Machined Monstrosity | Mercurial Heart
+      "d53zcaq5mq", -- manaroot | Manaroot | Mercurial Heart
+      "485dgq56cj", -- manufacture-cell | Manufacture Cell | Mercurial Heart
+      "da2g93dk88", -- mechanical-hare | Mechanical Hare | Mercurial Heart
+      "kmgyi3sphv", -- mechanized-smasher | Mechanized Smasher | Mercurial Heart
+      "3rs7qu3apy", -- memento-mori | Memento Mori | Mercurial Heart
+      "evrbdzdhmf", -- mercenarys-blade | Mercenary's Blade | Mercurial Heart
+      "1787aqv0lu", -- mercurial-heart | Mercurial Heart | Mercurial Heart
+      "hm7ggrtvp7", -- meteor-strike | Meteor Strike | Mercurial Heart
+      "jo9iitwxs9", -- molten-cinder | Molten Cinder | Mercurial Heart
+      "vQdizn102c", -- naia-diviner-of-fortunes | Naia, Diviner of Fortunes | Mercurial Heart
+      "wvzojo9iit", -- novice-healer | Novice Healer | Mercurial Heart
+      "wxs9ke3rs7", -- nurture-crops | Nurture Crops | Mercurial Heart
+      "xko170miji", -- ominous-shadow | Ominous Shadow | Mercurial Heart
+      "pp8en6k5my", -- orchestrated-seizure | Orchestrated Seizure | Mercurial Heart
+      "qu3apypgze", -- overlord-mk-iii | Overlord Mk III | Mercurial Heart
+      "lb6bwe4fik", -- penumbral-waltz | Penumbral Waltz | Mercurial Heart
+      "0arragp8m7", -- portside-pirate | Portside Pirate | Mercurial Heart
+      "evf1qnftmg", -- possessed-remnant | Possessed Remnant | Mercurial Heart
+      "ke3rs7qu3a", -- potion-infusion-blaze | Potion Infusion: Blaze | Mercurial Heart
+      "gy62f3j8fj", -- potion-infusion-growth | Potion Infusion: Growth | Mercurial Heart
+      "o1i184h5la", -- potion-infusion-seal | Potion Infusion: Seal | Mercurial Heart
+      "dxkwmp7pxt", -- powercell | Powercell | Mercurial Heart
+      "kh9ngakrff", -- powercell | Powercell | Mercurial Heart
+      "qxllc2l19j", -- powered-armsmaster | Powered Armsmaster | Mercurial Heart
+      "pypgzedxkw", -- powered-bishop | Powered Bishop | Mercurial Heart
+      "hljr2dijq6", -- powered-defender | Powered Defender | Mercurial Heart
+      "mp7pxt63jy", -- powered-sentinel | Powered Sentinel | Mercurial Heart
+      "2nobfsyrc9", -- powered-swordsman | Powered Swordsman | Mercurial Heart
+      "fa7fr1g8ev", -- priestess-of-flame | Priestess of Flame | Mercurial Heart
+      "hc1pq4or18", -- prima-materia | Prima Materia | Mercurial Heart
+      "a8c16bn55g", -- primordial-ritual | Primordial Ritual | Mercurial Heart
+      "t4793kvqf2", -- prototype-shield | Prototype Shield | Mercurial Heart
+      "63jyfa7fr1", -- purification | Purification | Mercurial Heart
+      "9b5m6sqe6k", -- purified-shot | Purified Shot | Mercurial Heart
+      "rbdzdhmf17", -- pyroclastic-flow | Pyroclastic Flow | Mercurial Heart
+      "d7gocb33mr", -- ravishing-finale | Ravishing Finale | Mercurial Heart
+      "nvx8nou1xi", -- razorvine | Razorvine | Mercurial Heart
+      "87aqv0lut4", -- reduce-to-ash | Reduce to Ash | Mercurial Heart
+      "nwnexcbviu", -- reflect-the-skies | Reflect the Skies | Mercurial Heart
+      "kn5nvr31hw", -- refracted-twilight | Refracted Twilight | Mercurial Heart
+      "g8evrbdzdh", -- reprogram | Reprogram | Mercurial Heart
+      "mf1787aqv0", -- retold-fortune | Retold Fortune | Mercurial Heart
+      "6i9ctljfsq", -- revenants-scourge | Revenant’s Scourge | Mercurial Heart
+      "lut4793kvq", -- sadi-blood-harvester | Sadi, Blood Harvester | Mercurial Heart
+      "f24i25fc0a", -- savage-smash | Savage Smash | Mercurial Heart
+      "793kvqf24i", -- scorching-trap | Scorching Trap | Mercurial Heart
+      "go0aghn40k", -- scout-the-land | Scout the Land | Mercurial Heart
+      "0kxj0ckca6", -- seaside-ringleader | Seaside Ringleader | Mercurial Heart
+      "pgzedxkwmp", -- shadows-claw | Shadow's Claw | Mercurial Heart
+      "rragp8m7o1", -- sharpen-blade | Sharpen Blade | Mercurial Heart
+      "m8dqwoa776", -- shred-to-ribbons | Shred to Ribbons | Mercurial Heart
+      "t6jxtm7eed", -- silvershine | Silvershine | Mercurial Heart
+      "6l263bdo34", -- sinister-mindreaver | Sinister Mindreaver | Mercurial Heart
+      "ahdy9mzd92", -- siphoning-fractal | Siphoning Fractal | Mercurial Heart
+      "az49k32e78", -- skirting-step | Skirting Step | Mercurial Heart
+      "nuutwmhm7g", -- slip-away | Slip Away | Mercurial Heart
+      "25fc0arrag", -- smashing-force | Smashing Force | Mercurial Heart
+      "7pxt63jyfa", -- sorrowcaller | Sorrowcaller | Mercurial Heart
+      "i184h5lahl", -- spirit-shard | Spirit Shard | Mercurial Heart
+      "3k4pob3ib5", -- spirited-falconer | Spirited Falconer | Mercurial Heart
+      "g616r00bdf", -- springleaf | Springleaf | Mercurial Heart
+      "d85dpze5cs", -- stargazers-portent | Stargazer's Portent | Mercurial Heart
+      "4i25fc0arr", -- steel-slug | Steel Slug | Mercurial Heart
+      "grtvp7hc1p", -- suffocating-miasma | Suffocating Miasma | Mercurial Heart
+      "p8m7o1i184", -- surge-protector | Surge Protector | Mercurial Heart
+      "h5lahljr2d", -- surging-bolt | Surging Bolt | Mercurial Heart
+      "jr2dijq62n", -- synthetic-strike | Synthetic Strike | Mercurial Heart
+      "el9900jpyh", -- tempest-downfall | Tempest Downfall | Mercurial Heart
+      "0ckca6jhwl", -- tideholder-claymore | Tideholder Claymore | Mercurial Heart
+      "obfsyrc9a8", -- tonic-of-remembrance | Tonic of Remembrance | Mercurial Heart
+      "bo2fb4qwwv", -- tristan-hired-blade | Tristan, Hired Blade | Mercurial Heart
+      "zojo9iitwx", -- tristan-shadowreaver | Tristan, Shadowreaver | Mercurial Heart
+      "5dgq56cjg0", -- tristan-underhanded | Tristan, Underhanded | Mercurial Heart
+      "c16bn55g9b", -- turbo-charge | Turbo Charge | Mercurial Heart
+      "p9axbfkdz5", -- twilight-slime | Twilight Slime | Mercurial Heart
+      "ijq62nobfs", -- under-fire | Under Fire | Mercurial Heart
+      "vhxaia84he", -- vainglory-retribution | Vainglory Retribution | Mercurial Heart
+      "q4or18nwne", -- vampiric-slime | Vampiric Slime | Mercurial Heart
+      "txu2eftu1h", -- vaporjet-shield | Vaporjet Shield | Mercurial Heart
+      "ujqus0ccrs", -- verdigris-decree | Verdigris Decree | Mercurial Heart
+      "yrc9a8c16b", -- vermilion-decree | Vermilion Decree | Mercurial Heart
+      "5m6sqe6kd7", -- vicious-slice | Vicious Slice | Mercurial Heart
+      "zf2mxko170", -- vigilant-sentry | Vigilant Sentry | Mercurial Heart
+      "n55g9b5m6s", -- volatile-fusilier | Volatile Fusilier | Mercurial Heart
+      "jhwltxu2ef", -- water-herbs | Water Herbs | Mercurial Heart
+      "tu1h4pzmq4", -- waterveil-apostle | Waterveil Apostle | Mercurial Heart
+      "mijilb6bwe", -- winbless-forecaster | Winbless Forecaster | Mercurial Heart
+      "4fikevf1qn", -- winbless-hurricane-farm | Winbless Hurricane Farm | Mercurial Heart
+      "pisznne5n3", -- winbless-kiteshield | Winbless Kiteshield | Mercurial Heart
+      "ftmgqxllc2", -- winbless-rangefinder | Winbless Rangefinder | Mercurial Heart
+      "l19j6i9ctl", -- windmill-engineer | Windmill Engineer | Mercurial Heart
+      "cl9lbewnmh", -- windpiercer | Windpiercer | Mercurial Heart
+      "agp8m7o1i1", -- worn-diary | Worn Diary | Mercurial Heart
+    },
+    ["MRCALT__COMMON"] = {
+      "gocb33mr0k", -- airship-captain | Airship Captain | Mercurial Heart
+      "xj0ckca6jh", -- arsenal-keeper | Arsenal Keeper | Mercurial Heart
+      "571itod02g", -- atmos-shield | Atmos Shield | Mercurial Heart
+      "pmeslfpwkk", -- automaton-drone | Automaton Drone | Mercurial Heart
+      "aqv0lut479", -- bandage-wound | Bandage Wound | Mercurial Heart
+      "a7zd60ah55", -- blightroot | Blightroot | Mercurial Heart
+      "1h4pzmq492", -- captivating-cutthroat | Captivating Cutthroat | Mercurial Heart
+      "m7o1i184h5", -- cell-assembler | Cell Assembler | Mercurial Heart
+      "0dnzlu21xA", -- cell-forging | Cell Forging | Mercurial Heart
+      "utwmhm7ggr", -- cell-vanguard | Cell Vanguard | Mercurial Heart
+      "hvpisznne5", -- charged-alchemist | Charged Alchemist | Mercurial Heart
+      "tvp7hc1pq4", -- charged-assailant | Charged Assailant | Mercurial Heart
+      "q62nobfsyr", -- charged-mannequin | Charged Mannequin | Mercurial Heart
+      "mhus8n485d", -- cinderbloom-tender | Cinderbloom Tender | Mercurial Heart
+      "bviukn5nvr", -- concealed-marksman | Concealed Marksman | Mercurial Heart
+      "31hwd85dpz", -- cultivate | Cultivate | Mercurial Heart
+      "nd8dyh6ikm", -- desperate-dive | Desperate Dive | Mercurial Heart
+      "6kd7gocb33", -- dodge-roll | Dodge Roll | Mercurial Heart
+      "gq56cjg0bo", -- embershield-keeper | Embershield Keeper | Mercurial Heart
+      "gyi3sphvpi", -- enthralling-visage | Enthralling Visage | Mercurial Heart
+      "mjbpiclthg", -- favorable-winds | Favorable Winds | Mercurial Heart
+      "wm5lt3q2tw", -- fraysia | Fraysia | Mercurial Heart
+      "8n485dgq56", -- freezing-steel | Freezing Steel | Mercurial Heart
+      "a6jhwltxu2", -- gearshift-block | Gearshift Block | Mercurial Heart
+      "itwxs9ke3r", -- hidden-enclave | Hidden Enclave | Mercurial Heart
+      "i3sphvpisz", -- hub-of-innovation | Hub of Innovation | Mercurial Heart
+      "xt63jyfa7f", -- imperial-scout | Imperial Scout | Mercurial Heart
+      "nne5n3cl9l", -- imperial-spy | Imperial Spy | Mercurial Heart
+      "bewnmhus8n", -- machined-monstrosity | Machined Monstrosity | Mercurial Heart
+      "d53zcaq5mq", -- manaroot | Manaroot | Mercurial Heart
+      "485dgq56cj", -- manufacture-cell | Manufacture Cell | Mercurial Heart
+      "wvzojo9iit", -- novice-healer | Novice Healer | Mercurial Heart
+      "wxs9ke3rs7", -- nurture-crops | Nurture Crops | Mercurial Heart
+      "xko170miji", -- ominous-shadow | Ominous Shadow | Mercurial Heart
+      "gy62f3j8fj", -- potion-infusion-growth | Potion Infusion: Growth | Mercurial Heart
+      "dxkwmp7pxt", -- powercell | Powercell | Mercurial Heart
+      "kh9ngakrff", -- powercell | Powercell | Mercurial Heart
+      "pypgzedxkw", -- powered-bishop | Powered Bishop | Mercurial Heart
+      "mp7pxt63jy", -- powered-sentinel | Powered Sentinel | Mercurial Heart
+      "2nobfsyrc9", -- powered-swordsman | Powered Swordsman | Mercurial Heart
+      "63jyfa7fr1", -- purification | Purification | Mercurial Heart
+      "9b5m6sqe6k", -- purified-shot | Purified Shot | Mercurial Heart
+      "rbdzdhmf17", -- pyroclastic-flow | Pyroclastic Flow | Mercurial Heart
+      "nvx8nou1xi", -- razorvine | Razorvine | Mercurial Heart
+      "87aqv0lut4", -- reduce-to-ash | Reduce to Ash | Mercurial Heart
+      "g8evrbdzdh", -- reprogram | Reprogram | Mercurial Heart
+      "mf1787aqv0", -- retold-fortune | Retold Fortune | Mercurial Heart
+      "f24i25fc0a", -- savage-smash | Savage Smash | Mercurial Heart
+      "go0aghn40k", -- scout-the-land | Scout the Land | Mercurial Heart
+      "rragp8m7o1", -- sharpen-blade | Sharpen Blade | Mercurial Heart
+      "m8dqwoa776", -- shred-to-ribbons | Shred to Ribbons | Mercurial Heart
+      "t6jxtm7eed", -- silvershine | Silvershine | Mercurial Heart
+      "i184h5lahl", -- spirit-shard | Spirit Shard | Mercurial Heart
+      "g616r00bdf", -- springleaf | Springleaf | Mercurial Heart
+      "h5lahljr2d", -- surging-bolt | Surging Bolt | Mercurial Heart
+      "jr2dijq62n", -- synthetic-strike | Synthetic Strike | Mercurial Heart
+      "bo2fb4qwwv", -- tristan-hired-blade | Tristan, Hired Blade | Mercurial Heart
+      "5dgq56cjg0", -- tristan-underhanded | Tristan, Underhanded | Mercurial Heart
+      "c16bn55g9b", -- turbo-charge | Turbo Charge | Mercurial Heart
+      "5m6sqe6kd7", -- vicious-slice | Vicious Slice | Mercurial Heart
+      "zf2mxko170", -- vigilant-sentry | Vigilant Sentry | Mercurial Heart
+      "jhwltxu2ef", -- water-herbs | Water Herbs | Mercurial Heart
+      "tu1h4pzmq4", -- waterveil-apostle | Waterveil Apostle | Mercurial Heart
+    },
+    ["MRCALT__UNCOMMON"] = {
+      "qe6kd7gocb", -- aqua-vitae | Aqua Vitae | Mercurial Heart
+      "dzdhmf1787", -- automaton-beastkeeper | Automaton Beastkeeper | Mercurial Heart
+      "fc0arragp8", -- buried-grief | Buried Grief | Mercurial Heart
+      "33mr0kxj0c", -- cell-converter | Cell Converter | Mercurial Heart
+      "dy9mzd92nu", -- cell-generator | Cell Generator | Mercurial Heart
+      "kca6jhwltx", -- cell-sharpshooter | Cell Sharpshooter | Mercurial Heart
+      "n3cl9lbewn", -- charged-gunslinger | Charged Gunslinger | Mercurial Heart
+      "lahljr2dij", -- charged-hunter | Charged Hunter | Mercurial Heart
+      "c9a8c16bn5", -- city-protector | City Protector | Mercurial Heart
+      "zmq492ollk", -- collapsing-trap | Collapsing Trap | Mercurial Heart
+      "sznne5n3cl", -- eternal-dreamer | Eternal Dreamer | Mercurial Heart
+      "9lbewnmhus", -- fractal-of-rain | Fractal of Rain | Mercurial Heart
+      "s0ccrszf2m", -- gloamspire-sniper | Gloamspire Sniper | Mercurial Heart
+      "qwwvzojo9i", -- hailstorm-guard | Hailstorm Guard | Mercurial Heart
+      "8dyh6ikmgy", -- hide-in-bush | Hide in Bush | Mercurial Heart
+      "2fb4qwwvzo", -- kindling-flare | Kindling Flare | Mercurial Heart
+      "dhmf1787aq", -- krustallan-ruins | Krustallan Ruins | Mercurial Heart
+      "d02g03cay7", -- liquid-amnesia | Liquid Amnesia | Mercurial Heart
+      "zd92nuutwm", -- lunar-seer | Lunar Seer | Mercurial Heart
+      "da2g93dk88", -- mechanical-hare | Mechanical Hare | Mercurial Heart
+      "jo9iitwxs9", -- molten-cinder | Molten Cinder | Mercurial Heart
+      "0arragp8m7", -- portside-pirate | Portside Pirate | Mercurial Heart
+      "evf1qnftmg", -- possessed-remnant | Possessed Remnant | Mercurial Heart
+      "ke3rs7qu3a", -- potion-infusion-blaze | Potion Infusion: Blaze | Mercurial Heart
+      "o1i184h5la", -- potion-infusion-seal | Potion Infusion: Seal | Mercurial Heart
+      "qxllc2l19j", -- powered-armsmaster | Powered Armsmaster | Mercurial Heart
+      "fa7fr1g8ev", -- priestess-of-flame | Priestess of Flame | Mercurial Heart
+      "nwnexcbviu", -- reflect-the-skies | Reflect the Skies | Mercurial Heart
+      "kn5nvr31hw", -- refracted-twilight | Refracted Twilight | Mercurial Heart
+      "793kvqf24i", -- scorching-trap | Scorching Trap | Mercurial Heart
+      "6l263bdo34", -- sinister-mindreaver | Sinister Mindreaver | Mercurial Heart
+      "ahdy9mzd92", -- siphoning-fractal | Siphoning Fractal | Mercurial Heart
+      "az49k32e78", -- skirting-step | Skirting Step | Mercurial Heart
+      "nuutwmhm7g", -- slip-away | Slip Away | Mercurial Heart
+      "25fc0arrag", -- smashing-force | Smashing Force | Mercurial Heart
+      "3k4pob3ib5", -- spirited-falconer | Spirited Falconer | Mercurial Heart
+      "d85dpze5cs", -- stargazers-portent | Stargazer's Portent | Mercurial Heart
+      "p8m7o1i184", -- surge-protector | Surge Protector | Mercurial Heart
+      "el9900jpyh", -- tempest-downfall | Tempest Downfall | Mercurial Heart
+      "obfsyrc9a8", -- tonic-of-remembrance | Tonic of Remembrance | Mercurial Heart
+      "ijq62nobfs", -- under-fire | Under Fire | Mercurial Heart
+      "n55g9b5m6s", -- volatile-fusilier | Volatile Fusilier | Mercurial Heart
+      "4fikevf1qn", -- winbless-hurricane-farm | Winbless Hurricane Farm | Mercurial Heart
+      "ftmgqxllc2", -- winbless-rangefinder | Winbless Rangefinder | Mercurial Heart
+      "l19j6i9ctl", -- windmill-engineer | Windmill Engineer | Mercurial Heart
+    },
+    ["MRCALT__RARE"] = {
+      "b4qwwvzojo", -- alchemical-scripture | Alchemical Scripture | Mercurial Heart
+      "s9ke3rs7qu", -- alkahest | Alkahest | Mercurial Heart
+      "3apypgzedx", -- backup-charger | Backup Charger | Mercurial Heart
+      "03cay7pp8e", -- blade-of-creation | Blade of Creation | Mercurial Heart
+      "84h5lahljr", -- blast-shield | Blast Shield | Mercurial Heart
+      "yh6ikmgyi3", -- blessed-clergy | Blessed Clergy | Mercurial Heart
+      "n6k5mygy62", -- bolster-ranks | Bolster Ranks | Mercurial Heart
+      "6ikmgyi3sp", -- cell-handler | Cell Handler | Mercurial Heart
+      "4pzmq492ol", -- ceremonial-stormblade | Ceremonial Stormblade | Mercurial Heart
+      "or18nwnexc", -- cleansing-reunion | Cleansing Reunion | Mercurial Heart
+      "2dijq62nob", -- contraband-revolver | Contraband Revolver | Mercurial Heart
+      "f3j8fjgo0a", -- convoking-slime | Convoking Slime | Mercurial Heart
+      "5g9b5m6sqe", -- critical-recovery | Critical Recovery | Mercurial Heart
+      "ob3ib5el99", -- debilitating-grasp | Debilitating Grasp | Mercurial Heart
+      "woa776az49", -- echoic-guard | Echoic Guard | Mercurial Heart
+      "lknd8dyh6i", -- emerald-pistol | Emerald Pistol | Mercurial Heart
+      "00jpyhvhxa", -- expunge | Expunge | Mercurial Heart
+      "fsyrc9a8c1", -- forgelight-blade | Forgelight Blade | Mercurial Heart
+      "jyfa7fr1g8", -- framework-sidearm | Framework Sidearm | Mercurial Heart
+      "cjg0bo2fb4", -- frost-shard | Frost Shard | Mercurial Heart
+      "jsr2571ito", -- gearstride-academy | Gearstride Academy | Mercurial Heart
+      "eftu1h4pzm", -- geldus-terror-of-dorumegia | Geldus, Terror of Dorumegia | Mercurial Heart
+      "q492ollknd", -- harvester-mk-ii | Harvester Mk II | Mercurial Heart
+      "nkcqjdmuih", -- impact-hammer | Impact Hammer | Mercurial Heart
+      "zedxkwmp7p", -- imperial-apprentice | Imperial Apprentice | Mercurial Heart
+      "6sqe6kd7go", -- krustallan-longsword | Krustallan Longsword | Mercurial Heart
+      "r1g8evrbdz", -- krustallan-patrol | Krustallan Patrol | Mercurial Heart
+      "cb33mr0kxj", -- loaded-thoughts | Loaded Thoughts | Mercurial Heart
+      "v0lut4793k", -- lost-in-thought | Lost in Thought | Mercurial Heart
+      "us8n485dgq", -- lunar-conduit | Lunar Conduit | Mercurial Heart
+      "3rs7qu3apy", -- memento-mori | Memento Mori | Mercurial Heart
+      "evrbdzdhmf", -- mercenarys-blade | Mercenary's Blade | Mercurial Heart
+      "pp8en6k5my", -- orchestrated-seizure | Orchestrated Seizure | Mercurial Heart
+      "hljr2dijq6", -- powered-defender | Powered Defender | Mercurial Heart
+      "a8c16bn55g", -- primordial-ritual | Primordial Ritual | Mercurial Heart
+      "t4793kvqf2", -- prototype-shield | Prototype Shield | Mercurial Heart
+      "4i25fc0arr", -- steel-slug | Steel Slug | Mercurial Heart
+      "grtvp7hc1p", -- suffocating-miasma | Suffocating Miasma | Mercurial Heart
+      "txu2eftu1h", -- vaporjet-shield | Vaporjet Shield | Mercurial Heart
+      "mijilb6bwe", -- winbless-forecaster | Winbless Forecaster | Mercurial Heart
+      "pisznne5n3", -- winbless-kiteshield | Winbless Kiteshield | Mercurial Heart
+      "agp8m7o1i1", -- worn-diary | Worn Diary | Mercurial Heart
+    },
+    ["MRCALT__SUPER_RARE"] = {
+      "56cjg0bo2f", -- aegis-of-dawn | Aegis of Dawn | Mercurial Heart
+      "91nmnxS9wZ", -- andronika-eternal-herald | Andronika, Eternal Herald | Mercurial Heart
+      "jfsq6l263b", -- astromech-attendant | Astromech Attendant | Mercurial Heart
+      "7fr1g8evrb", -- atmos-armor-type-hermes | Atmos Armor Type-Hermes | Mercurial Heart
+      "3kvqf24i25", -- bertha-spry-howitzer | Bertha, Spry Howitzer | Mercurial Heart
+      "wltxu2eftu", -- calamity-cannon | Calamity Cannon | Mercurial Heart
+      "u2eftu1h4p", -- cerulean-decree | Cerulean Decree | Mercurial Heart
+      "kwmp7pxt63", -- clockwork-musicbox | Clockwork Musicbox | Mercurial Heart
+      "ghn40km8dq", -- cordelia-aurous-kaiser | Cordelia, Aurous Kaiser | Mercurial Heart
+      "k32e783k4p", -- curse-amplification | Curse Amplification | Mercurial Heart
+      "e5csp9axbf", -- diablerie | Diablerie | Mercurial Heart
+      "mr0kxj0ckc", -- engineered-slime | Engineered Slime | Mercurial Heart
+      "kdz5548oty", -- eternal-magistrate | Eternal Magistrate | Mercurial Heart
+      "do34ahdy9m", -- foretold-bloom | Foretold Bloom | Mercurial Heart
+      "9iitwxs9ke", -- gloamspire-mantle | Gloamspire Mantle | Mercurial Heart
+      "s7qu3apypg", -- icebound-slam | Icebound Slam | Mercurial Heart
+      "kmgyi3sphv", -- mechanized-smasher | Mechanized Smasher | Mercurial Heart
+      "hm7ggrtvp7", -- meteor-strike | Meteor Strike | Mercurial Heart
+      "vQdizn102c", -- naia-diviner-of-fortunes | Naia, Diviner of Fortunes | Mercurial Heart
+      "lb6bwe4fik", -- penumbral-waltz | Penumbral Waltz | Mercurial Heart
+      "d7gocb33mr", -- ravishing-finale | Ravishing Finale | Mercurial Heart
+      "6i9ctljfsq", -- revenants-scourge | Revenant’s Scourge | Mercurial Heart
+      "lut4793kvq", -- sadi-blood-harvester | Sadi, Blood Harvester | Mercurial Heart
+      "0kxj0ckca6", -- seaside-ringleader | Seaside Ringleader | Mercurial Heart
+      "7pxt63jyfa", -- sorrowcaller | Sorrowcaller | Mercurial Heart
+      "0ckca6jhwl", -- tideholder-claymore | Tideholder Claymore | Mercurial Heart
+      "zojo9iitwx", -- tristan-shadowreaver | Tristan, Shadowreaver | Mercurial Heart
+      "p9axbfkdz5", -- twilight-slime | Twilight Slime | Mercurial Heart
+      "vhxaia84he", -- vainglory-retribution | Vainglory Retribution | Mercurial Heart
+      "ujqus0ccrs", -- verdigris-decree | Verdigris Decree | Mercurial Heart
+      "yrc9a8c16b", -- vermilion-decree | Vermilion Decree | Mercurial Heart
+      "cl9lbewnmh", -- windpiercer | Windpiercer | Mercurial Heart
+    },
+    ["MRCALT__ULTRA_RARE"] = {
+      "548otyjsr2", -- atmos-armor-type-ares | Atmos Armor Type-Ares | Mercurial Heart
+      "ia84heujqu", -- final-stroke | Final Stroke | Mercurial Heart
+      "sphwpjsznn", -- fragmented-spirit-of-fire | Fragmented Spirit of Fire | Mercurial Heart
+      "e5n3cl9lbe", -- fragmented-spirit-of-water | Fragmented Spirit of Water | Mercurial Heart
+      "wnmhus8n48", -- fragmented-spirit-of-wind | Fragmented Spirit of Wind | Mercurial Heart
+      "1787aqv0lu", -- mercurial-heart | Mercurial Heart | Mercurial Heart
+      "qu3apypgze", -- overlord-mk-iii | Overlord Mk III | Mercurial Heart
+      "hc1pq4or18", -- prima-materia | Prima Materia | Mercurial Heart
+      "pgzedxkwmp", -- shadows-claw | Shadow's Claw | Mercurial Heart
+      "q4or18nwne", -- vampiric-slime | Vampiric Slime | Mercurial Heart
+    },
+    ["MRCALT__CSR"] = {
+      "BLbHuLPfeI", -- bertha-spry-howitzer | Bertha, Spry Howitzer | Mercurial Heart Alter Edition
+      "bDe3man57n", -- gloamspire-mantle | Gloamspire Mantle | Mercurial Heart Alter Edition
+      "8rdZzBi4nQ", -- hector-praetorian-guard | Hector, Praetorian Guard | Mercurial Heart Alter Edition
+      "WdamvYq3kt", -- volda-smolders-spite | Volda, Smolder's Spite | Mercurial Heart Alter Edition
+    },
+    ["MRCALT__CUR"] = {
+    },
+    ["MRCALT__TOKEN"] = {
+      "571itod02g", -- atmos-shield | Atmos Shield | Mercurial Heart
+      "pmeslfpwkk", -- automaton-drone | Automaton Drone | Mercurial Heart
+      "a7zd60ah55", -- blightroot | Blightroot | Mercurial Heart
+      "wm5lt3q2tw", -- fraysia | Fraysia | Mercurial Heart
+      "d53zcaq5mq", -- manaroot | Manaroot | Mercurial Heart
+      "xko170miji", -- ominous-shadow | Ominous Shadow | Mercurial Heart
+      "dxkwmp7pxt", -- powercell | Powercell | Mercurial Heart
+      "kh9ngakrff", -- powercell | Powercell | Mercurial Heart
+      "nvx8nou1xi", -- razorvine | Razorvine | Mercurial Heart
+      "t6jxtm7eed", -- silvershine | Silvershine | Mercurial Heart
+      "i184h5lahl", -- spirit-shard | Spirit Shard | Mercurial Heart
+      "g616r00bdf", -- springleaf | Springleaf | Mercurial Heart
+    },
+    ["MRCALT__TOKEN_OR_COMMON_CHAMPION"] = {
+      "571itod02g", -- atmos-shield | Atmos Shield | Mercurial Heart
+      "pmeslfpwkk", -- automaton-drone | Automaton Drone | Mercurial Heart
+      "a7zd60ah55", -- blightroot | Blightroot | Mercurial Heart
+      "wm5lt3q2tw", -- fraysia | Fraysia | Mercurial Heart
+      "d53zcaq5mq", -- manaroot | Manaroot | Mercurial Heart
+      "xko170miji", -- ominous-shadow | Ominous Shadow | Mercurial Heart
+      "dxkwmp7pxt", -- powercell | Powercell | Mercurial Heart
+      "kh9ngakrff", -- powercell | Powercell | Mercurial Heart
+      "nvx8nou1xi", -- razorvine | Razorvine | Mercurial Heart
+      "t6jxtm7eed", -- silvershine | Silvershine | Mercurial Heart
+      "i184h5lahl", -- spirit-shard | Spirit Shard | Mercurial Heart
+      "g616r00bdf", -- springleaf | Springleaf | Mercurial Heart
+      "bo2fb4qwwv", -- tristan-hired-blade | Tristan, Hired Blade | Mercurial Heart
+      "5dgq56cjg0", -- tristan-underhanded | Tristan, Underhanded | Mercurial Heart
+    },
+    ["MRCALT__FOIL_ANY"] = {
+      "56cjg0bo2f", -- aegis-of-dawn | Aegis of Dawn | Mercurial Heart
+      "gocb33mr0k", -- airship-captain | Airship Captain | Mercurial Heart
+      "b4qwwvzojo", -- alchemical-scripture | Alchemical Scripture | Mercurial Heart
+      "s9ke3rs7qu", -- alkahest | Alkahest | Mercurial Heart
+      "91nmnxS9wZ", -- andronika-eternal-herald | Andronika, Eternal Herald | Mercurial Heart
+      "qe6kd7gocb", -- aqua-vitae | Aqua Vitae | Mercurial Heart
+      "xj0ckca6jh", -- arsenal-keeper | Arsenal Keeper | Mercurial Heart
+      "jfsq6l263b", -- astromech-attendant | Astromech Attendant | Mercurial Heart
+      "548otyjsr2", -- atmos-armor-type-ares | Atmos Armor Type-Ares | Mercurial Heart
+      "7fr1g8evrb", -- atmos-armor-type-hermes | Atmos Armor Type-Hermes | Mercurial Heart
+      "571itod02g", -- atmos-shield | Atmos Shield | Mercurial Heart
+      "dzdhmf1787", -- automaton-beastkeeper | Automaton Beastkeeper | Mercurial Heart
+      "pmeslfpwkk", -- automaton-drone | Automaton Drone | Mercurial Heart
+      "3apypgzedx", -- backup-charger | Backup Charger | Mercurial Heart
+      "aqv0lut479", -- bandage-wound | Bandage Wound | Mercurial Heart
+      "3kvqf24i25", -- bertha-spry-howitzer | Bertha, Spry Howitzer | Mercurial Heart
+      "03cay7pp8e", -- blade-of-creation | Blade of Creation | Mercurial Heart
+      "84h5lahljr", -- blast-shield | Blast Shield | Mercurial Heart
+      "yh6ikmgyi3", -- blessed-clergy | Blessed Clergy | Mercurial Heart
+      "a7zd60ah55", -- blightroot | Blightroot | Mercurial Heart
+      "n6k5mygy62", -- bolster-ranks | Bolster Ranks | Mercurial Heart
+      "fc0arragp8", -- buried-grief | Buried Grief | Mercurial Heart
+      "wltxu2eftu", -- calamity-cannon | Calamity Cannon | Mercurial Heart
+      "1h4pzmq492", -- captivating-cutthroat | Captivating Cutthroat | Mercurial Heart
+      "m7o1i184h5", -- cell-assembler | Cell Assembler | Mercurial Heart
+      "33mr0kxj0c", -- cell-converter | Cell Converter | Mercurial Heart
+      "0dnzlu21xA", -- cell-forging | Cell Forging | Mercurial Heart
+      "dy9mzd92nu", -- cell-generator | Cell Generator | Mercurial Heart
+      "6ikmgyi3sp", -- cell-handler | Cell Handler | Mercurial Heart
+      "kca6jhwltx", -- cell-sharpshooter | Cell Sharpshooter | Mercurial Heart
+      "utwmhm7ggr", -- cell-vanguard | Cell Vanguard | Mercurial Heart
+      "4pzmq492ol", -- ceremonial-stormblade | Ceremonial Stormblade | Mercurial Heart
+      "u2eftu1h4p", -- cerulean-decree | Cerulean Decree | Mercurial Heart
+      "hvpisznne5", -- charged-alchemist | Charged Alchemist | Mercurial Heart
+      "tvp7hc1pq4", -- charged-assailant | Charged Assailant | Mercurial Heart
+      "n3cl9lbewn", -- charged-gunslinger | Charged Gunslinger | Mercurial Heart
+      "lahljr2dij", -- charged-hunter | Charged Hunter | Mercurial Heart
+      "q62nobfsyr", -- charged-mannequin | Charged Mannequin | Mercurial Heart
+      "mhus8n485d", -- cinderbloom-tender | Cinderbloom Tender | Mercurial Heart
+      "c9a8c16bn5", -- city-protector | City Protector | Mercurial Heart
+      "or18nwnexc", -- cleansing-reunion | Cleansing Reunion | Mercurial Heart
+      "kwmp7pxt63", -- clockwork-musicbox | Clockwork Musicbox | Mercurial Heart
+      "zmq492ollk", -- collapsing-trap | Collapsing Trap | Mercurial Heart
+      "bviukn5nvr", -- concealed-marksman | Concealed Marksman | Mercurial Heart
+      "2dijq62nob", -- contraband-revolver | Contraband Revolver | Mercurial Heart
+      "f3j8fjgo0a", -- convoking-slime | Convoking Slime | Mercurial Heart
+      "ghn40km8dq", -- cordelia-aurous-kaiser | Cordelia, Aurous Kaiser | Mercurial Heart
+      "5g9b5m6sqe", -- critical-recovery | Critical Recovery | Mercurial Heart
+      "31hwd85dpz", -- cultivate | Cultivate | Mercurial Heart
+      "k32e783k4p", -- curse-amplification | Curse Amplification | Mercurial Heart
+      "ob3ib5el99", -- debilitating-grasp | Debilitating Grasp | Mercurial Heart
+      "nd8dyh6ikm", -- desperate-dive | Desperate Dive | Mercurial Heart
+      "e5csp9axbf", -- diablerie | Diablerie | Mercurial Heart
+      "6kd7gocb33", -- dodge-roll | Dodge Roll | Mercurial Heart
+      "woa776az49", -- echoic-guard | Echoic Guard | Mercurial Heart
+      "gq56cjg0bo", -- embershield-keeper | Embershield Keeper | Mercurial Heart
+      "lknd8dyh6i", -- emerald-pistol | Emerald Pistol | Mercurial Heart
+      "mr0kxj0ckc", -- engineered-slime | Engineered Slime | Mercurial Heart
+      "gyi3sphvpi", -- enthralling-visage | Enthralling Visage | Mercurial Heart
+      "sznne5n3cl", -- eternal-dreamer | Eternal Dreamer | Mercurial Heart
+      "kdz5548oty", -- eternal-magistrate | Eternal Magistrate | Mercurial Heart
+      "00jpyhvhxa", -- expunge | Expunge | Mercurial Heart
+      "mjbpiclthg", -- favorable-winds | Favorable Winds | Mercurial Heart
+      "ia84heujqu", -- final-stroke | Final Stroke | Mercurial Heart
+      "do34ahdy9m", -- foretold-bloom | Foretold Bloom | Mercurial Heart
+      "fsyrc9a8c1", -- forgelight-blade | Forgelight Blade | Mercurial Heart
+      "9lbewnmhus", -- fractal-of-rain | Fractal of Rain | Mercurial Heart
+      "sphwpjsznn", -- fragmented-spirit-of-fire | Fragmented Spirit of Fire | Mercurial Heart
+      "e5n3cl9lbe", -- fragmented-spirit-of-water | Fragmented Spirit of Water | Mercurial Heart
+      "wnmhus8n48", -- fragmented-spirit-of-wind | Fragmented Spirit of Wind | Mercurial Heart
+      "jyfa7fr1g8", -- framework-sidearm | Framework Sidearm | Mercurial Heart
+      "wm5lt3q2tw", -- fraysia | Fraysia | Mercurial Heart
+      "8n485dgq56", -- freezing-steel | Freezing Steel | Mercurial Heart
+      "cjg0bo2fb4", -- frost-shard | Frost Shard | Mercurial Heart
+      "a6jhwltxu2", -- gearshift-block | Gearshift Block | Mercurial Heart
+      "jsr2571ito", -- gearstride-academy | Gearstride Academy | Mercurial Heart
+      "eftu1h4pzm", -- geldus-terror-of-dorumegia | Geldus, Terror of Dorumegia | Mercurial Heart
+      "9iitwxs9ke", -- gloamspire-mantle | Gloamspire Mantle | Mercurial Heart
+      "s0ccrszf2m", -- gloamspire-sniper | Gloamspire Sniper | Mercurial Heart
+      "qwwvzojo9i", -- hailstorm-guard | Hailstorm Guard | Mercurial Heart
+      "q492ollknd", -- harvester-mk-ii | Harvester Mk II | Mercurial Heart
+      "itwxs9ke3r", -- hidden-enclave | Hidden Enclave | Mercurial Heart
+      "8dyh6ikmgy", -- hide-in-bush | Hide in Bush | Mercurial Heart
+      "i3sphvpisz", -- hub-of-innovation | Hub of Innovation | Mercurial Heart
+      "s7qu3apypg", -- icebound-slam | Icebound Slam | Mercurial Heart
+      "nkcqjdmuih", -- impact-hammer | Impact Hammer | Mercurial Heart
+      "zedxkwmp7p", -- imperial-apprentice | Imperial Apprentice | Mercurial Heart
+      "xt63jyfa7f", -- imperial-scout | Imperial Scout | Mercurial Heart
+      "nne5n3cl9l", -- imperial-spy | Imperial Spy | Mercurial Heart
+      "2fb4qwwvzo", -- kindling-flare | Kindling Flare | Mercurial Heart
+      "6sqe6kd7go", -- krustallan-longsword | Krustallan Longsword | Mercurial Heart
+      "r1g8evrbdz", -- krustallan-patrol | Krustallan Patrol | Mercurial Heart
+      "dhmf1787aq", -- krustallan-ruins | Krustallan Ruins | Mercurial Heart
+      "d02g03cay7", -- liquid-amnesia | Liquid Amnesia | Mercurial Heart
+      "cb33mr0kxj", -- loaded-thoughts | Loaded Thoughts | Mercurial Heart
+      "v0lut4793k", -- lost-in-thought | Lost in Thought | Mercurial Heart
+      "us8n485dgq", -- lunar-conduit | Lunar Conduit | Mercurial Heart
+      "zd92nuutwm", -- lunar-seer | Lunar Seer | Mercurial Heart
+      "bewnmhus8n", -- machined-monstrosity | Machined Monstrosity | Mercurial Heart
+      "d53zcaq5mq", -- manaroot | Manaroot | Mercurial Heart
+      "485dgq56cj", -- manufacture-cell | Manufacture Cell | Mercurial Heart
+      "da2g93dk88", -- mechanical-hare | Mechanical Hare | Mercurial Heart
+      "kmgyi3sphv", -- mechanized-smasher | Mechanized Smasher | Mercurial Heart
+      "3rs7qu3apy", -- memento-mori | Memento Mori | Mercurial Heart
+      "evrbdzdhmf", -- mercenarys-blade | Mercenary's Blade | Mercurial Heart
+      "1787aqv0lu", -- mercurial-heart | Mercurial Heart | Mercurial Heart
+      "hm7ggrtvp7", -- meteor-strike | Meteor Strike | Mercurial Heart
+      "jo9iitwxs9", -- molten-cinder | Molten Cinder | Mercurial Heart
+      "vQdizn102c", -- naia-diviner-of-fortunes | Naia, Diviner of Fortunes | Mercurial Heart
+      "wvzojo9iit", -- novice-healer | Novice Healer | Mercurial Heart
+      "wxs9ke3rs7", -- nurture-crops | Nurture Crops | Mercurial Heart
+      "xko170miji", -- ominous-shadow | Ominous Shadow | Mercurial Heart
+      "pp8en6k5my", -- orchestrated-seizure | Orchestrated Seizure | Mercurial Heart
+      "qu3apypgze", -- overlord-mk-iii | Overlord Mk III | Mercurial Heart
+      "lb6bwe4fik", -- penumbral-waltz | Penumbral Waltz | Mercurial Heart
+      "0arragp8m7", -- portside-pirate | Portside Pirate | Mercurial Heart
+      "evf1qnftmg", -- possessed-remnant | Possessed Remnant | Mercurial Heart
+      "ke3rs7qu3a", -- potion-infusion-blaze | Potion Infusion: Blaze | Mercurial Heart
+      "gy62f3j8fj", -- potion-infusion-growth | Potion Infusion: Growth | Mercurial Heart
+      "o1i184h5la", -- potion-infusion-seal | Potion Infusion: Seal | Mercurial Heart
+      "dxkwmp7pxt", -- powercell | Powercell | Mercurial Heart
+      "kh9ngakrff", -- powercell | Powercell | Mercurial Heart
+      "qxllc2l19j", -- powered-armsmaster | Powered Armsmaster | Mercurial Heart
+      "pypgzedxkw", -- powered-bishop | Powered Bishop | Mercurial Heart
+      "hljr2dijq6", -- powered-defender | Powered Defender | Mercurial Heart
+      "mp7pxt63jy", -- powered-sentinel | Powered Sentinel | Mercurial Heart
+      "2nobfsyrc9", -- powered-swordsman | Powered Swordsman | Mercurial Heart
+      "fa7fr1g8ev", -- priestess-of-flame | Priestess of Flame | Mercurial Heart
+      "hc1pq4or18", -- prima-materia | Prima Materia | Mercurial Heart
+      "a8c16bn55g", -- primordial-ritual | Primordial Ritual | Mercurial Heart
+      "t4793kvqf2", -- prototype-shield | Prototype Shield | Mercurial Heart
+      "63jyfa7fr1", -- purification | Purification | Mercurial Heart
+      "9b5m6sqe6k", -- purified-shot | Purified Shot | Mercurial Heart
+      "rbdzdhmf17", -- pyroclastic-flow | Pyroclastic Flow | Mercurial Heart
+      "d7gocb33mr", -- ravishing-finale | Ravishing Finale | Mercurial Heart
+      "nvx8nou1xi", -- razorvine | Razorvine | Mercurial Heart
+      "87aqv0lut4", -- reduce-to-ash | Reduce to Ash | Mercurial Heart
+      "nwnexcbviu", -- reflect-the-skies | Reflect the Skies | Mercurial Heart
+      "kn5nvr31hw", -- refracted-twilight | Refracted Twilight | Mercurial Heart
+      "g8evrbdzdh", -- reprogram | Reprogram | Mercurial Heart
+      "mf1787aqv0", -- retold-fortune | Retold Fortune | Mercurial Heart
+      "6i9ctljfsq", -- revenants-scourge | Revenant’s Scourge | Mercurial Heart
+      "lut4793kvq", -- sadi-blood-harvester | Sadi, Blood Harvester | Mercurial Heart
+      "f24i25fc0a", -- savage-smash | Savage Smash | Mercurial Heart
+      "793kvqf24i", -- scorching-trap | Scorching Trap | Mercurial Heart
+      "go0aghn40k", -- scout-the-land | Scout the Land | Mercurial Heart
+      "0kxj0ckca6", -- seaside-ringleader | Seaside Ringleader | Mercurial Heart
+      "pgzedxkwmp", -- shadows-claw | Shadow's Claw | Mercurial Heart
+      "rragp8m7o1", -- sharpen-blade | Sharpen Blade | Mercurial Heart
+      "m8dqwoa776", -- shred-to-ribbons | Shred to Ribbons | Mercurial Heart
+      "t6jxtm7eed", -- silvershine | Silvershine | Mercurial Heart
+      "6l263bdo34", -- sinister-mindreaver | Sinister Mindreaver | Mercurial Heart
+      "ahdy9mzd92", -- siphoning-fractal | Siphoning Fractal | Mercurial Heart
+      "az49k32e78", -- skirting-step | Skirting Step | Mercurial Heart
+      "nuutwmhm7g", -- slip-away | Slip Away | Mercurial Heart
+      "25fc0arrag", -- smashing-force | Smashing Force | Mercurial Heart
+      "7pxt63jyfa", -- sorrowcaller | Sorrowcaller | Mercurial Heart
+      "i184h5lahl", -- spirit-shard | Spirit Shard | Mercurial Heart
+      "3k4pob3ib5", -- spirited-falconer | Spirited Falconer | Mercurial Heart
+      "g616r00bdf", -- springleaf | Springleaf | Mercurial Heart
+      "d85dpze5cs", -- stargazers-portent | Stargazer's Portent | Mercurial Heart
+      "4i25fc0arr", -- steel-slug | Steel Slug | Mercurial Heart
+      "grtvp7hc1p", -- suffocating-miasma | Suffocating Miasma | Mercurial Heart
+      "p8m7o1i184", -- surge-protector | Surge Protector | Mercurial Heart
+      "h5lahljr2d", -- surging-bolt | Surging Bolt | Mercurial Heart
+      "jr2dijq62n", -- synthetic-strike | Synthetic Strike | Mercurial Heart
+      "el9900jpyh", -- tempest-downfall | Tempest Downfall | Mercurial Heart
+      "0ckca6jhwl", -- tideholder-claymore | Tideholder Claymore | Mercurial Heart
+      "obfsyrc9a8", -- tonic-of-remembrance | Tonic of Remembrance | Mercurial Heart
+      "bo2fb4qwwv", -- tristan-hired-blade | Tristan, Hired Blade | Mercurial Heart
+      "zojo9iitwx", -- tristan-shadowreaver | Tristan, Shadowreaver | Mercurial Heart
+      "5dgq56cjg0", -- tristan-underhanded | Tristan, Underhanded | Mercurial Heart
+      "c16bn55g9b", -- turbo-charge | Turbo Charge | Mercurial Heart
+      "p9axbfkdz5", -- twilight-slime | Twilight Slime | Mercurial Heart
+      "ijq62nobfs", -- under-fire | Under Fire | Mercurial Heart
+      "vhxaia84he", -- vainglory-retribution | Vainglory Retribution | Mercurial Heart
+      "q4or18nwne", -- vampiric-slime | Vampiric Slime | Mercurial Heart
+      "txu2eftu1h", -- vaporjet-shield | Vaporjet Shield | Mercurial Heart
+      "ujqus0ccrs", -- verdigris-decree | Verdigris Decree | Mercurial Heart
+      "yrc9a8c16b", -- vermilion-decree | Vermilion Decree | Mercurial Heart
+      "5m6sqe6kd7", -- vicious-slice | Vicious Slice | Mercurial Heart
+      "zf2mxko170", -- vigilant-sentry | Vigilant Sentry | Mercurial Heart
+      "n55g9b5m6s", -- volatile-fusilier | Volatile Fusilier | Mercurial Heart
+      "jhwltxu2ef", -- water-herbs | Water Herbs | Mercurial Heart
+      "tu1h4pzmq4", -- waterveil-apostle | Waterveil Apostle | Mercurial Heart
+      "mijilb6bwe", -- winbless-forecaster | Winbless Forecaster | Mercurial Heart
+      "4fikevf1qn", -- winbless-hurricane-farm | Winbless Hurricane Farm | Mercurial Heart
+      "pisznne5n3", -- winbless-kiteshield | Winbless Kiteshield | Mercurial Heart
+      "ftmgqxllc2", -- winbless-rangefinder | Winbless Rangefinder | Mercurial Heart
+      "l19j6i9ctl", -- windmill-engineer | Windmill Engineer | Mercurial Heart
+      "cl9lbewnmh", -- windpiercer | Windpiercer | Mercurial Heart
+      "agp8m7o1i1", -- worn-diary | Worn Diary | Mercurial Heart
+    },
+    ["MRCALT__ALTER_EXCLUSIVE"] = {
+      "OAlyCUd1Nc", -- accursed-strength | Accursed Strength | Mercurial Heart Alter Edition
+      "pXitiMdBgP", -- armed-and-dangerous | Armed and Dangerous | Mercurial Heart Alter Edition
+      "LinblhMXTT", -- baby-silver-slime | Baby Silver Slime | Mercurial Heart Alter Edition
+      "JjOpG7OUVl", -- charged-directive | Charged Directive | Mercurial Heart Alter Edition
+      "yxy1zbtdvM", -- counter-interference | Counter Interference | Mercurial Heart Alter Edition
+      "B77loJm73G", -- decompose | Decompose | Mercurial Heart Alter Edition
+      "e2Rsg9X1o9", -- dorumegian-foundry | Dorumegian Foundry | Mercurial Heart Alter Edition
+      "8mDHiOolMv", -- eternal-directive | Eternal Directive | Mercurial Heart Alter Edition
+      "bj7YbY4NjU", -- furnace-drone | Furnace Drone | Mercurial Heart Alter Edition
+      "TWormLpZCf", -- hector-praetorian-guard | Hector, Praetorian Guard | Mercurial Heart Alter Edition
+      "h8ielEKFwA", -- moonveil-android | Moonveil Android | Mercurial Heart Alter Edition
+      "eLK1tePCZD", -- punishing-cartridge | Punishing Cartridge | Mercurial Heart Alter Edition
+      "xjKrLQ9D5M", -- radiant-repudiation | Radiant Repudiation | Mercurial Heart Alter Edition
+      "KyzXzNQoc2", -- regal-expulsion | Regal Expulsion | Mercurial Heart Alter Edition
+      "nsZ6sR7MPh", -- scathing-seminary | Scathing Seminary | Mercurial Heart Alter Edition
+      "cYbpTSWWEr", -- shield-fragmentation | Shield Fragmentation | Mercurial Heart Alter Edition
+      "I4wEhxaCaT", -- tend-the-land | Tend the Land | Mercurial Heart Alter Edition
+      "4X8Qe5pQ3j", -- throne-sentinel | Throne Sentinel | Mercurial Heart Alter Edition
+      "kLRSK16Nw9", -- vanguards-reversal | Vanguard's Reversal | Mercurial Heart Alter Edition
+      "raWHgSc8G1", -- volda-smolders-spite | Volda, Smolder's Spite | Mercurial Heart Alter Edition
+      "F1VUvyxhjk", -- winbless-lookout | Winbless Lookout | Mercurial Heart Alter Edition
+    },
+    ["AMB1E__COMMON"] = {
+      "fcng06fi6r", -- absolving-flames | Absolving Flames | Mortal Ambition
+      "5tzkf48n2l", -- adorned-stag | Adorned Stag | Mortal Ambition
+      "mgw0mewmbo", -- backstep | Backstep | Mortal Ambition
+      "niyguld7c4", -- cavalier-rescue | Cavalier Rescue | Mortal Ambition
+      "nl8zetvwmd", -- creative-shock | Creative Shock | Mortal Ambition
+      "sqe0a841af", -- crescent-glaive | Crescent Glaive | Mortal Ambition
+      "a0ympv5ou3", -- cyclical-breeze | Cyclical Breeze | Mortal Ambition
+      "kiz0kaxute", -- deep-sea-fractal | Deep Sea Fractal | Mortal Ambition
+      "4slz4tbcj0", -- defenders-maul | Defender's Maul | Mortal Ambition
+      "emrxle1pql", -- drifting-rogue | Drifting Rogue | Mortal Ambition
+      "99eo7u3csp", -- emergent-dagger | Emergent Dagger | Mortal Ambition
+      "jfleo75zyb", -- fairy-whispers | Fairy Whispers | Mortal Ambition
+      "gd06sut2vg", -- fan-of-insight | Fan of Insight | Mortal Ambition
+      "nv47o27xgn", -- favorable-winds | Favorable Winds | Mortal Ambition
+      "yisbb41wcx", -- fireball | Fireball | Mortal Ambition
+      "2ymmhfubfl", -- flame-rune-swordsman | Flame-Rune Swordsman | Mortal Ambition
+      "3e5fwim0w8", -- flamewing-fowl | Flamewing Fowl | Mortal Ambition
+      "bhbcs8c2ta", -- fractal-of-insight | Fractal of Insight | Mortal Ambition
+      "us1nos2sih", -- frozen-quill | Frozen Quill | Mortal Ambition
+      "9myigd7zql", -- galewhisper-rogue | Galewhisper Rogue | Mortal Ambition
+      "ps83dvw4z6", -- ghostsight-mare | Ghostsight Mare | Mortal Ambition
+      "qd66adqccn", -- glacial-evocation | Glacial Evocation | Mortal Ambition
+      "6jqb3nufu3", -- honorable-vanguard | Honorable Vanguard | Mortal Ambition
+      "6pj56rn3vq", -- idle-thoughts | Idle Thoughts | Mortal Ambition
+      "pgniladoej", -- imperial-assassin | Imperial Assassin | Mortal Ambition
+      "5s6umbum9o", -- inner-court-schemer | Inner Court Schemer | Mortal Ambition
+      "yvk9npv5zi", -- inspiring-call | Inspiring Call | Mortal Ambition
+      "izse32bro8", -- intricate-longbow | Intricate Longbow | Mortal Ambition
+      "3z8m7n5voz", -- jin-fate-defiant | Jin, Fate Defiant | Mortal Ambition
+      "ufu5h2v9so", -- jin-undying-resolve | Jin, Undying Resolve | Mortal Ambition
+      "3vpi8d4gev", -- jin-zealous-maverick | Jin, Zealous Maverick | Mortal Ambition
+      "rn5tmp74g1", -- kongming-ascetic-vice | Kongming, Ascetic Vice | Mortal Ambition
+      "c9qa31ifmi", -- kongming-fel-eidolon | Kongming, Fel Eidolon | Mortal Ambition
+      "49w2fkz531", -- kongming-wayward-maven | Kongming, Wayward Maven | Mortal Ambition
+      "gee7j5mpl9", -- lead-with-force | Lead with Force | Mortal Ambition
+      "n2ijz8ofdb", -- mnemonic-charm | Mnemonic Charm | Mortal Ambition
+      "upf8let8w1", -- nanyue-portsman | Nanyue Portsman | Mortal Ambition
+      "9dxl0lm43p", -- nascent-blast | Nascent Blast | Mortal Ambition
+      "ixfl3w8doj", -- ordinary-horse | Ordinary Horse | Mortal Ambition
+      "10fwjx5ock", -- palace-guard | Palace Guard | Mortal Ambition
+      "fyqd7ksne7", -- planted-explosive | Planted Explosive | Mortal Ambition
+      "wl81mzhm70", -- primal-whip | Primal Whip | Mortal Ambition
+      "pn2t15wzta", -- razorgale-calling | Razorgale Calling | Mortal Ambition
+      "iod8bfeh00", -- reckless-slash | Reckless Slash | Mortal Ambition
+      "0hv924ff4z", -- refracting-missile | Refracting Missile | Mortal Ambition
+      "s97qp33nlt", -- regenerate | Regenerate | Mortal Ambition
+      "z60awtzv1y", -- rising-tides | Rising Tides | Mortal Ambition
+      "e6nbpc4e6h", -- royal-bear | Royal Bear | Mortal Ambition
+      "42vg3hj3d0", -- savage-arrow | Savage Arrow | Mortal Ambition
+      "coaahbojc0", -- savage-attack | Savage Attack | Mortal Ambition
+      "005593y9s2", -- scorching-strafe | Scorching Strafe | Mortal Ambition
+      "106q1tyn20", -- seasoned-archer | Seasoned Archer | Mortal Ambition
+      "hi3pk17781", -- shining-marchador | Shining Marchador | Mortal Ambition
+      "tv3rwg4urt", -- shu-frontliner | Shu Frontliner | Mortal Ambition
+      "5uhxrxpnnc", -- spirit-of-fire | Spirit of Fire | Mortal Ambition
+      "x6itul8td3", -- spirit-of-water | Spirit of Water | Mortal Ambition
+      "xv5in4t3wc", -- spirit-of-wind | Spirit of Wind | Mortal Ambition
+      "cn7fgmzt94", -- stolid-vanguard | Stolid Vanguard | Mortal Ambition
+      "1ekrcbl6zg", -- sudden-snow | Sudden Snow | Mortal Ambition
+      "pc9bula41o", -- swerving-spring | Swerving Spring | Mortal Ambition
+      "jy4kteybg2", -- swift-recruit | Swift Recruit | Mortal Ambition
+      "hg6iq0qe1p", -- temper-in-flames | Temper in Flames | Mortal Ambition
+      "n7jhj65w4e", -- thunderclap | Thunderclap | Mortal Ambition
+      "ouv8ew7k6z", -- tidestone-bovine | Tidestone Bovine | Mortal Ambition
+      "wdqbjc75r5", -- tome-of-sorcery | Tome of Sorcery | Mortal Ambition
+      "sw69xqa4qh", -- torpid-fractal | Torpid Fractal | Mortal Ambition
+      "dbi7zwm6m2", -- trained-sharpshooter | Trained Sharpshooter | Mortal Ambition
+      "vo5bxrg4eb", -- unbroken-mustang | Unbroken Mustang | Mortal Ambition
+      "svyzyg7n15", -- unrelenting-warden | Unrelenting Warden | Mortal Ambition
+      "2d2i9y485y", -- veteran-soldier | Veteran Soldier | Mortal Ambition
+      "paqm8uowyt", -- wandering-glaivier | Wandering Glaivier | Mortal Ambition
+      "py5fm4ev7s", -- water-barrier | Water Barrier | Mortal Ambition
+      "2jnah5p3zd", -- weaponsmith | Weaponsmith | Mortal Ambition
+      "jryb2yj6wf", -- wildgrowth-feline | Wildgrowth Feline | Mortal Ambition
+      "tet9ocqs6b", -- wisdoms-reprise | Wisdom's Reprise | Mortal Ambition
+    },
+    ["AMB1E__UNCOMMON"] = {
+      "lp91uw83ze", -- apprentice-aeromancer | Apprentice Aeromancer | Mortal Ambition
+      "rx9d2t9kus", -- aqueous-stallion | Aqueous Stallion | Mortal Ambition
+      "coap10wgnd", -- arrow-trap | Arrow Trap | Mortal Ambition
+      "slzybrcuh8", -- ash-filcher | Ash Filcher | Mortal Ambition
+      "mtk7emqbjx", -- bloodbond-bladesworn | Bloodbond Bladesworn | Mortal Ambition
+      "rolvyxk3ih", -- brash-defender | Brash Defender | Mortal Ambition
+      "lky1psl4ii", -- brisk-windtrotter | Brisk Windtrotter | Mortal Ambition
+      "h4zzb4evm9", -- burst-asunder | Burst Asunder | Mortal Ambition
+      "i8oilv5lih", -- clean-cut | Clean Cut | Mortal Ambition
+      "ttfsotc620", -- clumsy-apprentice | Clumsy Apprentice | Mortal Ambition
+      "67gh2h9yxb", -- cone-of-frost | Cone of Frost | Mortal Ambition
+      "0vpkns1fb3", -- determined-spearman | Determined Spearman | Mortal Ambition
+      "1cd633mn8a", -- disorienting-winds | Disorienting Winds | Mortal Ambition
+      "z1xbip69si", -- exia-sight | Exia Sight | Mortal Ambition
+      "89l5x78uz6", -- extraction-incision | Extraction Incision | Mortal Ambition
+      "knjhpl8ld5", -- fiery-swing | Fiery Swing | Mortal Ambition
+      "kud1wxl2yv", -- flashfire-horse | Flashfire Horse | Mortal Ambition
+      "ky7rcauz5l", -- fractal-of-mana | Fractal of Mana | Mortal Ambition
+      "3i2xl70228", -- fractal-of-sparks | Fractal of Sparks | Mortal Ambition
+      "zs0l6bozti", -- hasty-messenger | Hasty Messenger | Mortal Ambition
+      "jc1js3sl6p", -- hemorrhaging-rend | Hemorrhaging Rend | Mortal Ambition
+      "rtc4xft6kr", -- hoarfrost-spine | Hoarfrost Spine | Mortal Ambition
+      "z1p85r3z6p", -- hydroguard-retainer | Hydroguard Retainer | Mortal Ambition
+      "qx0hb93o7e", -- ignite-fate | Ignite Fate | Mortal Ambition
+      "o3dl6x95s4", -- invective-instruction | Invective Instruction | Mortal Ambition
+      "30j57myje7", -- lavasoul-tiger | Lavasoul Tiger | Mortal Ambition
+      "kyfk7mj19r", -- leeching-bolt | Leeching Bolt | Mortal Ambition
+      "o01zv9vkdi", -- lumbering-steed | Lumbering Steed | Mortal Ambition
+      "pxmo37d1pu", -- mark-of-fervor | Mark of Fervor | Mortal Ambition
+      "p2blsznabj", -- marksman-captain | Marksman Captain | Mortal Ambition
+      "7qjpaipkr7", -- materialize-polearm | Materialize Polearm | Mortal Ambition
+      "zrdc3loukm", -- molten-arrow | Molten Arrow | Mortal Ambition
+      "c0do81afgf", -- mystic-purifier | Mystic Purifier | Mortal Ambition
+      "r6yo11z8z5", -- nascent-barrier | Nascent Barrier | Mortal Ambition
+      "3gn42ik6u9", -- perfect-repulsion | Perfect Repulsion | Mortal Ambition
+      "xt806epkx2", -- phalanx-captain | Phalanx Captain | Mortal Ambition
+      "3qp8l7jasn", -- poised-rearguard | Poised Rearguard | Mortal Ambition
+      "21prus7pzi", -- protective-fractal | Protective Fractal | Mortal Ambition
+      "t8pqvt94cn", -- razor-broadhead | Razor Broadhead | Mortal Ambition
+      "7299v2i08s", -- rippleback-terrapin | Rippleback Terrapin | Mortal Ambition
+      "c5s8n8ba13", -- ritai-guard | Ritai Guard | Mortal Ambition
+      "77uw2uesvb", -- scorchfire-assassin | Scorchfire Assassin | Mortal Ambition
+      "799nkatizv", -- seafletched-serpent | Seafletched Serpent | Mortal Ambition
+      "vwyc11bnyn", -- sidestep | Sidestep | Mortal Ambition
+      "k1vkj1hh31", -- skilled-plainsman | Skilled Plainsman | Mortal Ambition
+      "8f8t1smqpu", -- slice-and-dice | Slice and Dice | Mortal Ambition
+      "inzhhg8pct", -- sudden-deluge | Sudden Deluge | Mortal Ambition
+      "elw4r5yyof", -- tempus-stalker | Tempus Stalker | Mortal Ambition
+      "cd4hitsmil", -- tera-sight | Tera Sight | Mortal Ambition
+      "27ys785y5i", -- tidal-lock | Tidal Lock | Mortal Ambition
+      "dzp7wnmx54", -- tidal-tirade | Tidal Tirade | Mortal Ambition
+      "m1t5ghxm88", -- tricky-chimps | Tricky Chimps | Mortal Ambition
+      "srkkm872na", -- tsunami-of-nanyue | Tsunami of Nanyue | Mortal Ambition
+      "cugntlzotj", -- vengeful-gust | Vengeful Gust | Mortal Ambition
+      "s8mrpw2ivw", -- war-marshal | War Marshal | Mortal Ambition
+      "90v2ztgvi1", -- weaken-resistance | Weaken Resistance | Mortal Ambition
+      "jahvrma97h", -- wind-cutter | Wind Cutter | Mortal Ambition
+      "lvyiakp4j0", -- yunzhou-cavalry | Yunzhou Cavalry | Mortal Ambition
+      "yf9riu5xa6", -- zephyr | Zephyr | Mortal Ambition
+    },
+    ["AMB1E__RARE"] = {
+      "1a4oh9wdnr", -- acolyte-of-cultivation | Acolyte of Cultivation | Mortal Ambition
+      "gfbvwkmmlv", -- adept-swordmaster | Adept Swordmaster | Mortal Ambition
+      "wjmb6fbit2", -- bagua-of-cardinal-fate | Bagua of Cardinal Fate | Mortal Ambition
+      "6h78rl4sdx", -- bathe-in-light | Bathe in Light | Mortal Ambition
+      "u3lhsrk29f", -- beseeching-flourish | Beseeching Flourish | Mortal Ambition
+      "rj87jd0g7l", -- blazing-lunge | Blazing Lunge | Mortal Ambition
+      "rftquefvws", -- bring-down-the-mighty | Bring Down the Mighty | Mortal Ambition
+      "52cub4oo7t", -- combat-training | Combat Training | Mortal Ambition
+      "z110mf0wuo", -- conduit-of-bloodfire | Conduit of Bloodfire | Mortal Ambition
+      "qfnv68ul91", -- crimson-prescience | Crimson Prescience | Mortal Ambition
+      "5vqnkl31cm", -- cure-the-flesh | Cure the Flesh | Mortal Ambition
+      "yo72l2r8g0", -- dungeon-guide | Dungeon Guide | Mortal Ambition
+      "v7pw48lz90", -- fang-of-dragons-breath | Fang of Dragon's Breath | Mortal Ambition
+      "zfazy5f9gh", -- feed-nourishment | Feed Nourishment | Mortal Ambition
+      "qzh8cj2ooz", -- fervent-lancer | Fervent Lancer | Mortal Ambition
+      "rzq7t0mgou", -- fraternal-garrison | Fraternal Garrison | Mortal Ambition
+      "q5z6utn5tk", -- gem-of-searing-flame | Gem of Searing Flame | Mortal Ambition
+      "c29umop66f", -- ghostsight-glass | Ghostsight Glass | Mortal Ambition
+      "dnf6cfdbp9", -- glow-forth | Glow Forth | Mortal Ambition
+      "l7oifnlnu2", -- halocline-scout | Halocline Scout | Mortal Ambition
+      "1x041sk6lk", -- heated-vengeance | Heated Vengeance | Mortal Ambition
+      "5min726zpx", -- hire-mercenaries | Hire Mercenaries | Mortal Ambition
+      "4g764wnl6g", -- indiscriminate-gyre | Indiscriminate Gyre | Mortal Ambition
+      "1vh6vktkde", -- indolent-leisure | Indolent Leisure | Mortal Ambition
+      "nh46htn192", -- infusion-of-crescent-jade | Infusion of Crescent Jade | Mortal Ambition
+      "xmqjwtlslr", -- ingress-of-sanguine-ire | Ingress of Sanguine Ire | Mortal Ambition
+      "c440t27ftr", -- intervention | Intervention | Mortal Ambition
+      "5p47j2meum", -- inundating-clash | Inundating Clash | Mortal Ambition
+      "bdcufqax41", -- invigoration | Invigoration | Mortal Ambition
+      "irlofoshl5", -- kind-beastcaller | Kind Beastcaller | Mortal Ambition
+      "nyo113do1y", -- landscape-corsair | Landscape Corsair | Mortal Ambition
+      "1sf4p5wi0q", -- lost-wisdom | Lost Wisdom | Mortal Ambition
+      "0pwq5sfw43", -- mend-flesh | Mend Flesh | Mortal Ambition
+      "tzf97fet0q", -- natures-appeal | Nature's Appeal | Mortal Ambition
+      "u5ewxq0sle", -- oath-of-the-sakura | Oath of the Sakura | Mortal Ambition
+      "xaesjpwvyq", -- oppressive-presence | Oppressive Presence | Mortal Ambition
+      "lkan6loimq", -- orb-of-regret | Orb of Regret | Mortal Ambition
+      "v5eq2i4tta", -- promising-recruit | Promising Recruit | Mortal Ambition
+      "gydkrget5m", -- proof-of-life | Proof of Life | Mortal Ambition
+      "jd3tcix4e4", -- rainweaver-mage | Rainweaver Mage | Mortal Ambition
+      "pmr2cefzdk", -- relic-of-dancing-embers | Relic of Dancing Embers | Mortal Ambition
+      "oxam9yfox4", -- relic-of-sunken-past | Relic of Sunken Past | Mortal Ambition
+      "ek6qp16epm", -- ruinous-pillars-of-qidao | Ruinous Pillars of Qidao | Mortal Ambition
+      "glkpo0w8eg", -- seal-the-past | Seal the Past | Mortal Ambition
+      "r07d4q0cax", -- sempiternal-sage | Sempiternal Sage | Mortal Ambition
+      "2ndw88w5sr", -- set-ablaze | Set Ablaze | Mortal Ambition
+      "f896j7wmkr", -- sheath-of-faceted-lapis | Sheath of Faceted Lapis | Mortal Ambition
+      "z4jpx3jn65", -- slipstream-vault | Slipstream Vault | Mortal Ambition
+      "cvh60ajzb6", -- solar-pinnacle | Solar Pinnacle | Mortal Ambition
+      "9bimb7g8y4", -- soothing-disillusion | Soothing Disillusion | Mortal Ambition
+      "ss3q657cmi", -- spellshield-tera | Spellshield: Tera | Mortal Ambition
+      "204g58i26z", -- staggering-strike | Staggering Strike | Mortal Ambition
+      "19tgzwd5nd", -- sword-saint-of-eventide | Sword Saint of Eventide | Mortal Ambition
+      "c761i9ix0c", -- tailwinds-blessing | Tailwind's Blessing | Mortal Ambition
+      "b8wdiomi99", -- wuji-of-lingering-fate | Wuji of Lingering Fate | Mortal Ambition
+    },
+    ["AMB1E__SUPER_RARE"] = {
+      "uotvvmhgik", -- axis-gale-scholar | Axis Gale Scholar | Mortal Ambition
+      "mas3b5ax8r", -- cao-cao-aspirant-of-chaos | Cao Cao, Aspirant of Chaos | Mortal Ambition
+      "lvyenlfg9s", -- channel-manifold-desire | Channel Manifold Desire | Mortal Ambition
+      "xdddx44933", -- cloudstone-orb | Cloudstone Orb | Mortal Ambition
+      "2rprcugv73", -- conduit-of-seasons | Conduit of Seasons | Mortal Ambition
+      "qwsuo0214d", -- desperate-cavalier | Desperate Cavalier | Mortal Ambition
+      "l5y3ra5hhv", -- dilu-auspicious-charger | Dilu, Auspicious Charger | Mortal Ambition
+      "l2oty6z16w", -- eventide-spear | Eventide Spear | Mortal Ambition
+      "6yik8iibla", -- everflame-staff | Everflame Staff | Mortal Ambition
+      "yyui32uwyz", -- fractal-of-polar-depths | Fractal of Polar Depths | Mortal Ambition
+      "yv6jktvm8h", -- guan-yu-prime-exemplar | Guan Yu, Prime Exemplar | Mortal Ambition
+      "pmzpuk8uwz", -- guandu-theater-of-war | Guandu, Theater of War | Mortal Ambition
+      "5mt21wcg7r", -- heavenly-guide | Heavenly Guide | Mortal Ambition
+      "5215kvs6uj", -- hulao-gate-suns-ascent | Hulao Gate, Sun's Ascent | Mortal Ambition
+      "cp1si0sx31", -- illuminating-charge | Illuminating Charge | Mortal Ambition
+      "gjbhcypm3u", -- jueying-shadowmare | Jueying, Shadowmare | Mortal Ambition
+      "12zznripn4", -- keep-of-the-golden-sashes | Keep of the Golden Sashes | Mortal Ambition
+      "txt83d6aa7", -- liu-bei-oathkeeper | Liu Bei, Oathkeeper | Mortal Ambition
+      "3rh6cbfjhh", -- mandate-of-honor | Mandate of Honor | Mortal Ambition
+      "7ajdbh9gjr", -- orb-of-sealing | Orb of Sealing | Mortal Ambition
+      "xthddildp7", -- paired-minds-kindred-souls | Paired Minds, Kindred Souls | Mortal Ambition
+      "yucycnpokl", -- planar-abyss | Planar Abyss | Mortal Ambition
+      "64p0zjpgd4", -- pupil-of-sacred-flames | Pupil of Sacred Flames | Mortal Ambition
+      "i6egu9kxde", -- relentless-outburst | Relentless Outburst | Mortal Ambition
+      "phjx9gtfrd", -- seize-fate | Seize Fate | Mortal Ambition
+      "bh3yn5kqba", -- strategem-of-myriad-ice | Strategem of Myriad Ice | Mortal Ambition
+      "or49kb9590", -- sun-quan-sealbearer | Sun Quan, Sealbearer | Mortal Ambition
+      "7p3rtuae7d", -- sword-saint-of-everflame | Sword Saint of Everflame | Mortal Ambition
+      "mdhvw24yc4", -- xia-hou-dun-gloryseeker | Xia Hou Dun, Gloryseeker | Mortal Ambition
+      "dw4hsb2t91", -- xiao-qiao-cinderkeeper | Xiao Qiao, Cinderkeeper | Mortal Ambition
+      "n4chq8roe1", -- yudi-gossamer-jade | Yudi, Gossamer Jade | Mortal Ambition
+      "so8bmm9xnr", -- zhang-fei-spirited-steel | Zhang Fei, Spirited Steel | Mortal Ambition
+    },
+    ["AMB1E__ULTRA_RARE"] = {
+    },
+    ["AMB1E__CSR"] = {
+      "qtbd0nts73", -- cao-cao-aspirant-of-chaos | Cao Cao, Aspirant of Chaos | Mortal Ambition First Edition
+      "2u03268sco", -- guan-yu-prime-exemplar | Guan Yu, Prime Exemplar | Mortal Ambition First Edition
+      "t2bpfx5wbu", -- jin-fate-defiant | Jin, Fate Defiant | Mortal Ambition First Edition
+      "a8ysq7swwy", -- jin-zealous-maverick | Jin, Zealous Maverick | Mortal Ambition First Edition
+      "8mrdeauaeb", -- kongming-ascetic-vice | Kongming, Ascetic Vice | Mortal Ambition First Edition
+      "q3zjz3eqmh", -- kongming-wayward-maven | Kongming, Wayward Maven | Mortal Ambition First Edition
+      "ksav3sk5eb", -- liu-bei-oathkeeper | Liu Bei, Oathkeeper | Mortal Ambition First Edition
+      "jfii2l6my7", -- sun-quan-sealbearer | Sun Quan, Sealbearer | Mortal Ambition First Edition
+      "vtyvopikh8", -- xia-hou-dun-gloryseeker | Xia Hou Dun, Gloryseeker | Mortal Ambition First Edition
+      "md12wkcs9m", -- xiao-qiao-cinderkeeper | Xiao Qiao, Cinderkeeper | Mortal Ambition First Edition
+      "1loumt7c9g", -- zhang-fei-spirited-steel | Zhang Fei, Spirited Steel | Mortal Ambition First Edition
+    },
+    ["AMB1E__CUR"] = {
+      "l4zh11099v", -- kongming-fel-eidolon | Kongming, Fel Eidolon | Mortal Ambition First Edition
+    },
+    ["AMB1E__TOKEN"] = {
+    },
+    ["AMB1E__TOKEN_OR_COMMON_CHAMPION"] = {
+      "3z8m7n5voz", -- jin-fate-defiant | Jin, Fate Defiant | Mortal Ambition
+      "ufu5h2v9so", -- jin-undying-resolve | Jin, Undying Resolve | Mortal Ambition
+      "3vpi8d4gev", -- jin-zealous-maverick | Jin, Zealous Maverick | Mortal Ambition
+      "rn5tmp74g1", -- kongming-ascetic-vice | Kongming, Ascetic Vice | Mortal Ambition
+      "c9qa31ifmi", -- kongming-fel-eidolon | Kongming, Fel Eidolon | Mortal Ambition
+      "49w2fkz531", -- kongming-wayward-maven | Kongming, Wayward Maven | Mortal Ambition
+      "5uhxrxpnnc", -- spirit-of-fire | Spirit of Fire | Mortal Ambition
+      "x6itul8td3", -- spirit-of-water | Spirit of Water | Mortal Ambition
+      "xv5in4t3wc", -- spirit-of-wind | Spirit of Wind | Mortal Ambition
+    },
+    ["AMB1E__FOIL_ANY"] = {
+      "fcng06fi6r", -- absolving-flames | Absolving Flames | Mortal Ambition
+      "1a4oh9wdnr", -- acolyte-of-cultivation | Acolyte of Cultivation | Mortal Ambition
+      "gfbvwkmmlv", -- adept-swordmaster | Adept Swordmaster | Mortal Ambition
+      "5tzkf48n2l", -- adorned-stag | Adorned Stag | Mortal Ambition
+      "lp91uw83ze", -- apprentice-aeromancer | Apprentice Aeromancer | Mortal Ambition
+      "rx9d2t9kus", -- aqueous-stallion | Aqueous Stallion | Mortal Ambition
+      "coap10wgnd", -- arrow-trap | Arrow Trap | Mortal Ambition
+      "slzybrcuh8", -- ash-filcher | Ash Filcher | Mortal Ambition
+      "uotvvmhgik", -- axis-gale-scholar | Axis Gale Scholar | Mortal Ambition
+      "mgw0mewmbo", -- backstep | Backstep | Mortal Ambition
+      "wjmb6fbit2", -- bagua-of-cardinal-fate | Bagua of Cardinal Fate | Mortal Ambition
+      "6h78rl4sdx", -- bathe-in-light | Bathe in Light | Mortal Ambition
+      "u3lhsrk29f", -- beseeching-flourish | Beseeching Flourish | Mortal Ambition
+      "rj87jd0g7l", -- blazing-lunge | Blazing Lunge | Mortal Ambition
+      "mtk7emqbjx", -- bloodbond-bladesworn | Bloodbond Bladesworn | Mortal Ambition
+      "rolvyxk3ih", -- brash-defender | Brash Defender | Mortal Ambition
+      "rftquefvws", -- bring-down-the-mighty | Bring Down the Mighty | Mortal Ambition
+      "lky1psl4ii", -- brisk-windtrotter | Brisk Windtrotter | Mortal Ambition
+      "h4zzb4evm9", -- burst-asunder | Burst Asunder | Mortal Ambition
+      "mas3b5ax8r", -- cao-cao-aspirant-of-chaos | Cao Cao, Aspirant of Chaos | Mortal Ambition
+      "niyguld7c4", -- cavalier-rescue | Cavalier Rescue | Mortal Ambition
+      "lvyenlfg9s", -- channel-manifold-desire | Channel Manifold Desire | Mortal Ambition
+      "i8oilv5lih", -- clean-cut | Clean Cut | Mortal Ambition
+      "xdddx44933", -- cloudstone-orb | Cloudstone Orb | Mortal Ambition
+      "ttfsotc620", -- clumsy-apprentice | Clumsy Apprentice | Mortal Ambition
+      "52cub4oo7t", -- combat-training | Combat Training | Mortal Ambition
+      "z110mf0wuo", -- conduit-of-bloodfire | Conduit of Bloodfire | Mortal Ambition
+      "2rprcugv73", -- conduit-of-seasons | Conduit of Seasons | Mortal Ambition
+      "67gh2h9yxb", -- cone-of-frost | Cone of Frost | Mortal Ambition
+      "nl8zetvwmd", -- creative-shock | Creative Shock | Mortal Ambition
+      "sqe0a841af", -- crescent-glaive | Crescent Glaive | Mortal Ambition
+      "qfnv68ul91", -- crimson-prescience | Crimson Prescience | Mortal Ambition
+      "5vqnkl31cm", -- cure-the-flesh | Cure the Flesh | Mortal Ambition
+      "a0ympv5ou3", -- cyclical-breeze | Cyclical Breeze | Mortal Ambition
+      "kiz0kaxute", -- deep-sea-fractal | Deep Sea Fractal | Mortal Ambition
+      "4slz4tbcj0", -- defenders-maul | Defender's Maul | Mortal Ambition
+      "qwsuo0214d", -- desperate-cavalier | Desperate Cavalier | Mortal Ambition
+      "0vpkns1fb3", -- determined-spearman | Determined Spearman | Mortal Ambition
+      "l5y3ra5hhv", -- dilu-auspicious-charger | Dilu, Auspicious Charger | Mortal Ambition
+      "1cd633mn8a", -- disorienting-winds | Disorienting Winds | Mortal Ambition
+      "emrxle1pql", -- drifting-rogue | Drifting Rogue | Mortal Ambition
+      "yo72l2r8g0", -- dungeon-guide | Dungeon Guide | Mortal Ambition
+      "99eo7u3csp", -- emergent-dagger | Emergent Dagger | Mortal Ambition
+      "l2oty6z16w", -- eventide-spear | Eventide Spear | Mortal Ambition
+      "6yik8iibla", -- everflame-staff | Everflame Staff | Mortal Ambition
+      "z1xbip69si", -- exia-sight | Exia Sight | Mortal Ambition
+      "89l5x78uz6", -- extraction-incision | Extraction Incision | Mortal Ambition
+      "jfleo75zyb", -- fairy-whispers | Fairy Whispers | Mortal Ambition
+      "gd06sut2vg", -- fan-of-insight | Fan of Insight | Mortal Ambition
+      "v7pw48lz90", -- fang-of-dragons-breath | Fang of Dragon's Breath | Mortal Ambition
+      "nv47o27xgn", -- favorable-winds | Favorable Winds | Mortal Ambition
+      "zfazy5f9gh", -- feed-nourishment | Feed Nourishment | Mortal Ambition
+      "qzh8cj2ooz", -- fervent-lancer | Fervent Lancer | Mortal Ambition
+      "knjhpl8ld5", -- fiery-swing | Fiery Swing | Mortal Ambition
+      "yisbb41wcx", -- fireball | Fireball | Mortal Ambition
+      "2ymmhfubfl", -- flame-rune-swordsman | Flame-Rune Swordsman | Mortal Ambition
+      "3e5fwim0w8", -- flamewing-fowl | Flamewing Fowl | Mortal Ambition
+      "kud1wxl2yv", -- flashfire-horse | Flashfire Horse | Mortal Ambition
+      "bhbcs8c2ta", -- fractal-of-insight | Fractal of Insight | Mortal Ambition
+      "ky7rcauz5l", -- fractal-of-mana | Fractal of Mana | Mortal Ambition
+      "yyui32uwyz", -- fractal-of-polar-depths | Fractal of Polar Depths | Mortal Ambition
+      "3i2xl70228", -- fractal-of-sparks | Fractal of Sparks | Mortal Ambition
+      "rzq7t0mgou", -- fraternal-garrison | Fraternal Garrison | Mortal Ambition
+      "us1nos2sih", -- frozen-quill | Frozen Quill | Mortal Ambition
+      "9myigd7zql", -- galewhisper-rogue | Galewhisper Rogue | Mortal Ambition
+      "q5z6utn5tk", -- gem-of-searing-flame | Gem of Searing Flame | Mortal Ambition
+      "c29umop66f", -- ghostsight-glass | Ghostsight Glass | Mortal Ambition
+      "ps83dvw4z6", -- ghostsight-mare | Ghostsight Mare | Mortal Ambition
+      "qd66adqccn", -- glacial-evocation | Glacial Evocation | Mortal Ambition
+      "dnf6cfdbp9", -- glow-forth | Glow Forth | Mortal Ambition
+      "yv6jktvm8h", -- guan-yu-prime-exemplar | Guan Yu, Prime Exemplar | Mortal Ambition
+      "pmzpuk8uwz", -- guandu-theater-of-war | Guandu, Theater of War | Mortal Ambition
+      "l7oifnlnu2", -- halocline-scout | Halocline Scout | Mortal Ambition
+      "zs0l6bozti", -- hasty-messenger | Hasty Messenger | Mortal Ambition
+      "1x041sk6lk", -- heated-vengeance | Heated Vengeance | Mortal Ambition
+      "5mt21wcg7r", -- heavenly-guide | Heavenly Guide | Mortal Ambition
+      "jc1js3sl6p", -- hemorrhaging-rend | Hemorrhaging Rend | Mortal Ambition
+      "5min726zpx", -- hire-mercenaries | Hire Mercenaries | Mortal Ambition
+      "rtc4xft6kr", -- hoarfrost-spine | Hoarfrost Spine | Mortal Ambition
+      "6jqb3nufu3", -- honorable-vanguard | Honorable Vanguard | Mortal Ambition
+      "5215kvs6uj", -- hulao-gate-suns-ascent | Hulao Gate, Sun's Ascent | Mortal Ambition
+      "z1p85r3z6p", -- hydroguard-retainer | Hydroguard Retainer | Mortal Ambition
+      "6pj56rn3vq", -- idle-thoughts | Idle Thoughts | Mortal Ambition
+      "qx0hb93o7e", -- ignite-fate | Ignite Fate | Mortal Ambition
+      "cp1si0sx31", -- illuminating-charge | Illuminating Charge | Mortal Ambition
+      "pgniladoej", -- imperial-assassin | Imperial Assassin | Mortal Ambition
+      "4g764wnl6g", -- indiscriminate-gyre | Indiscriminate Gyre | Mortal Ambition
+      "1vh6vktkde", -- indolent-leisure | Indolent Leisure | Mortal Ambition
+      "nh46htn192", -- infusion-of-crescent-jade | Infusion of Crescent Jade | Mortal Ambition
+      "xmqjwtlslr", -- ingress-of-sanguine-ire | Ingress of Sanguine Ire | Mortal Ambition
+      "5s6umbum9o", -- inner-court-schemer | Inner Court Schemer | Mortal Ambition
+      "yvk9npv5zi", -- inspiring-call | Inspiring Call | Mortal Ambition
+      "c440t27ftr", -- intervention | Intervention | Mortal Ambition
+      "izse32bro8", -- intricate-longbow | Intricate Longbow | Mortal Ambition
+      "5p47j2meum", -- inundating-clash | Inundating Clash | Mortal Ambition
+      "o3dl6x95s4", -- invective-instruction | Invective Instruction | Mortal Ambition
+      "bdcufqax41", -- invigoration | Invigoration | Mortal Ambition
+      "3z8m7n5voz", -- jin-fate-defiant | Jin, Fate Defiant | Mortal Ambition
+      "ufu5h2v9so", -- jin-undying-resolve | Jin, Undying Resolve | Mortal Ambition
+      "3vpi8d4gev", -- jin-zealous-maverick | Jin, Zealous Maverick | Mortal Ambition
+      "gjbhcypm3u", -- jueying-shadowmare | Jueying, Shadowmare | Mortal Ambition
+      "12zznripn4", -- keep-of-the-golden-sashes | Keep of the Golden Sashes | Mortal Ambition
+      "irlofoshl5", -- kind-beastcaller | Kind Beastcaller | Mortal Ambition
+      "rn5tmp74g1", -- kongming-ascetic-vice | Kongming, Ascetic Vice | Mortal Ambition
+      "c9qa31ifmi", -- kongming-fel-eidolon | Kongming, Fel Eidolon | Mortal Ambition
+      "49w2fkz531", -- kongming-wayward-maven | Kongming, Wayward Maven | Mortal Ambition
+      "nyo113do1y", -- landscape-corsair | Landscape Corsair | Mortal Ambition
+      "30j57myje7", -- lavasoul-tiger | Lavasoul Tiger | Mortal Ambition
+      "gee7j5mpl9", -- lead-with-force | Lead with Force | Mortal Ambition
+      "kyfk7mj19r", -- leeching-bolt | Leeching Bolt | Mortal Ambition
+      "txt83d6aa7", -- liu-bei-oathkeeper | Liu Bei, Oathkeeper | Mortal Ambition
+      "1sf4p5wi0q", -- lost-wisdom | Lost Wisdom | Mortal Ambition
+      "o01zv9vkdi", -- lumbering-steed | Lumbering Steed | Mortal Ambition
+      "3rh6cbfjhh", -- mandate-of-honor | Mandate of Honor | Mortal Ambition
+      "pxmo37d1pu", -- mark-of-fervor | Mark of Fervor | Mortal Ambition
+      "p2blsznabj", -- marksman-captain | Marksman Captain | Mortal Ambition
+      "7qjpaipkr7", -- materialize-polearm | Materialize Polearm | Mortal Ambition
+      "0pwq5sfw43", -- mend-flesh | Mend Flesh | Mortal Ambition
+      "n2ijz8ofdb", -- mnemonic-charm | Mnemonic Charm | Mortal Ambition
+      "zrdc3loukm", -- molten-arrow | Molten Arrow | Mortal Ambition
+      "c0do81afgf", -- mystic-purifier | Mystic Purifier | Mortal Ambition
+      "upf8let8w1", -- nanyue-portsman | Nanyue Portsman | Mortal Ambition
+      "r6yo11z8z5", -- nascent-barrier | Nascent Barrier | Mortal Ambition
+      "9dxl0lm43p", -- nascent-blast | Nascent Blast | Mortal Ambition
+      "tzf97fet0q", -- natures-appeal | Nature's Appeal | Mortal Ambition
+      "u5ewxq0sle", -- oath-of-the-sakura | Oath of the Sakura | Mortal Ambition
+      "xaesjpwvyq", -- oppressive-presence | Oppressive Presence | Mortal Ambition
+      "lkan6loimq", -- orb-of-regret | Orb of Regret | Mortal Ambition
+      "7ajdbh9gjr", -- orb-of-sealing | Orb of Sealing | Mortal Ambition
+      "ixfl3w8doj", -- ordinary-horse | Ordinary Horse | Mortal Ambition
+      "xthddildp7", -- paired-minds-kindred-souls | Paired Minds, Kindred Souls | Mortal Ambition
+      "10fwjx5ock", -- palace-guard | Palace Guard | Mortal Ambition
+      "3gn42ik6u9", -- perfect-repulsion | Perfect Repulsion | Mortal Ambition
+      "xt806epkx2", -- phalanx-captain | Phalanx Captain | Mortal Ambition
+      "yucycnpokl", -- planar-abyss | Planar Abyss | Mortal Ambition
+      "fyqd7ksne7", -- planted-explosive | Planted Explosive | Mortal Ambition
+      "3qp8l7jasn", -- poised-rearguard | Poised Rearguard | Mortal Ambition
+      "wl81mzhm70", -- primal-whip | Primal Whip | Mortal Ambition
+      "v5eq2i4tta", -- promising-recruit | Promising Recruit | Mortal Ambition
+      "gydkrget5m", -- proof-of-life | Proof of Life | Mortal Ambition
+      "21prus7pzi", -- protective-fractal | Protective Fractal | Mortal Ambition
+      "64p0zjpgd4", -- pupil-of-sacred-flames | Pupil of Sacred Flames | Mortal Ambition
+      "jd3tcix4e4", -- rainweaver-mage | Rainweaver Mage | Mortal Ambition
+      "t8pqvt94cn", -- razor-broadhead | Razor Broadhead | Mortal Ambition
+      "pn2t15wzta", -- razorgale-calling | Razorgale Calling | Mortal Ambition
+      "iod8bfeh00", -- reckless-slash | Reckless Slash | Mortal Ambition
+      "0hv924ff4z", -- refracting-missile | Refracting Missile | Mortal Ambition
+      "s97qp33nlt", -- regenerate | Regenerate | Mortal Ambition
+      "i6egu9kxde", -- relentless-outburst | Relentless Outburst | Mortal Ambition
+      "pmr2cefzdk", -- relic-of-dancing-embers | Relic of Dancing Embers | Mortal Ambition
+      "oxam9yfox4", -- relic-of-sunken-past | Relic of Sunken Past | Mortal Ambition
+      "7299v2i08s", -- rippleback-terrapin | Rippleback Terrapin | Mortal Ambition
+      "z60awtzv1y", -- rising-tides | Rising Tides | Mortal Ambition
+      "c5s8n8ba13", -- ritai-guard | Ritai Guard | Mortal Ambition
+      "e6nbpc4e6h", -- royal-bear | Royal Bear | Mortal Ambition
+      "ek6qp16epm", -- ruinous-pillars-of-qidao | Ruinous Pillars of Qidao | Mortal Ambition
+      "42vg3hj3d0", -- savage-arrow | Savage Arrow | Mortal Ambition
+      "coaahbojc0", -- savage-attack | Savage Attack | Mortal Ambition
+      "77uw2uesvb", -- scorchfire-assassin | Scorchfire Assassin | Mortal Ambition
+      "005593y9s2", -- scorching-strafe | Scorching Strafe | Mortal Ambition
+      "799nkatizv", -- seafletched-serpent | Seafletched Serpent | Mortal Ambition
+      "glkpo0w8eg", -- seal-the-past | Seal the Past | Mortal Ambition
+      "106q1tyn20", -- seasoned-archer | Seasoned Archer | Mortal Ambition
+      "phjx9gtfrd", -- seize-fate | Seize Fate | Mortal Ambition
+      "r07d4q0cax", -- sempiternal-sage | Sempiternal Sage | Mortal Ambition
+      "2ndw88w5sr", -- set-ablaze | Set Ablaze | Mortal Ambition
+      "f896j7wmkr", -- sheath-of-faceted-lapis | Sheath of Faceted Lapis | Mortal Ambition
+      "hi3pk17781", -- shining-marchador | Shining Marchador | Mortal Ambition
+      "tv3rwg4urt", -- shu-frontliner | Shu Frontliner | Mortal Ambition
+      "vwyc11bnyn", -- sidestep | Sidestep | Mortal Ambition
+      "k1vkj1hh31", -- skilled-plainsman | Skilled Plainsman | Mortal Ambition
+      "8f8t1smqpu", -- slice-and-dice | Slice and Dice | Mortal Ambition
+      "z4jpx3jn65", -- slipstream-vault | Slipstream Vault | Mortal Ambition
+      "cvh60ajzb6", -- solar-pinnacle | Solar Pinnacle | Mortal Ambition
+      "9bimb7g8y4", -- soothing-disillusion | Soothing Disillusion | Mortal Ambition
+      "ss3q657cmi", -- spellshield-tera | Spellshield: Tera | Mortal Ambition
+      "5uhxrxpnnc", -- spirit-of-fire | Spirit of Fire | Mortal Ambition
+      "x6itul8td3", -- spirit-of-water | Spirit of Water | Mortal Ambition
+      "xv5in4t3wc", -- spirit-of-wind | Spirit of Wind | Mortal Ambition
+      "204g58i26z", -- staggering-strike | Staggering Strike | Mortal Ambition
+      "cn7fgmzt94", -- stolid-vanguard | Stolid Vanguard | Mortal Ambition
+      "bh3yn5kqba", -- strategem-of-myriad-ice | Strategem of Myriad Ice | Mortal Ambition
+      "inzhhg8pct", -- sudden-deluge | Sudden Deluge | Mortal Ambition
+      "1ekrcbl6zg", -- sudden-snow | Sudden Snow | Mortal Ambition
+      "or49kb9590", -- sun-quan-sealbearer | Sun Quan, Sealbearer | Mortal Ambition
+      "pc9bula41o", -- swerving-spring | Swerving Spring | Mortal Ambition
+      "jy4kteybg2", -- swift-recruit | Swift Recruit | Mortal Ambition
+      "19tgzwd5nd", -- sword-saint-of-eventide | Sword Saint of Eventide | Mortal Ambition
+      "7p3rtuae7d", -- sword-saint-of-everflame | Sword Saint of Everflame | Mortal Ambition
+      "c761i9ix0c", -- tailwinds-blessing | Tailwind's Blessing | Mortal Ambition
+      "hg6iq0qe1p", -- temper-in-flames | Temper in Flames | Mortal Ambition
+      "elw4r5yyof", -- tempus-stalker | Tempus Stalker | Mortal Ambition
+      "cd4hitsmil", -- tera-sight | Tera Sight | Mortal Ambition
+      "n7jhj65w4e", -- thunderclap | Thunderclap | Mortal Ambition
+      "27ys785y5i", -- tidal-lock | Tidal Lock | Mortal Ambition
+      "dzp7wnmx54", -- tidal-tirade | Tidal Tirade | Mortal Ambition
+      "ouv8ew7k6z", -- tidestone-bovine | Tidestone Bovine | Mortal Ambition
+      "wdqbjc75r5", -- tome-of-sorcery | Tome of Sorcery | Mortal Ambition
+      "sw69xqa4qh", -- torpid-fractal | Torpid Fractal | Mortal Ambition
+      "dbi7zwm6m2", -- trained-sharpshooter | Trained Sharpshooter | Mortal Ambition
+      "m1t5ghxm88", -- tricky-chimps | Tricky Chimps | Mortal Ambition
+      "srkkm872na", -- tsunami-of-nanyue | Tsunami of Nanyue | Mortal Ambition
+      "vo5bxrg4eb", -- unbroken-mustang | Unbroken Mustang | Mortal Ambition
+      "svyzyg7n15", -- unrelenting-warden | Unrelenting Warden | Mortal Ambition
+      "cugntlzotj", -- vengeful-gust | Vengeful Gust | Mortal Ambition
+      "2d2i9y485y", -- veteran-soldier | Veteran Soldier | Mortal Ambition
+      "paqm8uowyt", -- wandering-glaivier | Wandering Glaivier | Mortal Ambition
+      "s8mrpw2ivw", -- war-marshal | War Marshal | Mortal Ambition
+      "py5fm4ev7s", -- water-barrier | Water Barrier | Mortal Ambition
+      "90v2ztgvi1", -- weaken-resistance | Weaken Resistance | Mortal Ambition
+      "2jnah5p3zd", -- weaponsmith | Weaponsmith | Mortal Ambition
+      "jryb2yj6wf", -- wildgrowth-feline | Wildgrowth Feline | Mortal Ambition
+      "jahvrma97h", -- wind-cutter | Wind Cutter | Mortal Ambition
+      "tet9ocqs6b", -- wisdoms-reprise | Wisdom's Reprise | Mortal Ambition
+      "b8wdiomi99", -- wuji-of-lingering-fate | Wuji of Lingering Fate | Mortal Ambition
+      "mdhvw24yc4", -- xia-hou-dun-gloryseeker | Xia Hou Dun, Gloryseeker | Mortal Ambition
+      "dw4hsb2t91", -- xiao-qiao-cinderkeeper | Xiao Qiao, Cinderkeeper | Mortal Ambition
+      "n4chq8roe1", -- yudi-gossamer-jade | Yudi, Gossamer Jade | Mortal Ambition
+      "lvyiakp4j0", -- yunzhou-cavalry | Yunzhou Cavalry | Mortal Ambition
+      "yf9riu5xa6", -- zephyr | Zephyr | Mortal Ambition
+      "so8bmm9xnr", -- zhang-fei-spirited-steel | Zhang Fei, Spirited Steel | Mortal Ambition
+    },
+    ["AMBALT__COMMON"] = {
+      "fcng06fi6r", -- absolving-flames | Absolving Flames | Mortal Ambition
+      "5tzkf48n2l", -- adorned-stag | Adorned Stag | Mortal Ambition
+      "mgw0mewmbo", -- backstep | Backstep | Mortal Ambition
+      "niyguld7c4", -- cavalier-rescue | Cavalier Rescue | Mortal Ambition
+      "nl8zetvwmd", -- creative-shock | Creative Shock | Mortal Ambition
+      "sqe0a841af", -- crescent-glaive | Crescent Glaive | Mortal Ambition
+      "a0ympv5ou3", -- cyclical-breeze | Cyclical Breeze | Mortal Ambition
+      "kiz0kaxute", -- deep-sea-fractal | Deep Sea Fractal | Mortal Ambition
+      "4slz4tbcj0", -- defenders-maul | Defender's Maul | Mortal Ambition
+      "emrxle1pql", -- drifting-rogue | Drifting Rogue | Mortal Ambition
+      "99eo7u3csp", -- emergent-dagger | Emergent Dagger | Mortal Ambition
+      "jfleo75zyb", -- fairy-whispers | Fairy Whispers | Mortal Ambition
+      "gd06sut2vg", -- fan-of-insight | Fan of Insight | Mortal Ambition
+      "nv47o27xgn", -- favorable-winds | Favorable Winds | Mortal Ambition
+      "yisbb41wcx", -- fireball | Fireball | Mortal Ambition
+      "2ymmhfubfl", -- flame-rune-swordsman | Flame-Rune Swordsman | Mortal Ambition
+      "3e5fwim0w8", -- flamewing-fowl | Flamewing Fowl | Mortal Ambition
+      "bhbcs8c2ta", -- fractal-of-insight | Fractal of Insight | Mortal Ambition
+      "us1nos2sih", -- frozen-quill | Frozen Quill | Mortal Ambition
+      "9myigd7zql", -- galewhisper-rogue | Galewhisper Rogue | Mortal Ambition
+      "ps83dvw4z6", -- ghostsight-mare | Ghostsight Mare | Mortal Ambition
+      "qd66adqccn", -- glacial-evocation | Glacial Evocation | Mortal Ambition
+      "6jqb3nufu3", -- honorable-vanguard | Honorable Vanguard | Mortal Ambition
+      "6pj56rn3vq", -- idle-thoughts | Idle Thoughts | Mortal Ambition
+      "pgniladoej", -- imperial-assassin | Imperial Assassin | Mortal Ambition
+      "5s6umbum9o", -- inner-court-schemer | Inner Court Schemer | Mortal Ambition
+      "yvk9npv5zi", -- inspiring-call | Inspiring Call | Mortal Ambition
+      "izse32bro8", -- intricate-longbow | Intricate Longbow | Mortal Ambition
+      "3z8m7n5voz", -- jin-fate-defiant | Jin, Fate Defiant | Mortal Ambition
+      "ufu5h2v9so", -- jin-undying-resolve | Jin, Undying Resolve | Mortal Ambition
+      "3vpi8d4gev", -- jin-zealous-maverick | Jin, Zealous Maverick | Mortal Ambition
+      "rn5tmp74g1", -- kongming-ascetic-vice | Kongming, Ascetic Vice | Mortal Ambition
+      "c9qa31ifmi", -- kongming-fel-eidolon | Kongming, Fel Eidolon | Mortal Ambition
+      "49w2fkz531", -- kongming-wayward-maven | Kongming, Wayward Maven | Mortal Ambition
+      "gee7j5mpl9", -- lead-with-force | Lead with Force | Mortal Ambition
+      "n2ijz8ofdb", -- mnemonic-charm | Mnemonic Charm | Mortal Ambition
+      "upf8let8w1", -- nanyue-portsman | Nanyue Portsman | Mortal Ambition
+      "9dxl0lm43p", -- nascent-blast | Nascent Blast | Mortal Ambition
+      "ixfl3w8doj", -- ordinary-horse | Ordinary Horse | Mortal Ambition
+      "10fwjx5ock", -- palace-guard | Palace Guard | Mortal Ambition
+      "fyqd7ksne7", -- planted-explosive | Planted Explosive | Mortal Ambition
+      "wl81mzhm70", -- primal-whip | Primal Whip | Mortal Ambition
+      "pn2t15wzta", -- razorgale-calling | Razorgale Calling | Mortal Ambition
+      "iod8bfeh00", -- reckless-slash | Reckless Slash | Mortal Ambition
+      "0hv924ff4z", -- refracting-missile | Refracting Missile | Mortal Ambition
+      "s97qp33nlt", -- regenerate | Regenerate | Mortal Ambition
+      "z60awtzv1y", -- rising-tides | Rising Tides | Mortal Ambition
+      "e6nbpc4e6h", -- royal-bear | Royal Bear | Mortal Ambition
+      "42vg3hj3d0", -- savage-arrow | Savage Arrow | Mortal Ambition
+      "coaahbojc0", -- savage-attack | Savage Attack | Mortal Ambition
+      "005593y9s2", -- scorching-strafe | Scorching Strafe | Mortal Ambition
+      "106q1tyn20", -- seasoned-archer | Seasoned Archer | Mortal Ambition
+      "hi3pk17781", -- shining-marchador | Shining Marchador | Mortal Ambition
+      "tv3rwg4urt", -- shu-frontliner | Shu Frontliner | Mortal Ambition
+      "5uhxrxpnnc", -- spirit-of-fire | Spirit of Fire | Mortal Ambition
+      "x6itul8td3", -- spirit-of-water | Spirit of Water | Mortal Ambition
+      "xv5in4t3wc", -- spirit-of-wind | Spirit of Wind | Mortal Ambition
+      "cn7fgmzt94", -- stolid-vanguard | Stolid Vanguard | Mortal Ambition
+      "1ekrcbl6zg", -- sudden-snow | Sudden Snow | Mortal Ambition
+      "pc9bula41o", -- swerving-spring | Swerving Spring | Mortal Ambition
+      "jy4kteybg2", -- swift-recruit | Swift Recruit | Mortal Ambition
+      "hg6iq0qe1p", -- temper-in-flames | Temper in Flames | Mortal Ambition
+      "n7jhj65w4e", -- thunderclap | Thunderclap | Mortal Ambition
+      "ouv8ew7k6z", -- tidestone-bovine | Tidestone Bovine | Mortal Ambition
+      "wdqbjc75r5", -- tome-of-sorcery | Tome of Sorcery | Mortal Ambition
+      "sw69xqa4qh", -- torpid-fractal | Torpid Fractal | Mortal Ambition
+      "dbi7zwm6m2", -- trained-sharpshooter | Trained Sharpshooter | Mortal Ambition
+      "vo5bxrg4eb", -- unbroken-mustang | Unbroken Mustang | Mortal Ambition
+      "svyzyg7n15", -- unrelenting-warden | Unrelenting Warden | Mortal Ambition
+      "2d2i9y485y", -- veteran-soldier | Veteran Soldier | Mortal Ambition
+      "paqm8uowyt", -- wandering-glaivier | Wandering Glaivier | Mortal Ambition
+      "py5fm4ev7s", -- water-barrier | Water Barrier | Mortal Ambition
+      "2jnah5p3zd", -- weaponsmith | Weaponsmith | Mortal Ambition
+      "jryb2yj6wf", -- wildgrowth-feline | Wildgrowth Feline | Mortal Ambition
+      "tet9ocqs6b", -- wisdoms-reprise | Wisdom's Reprise | Mortal Ambition
+    },
+    ["AMBALT__UNCOMMON"] = {
+      "lp91uw83ze", -- apprentice-aeromancer | Apprentice Aeromancer | Mortal Ambition
+      "rx9d2t9kus", -- aqueous-stallion | Aqueous Stallion | Mortal Ambition
+      "coap10wgnd", -- arrow-trap | Arrow Trap | Mortal Ambition
+      "slzybrcuh8", -- ash-filcher | Ash Filcher | Mortal Ambition
+      "mtk7emqbjx", -- bloodbond-bladesworn | Bloodbond Bladesworn | Mortal Ambition
+      "rolvyxk3ih", -- brash-defender | Brash Defender | Mortal Ambition
+      "lky1psl4ii", -- brisk-windtrotter | Brisk Windtrotter | Mortal Ambition
+      "h4zzb4evm9", -- burst-asunder | Burst Asunder | Mortal Ambition
+      "i8oilv5lih", -- clean-cut | Clean Cut | Mortal Ambition
+      "ttfsotc620", -- clumsy-apprentice | Clumsy Apprentice | Mortal Ambition
+      "67gh2h9yxb", -- cone-of-frost | Cone of Frost | Mortal Ambition
+      "0vpkns1fb3", -- determined-spearman | Determined Spearman | Mortal Ambition
+      "1cd633mn8a", -- disorienting-winds | Disorienting Winds | Mortal Ambition
+      "z1xbip69si", -- exia-sight | Exia Sight | Mortal Ambition
+      "89l5x78uz6", -- extraction-incision | Extraction Incision | Mortal Ambition
+      "knjhpl8ld5", -- fiery-swing | Fiery Swing | Mortal Ambition
+      "kud1wxl2yv", -- flashfire-horse | Flashfire Horse | Mortal Ambition
+      "ky7rcauz5l", -- fractal-of-mana | Fractal of Mana | Mortal Ambition
+      "3i2xl70228", -- fractal-of-sparks | Fractal of Sparks | Mortal Ambition
+      "zs0l6bozti", -- hasty-messenger | Hasty Messenger | Mortal Ambition
+      "jc1js3sl6p", -- hemorrhaging-rend | Hemorrhaging Rend | Mortal Ambition
+      "rtc4xft6kr", -- hoarfrost-spine | Hoarfrost Spine | Mortal Ambition
+      "z1p85r3z6p", -- hydroguard-retainer | Hydroguard Retainer | Mortal Ambition
+      "qx0hb93o7e", -- ignite-fate | Ignite Fate | Mortal Ambition
+      "o3dl6x95s4", -- invective-instruction | Invective Instruction | Mortal Ambition
+      "30j57myje7", -- lavasoul-tiger | Lavasoul Tiger | Mortal Ambition
+      "kyfk7mj19r", -- leeching-bolt | Leeching Bolt | Mortal Ambition
+      "o01zv9vkdi", -- lumbering-steed | Lumbering Steed | Mortal Ambition
+      "pxmo37d1pu", -- mark-of-fervor | Mark of Fervor | Mortal Ambition
+      "p2blsznabj", -- marksman-captain | Marksman Captain | Mortal Ambition
+      "7qjpaipkr7", -- materialize-polearm | Materialize Polearm | Mortal Ambition
+      "zrdc3loukm", -- molten-arrow | Molten Arrow | Mortal Ambition
+      "c0do81afgf", -- mystic-purifier | Mystic Purifier | Mortal Ambition
+      "r6yo11z8z5", -- nascent-barrier | Nascent Barrier | Mortal Ambition
+      "3gn42ik6u9", -- perfect-repulsion | Perfect Repulsion | Mortal Ambition
+      "xt806epkx2", -- phalanx-captain | Phalanx Captain | Mortal Ambition
+      "3qp8l7jasn", -- poised-rearguard | Poised Rearguard | Mortal Ambition
+      "21prus7pzi", -- protective-fractal | Protective Fractal | Mortal Ambition
+      "t8pqvt94cn", -- razor-broadhead | Razor Broadhead | Mortal Ambition
+      "7299v2i08s", -- rippleback-terrapin | Rippleback Terrapin | Mortal Ambition
+      "c5s8n8ba13", -- ritai-guard | Ritai Guard | Mortal Ambition
+      "77uw2uesvb", -- scorchfire-assassin | Scorchfire Assassin | Mortal Ambition
+      "799nkatizv", -- seafletched-serpent | Seafletched Serpent | Mortal Ambition
+      "vwyc11bnyn", -- sidestep | Sidestep | Mortal Ambition
+      "k1vkj1hh31", -- skilled-plainsman | Skilled Plainsman | Mortal Ambition
+      "8f8t1smqpu", -- slice-and-dice | Slice and Dice | Mortal Ambition
+      "inzhhg8pct", -- sudden-deluge | Sudden Deluge | Mortal Ambition
+      "elw4r5yyof", -- tempus-stalker | Tempus Stalker | Mortal Ambition
+      "cd4hitsmil", -- tera-sight | Tera Sight | Mortal Ambition
+      "27ys785y5i", -- tidal-lock | Tidal Lock | Mortal Ambition
+      "dzp7wnmx54", -- tidal-tirade | Tidal Tirade | Mortal Ambition
+      "m1t5ghxm88", -- tricky-chimps | Tricky Chimps | Mortal Ambition
+      "srkkm872na", -- tsunami-of-nanyue | Tsunami of Nanyue | Mortal Ambition
+      "cugntlzotj", -- vengeful-gust | Vengeful Gust | Mortal Ambition
+      "s8mrpw2ivw", -- war-marshal | War Marshal | Mortal Ambition
+      "90v2ztgvi1", -- weaken-resistance | Weaken Resistance | Mortal Ambition
+      "jahvrma97h", -- wind-cutter | Wind Cutter | Mortal Ambition
+      "lvyiakp4j0", -- yunzhou-cavalry | Yunzhou Cavalry | Mortal Ambition
+      "yf9riu5xa6", -- zephyr | Zephyr | Mortal Ambition
+    },
+    ["AMBALT__RARE"] = {
+      "1a4oh9wdnr", -- acolyte-of-cultivation | Acolyte of Cultivation | Mortal Ambition
+      "gfbvwkmmlv", -- adept-swordmaster | Adept Swordmaster | Mortal Ambition
+      "wjmb6fbit2", -- bagua-of-cardinal-fate | Bagua of Cardinal Fate | Mortal Ambition
+      "6h78rl4sdx", -- bathe-in-light | Bathe in Light | Mortal Ambition
+      "u3lhsrk29f", -- beseeching-flourish | Beseeching Flourish | Mortal Ambition
+      "rj87jd0g7l", -- blazing-lunge | Blazing Lunge | Mortal Ambition
+      "rftquefvws", -- bring-down-the-mighty | Bring Down the Mighty | Mortal Ambition
+      "52cub4oo7t", -- combat-training | Combat Training | Mortal Ambition
+      "z110mf0wuo", -- conduit-of-bloodfire | Conduit of Bloodfire | Mortal Ambition
+      "qfnv68ul91", -- crimson-prescience | Crimson Prescience | Mortal Ambition
+      "5vqnkl31cm", -- cure-the-flesh | Cure the Flesh | Mortal Ambition
+      "yo72l2r8g0", -- dungeon-guide | Dungeon Guide | Mortal Ambition
+      "v7pw48lz90", -- fang-of-dragons-breath | Fang of Dragon's Breath | Mortal Ambition
+      "zfazy5f9gh", -- feed-nourishment | Feed Nourishment | Mortal Ambition
+      "qzh8cj2ooz", -- fervent-lancer | Fervent Lancer | Mortal Ambition
+      "rzq7t0mgou", -- fraternal-garrison | Fraternal Garrison | Mortal Ambition
+      "q5z6utn5tk", -- gem-of-searing-flame | Gem of Searing Flame | Mortal Ambition
+      "c29umop66f", -- ghostsight-glass | Ghostsight Glass | Mortal Ambition
+      "dnf6cfdbp9", -- glow-forth | Glow Forth | Mortal Ambition
+      "l7oifnlnu2", -- halocline-scout | Halocline Scout | Mortal Ambition
+      "1x041sk6lk", -- heated-vengeance | Heated Vengeance | Mortal Ambition
+      "5min726zpx", -- hire-mercenaries | Hire Mercenaries | Mortal Ambition
+      "4g764wnl6g", -- indiscriminate-gyre | Indiscriminate Gyre | Mortal Ambition
+      "1vh6vktkde", -- indolent-leisure | Indolent Leisure | Mortal Ambition
+      "nh46htn192", -- infusion-of-crescent-jade | Infusion of Crescent Jade | Mortal Ambition
+      "xmqjwtlslr", -- ingress-of-sanguine-ire | Ingress of Sanguine Ire | Mortal Ambition
+      "c440t27ftr", -- intervention | Intervention | Mortal Ambition
+      "5p47j2meum", -- inundating-clash | Inundating Clash | Mortal Ambition
+      "bdcufqax41", -- invigoration | Invigoration | Mortal Ambition
+      "irlofoshl5", -- kind-beastcaller | Kind Beastcaller | Mortal Ambition
+      "nyo113do1y", -- landscape-corsair | Landscape Corsair | Mortal Ambition
+      "1sf4p5wi0q", -- lost-wisdom | Lost Wisdom | Mortal Ambition
+      "0pwq5sfw43", -- mend-flesh | Mend Flesh | Mortal Ambition
+      "tzf97fet0q", -- natures-appeal | Nature's Appeal | Mortal Ambition
+      "u5ewxq0sle", -- oath-of-the-sakura | Oath of the Sakura | Mortal Ambition
+      "xaesjpwvyq", -- oppressive-presence | Oppressive Presence | Mortal Ambition
+      "lkan6loimq", -- orb-of-regret | Orb of Regret | Mortal Ambition
+      "v5eq2i4tta", -- promising-recruit | Promising Recruit | Mortal Ambition
+      "gydkrget5m", -- proof-of-life | Proof of Life | Mortal Ambition
+      "jd3tcix4e4", -- rainweaver-mage | Rainweaver Mage | Mortal Ambition
+      "pmr2cefzdk", -- relic-of-dancing-embers | Relic of Dancing Embers | Mortal Ambition
+      "oxam9yfox4", -- relic-of-sunken-past | Relic of Sunken Past | Mortal Ambition
+      "ek6qp16epm", -- ruinous-pillars-of-qidao | Ruinous Pillars of Qidao | Mortal Ambition
+      "glkpo0w8eg", -- seal-the-past | Seal the Past | Mortal Ambition
+      "r07d4q0cax", -- sempiternal-sage | Sempiternal Sage | Mortal Ambition
+      "2ndw88w5sr", -- set-ablaze | Set Ablaze | Mortal Ambition
+      "f896j7wmkr", -- sheath-of-faceted-lapis | Sheath of Faceted Lapis | Mortal Ambition
+      "z4jpx3jn65", -- slipstream-vault | Slipstream Vault | Mortal Ambition
+      "cvh60ajzb6", -- solar-pinnacle | Solar Pinnacle | Mortal Ambition
+      "9bimb7g8y4", -- soothing-disillusion | Soothing Disillusion | Mortal Ambition
+      "ss3q657cmi", -- spellshield-tera | Spellshield: Tera | Mortal Ambition
+      "204g58i26z", -- staggering-strike | Staggering Strike | Mortal Ambition
+      "19tgzwd5nd", -- sword-saint-of-eventide | Sword Saint of Eventide | Mortal Ambition
+      "c761i9ix0c", -- tailwinds-blessing | Tailwind's Blessing | Mortal Ambition
+      "b8wdiomi99", -- wuji-of-lingering-fate | Wuji of Lingering Fate | Mortal Ambition
+    },
+    ["AMBALT__SUPER_RARE"] = {
+      "uotvvmhgik", -- axis-gale-scholar | Axis Gale Scholar | Mortal Ambition
+      "mas3b5ax8r", -- cao-cao-aspirant-of-chaos | Cao Cao, Aspirant of Chaos | Mortal Ambition
+      "lvyenlfg9s", -- channel-manifold-desire | Channel Manifold Desire | Mortal Ambition
+      "xdddx44933", -- cloudstone-orb | Cloudstone Orb | Mortal Ambition
+      "2rprcugv73", -- conduit-of-seasons | Conduit of Seasons | Mortal Ambition
+      "qwsuo0214d", -- desperate-cavalier | Desperate Cavalier | Mortal Ambition
+      "l5y3ra5hhv", -- dilu-auspicious-charger | Dilu, Auspicious Charger | Mortal Ambition
+      "l2oty6z16w", -- eventide-spear | Eventide Spear | Mortal Ambition
+      "6yik8iibla", -- everflame-staff | Everflame Staff | Mortal Ambition
+      "yyui32uwyz", -- fractal-of-polar-depths | Fractal of Polar Depths | Mortal Ambition
+      "yv6jktvm8h", -- guan-yu-prime-exemplar | Guan Yu, Prime Exemplar | Mortal Ambition
+      "pmzpuk8uwz", -- guandu-theater-of-war | Guandu, Theater of War | Mortal Ambition
+      "5mt21wcg7r", -- heavenly-guide | Heavenly Guide | Mortal Ambition
+      "5215kvs6uj", -- hulao-gate-suns-ascent | Hulao Gate, Sun's Ascent | Mortal Ambition
+      "cp1si0sx31", -- illuminating-charge | Illuminating Charge | Mortal Ambition
+      "gjbhcypm3u", -- jueying-shadowmare | Jueying, Shadowmare | Mortal Ambition
+      "12zznripn4", -- keep-of-the-golden-sashes | Keep of the Golden Sashes | Mortal Ambition
+      "txt83d6aa7", -- liu-bei-oathkeeper | Liu Bei, Oathkeeper | Mortal Ambition
+      "3rh6cbfjhh", -- mandate-of-honor | Mandate of Honor | Mortal Ambition
+      "7ajdbh9gjr", -- orb-of-sealing | Orb of Sealing | Mortal Ambition
+      "xthddildp7", -- paired-minds-kindred-souls | Paired Minds, Kindred Souls | Mortal Ambition
+      "yucycnpokl", -- planar-abyss | Planar Abyss | Mortal Ambition
+      "64p0zjpgd4", -- pupil-of-sacred-flames | Pupil of Sacred Flames | Mortal Ambition
+      "i6egu9kxde", -- relentless-outburst | Relentless Outburst | Mortal Ambition
+      "phjx9gtfrd", -- seize-fate | Seize Fate | Mortal Ambition
+      "bh3yn5kqba", -- strategem-of-myriad-ice | Strategem of Myriad Ice | Mortal Ambition
+      "or49kb9590", -- sun-quan-sealbearer | Sun Quan, Sealbearer | Mortal Ambition
+      "7p3rtuae7d", -- sword-saint-of-everflame | Sword Saint of Everflame | Mortal Ambition
+      "mdhvw24yc4", -- xia-hou-dun-gloryseeker | Xia Hou Dun, Gloryseeker | Mortal Ambition
+      "dw4hsb2t91", -- xiao-qiao-cinderkeeper | Xiao Qiao, Cinderkeeper | Mortal Ambition
+      "n4chq8roe1", -- yudi-gossamer-jade | Yudi, Gossamer Jade | Mortal Ambition
+      "so8bmm9xnr", -- zhang-fei-spirited-steel | Zhang Fei, Spirited Steel | Mortal Ambition
+    },
+    ["AMBALT__ULTRA_RARE"] = {
+    },
+    ["AMBALT__CSR"] = {
+      "92YCAKlPGm", -- bairui-resplendent-barrier | Bairui, Resplendent Barrier | Mortal Ambition Alter Edition
+      "wpDwuZID1a", -- everflame-staff | Everflame Staff | Mortal Ambition Alter Edition
+      "afQHuvrZuO", -- hua-xiong-insurgents-fang | Hua Xiong, Insurgent’s Fang | Mortal Ambition Alter Edition
+      "UMjiEEvTq0", -- huang-zhong-unerring-aim | Huang Zhong, Unerring Aim | Mortal Ambition Alter Edition
+    },
+    ["AMBALT__CUR"] = {
+    },
+    ["AMBALT__TOKEN"] = {
+    },
+    ["AMBALT__TOKEN_OR_COMMON_CHAMPION"] = {
+      "3z8m7n5voz", -- jin-fate-defiant | Jin, Fate Defiant | Mortal Ambition
+      "ufu5h2v9so", -- jin-undying-resolve | Jin, Undying Resolve | Mortal Ambition
+      "3vpi8d4gev", -- jin-zealous-maverick | Jin, Zealous Maverick | Mortal Ambition
+      "rn5tmp74g1", -- kongming-ascetic-vice | Kongming, Ascetic Vice | Mortal Ambition
+      "c9qa31ifmi", -- kongming-fel-eidolon | Kongming, Fel Eidolon | Mortal Ambition
+      "49w2fkz531", -- kongming-wayward-maven | Kongming, Wayward Maven | Mortal Ambition
+      "5uhxrxpnnc", -- spirit-of-fire | Spirit of Fire | Mortal Ambition
+      "x6itul8td3", -- spirit-of-water | Spirit of Water | Mortal Ambition
+      "xv5in4t3wc", -- spirit-of-wind | Spirit of Wind | Mortal Ambition
+    },
+    ["AMBALT__FOIL_ANY"] = {
+      "fcng06fi6r", -- absolving-flames | Absolving Flames | Mortal Ambition
+      "1a4oh9wdnr", -- acolyte-of-cultivation | Acolyte of Cultivation | Mortal Ambition
+      "gfbvwkmmlv", -- adept-swordmaster | Adept Swordmaster | Mortal Ambition
+      "5tzkf48n2l", -- adorned-stag | Adorned Stag | Mortal Ambition
+      "lp91uw83ze", -- apprentice-aeromancer | Apprentice Aeromancer | Mortal Ambition
+      "rx9d2t9kus", -- aqueous-stallion | Aqueous Stallion | Mortal Ambition
+      "coap10wgnd", -- arrow-trap | Arrow Trap | Mortal Ambition
+      "slzybrcuh8", -- ash-filcher | Ash Filcher | Mortal Ambition
+      "uotvvmhgik", -- axis-gale-scholar | Axis Gale Scholar | Mortal Ambition
+      "mgw0mewmbo", -- backstep | Backstep | Mortal Ambition
+      "wjmb6fbit2", -- bagua-of-cardinal-fate | Bagua of Cardinal Fate | Mortal Ambition
+      "6h78rl4sdx", -- bathe-in-light | Bathe in Light | Mortal Ambition
+      "u3lhsrk29f", -- beseeching-flourish | Beseeching Flourish | Mortal Ambition
+      "rj87jd0g7l", -- blazing-lunge | Blazing Lunge | Mortal Ambition
+      "mtk7emqbjx", -- bloodbond-bladesworn | Bloodbond Bladesworn | Mortal Ambition
+      "rolvyxk3ih", -- brash-defender | Brash Defender | Mortal Ambition
+      "rftquefvws", -- bring-down-the-mighty | Bring Down the Mighty | Mortal Ambition
+      "lky1psl4ii", -- brisk-windtrotter | Brisk Windtrotter | Mortal Ambition
+      "h4zzb4evm9", -- burst-asunder | Burst Asunder | Mortal Ambition
+      "mas3b5ax8r", -- cao-cao-aspirant-of-chaos | Cao Cao, Aspirant of Chaos | Mortal Ambition
+      "niyguld7c4", -- cavalier-rescue | Cavalier Rescue | Mortal Ambition
+      "lvyenlfg9s", -- channel-manifold-desire | Channel Manifold Desire | Mortal Ambition
+      "i8oilv5lih", -- clean-cut | Clean Cut | Mortal Ambition
+      "xdddx44933", -- cloudstone-orb | Cloudstone Orb | Mortal Ambition
+      "ttfsotc620", -- clumsy-apprentice | Clumsy Apprentice | Mortal Ambition
+      "52cub4oo7t", -- combat-training | Combat Training | Mortal Ambition
+      "z110mf0wuo", -- conduit-of-bloodfire | Conduit of Bloodfire | Mortal Ambition
+      "2rprcugv73", -- conduit-of-seasons | Conduit of Seasons | Mortal Ambition
+      "67gh2h9yxb", -- cone-of-frost | Cone of Frost | Mortal Ambition
+      "nl8zetvwmd", -- creative-shock | Creative Shock | Mortal Ambition
+      "sqe0a841af", -- crescent-glaive | Crescent Glaive | Mortal Ambition
+      "qfnv68ul91", -- crimson-prescience | Crimson Prescience | Mortal Ambition
+      "5vqnkl31cm", -- cure-the-flesh | Cure the Flesh | Mortal Ambition
+      "a0ympv5ou3", -- cyclical-breeze | Cyclical Breeze | Mortal Ambition
+      "kiz0kaxute", -- deep-sea-fractal | Deep Sea Fractal | Mortal Ambition
+      "4slz4tbcj0", -- defenders-maul | Defender's Maul | Mortal Ambition
+      "qwsuo0214d", -- desperate-cavalier | Desperate Cavalier | Mortal Ambition
+      "0vpkns1fb3", -- determined-spearman | Determined Spearman | Mortal Ambition
+      "l5y3ra5hhv", -- dilu-auspicious-charger | Dilu, Auspicious Charger | Mortal Ambition
+      "1cd633mn8a", -- disorienting-winds | Disorienting Winds | Mortal Ambition
+      "emrxle1pql", -- drifting-rogue | Drifting Rogue | Mortal Ambition
+      "yo72l2r8g0", -- dungeon-guide | Dungeon Guide | Mortal Ambition
+      "99eo7u3csp", -- emergent-dagger | Emergent Dagger | Mortal Ambition
+      "l2oty6z16w", -- eventide-spear | Eventide Spear | Mortal Ambition
+      "6yik8iibla", -- everflame-staff | Everflame Staff | Mortal Ambition
+      "z1xbip69si", -- exia-sight | Exia Sight | Mortal Ambition
+      "89l5x78uz6", -- extraction-incision | Extraction Incision | Mortal Ambition
+      "jfleo75zyb", -- fairy-whispers | Fairy Whispers | Mortal Ambition
+      "gd06sut2vg", -- fan-of-insight | Fan of Insight | Mortal Ambition
+      "v7pw48lz90", -- fang-of-dragons-breath | Fang of Dragon's Breath | Mortal Ambition
+      "nv47o27xgn", -- favorable-winds | Favorable Winds | Mortal Ambition
+      "zfazy5f9gh", -- feed-nourishment | Feed Nourishment | Mortal Ambition
+      "qzh8cj2ooz", -- fervent-lancer | Fervent Lancer | Mortal Ambition
+      "knjhpl8ld5", -- fiery-swing | Fiery Swing | Mortal Ambition
+      "yisbb41wcx", -- fireball | Fireball | Mortal Ambition
+      "2ymmhfubfl", -- flame-rune-swordsman | Flame-Rune Swordsman | Mortal Ambition
+      "3e5fwim0w8", -- flamewing-fowl | Flamewing Fowl | Mortal Ambition
+      "kud1wxl2yv", -- flashfire-horse | Flashfire Horse | Mortal Ambition
+      "bhbcs8c2ta", -- fractal-of-insight | Fractal of Insight | Mortal Ambition
+      "ky7rcauz5l", -- fractal-of-mana | Fractal of Mana | Mortal Ambition
+      "yyui32uwyz", -- fractal-of-polar-depths | Fractal of Polar Depths | Mortal Ambition
+      "3i2xl70228", -- fractal-of-sparks | Fractal of Sparks | Mortal Ambition
+      "rzq7t0mgou", -- fraternal-garrison | Fraternal Garrison | Mortal Ambition
+      "us1nos2sih", -- frozen-quill | Frozen Quill | Mortal Ambition
+      "9myigd7zql", -- galewhisper-rogue | Galewhisper Rogue | Mortal Ambition
+      "q5z6utn5tk", -- gem-of-searing-flame | Gem of Searing Flame | Mortal Ambition
+      "c29umop66f", -- ghostsight-glass | Ghostsight Glass | Mortal Ambition
+      "ps83dvw4z6", -- ghostsight-mare | Ghostsight Mare | Mortal Ambition
+      "qd66adqccn", -- glacial-evocation | Glacial Evocation | Mortal Ambition
+      "dnf6cfdbp9", -- glow-forth | Glow Forth | Mortal Ambition
+      "yv6jktvm8h", -- guan-yu-prime-exemplar | Guan Yu, Prime Exemplar | Mortal Ambition
+      "pmzpuk8uwz", -- guandu-theater-of-war | Guandu, Theater of War | Mortal Ambition
+      "l7oifnlnu2", -- halocline-scout | Halocline Scout | Mortal Ambition
+      "zs0l6bozti", -- hasty-messenger | Hasty Messenger | Mortal Ambition
+      "1x041sk6lk", -- heated-vengeance | Heated Vengeance | Mortal Ambition
+      "5mt21wcg7r", -- heavenly-guide | Heavenly Guide | Mortal Ambition
+      "jc1js3sl6p", -- hemorrhaging-rend | Hemorrhaging Rend | Mortal Ambition
+      "5min726zpx", -- hire-mercenaries | Hire Mercenaries | Mortal Ambition
+      "rtc4xft6kr", -- hoarfrost-spine | Hoarfrost Spine | Mortal Ambition
+      "6jqb3nufu3", -- honorable-vanguard | Honorable Vanguard | Mortal Ambition
+      "5215kvs6uj", -- hulao-gate-suns-ascent | Hulao Gate, Sun's Ascent | Mortal Ambition
+      "z1p85r3z6p", -- hydroguard-retainer | Hydroguard Retainer | Mortal Ambition
+      "6pj56rn3vq", -- idle-thoughts | Idle Thoughts | Mortal Ambition
+      "qx0hb93o7e", -- ignite-fate | Ignite Fate | Mortal Ambition
+      "cp1si0sx31", -- illuminating-charge | Illuminating Charge | Mortal Ambition
+      "pgniladoej", -- imperial-assassin | Imperial Assassin | Mortal Ambition
+      "4g764wnl6g", -- indiscriminate-gyre | Indiscriminate Gyre | Mortal Ambition
+      "1vh6vktkde", -- indolent-leisure | Indolent Leisure | Mortal Ambition
+      "nh46htn192", -- infusion-of-crescent-jade | Infusion of Crescent Jade | Mortal Ambition
+      "xmqjwtlslr", -- ingress-of-sanguine-ire | Ingress of Sanguine Ire | Mortal Ambition
+      "5s6umbum9o", -- inner-court-schemer | Inner Court Schemer | Mortal Ambition
+      "yvk9npv5zi", -- inspiring-call | Inspiring Call | Mortal Ambition
+      "c440t27ftr", -- intervention | Intervention | Mortal Ambition
+      "izse32bro8", -- intricate-longbow | Intricate Longbow | Mortal Ambition
+      "5p47j2meum", -- inundating-clash | Inundating Clash | Mortal Ambition
+      "o3dl6x95s4", -- invective-instruction | Invective Instruction | Mortal Ambition
+      "bdcufqax41", -- invigoration | Invigoration | Mortal Ambition
+      "3z8m7n5voz", -- jin-fate-defiant | Jin, Fate Defiant | Mortal Ambition
+      "ufu5h2v9so", -- jin-undying-resolve | Jin, Undying Resolve | Mortal Ambition
+      "3vpi8d4gev", -- jin-zealous-maverick | Jin, Zealous Maverick | Mortal Ambition
+      "gjbhcypm3u", -- jueying-shadowmare | Jueying, Shadowmare | Mortal Ambition
+      "12zznripn4", -- keep-of-the-golden-sashes | Keep of the Golden Sashes | Mortal Ambition
+      "irlofoshl5", -- kind-beastcaller | Kind Beastcaller | Mortal Ambition
+      "rn5tmp74g1", -- kongming-ascetic-vice | Kongming, Ascetic Vice | Mortal Ambition
+      "c9qa31ifmi", -- kongming-fel-eidolon | Kongming, Fel Eidolon | Mortal Ambition
+      "49w2fkz531", -- kongming-wayward-maven | Kongming, Wayward Maven | Mortal Ambition
+      "nyo113do1y", -- landscape-corsair | Landscape Corsair | Mortal Ambition
+      "30j57myje7", -- lavasoul-tiger | Lavasoul Tiger | Mortal Ambition
+      "gee7j5mpl9", -- lead-with-force | Lead with Force | Mortal Ambition
+      "kyfk7mj19r", -- leeching-bolt | Leeching Bolt | Mortal Ambition
+      "txt83d6aa7", -- liu-bei-oathkeeper | Liu Bei, Oathkeeper | Mortal Ambition
+      "1sf4p5wi0q", -- lost-wisdom | Lost Wisdom | Mortal Ambition
+      "o01zv9vkdi", -- lumbering-steed | Lumbering Steed | Mortal Ambition
+      "3rh6cbfjhh", -- mandate-of-honor | Mandate of Honor | Mortal Ambition
+      "pxmo37d1pu", -- mark-of-fervor | Mark of Fervor | Mortal Ambition
+      "p2blsznabj", -- marksman-captain | Marksman Captain | Mortal Ambition
+      "7qjpaipkr7", -- materialize-polearm | Materialize Polearm | Mortal Ambition
+      "0pwq5sfw43", -- mend-flesh | Mend Flesh | Mortal Ambition
+      "n2ijz8ofdb", -- mnemonic-charm | Mnemonic Charm | Mortal Ambition
+      "zrdc3loukm", -- molten-arrow | Molten Arrow | Mortal Ambition
+      "c0do81afgf", -- mystic-purifier | Mystic Purifier | Mortal Ambition
+      "upf8let8w1", -- nanyue-portsman | Nanyue Portsman | Mortal Ambition
+      "r6yo11z8z5", -- nascent-barrier | Nascent Barrier | Mortal Ambition
+      "9dxl0lm43p", -- nascent-blast | Nascent Blast | Mortal Ambition
+      "tzf97fet0q", -- natures-appeal | Nature's Appeal | Mortal Ambition
+      "u5ewxq0sle", -- oath-of-the-sakura | Oath of the Sakura | Mortal Ambition
+      "xaesjpwvyq", -- oppressive-presence | Oppressive Presence | Mortal Ambition
+      "lkan6loimq", -- orb-of-regret | Orb of Regret | Mortal Ambition
+      "7ajdbh9gjr", -- orb-of-sealing | Orb of Sealing | Mortal Ambition
+      "ixfl3w8doj", -- ordinary-horse | Ordinary Horse | Mortal Ambition
+      "xthddildp7", -- paired-minds-kindred-souls | Paired Minds, Kindred Souls | Mortal Ambition
+      "10fwjx5ock", -- palace-guard | Palace Guard | Mortal Ambition
+      "3gn42ik6u9", -- perfect-repulsion | Perfect Repulsion | Mortal Ambition
+      "xt806epkx2", -- phalanx-captain | Phalanx Captain | Mortal Ambition
+      "yucycnpokl", -- planar-abyss | Planar Abyss | Mortal Ambition
+      "fyqd7ksne7", -- planted-explosive | Planted Explosive | Mortal Ambition
+      "3qp8l7jasn", -- poised-rearguard | Poised Rearguard | Mortal Ambition
+      "wl81mzhm70", -- primal-whip | Primal Whip | Mortal Ambition
+      "v5eq2i4tta", -- promising-recruit | Promising Recruit | Mortal Ambition
+      "gydkrget5m", -- proof-of-life | Proof of Life | Mortal Ambition
+      "21prus7pzi", -- protective-fractal | Protective Fractal | Mortal Ambition
+      "64p0zjpgd4", -- pupil-of-sacred-flames | Pupil of Sacred Flames | Mortal Ambition
+      "jd3tcix4e4", -- rainweaver-mage | Rainweaver Mage | Mortal Ambition
+      "t8pqvt94cn", -- razor-broadhead | Razor Broadhead | Mortal Ambition
+      "pn2t15wzta", -- razorgale-calling | Razorgale Calling | Mortal Ambition
+      "iod8bfeh00", -- reckless-slash | Reckless Slash | Mortal Ambition
+      "0hv924ff4z", -- refracting-missile | Refracting Missile | Mortal Ambition
+      "s97qp33nlt", -- regenerate | Regenerate | Mortal Ambition
+      "i6egu9kxde", -- relentless-outburst | Relentless Outburst | Mortal Ambition
+      "pmr2cefzdk", -- relic-of-dancing-embers | Relic of Dancing Embers | Mortal Ambition
+      "oxam9yfox4", -- relic-of-sunken-past | Relic of Sunken Past | Mortal Ambition
+      "7299v2i08s", -- rippleback-terrapin | Rippleback Terrapin | Mortal Ambition
+      "z60awtzv1y", -- rising-tides | Rising Tides | Mortal Ambition
+      "c5s8n8ba13", -- ritai-guard | Ritai Guard | Mortal Ambition
+      "e6nbpc4e6h", -- royal-bear | Royal Bear | Mortal Ambition
+      "ek6qp16epm", -- ruinous-pillars-of-qidao | Ruinous Pillars of Qidao | Mortal Ambition
+      "42vg3hj3d0", -- savage-arrow | Savage Arrow | Mortal Ambition
+      "coaahbojc0", -- savage-attack | Savage Attack | Mortal Ambition
+      "77uw2uesvb", -- scorchfire-assassin | Scorchfire Assassin | Mortal Ambition
+      "005593y9s2", -- scorching-strafe | Scorching Strafe | Mortal Ambition
+      "799nkatizv", -- seafletched-serpent | Seafletched Serpent | Mortal Ambition
+      "glkpo0w8eg", -- seal-the-past | Seal the Past | Mortal Ambition
+      "106q1tyn20", -- seasoned-archer | Seasoned Archer | Mortal Ambition
+      "phjx9gtfrd", -- seize-fate | Seize Fate | Mortal Ambition
+      "r07d4q0cax", -- sempiternal-sage | Sempiternal Sage | Mortal Ambition
+      "2ndw88w5sr", -- set-ablaze | Set Ablaze | Mortal Ambition
+      "f896j7wmkr", -- sheath-of-faceted-lapis | Sheath of Faceted Lapis | Mortal Ambition
+      "hi3pk17781", -- shining-marchador | Shining Marchador | Mortal Ambition
+      "tv3rwg4urt", -- shu-frontliner | Shu Frontliner | Mortal Ambition
+      "vwyc11bnyn", -- sidestep | Sidestep | Mortal Ambition
+      "k1vkj1hh31", -- skilled-plainsman | Skilled Plainsman | Mortal Ambition
+      "8f8t1smqpu", -- slice-and-dice | Slice and Dice | Mortal Ambition
+      "z4jpx3jn65", -- slipstream-vault | Slipstream Vault | Mortal Ambition
+      "cvh60ajzb6", -- solar-pinnacle | Solar Pinnacle | Mortal Ambition
+      "9bimb7g8y4", -- soothing-disillusion | Soothing Disillusion | Mortal Ambition
+      "ss3q657cmi", -- spellshield-tera | Spellshield: Tera | Mortal Ambition
+      "5uhxrxpnnc", -- spirit-of-fire | Spirit of Fire | Mortal Ambition
+      "x6itul8td3", -- spirit-of-water | Spirit of Water | Mortal Ambition
+      "xv5in4t3wc", -- spirit-of-wind | Spirit of Wind | Mortal Ambition
+      "204g58i26z", -- staggering-strike | Staggering Strike | Mortal Ambition
+      "cn7fgmzt94", -- stolid-vanguard | Stolid Vanguard | Mortal Ambition
+      "bh3yn5kqba", -- strategem-of-myriad-ice | Strategem of Myriad Ice | Mortal Ambition
+      "inzhhg8pct", -- sudden-deluge | Sudden Deluge | Mortal Ambition
+      "1ekrcbl6zg", -- sudden-snow | Sudden Snow | Mortal Ambition
+      "or49kb9590", -- sun-quan-sealbearer | Sun Quan, Sealbearer | Mortal Ambition
+      "pc9bula41o", -- swerving-spring | Swerving Spring | Mortal Ambition
+      "jy4kteybg2", -- swift-recruit | Swift Recruit | Mortal Ambition
+      "19tgzwd5nd", -- sword-saint-of-eventide | Sword Saint of Eventide | Mortal Ambition
+      "7p3rtuae7d", -- sword-saint-of-everflame | Sword Saint of Everflame | Mortal Ambition
+      "c761i9ix0c", -- tailwinds-blessing | Tailwind's Blessing | Mortal Ambition
+      "hg6iq0qe1p", -- temper-in-flames | Temper in Flames | Mortal Ambition
+      "elw4r5yyof", -- tempus-stalker | Tempus Stalker | Mortal Ambition
+      "cd4hitsmil", -- tera-sight | Tera Sight | Mortal Ambition
+      "n7jhj65w4e", -- thunderclap | Thunderclap | Mortal Ambition
+      "27ys785y5i", -- tidal-lock | Tidal Lock | Mortal Ambition
+      "dzp7wnmx54", -- tidal-tirade | Tidal Tirade | Mortal Ambition
+      "ouv8ew7k6z", -- tidestone-bovine | Tidestone Bovine | Mortal Ambition
+      "wdqbjc75r5", -- tome-of-sorcery | Tome of Sorcery | Mortal Ambition
+      "sw69xqa4qh", -- torpid-fractal | Torpid Fractal | Mortal Ambition
+      "dbi7zwm6m2", -- trained-sharpshooter | Trained Sharpshooter | Mortal Ambition
+      "m1t5ghxm88", -- tricky-chimps | Tricky Chimps | Mortal Ambition
+      "srkkm872na", -- tsunami-of-nanyue | Tsunami of Nanyue | Mortal Ambition
+      "vo5bxrg4eb", -- unbroken-mustang | Unbroken Mustang | Mortal Ambition
+      "svyzyg7n15", -- unrelenting-warden | Unrelenting Warden | Mortal Ambition
+      "cugntlzotj", -- vengeful-gust | Vengeful Gust | Mortal Ambition
+      "2d2i9y485y", -- veteran-soldier | Veteran Soldier | Mortal Ambition
+      "paqm8uowyt", -- wandering-glaivier | Wandering Glaivier | Mortal Ambition
+      "s8mrpw2ivw", -- war-marshal | War Marshal | Mortal Ambition
+      "py5fm4ev7s", -- water-barrier | Water Barrier | Mortal Ambition
+      "90v2ztgvi1", -- weaken-resistance | Weaken Resistance | Mortal Ambition
+      "2jnah5p3zd", -- weaponsmith | Weaponsmith | Mortal Ambition
+      "jryb2yj6wf", -- wildgrowth-feline | Wildgrowth Feline | Mortal Ambition
+      "jahvrma97h", -- wind-cutter | Wind Cutter | Mortal Ambition
+      "tet9ocqs6b", -- wisdoms-reprise | Wisdom's Reprise | Mortal Ambition
+      "b8wdiomi99", -- wuji-of-lingering-fate | Wuji of Lingering Fate | Mortal Ambition
+      "mdhvw24yc4", -- xia-hou-dun-gloryseeker | Xia Hou Dun, Gloryseeker | Mortal Ambition
+      "dw4hsb2t91", -- xiao-qiao-cinderkeeper | Xiao Qiao, Cinderkeeper | Mortal Ambition
+      "n4chq8roe1", -- yudi-gossamer-jade | Yudi, Gossamer Jade | Mortal Ambition
+      "lvyiakp4j0", -- yunzhou-cavalry | Yunzhou Cavalry | Mortal Ambition
+      "yf9riu5xa6", -- zephyr | Zephyr | Mortal Ambition
+      "so8bmm9xnr", -- zhang-fei-spirited-steel | Zhang Fei, Spirited Steel | Mortal Ambition
+    },
+    ["AMBALT__ALTER_EXCLUSIVE"] = {
+      "xOOdwuTak8", -- bairui-resplendent-barrier | Bairui, Resplendent Barrier | Mortal Ambition Alter Edition
+      "Yg8wZRplL0", -- blinding-lapse | Blinding Lapse | Mortal Ambition Alter Edition
+      "rNHX8IUeCZ", -- dong-zhou-false-liege | Dong Zhou, False Liege | Mortal Ambition Alter Edition
+      "2We3ybSDda", -- dragons-dawn | Dragon's Dawn | Mortal Ambition Alter Edition
+      "noaZ7jhaAn", -- ebbing-tide | Ebbing Tide | Mortal Ambition Alter Edition
+      "ghNpFuC6em", -- equanimitys-ashes | Equanimity's Ashes | Mortal Ambition Alter Edition
+      "V7RUZQiNxB", -- floodward-sergeant | Floodward Sergeant | Mortal Ambition Alter Edition
+      "8qjxl9SzlB", -- galvanizing-gale | Galvanizing Gale | Mortal Ambition Alter Edition
+      "GnQNRJxJFF", -- gustguard-bastion | Gustguard Bastion | Mortal Ambition Alter Edition
+      "zP5nMxjuD9", -- hailfinch | Hailfinch | Mortal Ambition Alter Edition
+      "YxAon573Ao", -- herd-of-the-hearth | Herd of the Hearth | Mortal Ambition Alter Edition
+      "xFk6RkDSE3", -- hua-xiong-insurgents-fang | Hua Xiong, Insurgent’s Fang | Mortal Ambition Alter Edition
+      "tnzLKbSZ8R", -- huang-zhong-unerring-aim | Huang Zhong, Unerring Aim | Mortal Ambition Alter Edition
+      "4hOY9NziML", -- imperial-seal | Imperial Seal | Mortal Ambition Alter Edition
+      "3rMjxJoED5", -- incantation-of-prosperity | Incantation of Prosperity | Mortal Ambition Alter Edition
+      "dtgkKfoaX5", -- leading-charge | Leading Charge | Mortal Ambition Alter Edition
+      "dKRSVJ6P0l", -- lunge-of-evoking-winds | Lunge of Evoking Winds | Mortal Ambition Alter Edition
+      "u8W2m7Dufc", -- magnificent-banquet | Magnificent Banquet | Mortal Ambition Alter Edition
+      "73xC9J8a7B", -- mortal-ambition | Mortal Ambition | Mortal Ambition Alter Edition
+      "teLqIsIqBX", -- natures-insight | Nature's Insight | Mortal Ambition Alter Edition
+      "FzDRJw7Ir2", -- polearmed-steed | Pole-armed Steed | Mortal Ambition Alter Edition
+      "g2LxNFNz15", -- restoring-embers | Restoring Embers | Mortal Ambition Alter Edition
+      "uYJu6kjvZU", -- scarlet-tassel | Scarlet Tassel | Mortal Ambition Alter Edition
+      "qYJ96rrbBe", -- sink-the-mind | Sink the Mind | Mortal Ambition Alter Edition
+      "aowYEGJgPe", -- sundering-moon | Sundering Moon | Mortal Ambition Alter Edition
+      "CQLgF8ETYu", -- three-visits | Three Visits | Mortal Ambition Alter Edition
+      "VPaYocJDR4", -- torching-reach | Torching Reach | Mortal Ambition Alter Edition
+      "rTbcxcwN6D", -- zhao-yun-dragonsblood | Zhao Yun, Dragonsblood | Mortal Ambition Alter Edition
+    },
+    ["ALC__COMMON"] = {
+      "fiszdne4n3", -- academy-attendant | Academy Attendant | Alchemical Revolution
+      "yrd9a9c26b", -- airship-cruiser | Airship Cruiser | Alchemical Revolution
+      "mhus8n4yw4", -- airship-engineer | Airship Engineer | Alchemical Revolution
+      "z5dxawdp7p", -- arisanna-astral-zenith | Arisanna, Astral Zenith | Alchemical Revolution
+      "8n4yw4gq5w", -- arisanna-herbalist-prodigy | Arisanna, Herbalist Prodigy | Alchemical Revolution
+      "xt5uay6a7f", -- arisanna-lucent-arbiter | Arisanna, Lucent Arbiter | Alchemical Revolution
+      "qwwvyfjo9i", -- arisanna-master-alchemist | Arisanna, Master Alchemist | Alchemical Revolution
+      "yh7ikmhyi3", -- armored-valkyrie | Armored Valkyrie | Alchemical Revolution
+      "fc1arsagp8", -- aurousteel-greatsword | Aurousteel Greatsword | Alchemical Revolution
+      "25b4qwwvyf", -- automaton-bomber | Automaton Bomber | Alchemical Revolution
+      "5w3jf01o25", -- automaton-drone | Automaton Drone | Alchemical Revolution
+      "qe6kd7hocc", -- awakened-deacon | Awakened Deacon | Alchemical Revolution
+      "b4qwwvyfjo", -- barter-herbs | Barter Herbs | Alchemical Revolution
+      "jo9iitvxs9", -- blazing-charge | Blazing Charge | Alchemical Revolution
+      "9iitvxs9je", -- blightroot | Blightroot | Alchemical Revolution
+      "je3rs7qt31", -- bottled-forgelight | Bottled Forgelight | Alchemical Revolution
+      "3rs7qt31py", -- caretaker-drone | Caretaker Drone | Alchemical Revolution
+      "0mr492ollk", -- convalescent-tonic | Convalescent Tonic | Alchemical Revolution
+      "nne5o3cm9l", -- creeping-torment | Creeping Torment | Alchemical Revolution
+      "hlir23ijp6", -- diana-cursebreaker | Diana, Cursebreaker | Alchemical Revolution
+      "vgf2u82v5c", -- diana-deadly-duelist | Diana, Deadly Duelist | Alchemical Revolution
+      "98c1w1m5v6", -- diana-duskstalker | Diana, Duskstalker | Alchemical Revolution
+      "3hmf1yyx0q", -- diana-keen-huntress | Diana, Keen Huntress | Alchemical Revolution
+      "sznne5o3cm", -- diffusive-block | Diffusive Block | Alchemical Revolution
+      "cz3hmf1yyx", -- empowering-prayer | Empowering Prayer | Alchemical Revolution
+      "0qv0but4xz", -- empowering-tincture | Empowering Tincture | Alchemical Revolution
+      "bo2fb4qwxv", -- enchaining-gale | Enchaining Gale | Alchemical Revolution
+      "zokpajitwy", -- enhance-hearing | Enhance Hearing | Alchemical Revolution
+      "tbvgf2u82v", -- escape-the-wreckage | Escape the Wreckage | Alchemical Revolution
+      "6a7fr167eu", -- excoriate | Excoriate | Alchemical Revolution
+      "m7o091zv75", -- exorcise-curses | Exorcise Curses | Alchemical Revolution
+      "xztbvgf2u8", -- fiery-duelist | Fiery Duelist | Alchemical Revolution
+      "yqc998c1w1", -- flameblessed-trainee | Flameblessed Trainee | Alchemical Revolution
+      "kf4rt7ru3b", -- forgelight-shieldmaiden | Forgelight Shieldmaiden | Alchemical Revolution
+      "lahlir23ij", -- fraysia | Fraysia | Alchemical Revolution
+      "c998c1w1m5", -- harvest-herbs | Harvest Herbs | Alchemical Revolution
+      "v69b5m6rgd", -- healing-aura | Healing Aura | Alchemical Revolution
+      "zeexkwnp7q", -- hypothermia | Hypothermia | Alchemical Revolution
+      "kwnp7qxt64", -- imperial-alchemist | Imperial Alchemist | Alchemical Revolution
+      "6kd7gncb2t", -- into-the-fray | Into the Fray | Alchemical Revolution
+      "r2g8evrcdz", -- krustallan-distiller | Krustallan Distiller | Alchemical Revolution
+      "a6jhwbsxu2", -- lone-gunslinger | Lone Gunslinger | Alchemical Revolution
+      "4etu184ozc", -- manaroot | Manaroot | Alchemical Revolution
+      "rcdzdhnf18", -- manic-zealot | Manic Zealot | Alchemical Revolution
+      "8dy76hkmgx", -- oasis-trading-post | Oasis Trading Post | Alchemical Revolution
+      "5g9b5m7sqe", -- obelisk-of-armaments | Obelisk of Armaments | Alchemical Revolution
+      "6kd7hocc33", -- obelisk-of-fabrication | Obelisk of Fabrication | Alchemical Revolution
+      "ms0kxj0clc", -- obelisk-of-protection | Obelisk of Protection | Alchemical Revolution
+      "83sfhvfisz", -- organize-the-alliance | Organize the Alliance | Alchemical Revolution
+      "dne4n32l8l", -- palatial-concourse | Palatial Concourse | Alchemical Revolution
+      "bewemhus8n", -- plea-for-peace | Plea for Peace | Alchemical Revolution
+      "4yw4gq5w3j", -- potion-of-healing | Potion of Healing | Alchemical Revolution
+      "wvyfjo9iit", -- razorvine | Razorvine | Alchemical Revolution
+      "1arsagp8m8", -- reconnaissance-field | Reconnaissance Field | Alchemical Revolution
+      "vxs9je3rs7", -- reconstructive-surgery | Reconstructive Surgery | Alchemical Revolution
+      "o1j194h6la", -- refresh-chamber | Refresh Chamber | Alchemical Revolution
+      "qt31pyggz5", -- reposition | Reposition | Alchemical Revolution
+      "agp8m8o1j1", -- rousing-slam | Rousing Slam | Alchemical Revolution
+      "dxawdp7pxt", -- sanctum-of-esoteric-truth | Sanctum of Esoteric Truth | Alchemical Revolution
+      "67eurbcz3h", -- scry-the-skies | Scry the Skies | Alchemical Revolution
+      "but4xztbvg", -- serum-of-wisdom | Serum of Wisdom | Alchemical Revolution
+      "94h6lahmjr", -- shimmercloak-assassin | Shimmercloak Assassin | Alchemical Revolution
+      "f2u82v5c00", -- sidestep | Sidestep | Alchemical Revolution
+      "rragp8m7o0", -- silvershine | Silvershine | Alchemical Revolution
+      "gx83sfhvfi", -- spirit-of-fire | Spirit of Fire | Alchemical Revolution
+      "szdne4n32l", -- spirit-of-water | Spirit of Water | Alchemical Revolution
+      "8lbewemhus", -- spirit-of-wind | Spirit of Wind | Alchemical Revolution
+      "91zv75lahl", -- springleaf | Springleaf | Alchemical Revolution
+      "ir23ijp6td", -- strategic-warfare | Strategic Warfare | Alchemical Revolution
+      "d7hocc33ms", -- stream-of-consciousness | Stream of Consciousness | Alchemical Revolution
+      "oafsyqc998", -- study-the-fables | Study the Fables | Alchemical Revolution
+      "c1w1m5v69b", -- subjugating-lash | Subjugating Lash | Alchemical Revolution
+      "x9z2kca6jh", -- take-aim | Take Aim | Alchemical Revolution
+      "0seklknd8d", -- tonoris-creations-will | Tonoris, Creation's Will | Alchemical Revolution
+      "sfhvfiszdn", -- tonoris-genesis-aegis | Tonoris, Genesis Aegis | Alchemical Revolution
+      "9b5m6rgd6k", -- tonoris-lone-mercenary | Tonoris, Lone Mercenary | Alchemical Revolution
+      "0ax9z2kca6", -- tonoris-might-of-humanity | Tonoris, Might of Humanity | Alchemical Revolution
+      "eklknd8dy7", -- trained-sharpshooter | Trained Sharpshooter | Alchemical Revolution
+      "6hkmgx83sf", -- unearth-revelations | Unearth Revelations | Alchemical Revolution
+      "92ollknd8d", -- waverider-protector | Waverider Protector | Alchemical Revolution
+      "0clcb6jhxl", -- winbless-arbalest | Winbless Arbalest | Alchemical Revolution
+    },
+    ["ALC__UNCOMMON"] = {
+      "n32l8lbewe", -- airship-cannoneer | Airship Cannoneer | Alchemical Revolution
+      "us8n4yw4gq", -- allied-warpriestess | Allied Warpriestess | Alchemical Revolution
+      "pisznne5o3", -- astra-sight | Astra Sight | Alchemical Revolution
+      "lcb6jhxltx", -- calculated-foresight | Calculated Foresight | Alchemical Revolution
+      "u2efuv1i4p", -- conjure-downpour | Conjure Downpour | Alchemical Revolution
+      "ggz5dxawdp", -- deploy-gunshield | Deploy Gunshield | Alchemical Revolution
+      "gd5kd7gncb", -- dominating-strike | Dominating Strike | Alchemical Revolution
+      "9lbewomius", -- dormant-sacrificial-altar | Dormant Sacrificial Altar | Alchemical Revolution
+      "6egq56djg0", -- draught-of-stamina | Draught of Stamina | Alchemical Revolution
+      "rbcz3hmf1y", -- explosive-fractal | Explosive Fractal | Alchemical Revolution
+      "yx0qv0but4", -- fanatical-devotee | Fanatical Devotee | Alchemical Revolution
+      "3bpyqgzeex", -- fertile-grounds | Fertile Grounds | Alchemical Revolution
+      "2v5c00rrag", -- fiery-warcry | Fiery Warcry | Alchemical Revolution
+      "75lahlir23", -- firetuned-automaton | Firetuned Automaton | Alchemical Revolution
+      "ijp6tdoafs", -- fireworks-display | Fireworks Display | Alchemical Revolution
+      "8n486egq56", -- flash-freeze | Flash Freeze | Alchemical Revolution
+      "m5v69b5m6r", -- force-load | Force Load | Alchemical Revolution
+      "qwxvzokpaj", -- freezing-round | Freezing Round | Alchemical Revolution
+      "itwys9kf4r", -- frigid-bash | Frigid Bash | Alchemical Revolution
+      "xt64jzga7g", -- krustallan-archer | Krustallan Archer | Alchemical Revolution
+      "ga7gr2g8ev", -- lavaheated-brew | Lavaheated Brew | Alchemical Revolution
+      "87aqv0lut5", -- meltdown | Meltdown | Alchemical Revolution
+      "q30seklknd", -- navigate-the-streets | Navigate the Streets | Alchemical Revolution
+      "d9a9c26bn5", -- neos-sight | Neos Sight | Alchemical Revolution
+      "wemhus8n4y", -- nico-whiplash-allure | Nico, Whiplash Allure | Alchemical Revolution
+      "793lvqf24i", -- overwhelming-swing | Overwhelming Swing | Alchemical Revolution
+      "dhnf1887aq", -- perfect-repulsion | Perfect Repulsion | Alchemical Revolution
+      "e4n32l8lbe", -- polkhawk-bombastic-shot | Polkhawk, Bombastic Shot | Alchemical Revolution
+      "vqf24i25fc", -- potion-infusion-frostbite | Potion Infusion: Frostbite | Alchemical Revolution
+      "evrcdzdhnf", -- rapid-reload | Rapid Reload | Alchemical Revolution
+      "f01o25b4qw", -- raze-the-land | Raze the Land | Alchemical Revolution
+      "1887aqv0lu", -- repelling-palmblast | Repelling Palmblast | Alchemical Revolution
+      "hmjr3dijq6", -- rimesoul-bishop | Rimesoul Bishop | Alchemical Revolution
+      "25fc1arsag", -- rocket-jump | Rocket Jump | Alchemical Revolution
+      "5uay6a7fr1", -- scavenge-the-distillery | Scavenge the Distillery | Alchemical Revolution
+      "3nobfsyrd9", -- seasprite-diver | Seasprite Diver | Alchemical Revolution
+      "efuv1i4p0m", -- smash-with-obelisk | Smash with Obelisk | Alchemical Revolution
+      "r492ollknd", -- summon-sentinels | Summon Sentinels | Alchemical Revolution
+      "5m6rgd6kd7", -- supply-drone | Supply Drone | Alchemical Revolution
+      "gncb2tcr0a", -- swooping-talons | Swooping Talons | Alchemical Revolution
+      "0kxj0clcb6", -- tactical-retreat | Tactical Retreat | Alchemical Revolution
+      "64jzga7gr2", -- umbra-sight | Umbra Sight | Alchemical Revolution
+      "hvfiszdne4", -- vanish-from-sight | Vanish from Sight | Alchemical Revolution
+      "fsyrd9a9c2", -- vanishing-shot | Vanishing Shot | Alchemical Revolution
+      "1o25b4qwwv", -- vanitas-convergent-ruin | Vanitas, Convergent Ruin | Alchemical Revolution
+      "w4gq5w3jf0", -- vanitas-obliviate-schemer | Vanitas, Obliviate Schemer | Alchemical Revolution
+      "uv1i4p0mr4", -- vaporjet-shieldbearer | Vaporjet Shieldbearer | Alchemical Revolution
+      "6bn55g9b5m", -- veiled-dash | Veiled Dash | Alchemical Revolution
+      "ijq63nobfs", -- veteran-blazebearer | Veteran Blazebearer | Alchemical Revolution
+      "7sqe6kd7ho", -- whirlwind-vizier | Whirlwind Vizier | Alchemical Revolution
+      "cc33ms0kxj", -- wildgrowth-elixir | Wildgrowth Elixir | Alchemical Revolution
+      "txu2efuv1i", -- winbless-gatekeeper | Winbless Gatekeeper | Alchemical Revolution
+      "4p0mr492ol", -- winds-of-retribution | Winds of Retribution | Alchemical Revolution
+      "lknd8dyh7i", -- young-peacekeeper | Young Peacekeeper | Alchemical Revolution
+    },
+    ["ALC__RARE"] = {
+      "yfjo9iitvx", -- alchemists-kit | Alchemist's Kit | Alchemical Revolution
+      "s9je3rs7qt", -- alliance-gearshield | Alliance Gearshield | Alchemical Revolution
+      "aqv0lut579", -- amorphous-strike | Amorphous Strike | Alchemical Revolution
+      "n55g9b5m7s", -- aqueous-armor | Aqueous Armor | Alchemical Revolution
+      "gq5w3jf01o", -- attune-with-flames | Attune with Flames | Alchemical Revolution
+      "33ms0kxj0c", -- awakened-frostguard | Awakened Frostguard | Alchemical Revolution
+      "sphwpisznn", -- battlefield-spotter | Battlefield Spotter | Alchemical Revolution
+      "6rgd6kd7gn", -- cascading-round | Cascading Round | Alchemical Revolution
+      "us8n486egq", -- celestial-calling | Celestial Calling | Alchemical Revolution
+      "ajitwys9kf", -- cometfall | Cometfall | Alchemical Revolution
+      "4rt7ru3bpy", -- condensed-supernova | Condensed Supernova | Alchemical Revolution
+      "cb2tcr0ax9", -- crystalline-mirror | Crystalline Mirror | Alchemical Revolution
+      "e5o3cm9lbe", -- cyclonic-strike | Cyclonic Strike | Alchemical Revolution
+      "bewomius8n", -- demons-aim | Demon's Aim | Alchemical Revolution
+      "7pxt5uay6a", -- distilled-atrophy | Distilled Atrophy | Alchemical Revolution
+      "s9kf4rt7ru", -- enhance-potency | Enhance Potency | Alchemical Revolution
+      "5c00rragp8", -- exalted-dorumegian-throne | Exalted Dorumegian Throne | Alchemical Revolution
+      "486egq56dj", -- false-step | False Step | Alchemical Revolution
+      "31pyggz5dx", -- fatal-timepiece | Fatal Timepiece | Alchemical Revolution
+      "lahmjr3dij", -- fractal-of-creation | Fractal of Creation | Alchemical Revolution
+      "djg0bo2fb4", -- fractal-of-snow | Fractal of Snow | Alchemical Revolution
+      "g0bo2fb4qw", -- gloamspire-wraith | Gloamspire Wraith | Alchemical Revolution
+      "w1m5v69b5m", -- heatwave-generator | Heatwave Generator | Alchemical Revolution
+      "wys9kf4rt7", -- mindbreak-bullet | Mindbreak Bullet | Alchemical Revolution
+      "awdp7pxt5u", -- navigation-compass | Navigation Compass | Alchemical Revolution
+      "v0lut5793l", -- potion-infusion-clarity | Potion Infusion: Clarity | Alchemical Revolution
+      "qgzeexkwnp", -- potion-infusion-starlight | Potion Infusion: Starlight | Alchemical Revolution
+      "eurbcz3hmf", -- resplendent-kite-shield | Resplendent Kite Shield | Alchemical Revolution
+      "1yyx0qv0bu", -- rusted-warshield | Rusted Warshield | Alchemical Revolution
+      "t4xztbvgf2", -- seekers-rifle | Seeker's Rifle | Alchemical Revolution
+      "exkwnp7qxt", -- shadecursed-hunter | Shadecursed Hunter | Alchemical Revolution
+      "a9c26bn55g", -- shatterfall-keep | Shatterfall Keep | Alchemical Revolution
+      "7gr2g8evrc", -- spellshield-astra | Spellshield: Astra | Alchemical Revolution
+      "3dijq63nob", -- spellshield-wind | Spellshield: Wind | Alchemical Revolution
+      "9b5m7sqe6k", -- storm-of-thorns | Storm of Thorns | Alchemical Revolution
+      "u82v5c00rr", -- synthetic-core | Synthetic Core | Alchemical Revolution
+      "wbsxu24etu", -- take-cover | Take Cover | Alchemical Revolution
+      "h6lahmjr3d", -- tether-in-flames | Tether in Flames | Alchemical Revolution
+      "jhxltxu2ef", -- torrential-blast | Torrential Blast | Alchemical Revolution
+      "4ozcq30sek", -- turbulent-bullet | Turbulent Bullet | Alchemical Revolution
+      "g8evrcdzdh", -- umbral-tithe | Umbral Tithe | Alchemical Revolution
+      "zv75lahlir", -- wayfinders-map | Wayfinder's Map | Alchemical Revolution
+    },
+    ["ALC__SUPER_RARE"] = {
+      "2l8lbewemh", -- academy-guide | Academy Guide | Alchemical Revolution
+      "8dyh7ikmhy", -- anathemas-end | Anathema's End | Alchemical Revolution
+      "3lvqf24i25", -- assemble-the-ancients | Assemble the Ancients | Alchemical Revolution
+      "kmhyi3sphw", -- astarte-celestial-dawn | Astarte, Celestial Dawn | Alchemical Revolution
+      "cm9lbewomi", -- astral-seal | Astral Seal | Alchemical Revolution
+      "23ijp6tdoa", -- bombard-flarecannon | Bombard Flarecannon | Alchemical Revolution
+      "sxu24etu18", -- brewing-kit | Brewing Kit | Alchemical Revolution
+      "56djg0bo2f", -- claude-fated-visionary | Claude, Fated Visionary | Alchemical Revolution
+      "m8o1j194h6", -- clockwork-amalgam | Clockwork Amalgam | Alchemical Revolution
+      "pyggz5dxaw", -- crimson-tear | Crimson Tear | Alchemical Revolution
+      "nd8dyh7ikm", -- dahlia-idyllic-dreamer | Dahlia, Idyllic Dreamer | Alchemical Revolution
+      "7fr167eurb", -- dusklight-communion | Dusklight Communion | Alchemical Revolution
+      "p8m7o091zv", -- fireblooded-oath | Fireblooded Oath | Alchemical Revolution
+      "fsyqc998c1", -- forgelight-scepter | Forgelight Scepter | Alchemical Revolution
+      "p6tdoafsyq", -- freydis-master-tactician | Freydis, Master Tactician | Alchemical Revolution
+      "t7ru3bpyqg", -- geni-gifted-mechanist | Geni, Gifted Mechanist | Alchemical Revolution
+      "pyqgzeexkw", -- gloamspire-black-market | Gloamspire, Black Market | Alchemical Revolution
+      "np7qxt64jz", -- inzali-unshackled-blaze | Inzali, Unshackled Blaze | Alchemical Revolution
+      "cr0ax9z2kc", -- lena-dorumegias-herald | Lena, Dorumegia's Herald | Alchemical Revolution
+      "xvzokpajit", -- load-soul | Load Soul | Alchemical Revolution
+      "ay6a7fr167", -- orb-of-hubris | Orb of Hubris | Alchemical Revolution
+      "jzga7gr2g8", -- perse-relentless-raptor | Perse, Relentless Raptor | Alchemical Revolution
+      "b6jhxltxu2", -- provoke-obstinance | Provoke Obstinance | Alchemical Revolution
+      "ru3bpyqgze", -- relentless-hexchaser | Relentless Hexchaser | Alchemical Revolution
+      "p8m8o1j194", -- rococo-explosive-maven | Rococo, Explosive Maven | Alchemical Revolution
+      "t5793lvqf2", -- rose-eternal-paragon | Rose, Eternal Paragon | Alchemical Revolution
+      "mf1yyx0qv0", -- seasoned-shieldmaster | Seasoned Shieldmaster | Alchemical Revolution
+      "dzdhnf1887", -- the-constellatory-spire | The Constellatory Spire | Alchemical Revolution
+      "nf1887aqv0", -- violet-haze | Violet Haze | Alchemical Revolution
+    },
+    ["ALC__ULTRA_RARE"] = {
+      "i3sphwpisz", -- carter-synthetic-reaper | Carter, Synthetic Reaper | Alchemical Revolution
+      "kmgx83sfhv", -- gloamspire-lance | Gloamspire Lance | Alchemical Revolution
+      "z2kca6jhwb", -- magebane-lash | Magebane Lash | Alchemical Revolution
+      "q63nobfsyr", -- neos-elemental | Neos Elemental | Alchemical Revolution
+      "7qxt64jzga", -- scry-the-stars | Scry the Stars | Alchemical Revolution
+      "agp8m7o091", -- temporal-spectrometer | Temporal Spectrometer | Alchemical Revolution
+      "lknd8dy76h", -- the-elysian-astrolabe | The Elysian Astrolabe | Alchemical Revolution
+      "184ozcq30s", -- the-eternal-kingdom | The Eternal Kingdom | Alchemical Revolution
+    },
+    ["ALC__CSR"] = {
+    },
+    ["ALC__CUR"] = {
+    },
+    ["ALC__TOKEN"] = {
+      "fc1arsagp8", -- aurousteel-greatsword | Aurousteel Greatsword | Alchemical Revolution
+      "5w3jf01o25", -- automaton-drone | Automaton Drone | Alchemical Revolution
+      "9iitvxs9je", -- blightroot | Blightroot | Alchemical Revolution
+      "lahlir23ij", -- fraysia | Fraysia | Alchemical Revolution
+      "4etu184ozc", -- manaroot | Manaroot | Alchemical Revolution
+      "5g9b5m7sqe", -- obelisk-of-armaments | Obelisk of Armaments | Alchemical Revolution
+      "6kd7hocc33", -- obelisk-of-fabrication | Obelisk of Fabrication | Alchemical Revolution
+      "ms0kxj0clc", -- obelisk-of-protection | Obelisk of Protection | Alchemical Revolution
+      "wvyfjo9iit", -- razorvine | Razorvine | Alchemical Revolution
+      "rragp8m7o0", -- silvershine | Silvershine | Alchemical Revolution
+      "91zv75lahl", -- springleaf | Springleaf | Alchemical Revolution
+    },
+    ["ALC__TOKEN_OR_COMMON_CHAMPION"] = {
+      "z5dxawdp7p", -- arisanna-astral-zenith | Arisanna, Astral Zenith | Alchemical Revolution
+      "8n4yw4gq5w", -- arisanna-herbalist-prodigy | Arisanna, Herbalist Prodigy | Alchemical Revolution
+      "xt5uay6a7f", -- arisanna-lucent-arbiter | Arisanna, Lucent Arbiter | Alchemical Revolution
+      "qwwvyfjo9i", -- arisanna-master-alchemist | Arisanna, Master Alchemist | Alchemical Revolution
+      "fc1arsagp8", -- aurousteel-greatsword | Aurousteel Greatsword | Alchemical Revolution
+      "5w3jf01o25", -- automaton-drone | Automaton Drone | Alchemical Revolution
+      "9iitvxs9je", -- blightroot | Blightroot | Alchemical Revolution
+      "hlir23ijp6", -- diana-cursebreaker | Diana, Cursebreaker | Alchemical Revolution
+      "vgf2u82v5c", -- diana-deadly-duelist | Diana, Deadly Duelist | Alchemical Revolution
+      "98c1w1m5v6", -- diana-duskstalker | Diana, Duskstalker | Alchemical Revolution
+      "3hmf1yyx0q", -- diana-keen-huntress | Diana, Keen Huntress | Alchemical Revolution
+      "lahlir23ij", -- fraysia | Fraysia | Alchemical Revolution
+      "4etu184ozc", -- manaroot | Manaroot | Alchemical Revolution
+      "5g9b5m7sqe", -- obelisk-of-armaments | Obelisk of Armaments | Alchemical Revolution
+      "6kd7hocc33", -- obelisk-of-fabrication | Obelisk of Fabrication | Alchemical Revolution
+      "ms0kxj0clc", -- obelisk-of-protection | Obelisk of Protection | Alchemical Revolution
+      "wvyfjo9iit", -- razorvine | Razorvine | Alchemical Revolution
+      "rragp8m7o0", -- silvershine | Silvershine | Alchemical Revolution
+      "gx83sfhvfi", -- spirit-of-fire | Spirit of Fire | Alchemical Revolution
+      "szdne4n32l", -- spirit-of-water | Spirit of Water | Alchemical Revolution
+      "8lbewemhus", -- spirit-of-wind | Spirit of Wind | Alchemical Revolution
+      "91zv75lahl", -- springleaf | Springleaf | Alchemical Revolution
+      "0seklknd8d", -- tonoris-creations-will | Tonoris, Creation's Will | Alchemical Revolution
+      "sfhvfiszdn", -- tonoris-genesis-aegis | Tonoris, Genesis Aegis | Alchemical Revolution
+      "9b5m6rgd6k", -- tonoris-lone-mercenary | Tonoris, Lone Mercenary | Alchemical Revolution
+      "0ax9z2kca6", -- tonoris-might-of-humanity | Tonoris, Might of Humanity | Alchemical Revolution
+    },
+    ["ALC__FOIL_ANY"] = {
+      "fiszdne4n3", -- academy-attendant | Academy Attendant | Alchemical Revolution
+      "2l8lbewemh", -- academy-guide | Academy Guide | Alchemical Revolution
+      "n32l8lbewe", -- airship-cannoneer | Airship Cannoneer | Alchemical Revolution
+      "yrd9a9c26b", -- airship-cruiser | Airship Cruiser | Alchemical Revolution
+      "mhus8n4yw4", -- airship-engineer | Airship Engineer | Alchemical Revolution
+      "yfjo9iitvx", -- alchemists-kit | Alchemist's Kit | Alchemical Revolution
+      "s9je3rs7qt", -- alliance-gearshield | Alliance Gearshield | Alchemical Revolution
+      "us8n4yw4gq", -- allied-warpriestess | Allied Warpriestess | Alchemical Revolution
+      "aqv0lut579", -- amorphous-strike | Amorphous Strike | Alchemical Revolution
+      "8dyh7ikmhy", -- anathemas-end | Anathema's End | Alchemical Revolution
+      "n55g9b5m7s", -- aqueous-armor | Aqueous Armor | Alchemical Revolution
+      "z5dxawdp7p", -- arisanna-astral-zenith | Arisanna, Astral Zenith | Alchemical Revolution
+      "8n4yw4gq5w", -- arisanna-herbalist-prodigy | Arisanna, Herbalist Prodigy | Alchemical Revolution
+      "xt5uay6a7f", -- arisanna-lucent-arbiter | Arisanna, Lucent Arbiter | Alchemical Revolution
+      "qwwvyfjo9i", -- arisanna-master-alchemist | Arisanna, Master Alchemist | Alchemical Revolution
+      "yh7ikmhyi3", -- armored-valkyrie | Armored Valkyrie | Alchemical Revolution
+      "3lvqf24i25", -- assemble-the-ancients | Assemble the Ancients | Alchemical Revolution
+      "kmhyi3sphw", -- astarte-celestial-dawn | Astarte, Celestial Dawn | Alchemical Revolution
+      "pisznne5o3", -- astra-sight | Astra Sight | Alchemical Revolution
+      "cm9lbewomi", -- astral-seal | Astral Seal | Alchemical Revolution
+      "gq5w3jf01o", -- attune-with-flames | Attune with Flames | Alchemical Revolution
+      "fc1arsagp8", -- aurousteel-greatsword | Aurousteel Greatsword | Alchemical Revolution
+      "25b4qwwvyf", -- automaton-bomber | Automaton Bomber | Alchemical Revolution
+      "5w3jf01o25", -- automaton-drone | Automaton Drone | Alchemical Revolution
+      "qe6kd7hocc", -- awakened-deacon | Awakened Deacon | Alchemical Revolution
+      "33ms0kxj0c", -- awakened-frostguard | Awakened Frostguard | Alchemical Revolution
+      "b4qwwvyfjo", -- barter-herbs | Barter Herbs | Alchemical Revolution
+      "sphwpisznn", -- battlefield-spotter | Battlefield Spotter | Alchemical Revolution
+      "jo9iitvxs9", -- blazing-charge | Blazing Charge | Alchemical Revolution
+      "9iitvxs9je", -- blightroot | Blightroot | Alchemical Revolution
+      "23ijp6tdoa", -- bombard-flarecannon | Bombard Flarecannon | Alchemical Revolution
+      "je3rs7qt31", -- bottled-forgelight | Bottled Forgelight | Alchemical Revolution
+      "sxu24etu18", -- brewing-kit | Brewing Kit | Alchemical Revolution
+      "lcb6jhxltx", -- calculated-foresight | Calculated Foresight | Alchemical Revolution
+      "3rs7qt31py", -- caretaker-drone | Caretaker Drone | Alchemical Revolution
+      "i3sphwpisz", -- carter-synthetic-reaper | Carter, Synthetic Reaper | Alchemical Revolution
+      "6rgd6kd7gn", -- cascading-round | Cascading Round | Alchemical Revolution
+      "us8n486egq", -- celestial-calling | Celestial Calling | Alchemical Revolution
+      "56djg0bo2f", -- claude-fated-visionary | Claude, Fated Visionary | Alchemical Revolution
+      "m8o1j194h6", -- clockwork-amalgam | Clockwork Amalgam | Alchemical Revolution
+      "ajitwys9kf", -- cometfall | Cometfall | Alchemical Revolution
+      "4rt7ru3bpy", -- condensed-supernova | Condensed Supernova | Alchemical Revolution
+      "u2efuv1i4p", -- conjure-downpour | Conjure Downpour | Alchemical Revolution
+      "0mr492ollk", -- convalescent-tonic | Convalescent Tonic | Alchemical Revolution
+      "nne5o3cm9l", -- creeping-torment | Creeping Torment | Alchemical Revolution
+      "pyggz5dxaw", -- crimson-tear | Crimson Tear | Alchemical Revolution
+      "cb2tcr0ax9", -- crystalline-mirror | Crystalline Mirror | Alchemical Revolution
+      "e5o3cm9lbe", -- cyclonic-strike | Cyclonic Strike | Alchemical Revolution
+      "nd8dyh7ikm", -- dahlia-idyllic-dreamer | Dahlia, Idyllic Dreamer | Alchemical Revolution
+      "bewomius8n", -- demons-aim | Demon's Aim | Alchemical Revolution
+      "ggz5dxawdp", -- deploy-gunshield | Deploy Gunshield | Alchemical Revolution
+      "hlir23ijp6", -- diana-cursebreaker | Diana, Cursebreaker | Alchemical Revolution
+      "vgf2u82v5c", -- diana-deadly-duelist | Diana, Deadly Duelist | Alchemical Revolution
+      "98c1w1m5v6", -- diana-duskstalker | Diana, Duskstalker | Alchemical Revolution
+      "3hmf1yyx0q", -- diana-keen-huntress | Diana, Keen Huntress | Alchemical Revolution
+      "sznne5o3cm", -- diffusive-block | Diffusive Block | Alchemical Revolution
+      "7pxt5uay6a", -- distilled-atrophy | Distilled Atrophy | Alchemical Revolution
+      "gd5kd7gncb", -- dominating-strike | Dominating Strike | Alchemical Revolution
+      "9lbewomius", -- dormant-sacrificial-altar | Dormant Sacrificial Altar | Alchemical Revolution
+      "6egq56djg0", -- draught-of-stamina | Draught of Stamina | Alchemical Revolution
+      "7fr167eurb", -- dusklight-communion | Dusklight Communion | Alchemical Revolution
+      "cz3hmf1yyx", -- empowering-prayer | Empowering Prayer | Alchemical Revolution
+      "0qv0but4xz", -- empowering-tincture | Empowering Tincture | Alchemical Revolution
+      "bo2fb4qwxv", -- enchaining-gale | Enchaining Gale | Alchemical Revolution
+      "zokpajitwy", -- enhance-hearing | Enhance Hearing | Alchemical Revolution
+      "s9kf4rt7ru", -- enhance-potency | Enhance Potency | Alchemical Revolution
+      "tbvgf2u82v", -- escape-the-wreckage | Escape the Wreckage | Alchemical Revolution
+      "5c00rragp8", -- exalted-dorumegian-throne | Exalted Dorumegian Throne | Alchemical Revolution
+      "6a7fr167eu", -- excoriate | Excoriate | Alchemical Revolution
+      "m7o091zv75", -- exorcise-curses | Exorcise Curses | Alchemical Revolution
+      "rbcz3hmf1y", -- explosive-fractal | Explosive Fractal | Alchemical Revolution
+      "486egq56dj", -- false-step | False Step | Alchemical Revolution
+      "yx0qv0but4", -- fanatical-devotee | Fanatical Devotee | Alchemical Revolution
+      "31pyggz5dx", -- fatal-timepiece | Fatal Timepiece | Alchemical Revolution
+      "3bpyqgzeex", -- fertile-grounds | Fertile Grounds | Alchemical Revolution
+      "xztbvgf2u8", -- fiery-duelist | Fiery Duelist | Alchemical Revolution
+      "2v5c00rrag", -- fiery-warcry | Fiery Warcry | Alchemical Revolution
+      "p8m7o091zv", -- fireblooded-oath | Fireblooded Oath | Alchemical Revolution
+      "75lahlir23", -- firetuned-automaton | Firetuned Automaton | Alchemical Revolution
+      "ijp6tdoafs", -- fireworks-display | Fireworks Display | Alchemical Revolution
+      "yqc998c1w1", -- flameblessed-trainee | Flameblessed Trainee | Alchemical Revolution
+      "8n486egq56", -- flash-freeze | Flash Freeze | Alchemical Revolution
+      "m5v69b5m6r", -- force-load | Force Load | Alchemical Revolution
+      "fsyqc998c1", -- forgelight-scepter | Forgelight Scepter | Alchemical Revolution
+      "kf4rt7ru3b", -- forgelight-shieldmaiden | Forgelight Shieldmaiden | Alchemical Revolution
+      "lahmjr3dij", -- fractal-of-creation | Fractal of Creation | Alchemical Revolution
+      "djg0bo2fb4", -- fractal-of-snow | Fractal of Snow | Alchemical Revolution
+      "lahlir23ij", -- fraysia | Fraysia | Alchemical Revolution
+      "qwxvzokpaj", -- freezing-round | Freezing Round | Alchemical Revolution
+      "p6tdoafsyq", -- freydis-master-tactician | Freydis, Master Tactician | Alchemical Revolution
+      "itwys9kf4r", -- frigid-bash | Frigid Bash | Alchemical Revolution
+      "t7ru3bpyqg", -- geni-gifted-mechanist | Geni, Gifted Mechanist | Alchemical Revolution
+      "pyqgzeexkw", -- gloamspire-black-market | Gloamspire, Black Market | Alchemical Revolution
+      "kmgx83sfhv", -- gloamspire-lance | Gloamspire Lance | Alchemical Revolution
+      "g0bo2fb4qw", -- gloamspire-wraith | Gloamspire Wraith | Alchemical Revolution
+      "c998c1w1m5", -- harvest-herbs | Harvest Herbs | Alchemical Revolution
+      "v69b5m6rgd", -- healing-aura | Healing Aura | Alchemical Revolution
+      "w1m5v69b5m", -- heatwave-generator | Heatwave Generator | Alchemical Revolution
+      "zeexkwnp7q", -- hypothermia | Hypothermia | Alchemical Revolution
+      "kwnp7qxt64", -- imperial-alchemist | Imperial Alchemist | Alchemical Revolution
+      "6kd7gncb2t", -- into-the-fray | Into the Fray | Alchemical Revolution
+      "np7qxt64jz", -- inzali-unshackled-blaze | Inzali, Unshackled Blaze | Alchemical Revolution
+      "xt64jzga7g", -- krustallan-archer | Krustallan Archer | Alchemical Revolution
+      "r2g8evrcdz", -- krustallan-distiller | Krustallan Distiller | Alchemical Revolution
+      "ga7gr2g8ev", -- lavaheated-brew | Lavaheated Brew | Alchemical Revolution
+      "cr0ax9z2kc", -- lena-dorumegias-herald | Lena, Dorumegia's Herald | Alchemical Revolution
+      "xvzokpajit", -- load-soul | Load Soul | Alchemical Revolution
+      "a6jhwbsxu2", -- lone-gunslinger | Lone Gunslinger | Alchemical Revolution
+      "z2kca6jhwb", -- magebane-lash | Magebane Lash | Alchemical Revolution
+      "4etu184ozc", -- manaroot | Manaroot | Alchemical Revolution
+      "rcdzdhnf18", -- manic-zealot | Manic Zealot | Alchemical Revolution
+      "87aqv0lut5", -- meltdown | Meltdown | Alchemical Revolution
+      "wys9kf4rt7", -- mindbreak-bullet | Mindbreak Bullet | Alchemical Revolution
+      "q30seklknd", -- navigate-the-streets | Navigate the Streets | Alchemical Revolution
+      "awdp7pxt5u", -- navigation-compass | Navigation Compass | Alchemical Revolution
+      "q63nobfsyr", -- neos-elemental | Neos Elemental | Alchemical Revolution
+      "d9a9c26bn5", -- neos-sight | Neos Sight | Alchemical Revolution
+      "wemhus8n4y", -- nico-whiplash-allure | Nico, Whiplash Allure | Alchemical Revolution
+      "8dy76hkmgx", -- oasis-trading-post | Oasis Trading Post | Alchemical Revolution
+      "5g9b5m7sqe", -- obelisk-of-armaments | Obelisk of Armaments | Alchemical Revolution
+      "6kd7hocc33", -- obelisk-of-fabrication | Obelisk of Fabrication | Alchemical Revolution
+      "ms0kxj0clc", -- obelisk-of-protection | Obelisk of Protection | Alchemical Revolution
+      "ay6a7fr167", -- orb-of-hubris | Orb of Hubris | Alchemical Revolution
+      "83sfhvfisz", -- organize-the-alliance | Organize the Alliance | Alchemical Revolution
+      "793lvqf24i", -- overwhelming-swing | Overwhelming Swing | Alchemical Revolution
+      "dne4n32l8l", -- palatial-concourse | Palatial Concourse | Alchemical Revolution
+      "dhnf1887aq", -- perfect-repulsion | Perfect Repulsion | Alchemical Revolution
+      "jzga7gr2g8", -- perse-relentless-raptor | Perse, Relentless Raptor | Alchemical Revolution
+      "bewemhus8n", -- plea-for-peace | Plea for Peace | Alchemical Revolution
+      "e4n32l8lbe", -- polkhawk-bombastic-shot | Polkhawk, Bombastic Shot | Alchemical Revolution
+      "v0lut5793l", -- potion-infusion-clarity | Potion Infusion: Clarity | Alchemical Revolution
+      "vqf24i25fc", -- potion-infusion-frostbite | Potion Infusion: Frostbite | Alchemical Revolution
+      "qgzeexkwnp", -- potion-infusion-starlight | Potion Infusion: Starlight | Alchemical Revolution
+      "4yw4gq5w3j", -- potion-of-healing | Potion of Healing | Alchemical Revolution
+      "b6jhxltxu2", -- provoke-obstinance | Provoke Obstinance | Alchemical Revolution
+      "evrcdzdhnf", -- rapid-reload | Rapid Reload | Alchemical Revolution
+      "f01o25b4qw", -- raze-the-land | Raze the Land | Alchemical Revolution
+      "wvyfjo9iit", -- razorvine | Razorvine | Alchemical Revolution
+      "1arsagp8m8", -- reconnaissance-field | Reconnaissance Field | Alchemical Revolution
+      "vxs9je3rs7", -- reconstructive-surgery | Reconstructive Surgery | Alchemical Revolution
+      "o1j194h6la", -- refresh-chamber | Refresh Chamber | Alchemical Revolution
+      "ru3bpyqgze", -- relentless-hexchaser | Relentless Hexchaser | Alchemical Revolution
+      "1887aqv0lu", -- repelling-palmblast | Repelling Palmblast | Alchemical Revolution
+      "qt31pyggz5", -- reposition | Reposition | Alchemical Revolution
+      "eurbcz3hmf", -- resplendent-kite-shield | Resplendent Kite Shield | Alchemical Revolution
+      "hmjr3dijq6", -- rimesoul-bishop | Rimesoul Bishop | Alchemical Revolution
+      "25fc1arsag", -- rocket-jump | Rocket Jump | Alchemical Revolution
+      "p8m8o1j194", -- rococo-explosive-maven | Rococo, Explosive Maven | Alchemical Revolution
+      "t5793lvqf2", -- rose-eternal-paragon | Rose, Eternal Paragon | Alchemical Revolution
+      "agp8m8o1j1", -- rousing-slam | Rousing Slam | Alchemical Revolution
+      "1yyx0qv0bu", -- rusted-warshield | Rusted Warshield | Alchemical Revolution
+      "dxawdp7pxt", -- sanctum-of-esoteric-truth | Sanctum of Esoteric Truth | Alchemical Revolution
+      "5uay6a7fr1", -- scavenge-the-distillery | Scavenge the Distillery | Alchemical Revolution
+      "67eurbcz3h", -- scry-the-skies | Scry the Skies | Alchemical Revolution
+      "7qxt64jzga", -- scry-the-stars | Scry the Stars | Alchemical Revolution
+      "mf1yyx0qv0", -- seasoned-shieldmaster | Seasoned Shieldmaster | Alchemical Revolution
+      "3nobfsyrd9", -- seasprite-diver | Seasprite Diver | Alchemical Revolution
+      "t4xztbvgf2", -- seekers-rifle | Seeker's Rifle | Alchemical Revolution
+      "but4xztbvg", -- serum-of-wisdom | Serum of Wisdom | Alchemical Revolution
+      "exkwnp7qxt", -- shadecursed-hunter | Shadecursed Hunter | Alchemical Revolution
+      "a9c26bn55g", -- shatterfall-keep | Shatterfall Keep | Alchemical Revolution
+      "94h6lahmjr", -- shimmercloak-assassin | Shimmercloak Assassin | Alchemical Revolution
+      "f2u82v5c00", -- sidestep | Sidestep | Alchemical Revolution
+      "rragp8m7o0", -- silvershine | Silvershine | Alchemical Revolution
+      "efuv1i4p0m", -- smash-with-obelisk | Smash with Obelisk | Alchemical Revolution
+      "7gr2g8evrc", -- spellshield-astra | Spellshield: Astra | Alchemical Revolution
+      "3dijq63nob", -- spellshield-wind | Spellshield: Wind | Alchemical Revolution
+      "gx83sfhvfi", -- spirit-of-fire | Spirit of Fire | Alchemical Revolution
+      "szdne4n32l", -- spirit-of-water | Spirit of Water | Alchemical Revolution
+      "8lbewemhus", -- spirit-of-wind | Spirit of Wind | Alchemical Revolution
+      "91zv75lahl", -- springleaf | Springleaf | Alchemical Revolution
+      "9b5m7sqe6k", -- storm-of-thorns | Storm of Thorns | Alchemical Revolution
+      "ir23ijp6td", -- strategic-warfare | Strategic Warfare | Alchemical Revolution
+      "d7hocc33ms", -- stream-of-consciousness | Stream of Consciousness | Alchemical Revolution
+      "oafsyqc998", -- study-the-fables | Study the Fables | Alchemical Revolution
+      "c1w1m5v69b", -- subjugating-lash | Subjugating Lash | Alchemical Revolution
+      "r492ollknd", -- summon-sentinels | Summon Sentinels | Alchemical Revolution
+      "5m6rgd6kd7", -- supply-drone | Supply Drone | Alchemical Revolution
+      "gncb2tcr0a", -- swooping-talons | Swooping Talons | Alchemical Revolution
+      "u82v5c00rr", -- synthetic-core | Synthetic Core | Alchemical Revolution
+      "0kxj0clcb6", -- tactical-retreat | Tactical Retreat | Alchemical Revolution
+      "x9z2kca6jh", -- take-aim | Take Aim | Alchemical Revolution
+      "wbsxu24etu", -- take-cover | Take Cover | Alchemical Revolution
+      "agp8m7o091", -- temporal-spectrometer | Temporal Spectrometer | Alchemical Revolution
+      "h6lahmjr3d", -- tether-in-flames | Tether in Flames | Alchemical Revolution
+      "dzdhnf1887", -- the-constellatory-spire | The Constellatory Spire | Alchemical Revolution
+      "lknd8dy76h", -- the-elysian-astrolabe | The Elysian Astrolabe | Alchemical Revolution
+      "184ozcq30s", -- the-eternal-kingdom | The Eternal Kingdom | Alchemical Revolution
+      "0seklknd8d", -- tonoris-creations-will | Tonoris, Creation's Will | Alchemical Revolution
+      "sfhvfiszdn", -- tonoris-genesis-aegis | Tonoris, Genesis Aegis | Alchemical Revolution
+      "9b5m6rgd6k", -- tonoris-lone-mercenary | Tonoris, Lone Mercenary | Alchemical Revolution
+      "0ax9z2kca6", -- tonoris-might-of-humanity | Tonoris, Might of Humanity | Alchemical Revolution
+      "jhxltxu2ef", -- torrential-blast | Torrential Blast | Alchemical Revolution
+      "eklknd8dy7", -- trained-sharpshooter | Trained Sharpshooter | Alchemical Revolution
+      "4ozcq30sek", -- turbulent-bullet | Turbulent Bullet | Alchemical Revolution
+      "64jzga7gr2", -- umbra-sight | Umbra Sight | Alchemical Revolution
+      "g8evrcdzdh", -- umbral-tithe | Umbral Tithe | Alchemical Revolution
+      "6hkmgx83sf", -- unearth-revelations | Unearth Revelations | Alchemical Revolution
+      "hvfiszdne4", -- vanish-from-sight | Vanish from Sight | Alchemical Revolution
+      "fsyrd9a9c2", -- vanishing-shot | Vanishing Shot | Alchemical Revolution
+      "1o25b4qwwv", -- vanitas-convergent-ruin | Vanitas, Convergent Ruin | Alchemical Revolution
+      "w4gq5w3jf0", -- vanitas-obliviate-schemer | Vanitas, Obliviate Schemer | Alchemical Revolution
+      "uv1i4p0mr4", -- vaporjet-shieldbearer | Vaporjet Shieldbearer | Alchemical Revolution
+      "6bn55g9b5m", -- veiled-dash | Veiled Dash | Alchemical Revolution
+      "ijq63nobfs", -- veteran-blazebearer | Veteran Blazebearer | Alchemical Revolution
+      "nf1887aqv0", -- violet-haze | Violet Haze | Alchemical Revolution
+      "92ollknd8d", -- waverider-protector | Waverider Protector | Alchemical Revolution
+      "zv75lahlir", -- wayfinders-map | Wayfinder's Map | Alchemical Revolution
+      "7sqe6kd7ho", -- whirlwind-vizier | Whirlwind Vizier | Alchemical Revolution
+      "cc33ms0kxj", -- wildgrowth-elixir | Wildgrowth Elixir | Alchemical Revolution
+      "0clcb6jhxl", -- winbless-arbalest | Winbless Arbalest | Alchemical Revolution
+      "txu2efuv1i", -- winbless-gatekeeper | Winbless Gatekeeper | Alchemical Revolution
+      "4p0mr492ol", -- winds-of-retribution | Winds of Retribution | Alchemical Revolution
+      "lknd8dyh7i", -- young-peacekeeper | Young Peacekeeper | Alchemical Revolution
+    },
+    ["ALCALT__COMMON"] = {
+      "fiszdne4n3", -- academy-attendant | Academy Attendant | Alchemical Revolution
+      "yrd9a9c26b", -- airship-cruiser | Airship Cruiser | Alchemical Revolution
+      "mhus8n4yw4", -- airship-engineer | Airship Engineer | Alchemical Revolution
+      "z5dxawdp7p", -- arisanna-astral-zenith | Arisanna, Astral Zenith | Alchemical Revolution
+      "8n4yw4gq5w", -- arisanna-herbalist-prodigy | Arisanna, Herbalist Prodigy | Alchemical Revolution
+      "xt5uay6a7f", -- arisanna-lucent-arbiter | Arisanna, Lucent Arbiter | Alchemical Revolution
+      "qwwvyfjo9i", -- arisanna-master-alchemist | Arisanna, Master Alchemist | Alchemical Revolution
+      "yh7ikmhyi3", -- armored-valkyrie | Armored Valkyrie | Alchemical Revolution
+      "fc1arsagp8", -- aurousteel-greatsword | Aurousteel Greatsword | Alchemical Revolution
+      "25b4qwwvyf", -- automaton-bomber | Automaton Bomber | Alchemical Revolution
+      "5w3jf01o25", -- automaton-drone | Automaton Drone | Alchemical Revolution
+      "qe6kd7hocc", -- awakened-deacon | Awakened Deacon | Alchemical Revolution
+      "b4qwwvyfjo", -- barter-herbs | Barter Herbs | Alchemical Revolution
+      "jo9iitvxs9", -- blazing-charge | Blazing Charge | Alchemical Revolution
+      "9iitvxs9je", -- blightroot | Blightroot | Alchemical Revolution
+      "je3rs7qt31", -- bottled-forgelight | Bottled Forgelight | Alchemical Revolution
+      "3rs7qt31py", -- caretaker-drone | Caretaker Drone | Alchemical Revolution
+      "0mr492ollk", -- convalescent-tonic | Convalescent Tonic | Alchemical Revolution
+      "nne5o3cm9l", -- creeping-torment | Creeping Torment | Alchemical Revolution
+      "hlir23ijp6", -- diana-cursebreaker | Diana, Cursebreaker | Alchemical Revolution
+      "vgf2u82v5c", -- diana-deadly-duelist | Diana, Deadly Duelist | Alchemical Revolution
+      "98c1w1m5v6", -- diana-duskstalker | Diana, Duskstalker | Alchemical Revolution
+      "3hmf1yyx0q", -- diana-keen-huntress | Diana, Keen Huntress | Alchemical Revolution
+      "sznne5o3cm", -- diffusive-block | Diffusive Block | Alchemical Revolution
+      "cz3hmf1yyx", -- empowering-prayer | Empowering Prayer | Alchemical Revolution
+      "0qv0but4xz", -- empowering-tincture | Empowering Tincture | Alchemical Revolution
+      "bo2fb4qwxv", -- enchaining-gale | Enchaining Gale | Alchemical Revolution
+      "zokpajitwy", -- enhance-hearing | Enhance Hearing | Alchemical Revolution
+      "tbvgf2u82v", -- escape-the-wreckage | Escape the Wreckage | Alchemical Revolution
+      "6a7fr167eu", -- excoriate | Excoriate | Alchemical Revolution
+      "m7o091zv75", -- exorcise-curses | Exorcise Curses | Alchemical Revolution
+      "xztbvgf2u8", -- fiery-duelist | Fiery Duelist | Alchemical Revolution
+      "yqc998c1w1", -- flameblessed-trainee | Flameblessed Trainee | Alchemical Revolution
+      "kf4rt7ru3b", -- forgelight-shieldmaiden | Forgelight Shieldmaiden | Alchemical Revolution
+      "lahlir23ij", -- fraysia | Fraysia | Alchemical Revolution
+      "c998c1w1m5", -- harvest-herbs | Harvest Herbs | Alchemical Revolution
+      "v69b5m6rgd", -- healing-aura | Healing Aura | Alchemical Revolution
+      "zeexkwnp7q", -- hypothermia | Hypothermia | Alchemical Revolution
+      "kwnp7qxt64", -- imperial-alchemist | Imperial Alchemist | Alchemical Revolution
+      "6kd7gncb2t", -- into-the-fray | Into the Fray | Alchemical Revolution
+      "r2g8evrcdz", -- krustallan-distiller | Krustallan Distiller | Alchemical Revolution
+      "a6jhwbsxu2", -- lone-gunslinger | Lone Gunslinger | Alchemical Revolution
+      "4etu184ozc", -- manaroot | Manaroot | Alchemical Revolution
+      "rcdzdhnf18", -- manic-zealot | Manic Zealot | Alchemical Revolution
+      "8dy76hkmgx", -- oasis-trading-post | Oasis Trading Post | Alchemical Revolution
+      "5g9b5m7sqe", -- obelisk-of-armaments | Obelisk of Armaments | Alchemical Revolution
+      "6kd7hocc33", -- obelisk-of-fabrication | Obelisk of Fabrication | Alchemical Revolution
+      "ms0kxj0clc", -- obelisk-of-protection | Obelisk of Protection | Alchemical Revolution
+      "83sfhvfisz", -- organize-the-alliance | Organize the Alliance | Alchemical Revolution
+      "dne4n32l8l", -- palatial-concourse | Palatial Concourse | Alchemical Revolution
+      "bewemhus8n", -- plea-for-peace | Plea for Peace | Alchemical Revolution
+      "4yw4gq5w3j", -- potion-of-healing | Potion of Healing | Alchemical Revolution
+      "wvyfjo9iit", -- razorvine | Razorvine | Alchemical Revolution
+      "1arsagp8m8", -- reconnaissance-field | Reconnaissance Field | Alchemical Revolution
+      "vxs9je3rs7", -- reconstructive-surgery | Reconstructive Surgery | Alchemical Revolution
+      "o1j194h6la", -- refresh-chamber | Refresh Chamber | Alchemical Revolution
+      "qt31pyggz5", -- reposition | Reposition | Alchemical Revolution
+      "agp8m8o1j1", -- rousing-slam | Rousing Slam | Alchemical Revolution
+      "dxawdp7pxt", -- sanctum-of-esoteric-truth | Sanctum of Esoteric Truth | Alchemical Revolution
+      "67eurbcz3h", -- scry-the-skies | Scry the Skies | Alchemical Revolution
+      "but4xztbvg", -- serum-of-wisdom | Serum of Wisdom | Alchemical Revolution
+      "94h6lahmjr", -- shimmercloak-assassin | Shimmercloak Assassin | Alchemical Revolution
+      "f2u82v5c00", -- sidestep | Sidestep | Alchemical Revolution
+      "rragp8m7o0", -- silvershine | Silvershine | Alchemical Revolution
+      "gx83sfhvfi", -- spirit-of-fire | Spirit of Fire | Alchemical Revolution
+      "szdne4n32l", -- spirit-of-water | Spirit of Water | Alchemical Revolution
+      "8lbewemhus", -- spirit-of-wind | Spirit of Wind | Alchemical Revolution
+      "91zv75lahl", -- springleaf | Springleaf | Alchemical Revolution
+      "ir23ijp6td", -- strategic-warfare | Strategic Warfare | Alchemical Revolution
+      "d7hocc33ms", -- stream-of-consciousness | Stream of Consciousness | Alchemical Revolution
+      "oafsyqc998", -- study-the-fables | Study the Fables | Alchemical Revolution
+      "c1w1m5v69b", -- subjugating-lash | Subjugating Lash | Alchemical Revolution
+      "x9z2kca6jh", -- take-aim | Take Aim | Alchemical Revolution
+      "0seklknd8d", -- tonoris-creations-will | Tonoris, Creation's Will | Alchemical Revolution
+      "sfhvfiszdn", -- tonoris-genesis-aegis | Tonoris, Genesis Aegis | Alchemical Revolution
+      "9b5m6rgd6k", -- tonoris-lone-mercenary | Tonoris, Lone Mercenary | Alchemical Revolution
+      "0ax9z2kca6", -- tonoris-might-of-humanity | Tonoris, Might of Humanity | Alchemical Revolution
+      "eklknd8dy7", -- trained-sharpshooter | Trained Sharpshooter | Alchemical Revolution
+      "6hkmgx83sf", -- unearth-revelations | Unearth Revelations | Alchemical Revolution
+      "92ollknd8d", -- waverider-protector | Waverider Protector | Alchemical Revolution
+      "0clcb6jhxl", -- winbless-arbalest | Winbless Arbalest | Alchemical Revolution
+    },
+    ["ALCALT__UNCOMMON"] = {
+      "n32l8lbewe", -- airship-cannoneer | Airship Cannoneer | Alchemical Revolution
+      "us8n4yw4gq", -- allied-warpriestess | Allied Warpriestess | Alchemical Revolution
+      "pisznne5o3", -- astra-sight | Astra Sight | Alchemical Revolution
+      "lcb6jhxltx", -- calculated-foresight | Calculated Foresight | Alchemical Revolution
+      "u2efuv1i4p", -- conjure-downpour | Conjure Downpour | Alchemical Revolution
+      "ggz5dxawdp", -- deploy-gunshield | Deploy Gunshield | Alchemical Revolution
+      "gd5kd7gncb", -- dominating-strike | Dominating Strike | Alchemical Revolution
+      "9lbewomius", -- dormant-sacrificial-altar | Dormant Sacrificial Altar | Alchemical Revolution
+      "6egq56djg0", -- draught-of-stamina | Draught of Stamina | Alchemical Revolution
+      "rbcz3hmf1y", -- explosive-fractal | Explosive Fractal | Alchemical Revolution
+      "yx0qv0but4", -- fanatical-devotee | Fanatical Devotee | Alchemical Revolution
+      "3bpyqgzeex", -- fertile-grounds | Fertile Grounds | Alchemical Revolution
+      "2v5c00rrag", -- fiery-warcry | Fiery Warcry | Alchemical Revolution
+      "75lahlir23", -- firetuned-automaton | Firetuned Automaton | Alchemical Revolution
+      "ijp6tdoafs", -- fireworks-display | Fireworks Display | Alchemical Revolution
+      "8n486egq56", -- flash-freeze | Flash Freeze | Alchemical Revolution
+      "m5v69b5m6r", -- force-load | Force Load | Alchemical Revolution
+      "qwxvzokpaj", -- freezing-round | Freezing Round | Alchemical Revolution
+      "itwys9kf4r", -- frigid-bash | Frigid Bash | Alchemical Revolution
+      "xt64jzga7g", -- krustallan-archer | Krustallan Archer | Alchemical Revolution
+      "ga7gr2g8ev", -- lavaheated-brew | Lavaheated Brew | Alchemical Revolution
+      "87aqv0lut5", -- meltdown | Meltdown | Alchemical Revolution
+      "q30seklknd", -- navigate-the-streets | Navigate the Streets | Alchemical Revolution
+      "d9a9c26bn5", -- neos-sight | Neos Sight | Alchemical Revolution
+      "wemhus8n4y", -- nico-whiplash-allure | Nico, Whiplash Allure | Alchemical Revolution
+      "793lvqf24i", -- overwhelming-swing | Overwhelming Swing | Alchemical Revolution
+      "dhnf1887aq", -- perfect-repulsion | Perfect Repulsion | Alchemical Revolution
+      "e4n32l8lbe", -- polkhawk-bombastic-shot | Polkhawk, Bombastic Shot | Alchemical Revolution
+      "vqf24i25fc", -- potion-infusion-frostbite | Potion Infusion: Frostbite | Alchemical Revolution
+      "evrcdzdhnf", -- rapid-reload | Rapid Reload | Alchemical Revolution
+      "f01o25b4qw", -- raze-the-land | Raze the Land | Alchemical Revolution
+      "1887aqv0lu", -- repelling-palmblast | Repelling Palmblast | Alchemical Revolution
+      "hmjr3dijq6", -- rimesoul-bishop | Rimesoul Bishop | Alchemical Revolution
+      "25fc1arsag", -- rocket-jump | Rocket Jump | Alchemical Revolution
+      "5uay6a7fr1", -- scavenge-the-distillery | Scavenge the Distillery | Alchemical Revolution
+      "3nobfsyrd9", -- seasprite-diver | Seasprite Diver | Alchemical Revolution
+      "efuv1i4p0m", -- smash-with-obelisk | Smash with Obelisk | Alchemical Revolution
+      "r492ollknd", -- summon-sentinels | Summon Sentinels | Alchemical Revolution
+      "5m6rgd6kd7", -- supply-drone | Supply Drone | Alchemical Revolution
+      "gncb2tcr0a", -- swooping-talons | Swooping Talons | Alchemical Revolution
+      "0kxj0clcb6", -- tactical-retreat | Tactical Retreat | Alchemical Revolution
+      "64jzga7gr2", -- umbra-sight | Umbra Sight | Alchemical Revolution
+      "hvfiszdne4", -- vanish-from-sight | Vanish from Sight | Alchemical Revolution
+      "fsyrd9a9c2", -- vanishing-shot | Vanishing Shot | Alchemical Revolution
+      "1o25b4qwwv", -- vanitas-convergent-ruin | Vanitas, Convergent Ruin | Alchemical Revolution
+      "w4gq5w3jf0", -- vanitas-obliviate-schemer | Vanitas, Obliviate Schemer | Alchemical Revolution
+      "uv1i4p0mr4", -- vaporjet-shieldbearer | Vaporjet Shieldbearer | Alchemical Revolution
+      "6bn55g9b5m", -- veiled-dash | Veiled Dash | Alchemical Revolution
+      "ijq63nobfs", -- veteran-blazebearer | Veteran Blazebearer | Alchemical Revolution
+      "7sqe6kd7ho", -- whirlwind-vizier | Whirlwind Vizier | Alchemical Revolution
+      "cc33ms0kxj", -- wildgrowth-elixir | Wildgrowth Elixir | Alchemical Revolution
+      "txu2efuv1i", -- winbless-gatekeeper | Winbless Gatekeeper | Alchemical Revolution
+      "4p0mr492ol", -- winds-of-retribution | Winds of Retribution | Alchemical Revolution
+      "lknd8dyh7i", -- young-peacekeeper | Young Peacekeeper | Alchemical Revolution
+    },
+    ["ALCALT__RARE"] = {
+      "yfjo9iitvx", -- alchemists-kit | Alchemist's Kit | Alchemical Revolution
+      "s9je3rs7qt", -- alliance-gearshield | Alliance Gearshield | Alchemical Revolution
+      "aqv0lut579", -- amorphous-strike | Amorphous Strike | Alchemical Revolution
+      "n55g9b5m7s", -- aqueous-armor | Aqueous Armor | Alchemical Revolution
+      "gq5w3jf01o", -- attune-with-flames | Attune with Flames | Alchemical Revolution
+      "33ms0kxj0c", -- awakened-frostguard | Awakened Frostguard | Alchemical Revolution
+      "sphwpisznn", -- battlefield-spotter | Battlefield Spotter | Alchemical Revolution
+      "6rgd6kd7gn", -- cascading-round | Cascading Round | Alchemical Revolution
+      "us8n486egq", -- celestial-calling | Celestial Calling | Alchemical Revolution
+      "ajitwys9kf", -- cometfall | Cometfall | Alchemical Revolution
+      "4rt7ru3bpy", -- condensed-supernova | Condensed Supernova | Alchemical Revolution
+      "cb2tcr0ax9", -- crystalline-mirror | Crystalline Mirror | Alchemical Revolution
+      "e5o3cm9lbe", -- cyclonic-strike | Cyclonic Strike | Alchemical Revolution
+      "bewomius8n", -- demons-aim | Demon's Aim | Alchemical Revolution
+      "7pxt5uay6a", -- distilled-atrophy | Distilled Atrophy | Alchemical Revolution
+      "s9kf4rt7ru", -- enhance-potency | Enhance Potency | Alchemical Revolution
+      "5c00rragp8", -- exalted-dorumegian-throne | Exalted Dorumegian Throne | Alchemical Revolution
+      "486egq56dj", -- false-step | False Step | Alchemical Revolution
+      "31pyggz5dx", -- fatal-timepiece | Fatal Timepiece | Alchemical Revolution
+      "lahmjr3dij", -- fractal-of-creation | Fractal of Creation | Alchemical Revolution
+      "djg0bo2fb4", -- fractal-of-snow | Fractal of Snow | Alchemical Revolution
+      "g0bo2fb4qw", -- gloamspire-wraith | Gloamspire Wraith | Alchemical Revolution
+      "w1m5v69b5m", -- heatwave-generator | Heatwave Generator | Alchemical Revolution
+      "wys9kf4rt7", -- mindbreak-bullet | Mindbreak Bullet | Alchemical Revolution
+      "awdp7pxt5u", -- navigation-compass | Navigation Compass | Alchemical Revolution
+      "v0lut5793l", -- potion-infusion-clarity | Potion Infusion: Clarity | Alchemical Revolution
+      "qgzeexkwnp", -- potion-infusion-starlight | Potion Infusion: Starlight | Alchemical Revolution
+      "eurbcz3hmf", -- resplendent-kite-shield | Resplendent Kite Shield | Alchemical Revolution
+      "1yyx0qv0bu", -- rusted-warshield | Rusted Warshield | Alchemical Revolution
+      "t4xztbvgf2", -- seekers-rifle | Seeker's Rifle | Alchemical Revolution
+      "exkwnp7qxt", -- shadecursed-hunter | Shadecursed Hunter | Alchemical Revolution
+      "a9c26bn55g", -- shatterfall-keep | Shatterfall Keep | Alchemical Revolution
+      "7gr2g8evrc", -- spellshield-astra | Spellshield: Astra | Alchemical Revolution
+      "3dijq63nob", -- spellshield-wind | Spellshield: Wind | Alchemical Revolution
+      "9b5m7sqe6k", -- storm-of-thorns | Storm of Thorns | Alchemical Revolution
+      "u82v5c00rr", -- synthetic-core | Synthetic Core | Alchemical Revolution
+      "wbsxu24etu", -- take-cover | Take Cover | Alchemical Revolution
+      "h6lahmjr3d", -- tether-in-flames | Tether in Flames | Alchemical Revolution
+      "jhxltxu2ef", -- torrential-blast | Torrential Blast | Alchemical Revolution
+      "4ozcq30sek", -- turbulent-bullet | Turbulent Bullet | Alchemical Revolution
+      "g8evrcdzdh", -- umbral-tithe | Umbral Tithe | Alchemical Revolution
+      "zv75lahlir", -- wayfinders-map | Wayfinder's Map | Alchemical Revolution
+    },
+    ["ALCALT__SUPER_RARE"] = {
+      "2l8lbewemh", -- academy-guide | Academy Guide | Alchemical Revolution
+      "8dyh7ikmhy", -- anathemas-end | Anathema's End | Alchemical Revolution
+      "3lvqf24i25", -- assemble-the-ancients | Assemble the Ancients | Alchemical Revolution
+      "kmhyi3sphw", -- astarte-celestial-dawn | Astarte, Celestial Dawn | Alchemical Revolution
+      "cm9lbewomi", -- astral-seal | Astral Seal | Alchemical Revolution
+      "23ijp6tdoa", -- bombard-flarecannon | Bombard Flarecannon | Alchemical Revolution
+      "sxu24etu18", -- brewing-kit | Brewing Kit | Alchemical Revolution
+      "56djg0bo2f", -- claude-fated-visionary | Claude, Fated Visionary | Alchemical Revolution
+      "m8o1j194h6", -- clockwork-amalgam | Clockwork Amalgam | Alchemical Revolution
+      "pyggz5dxaw", -- crimson-tear | Crimson Tear | Alchemical Revolution
+      "nd8dyh7ikm", -- dahlia-idyllic-dreamer | Dahlia, Idyllic Dreamer | Alchemical Revolution
+      "7fr167eurb", -- dusklight-communion | Dusklight Communion | Alchemical Revolution
+      "p8m7o091zv", -- fireblooded-oath | Fireblooded Oath | Alchemical Revolution
+      "fsyqc998c1", -- forgelight-scepter | Forgelight Scepter | Alchemical Revolution
+      "p6tdoafsyq", -- freydis-master-tactician | Freydis, Master Tactician | Alchemical Revolution
+      "t7ru3bpyqg", -- geni-gifted-mechanist | Geni, Gifted Mechanist | Alchemical Revolution
+      "pyqgzeexkw", -- gloamspire-black-market | Gloamspire, Black Market | Alchemical Revolution
+      "np7qxt64jz", -- inzali-unshackled-blaze | Inzali, Unshackled Blaze | Alchemical Revolution
+      "cr0ax9z2kc", -- lena-dorumegias-herald | Lena, Dorumegia's Herald | Alchemical Revolution
+      "xvzokpajit", -- load-soul | Load Soul | Alchemical Revolution
+      "ay6a7fr167", -- orb-of-hubris | Orb of Hubris | Alchemical Revolution
+      "jzga7gr2g8", -- perse-relentless-raptor | Perse, Relentless Raptor | Alchemical Revolution
+      "b6jhxltxu2", -- provoke-obstinance | Provoke Obstinance | Alchemical Revolution
+      "ru3bpyqgze", -- relentless-hexchaser | Relentless Hexchaser | Alchemical Revolution
+      "p8m8o1j194", -- rococo-explosive-maven | Rococo, Explosive Maven | Alchemical Revolution
+      "t5793lvqf2", -- rose-eternal-paragon | Rose, Eternal Paragon | Alchemical Revolution
+      "mf1yyx0qv0", -- seasoned-shieldmaster | Seasoned Shieldmaster | Alchemical Revolution
+      "dzdhnf1887", -- the-constellatory-spire | The Constellatory Spire | Alchemical Revolution
+      "nf1887aqv0", -- violet-haze | Violet Haze | Alchemical Revolution
+    },
+    ["ALCALT__ULTRA_RARE"] = {
+      "i3sphwpisz", -- carter-synthetic-reaper | Carter, Synthetic Reaper | Alchemical Revolution
+      "kmgx83sfhv", -- gloamspire-lance | Gloamspire Lance | Alchemical Revolution
+      "z2kca6jhwb", -- magebane-lash | Magebane Lash | Alchemical Revolution
+      "q63nobfsyr", -- neos-elemental | Neos Elemental | Alchemical Revolution
+      "7qxt64jzga", -- scry-the-stars | Scry the Stars | Alchemical Revolution
+      "agp8m7o091", -- temporal-spectrometer | Temporal Spectrometer | Alchemical Revolution
+      "lknd8dy76h", -- the-elysian-astrolabe | The Elysian Astrolabe | Alchemical Revolution
+      "184ozcq30s", -- the-eternal-kingdom | The Eternal Kingdom | Alchemical Revolution
+    },
+    ["ALCALT__CSR"] = {
+      "ur5cvyxqx6", -- nico-raptures-embrace | Nico, Rapture's Embrace | Alchemical Revolution Alter Edition
+      "w8a42oedz9", -- nico-whiplash-allure | Nico, Whiplash Allure | Alchemical Revolution Alter Edition
+      "4imld7kfpg", -- polkhawk-boisterous-riot | Polkhawk, Boisterous Riot | Alchemical Revolution Alter Edition
+      "2q8p2jhzpr", -- polkhawk-bombastic-shot | Polkhawk, Bombastic Shot | Alchemical Revolution Alter Edition
+      "g5oceibvzq", -- vanitas-convergent-ruin | Vanitas, Convergent Ruin | Alchemical Revolution Alter Edition
+      "xgbpckqpac", -- vanitas-dominus-rex | Vanitas, Dominus Rex | Alchemical Revolution Alter Edition
+      "vlen1w40fj", -- vanitas-obliviate-schemer | Vanitas, Obliviate Schemer | Alchemical Revolution Alter Edition
+    },
+    ["ALCALT__CUR"] = {
+    },
+    ["ALCALT__TOKEN"] = {
+      "fc1arsagp8", -- aurousteel-greatsword | Aurousteel Greatsword | Alchemical Revolution
+      "5w3jf01o25", -- automaton-drone | Automaton Drone | Alchemical Revolution
+      "9iitvxs9je", -- blightroot | Blightroot | Alchemical Revolution
+      "lahlir23ij", -- fraysia | Fraysia | Alchemical Revolution
+      "4etu184ozc", -- manaroot | Manaroot | Alchemical Revolution
+      "5g9b5m7sqe", -- obelisk-of-armaments | Obelisk of Armaments | Alchemical Revolution
+      "6kd7hocc33", -- obelisk-of-fabrication | Obelisk of Fabrication | Alchemical Revolution
+      "ms0kxj0clc", -- obelisk-of-protection | Obelisk of Protection | Alchemical Revolution
+      "wvyfjo9iit", -- razorvine | Razorvine | Alchemical Revolution
+      "rragp8m7o0", -- silvershine | Silvershine | Alchemical Revolution
+      "91zv75lahl", -- springleaf | Springleaf | Alchemical Revolution
+    },
+    ["ALCALT__TOKEN_OR_COMMON_CHAMPION"] = {
+      "z5dxawdp7p", -- arisanna-astral-zenith | Arisanna, Astral Zenith | Alchemical Revolution
+      "8n4yw4gq5w", -- arisanna-herbalist-prodigy | Arisanna, Herbalist Prodigy | Alchemical Revolution
+      "xt5uay6a7f", -- arisanna-lucent-arbiter | Arisanna, Lucent Arbiter | Alchemical Revolution
+      "qwwvyfjo9i", -- arisanna-master-alchemist | Arisanna, Master Alchemist | Alchemical Revolution
+      "fc1arsagp8", -- aurousteel-greatsword | Aurousteel Greatsword | Alchemical Revolution
+      "5w3jf01o25", -- automaton-drone | Automaton Drone | Alchemical Revolution
+      "9iitvxs9je", -- blightroot | Blightroot | Alchemical Revolution
+      "hlir23ijp6", -- diana-cursebreaker | Diana, Cursebreaker | Alchemical Revolution
+      "vgf2u82v5c", -- diana-deadly-duelist | Diana, Deadly Duelist | Alchemical Revolution
+      "98c1w1m5v6", -- diana-duskstalker | Diana, Duskstalker | Alchemical Revolution
+      "3hmf1yyx0q", -- diana-keen-huntress | Diana, Keen Huntress | Alchemical Revolution
+      "lahlir23ij", -- fraysia | Fraysia | Alchemical Revolution
+      "4etu184ozc", -- manaroot | Manaroot | Alchemical Revolution
+      "5g9b5m7sqe", -- obelisk-of-armaments | Obelisk of Armaments | Alchemical Revolution
+      "6kd7hocc33", -- obelisk-of-fabrication | Obelisk of Fabrication | Alchemical Revolution
+      "ms0kxj0clc", -- obelisk-of-protection | Obelisk of Protection | Alchemical Revolution
+      "wvyfjo9iit", -- razorvine | Razorvine | Alchemical Revolution
+      "rragp8m7o0", -- silvershine | Silvershine | Alchemical Revolution
+      "gx83sfhvfi", -- spirit-of-fire | Spirit of Fire | Alchemical Revolution
+      "szdne4n32l", -- spirit-of-water | Spirit of Water | Alchemical Revolution
+      "8lbewemhus", -- spirit-of-wind | Spirit of Wind | Alchemical Revolution
+      "91zv75lahl", -- springleaf | Springleaf | Alchemical Revolution
+      "0seklknd8d", -- tonoris-creations-will | Tonoris, Creation's Will | Alchemical Revolution
+      "sfhvfiszdn", -- tonoris-genesis-aegis | Tonoris, Genesis Aegis | Alchemical Revolution
+      "9b5m6rgd6k", -- tonoris-lone-mercenary | Tonoris, Lone Mercenary | Alchemical Revolution
+      "0ax9z2kca6", -- tonoris-might-of-humanity | Tonoris, Might of Humanity | Alchemical Revolution
+    },
+    ["ALCALT__FOIL_ANY"] = {
+      "fiszdne4n3", -- academy-attendant | Academy Attendant | Alchemical Revolution
+      "2l8lbewemh", -- academy-guide | Academy Guide | Alchemical Revolution
+      "n32l8lbewe", -- airship-cannoneer | Airship Cannoneer | Alchemical Revolution
+      "yrd9a9c26b", -- airship-cruiser | Airship Cruiser | Alchemical Revolution
+      "mhus8n4yw4", -- airship-engineer | Airship Engineer | Alchemical Revolution
+      "yfjo9iitvx", -- alchemists-kit | Alchemist's Kit | Alchemical Revolution
+      "s9je3rs7qt", -- alliance-gearshield | Alliance Gearshield | Alchemical Revolution
+      "us8n4yw4gq", -- allied-warpriestess | Allied Warpriestess | Alchemical Revolution
+      "aqv0lut579", -- amorphous-strike | Amorphous Strike | Alchemical Revolution
+      "8dyh7ikmhy", -- anathemas-end | Anathema's End | Alchemical Revolution
+      "n55g9b5m7s", -- aqueous-armor | Aqueous Armor | Alchemical Revolution
+      "z5dxawdp7p", -- arisanna-astral-zenith | Arisanna, Astral Zenith | Alchemical Revolution
+      "8n4yw4gq5w", -- arisanna-herbalist-prodigy | Arisanna, Herbalist Prodigy | Alchemical Revolution
+      "xt5uay6a7f", -- arisanna-lucent-arbiter | Arisanna, Lucent Arbiter | Alchemical Revolution
+      "qwwvyfjo9i", -- arisanna-master-alchemist | Arisanna, Master Alchemist | Alchemical Revolution
+      "yh7ikmhyi3", -- armored-valkyrie | Armored Valkyrie | Alchemical Revolution
+      "3lvqf24i25", -- assemble-the-ancients | Assemble the Ancients | Alchemical Revolution
+      "kmhyi3sphw", -- astarte-celestial-dawn | Astarte, Celestial Dawn | Alchemical Revolution
+      "pisznne5o3", -- astra-sight | Astra Sight | Alchemical Revolution
+      "cm9lbewomi", -- astral-seal | Astral Seal | Alchemical Revolution
+      "gq5w3jf01o", -- attune-with-flames | Attune with Flames | Alchemical Revolution
+      "fc1arsagp8", -- aurousteel-greatsword | Aurousteel Greatsword | Alchemical Revolution
+      "25b4qwwvyf", -- automaton-bomber | Automaton Bomber | Alchemical Revolution
+      "5w3jf01o25", -- automaton-drone | Automaton Drone | Alchemical Revolution
+      "qe6kd7hocc", -- awakened-deacon | Awakened Deacon | Alchemical Revolution
+      "33ms0kxj0c", -- awakened-frostguard | Awakened Frostguard | Alchemical Revolution
+      "b4qwwvyfjo", -- barter-herbs | Barter Herbs | Alchemical Revolution
+      "sphwpisznn", -- battlefield-spotter | Battlefield Spotter | Alchemical Revolution
+      "jo9iitvxs9", -- blazing-charge | Blazing Charge | Alchemical Revolution
+      "9iitvxs9je", -- blightroot | Blightroot | Alchemical Revolution
+      "23ijp6tdoa", -- bombard-flarecannon | Bombard Flarecannon | Alchemical Revolution
+      "je3rs7qt31", -- bottled-forgelight | Bottled Forgelight | Alchemical Revolution
+      "sxu24etu18", -- brewing-kit | Brewing Kit | Alchemical Revolution
+      "lcb6jhxltx", -- calculated-foresight | Calculated Foresight | Alchemical Revolution
+      "3rs7qt31py", -- caretaker-drone | Caretaker Drone | Alchemical Revolution
+      "i3sphwpisz", -- carter-synthetic-reaper | Carter, Synthetic Reaper | Alchemical Revolution
+      "6rgd6kd7gn", -- cascading-round | Cascading Round | Alchemical Revolution
+      "us8n486egq", -- celestial-calling | Celestial Calling | Alchemical Revolution
+      "56djg0bo2f", -- claude-fated-visionary | Claude, Fated Visionary | Alchemical Revolution
+      "m8o1j194h6", -- clockwork-amalgam | Clockwork Amalgam | Alchemical Revolution
+      "ajitwys9kf", -- cometfall | Cometfall | Alchemical Revolution
+      "4rt7ru3bpy", -- condensed-supernova | Condensed Supernova | Alchemical Revolution
+      "u2efuv1i4p", -- conjure-downpour | Conjure Downpour | Alchemical Revolution
+      "0mr492ollk", -- convalescent-tonic | Convalescent Tonic | Alchemical Revolution
+      "nne5o3cm9l", -- creeping-torment | Creeping Torment | Alchemical Revolution
+      "pyggz5dxaw", -- crimson-tear | Crimson Tear | Alchemical Revolution
+      "cb2tcr0ax9", -- crystalline-mirror | Crystalline Mirror | Alchemical Revolution
+      "e5o3cm9lbe", -- cyclonic-strike | Cyclonic Strike | Alchemical Revolution
+      "nd8dyh7ikm", -- dahlia-idyllic-dreamer | Dahlia, Idyllic Dreamer | Alchemical Revolution
+      "bewomius8n", -- demons-aim | Demon's Aim | Alchemical Revolution
+      "ggz5dxawdp", -- deploy-gunshield | Deploy Gunshield | Alchemical Revolution
+      "hlir23ijp6", -- diana-cursebreaker | Diana, Cursebreaker | Alchemical Revolution
+      "vgf2u82v5c", -- diana-deadly-duelist | Diana, Deadly Duelist | Alchemical Revolution
+      "98c1w1m5v6", -- diana-duskstalker | Diana, Duskstalker | Alchemical Revolution
+      "3hmf1yyx0q", -- diana-keen-huntress | Diana, Keen Huntress | Alchemical Revolution
+      "sznne5o3cm", -- diffusive-block | Diffusive Block | Alchemical Revolution
+      "7pxt5uay6a", -- distilled-atrophy | Distilled Atrophy | Alchemical Revolution
+      "gd5kd7gncb", -- dominating-strike | Dominating Strike | Alchemical Revolution
+      "9lbewomius", -- dormant-sacrificial-altar | Dormant Sacrificial Altar | Alchemical Revolution
+      "6egq56djg0", -- draught-of-stamina | Draught of Stamina | Alchemical Revolution
+      "7fr167eurb", -- dusklight-communion | Dusklight Communion | Alchemical Revolution
+      "cz3hmf1yyx", -- empowering-prayer | Empowering Prayer | Alchemical Revolution
+      "0qv0but4xz", -- empowering-tincture | Empowering Tincture | Alchemical Revolution
+      "bo2fb4qwxv", -- enchaining-gale | Enchaining Gale | Alchemical Revolution
+      "zokpajitwy", -- enhance-hearing | Enhance Hearing | Alchemical Revolution
+      "s9kf4rt7ru", -- enhance-potency | Enhance Potency | Alchemical Revolution
+      "tbvgf2u82v", -- escape-the-wreckage | Escape the Wreckage | Alchemical Revolution
+      "5c00rragp8", -- exalted-dorumegian-throne | Exalted Dorumegian Throne | Alchemical Revolution
+      "6a7fr167eu", -- excoriate | Excoriate | Alchemical Revolution
+      "m7o091zv75", -- exorcise-curses | Exorcise Curses | Alchemical Revolution
+      "rbcz3hmf1y", -- explosive-fractal | Explosive Fractal | Alchemical Revolution
+      "486egq56dj", -- false-step | False Step | Alchemical Revolution
+      "yx0qv0but4", -- fanatical-devotee | Fanatical Devotee | Alchemical Revolution
+      "31pyggz5dx", -- fatal-timepiece | Fatal Timepiece | Alchemical Revolution
+      "3bpyqgzeex", -- fertile-grounds | Fertile Grounds | Alchemical Revolution
+      "xztbvgf2u8", -- fiery-duelist | Fiery Duelist | Alchemical Revolution
+      "2v5c00rrag", -- fiery-warcry | Fiery Warcry | Alchemical Revolution
+      "p8m7o091zv", -- fireblooded-oath | Fireblooded Oath | Alchemical Revolution
+      "75lahlir23", -- firetuned-automaton | Firetuned Automaton | Alchemical Revolution
+      "ijp6tdoafs", -- fireworks-display | Fireworks Display | Alchemical Revolution
+      "yqc998c1w1", -- flameblessed-trainee | Flameblessed Trainee | Alchemical Revolution
+      "8n486egq56", -- flash-freeze | Flash Freeze | Alchemical Revolution
+      "m5v69b5m6r", -- force-load | Force Load | Alchemical Revolution
+      "fsyqc998c1", -- forgelight-scepter | Forgelight Scepter | Alchemical Revolution
+      "kf4rt7ru3b", -- forgelight-shieldmaiden | Forgelight Shieldmaiden | Alchemical Revolution
+      "lahmjr3dij", -- fractal-of-creation | Fractal of Creation | Alchemical Revolution
+      "djg0bo2fb4", -- fractal-of-snow | Fractal of Snow | Alchemical Revolution
+      "lahlir23ij", -- fraysia | Fraysia | Alchemical Revolution
+      "qwxvzokpaj", -- freezing-round | Freezing Round | Alchemical Revolution
+      "p6tdoafsyq", -- freydis-master-tactician | Freydis, Master Tactician | Alchemical Revolution
+      "itwys9kf4r", -- frigid-bash | Frigid Bash | Alchemical Revolution
+      "t7ru3bpyqg", -- geni-gifted-mechanist | Geni, Gifted Mechanist | Alchemical Revolution
+      "pyqgzeexkw", -- gloamspire-black-market | Gloamspire, Black Market | Alchemical Revolution
+      "kmgx83sfhv", -- gloamspire-lance | Gloamspire Lance | Alchemical Revolution
+      "g0bo2fb4qw", -- gloamspire-wraith | Gloamspire Wraith | Alchemical Revolution
+      "c998c1w1m5", -- harvest-herbs | Harvest Herbs | Alchemical Revolution
+      "v69b5m6rgd", -- healing-aura | Healing Aura | Alchemical Revolution
+      "w1m5v69b5m", -- heatwave-generator | Heatwave Generator | Alchemical Revolution
+      "zeexkwnp7q", -- hypothermia | Hypothermia | Alchemical Revolution
+      "kwnp7qxt64", -- imperial-alchemist | Imperial Alchemist | Alchemical Revolution
+      "6kd7gncb2t", -- into-the-fray | Into the Fray | Alchemical Revolution
+      "np7qxt64jz", -- inzali-unshackled-blaze | Inzali, Unshackled Blaze | Alchemical Revolution
+      "xt64jzga7g", -- krustallan-archer | Krustallan Archer | Alchemical Revolution
+      "r2g8evrcdz", -- krustallan-distiller | Krustallan Distiller | Alchemical Revolution
+      "ga7gr2g8ev", -- lavaheated-brew | Lavaheated Brew | Alchemical Revolution
+      "cr0ax9z2kc", -- lena-dorumegias-herald | Lena, Dorumegia's Herald | Alchemical Revolution
+      "xvzokpajit", -- load-soul | Load Soul | Alchemical Revolution
+      "a6jhwbsxu2", -- lone-gunslinger | Lone Gunslinger | Alchemical Revolution
+      "z2kca6jhwb", -- magebane-lash | Magebane Lash | Alchemical Revolution
+      "4etu184ozc", -- manaroot | Manaroot | Alchemical Revolution
+      "rcdzdhnf18", -- manic-zealot | Manic Zealot | Alchemical Revolution
+      "87aqv0lut5", -- meltdown | Meltdown | Alchemical Revolution
+      "wys9kf4rt7", -- mindbreak-bullet | Mindbreak Bullet | Alchemical Revolution
+      "q30seklknd", -- navigate-the-streets | Navigate the Streets | Alchemical Revolution
+      "awdp7pxt5u", -- navigation-compass | Navigation Compass | Alchemical Revolution
+      "q63nobfsyr", -- neos-elemental | Neos Elemental | Alchemical Revolution
+      "d9a9c26bn5", -- neos-sight | Neos Sight | Alchemical Revolution
+      "wemhus8n4y", -- nico-whiplash-allure | Nico, Whiplash Allure | Alchemical Revolution
+      "8dy76hkmgx", -- oasis-trading-post | Oasis Trading Post | Alchemical Revolution
+      "5g9b5m7sqe", -- obelisk-of-armaments | Obelisk of Armaments | Alchemical Revolution
+      "6kd7hocc33", -- obelisk-of-fabrication | Obelisk of Fabrication | Alchemical Revolution
+      "ms0kxj0clc", -- obelisk-of-protection | Obelisk of Protection | Alchemical Revolution
+      "ay6a7fr167", -- orb-of-hubris | Orb of Hubris | Alchemical Revolution
+      "83sfhvfisz", -- organize-the-alliance | Organize the Alliance | Alchemical Revolution
+      "793lvqf24i", -- overwhelming-swing | Overwhelming Swing | Alchemical Revolution
+      "dne4n32l8l", -- palatial-concourse | Palatial Concourse | Alchemical Revolution
+      "dhnf1887aq", -- perfect-repulsion | Perfect Repulsion | Alchemical Revolution
+      "jzga7gr2g8", -- perse-relentless-raptor | Perse, Relentless Raptor | Alchemical Revolution
+      "bewemhus8n", -- plea-for-peace | Plea for Peace | Alchemical Revolution
+      "e4n32l8lbe", -- polkhawk-bombastic-shot | Polkhawk, Bombastic Shot | Alchemical Revolution
+      "v0lut5793l", -- potion-infusion-clarity | Potion Infusion: Clarity | Alchemical Revolution
+      "vqf24i25fc", -- potion-infusion-frostbite | Potion Infusion: Frostbite | Alchemical Revolution
+      "qgzeexkwnp", -- potion-infusion-starlight | Potion Infusion: Starlight | Alchemical Revolution
+      "4yw4gq5w3j", -- potion-of-healing | Potion of Healing | Alchemical Revolution
+      "b6jhxltxu2", -- provoke-obstinance | Provoke Obstinance | Alchemical Revolution
+      "evrcdzdhnf", -- rapid-reload | Rapid Reload | Alchemical Revolution
+      "f01o25b4qw", -- raze-the-land | Raze the Land | Alchemical Revolution
+      "wvyfjo9iit", -- razorvine | Razorvine | Alchemical Revolution
+      "1arsagp8m8", -- reconnaissance-field | Reconnaissance Field | Alchemical Revolution
+      "vxs9je3rs7", -- reconstructive-surgery | Reconstructive Surgery | Alchemical Revolution
+      "o1j194h6la", -- refresh-chamber | Refresh Chamber | Alchemical Revolution
+      "ru3bpyqgze", -- relentless-hexchaser | Relentless Hexchaser | Alchemical Revolution
+      "1887aqv0lu", -- repelling-palmblast | Repelling Palmblast | Alchemical Revolution
+      "qt31pyggz5", -- reposition | Reposition | Alchemical Revolution
+      "eurbcz3hmf", -- resplendent-kite-shield | Resplendent Kite Shield | Alchemical Revolution
+      "hmjr3dijq6", -- rimesoul-bishop | Rimesoul Bishop | Alchemical Revolution
+      "25fc1arsag", -- rocket-jump | Rocket Jump | Alchemical Revolution
+      "p8m8o1j194", -- rococo-explosive-maven | Rococo, Explosive Maven | Alchemical Revolution
+      "t5793lvqf2", -- rose-eternal-paragon | Rose, Eternal Paragon | Alchemical Revolution
+      "agp8m8o1j1", -- rousing-slam | Rousing Slam | Alchemical Revolution
+      "1yyx0qv0bu", -- rusted-warshield | Rusted Warshield | Alchemical Revolution
+      "dxawdp7pxt", -- sanctum-of-esoteric-truth | Sanctum of Esoteric Truth | Alchemical Revolution
+      "5uay6a7fr1", -- scavenge-the-distillery | Scavenge the Distillery | Alchemical Revolution
+      "67eurbcz3h", -- scry-the-skies | Scry the Skies | Alchemical Revolution
+      "7qxt64jzga", -- scry-the-stars | Scry the Stars | Alchemical Revolution
+      "mf1yyx0qv0", -- seasoned-shieldmaster | Seasoned Shieldmaster | Alchemical Revolution
+      "3nobfsyrd9", -- seasprite-diver | Seasprite Diver | Alchemical Revolution
+      "t4xztbvgf2", -- seekers-rifle | Seeker's Rifle | Alchemical Revolution
+      "but4xztbvg", -- serum-of-wisdom | Serum of Wisdom | Alchemical Revolution
+      "exkwnp7qxt", -- shadecursed-hunter | Shadecursed Hunter | Alchemical Revolution
+      "a9c26bn55g", -- shatterfall-keep | Shatterfall Keep | Alchemical Revolution
+      "94h6lahmjr", -- shimmercloak-assassin | Shimmercloak Assassin | Alchemical Revolution
+      "f2u82v5c00", -- sidestep | Sidestep | Alchemical Revolution
+      "rragp8m7o0", -- silvershine | Silvershine | Alchemical Revolution
+      "efuv1i4p0m", -- smash-with-obelisk | Smash with Obelisk | Alchemical Revolution
+      "7gr2g8evrc", -- spellshield-astra | Spellshield: Astra | Alchemical Revolution
+      "3dijq63nob", -- spellshield-wind | Spellshield: Wind | Alchemical Revolution
+      "gx83sfhvfi", -- spirit-of-fire | Spirit of Fire | Alchemical Revolution
+      "szdne4n32l", -- spirit-of-water | Spirit of Water | Alchemical Revolution
+      "8lbewemhus", -- spirit-of-wind | Spirit of Wind | Alchemical Revolution
+      "91zv75lahl", -- springleaf | Springleaf | Alchemical Revolution
+      "9b5m7sqe6k", -- storm-of-thorns | Storm of Thorns | Alchemical Revolution
+      "ir23ijp6td", -- strategic-warfare | Strategic Warfare | Alchemical Revolution
+      "d7hocc33ms", -- stream-of-consciousness | Stream of Consciousness | Alchemical Revolution
+      "oafsyqc998", -- study-the-fables | Study the Fables | Alchemical Revolution
+      "c1w1m5v69b", -- subjugating-lash | Subjugating Lash | Alchemical Revolution
+      "r492ollknd", -- summon-sentinels | Summon Sentinels | Alchemical Revolution
+      "5m6rgd6kd7", -- supply-drone | Supply Drone | Alchemical Revolution
+      "gncb2tcr0a", -- swooping-talons | Swooping Talons | Alchemical Revolution
+      "u82v5c00rr", -- synthetic-core | Synthetic Core | Alchemical Revolution
+      "0kxj0clcb6", -- tactical-retreat | Tactical Retreat | Alchemical Revolution
+      "x9z2kca6jh", -- take-aim | Take Aim | Alchemical Revolution
+      "wbsxu24etu", -- take-cover | Take Cover | Alchemical Revolution
+      "agp8m7o091", -- temporal-spectrometer | Temporal Spectrometer | Alchemical Revolution
+      "h6lahmjr3d", -- tether-in-flames | Tether in Flames | Alchemical Revolution
+      "dzdhnf1887", -- the-constellatory-spire | The Constellatory Spire | Alchemical Revolution
+      "lknd8dy76h", -- the-elysian-astrolabe | The Elysian Astrolabe | Alchemical Revolution
+      "184ozcq30s", -- the-eternal-kingdom | The Eternal Kingdom | Alchemical Revolution
+      "0seklknd8d", -- tonoris-creations-will | Tonoris, Creation's Will | Alchemical Revolution
+      "sfhvfiszdn", -- tonoris-genesis-aegis | Tonoris, Genesis Aegis | Alchemical Revolution
+      "9b5m6rgd6k", -- tonoris-lone-mercenary | Tonoris, Lone Mercenary | Alchemical Revolution
+      "0ax9z2kca6", -- tonoris-might-of-humanity | Tonoris, Might of Humanity | Alchemical Revolution
+      "jhxltxu2ef", -- torrential-blast | Torrential Blast | Alchemical Revolution
+      "eklknd8dy7", -- trained-sharpshooter | Trained Sharpshooter | Alchemical Revolution
+      "4ozcq30sek", -- turbulent-bullet | Turbulent Bullet | Alchemical Revolution
+      "64jzga7gr2", -- umbra-sight | Umbra Sight | Alchemical Revolution
+      "g8evrcdzdh", -- umbral-tithe | Umbral Tithe | Alchemical Revolution
+      "6hkmgx83sf", -- unearth-revelations | Unearth Revelations | Alchemical Revolution
+      "hvfiszdne4", -- vanish-from-sight | Vanish from Sight | Alchemical Revolution
+      "fsyrd9a9c2", -- vanishing-shot | Vanishing Shot | Alchemical Revolution
+      "1o25b4qwwv", -- vanitas-convergent-ruin | Vanitas, Convergent Ruin | Alchemical Revolution
+      "w4gq5w3jf0", -- vanitas-obliviate-schemer | Vanitas, Obliviate Schemer | Alchemical Revolution
+      "uv1i4p0mr4", -- vaporjet-shieldbearer | Vaporjet Shieldbearer | Alchemical Revolution
+      "6bn55g9b5m", -- veiled-dash | Veiled Dash | Alchemical Revolution
+      "ijq63nobfs", -- veteran-blazebearer | Veteran Blazebearer | Alchemical Revolution
+      "nf1887aqv0", -- violet-haze | Violet Haze | Alchemical Revolution
+      "92ollknd8d", -- waverider-protector | Waverider Protector | Alchemical Revolution
+      "zv75lahlir", -- wayfinders-map | Wayfinder's Map | Alchemical Revolution
+      "7sqe6kd7ho", -- whirlwind-vizier | Whirlwind Vizier | Alchemical Revolution
+      "cc33ms0kxj", -- wildgrowth-elixir | Wildgrowth Elixir | Alchemical Revolution
+      "0clcb6jhxl", -- winbless-arbalest | Winbless Arbalest | Alchemical Revolution
+      "txu2efuv1i", -- winbless-gatekeeper | Winbless Gatekeeper | Alchemical Revolution
+      "4p0mr492ol", -- winds-of-retribution | Winds of Retribution | Alchemical Revolution
+      "lknd8dyh7i", -- young-peacekeeper | Young Peacekeeper | Alchemical Revolution
+    },
+    ["ALCALT__ALTER_EXCLUSIVE"] = {
+      "fsw85dhmfq", -- accompanying-guard | Accompanying Guard | Alchemical Revolution Alter Edition
+      "09u7pwcj56", -- automated-gardener | Automated Gardener | Alchemical Revolution Alter Edition
+      "wo5zz7paki", -- bombastic-sprint | Bombastic Sprint | Alchemical Revolution Alter Edition
+      "QyuzJ2mzxs", -- cosmic-bolt | Cosmic Bolt | Alchemical Revolution Alter Edition
+      "l7uuck6umx", -- dawns-reversal | Dawn's Reversal | Alchemical Revolution Alter Edition
+      "66wylrvymv", -- focusing-round | Focusing Round | Alchemical Revolution Alter Edition
+      "yoh431onu1", -- fortifying-aroma | Fortifying Aroma | Alchemical Revolution Alter Edition
+      "11kidj5lpb", -- frozen-dismissal | Frozen Dismissal | Alchemical Revolution Alter Edition
+      "xpd62273t2", -- galestream-insight | Galestream Insight | Alchemical Revolution Alter Edition
+      "ct9f3fdk79", -- gloamspire-prowler | Gloamspire Prowler | Alchemical Revolution Alter Edition
+      "i7livfxrd1", -- horticounter | Horticounter | Alchemical Revolution Alter Edition
+      "eqglog8cyf", -- imperial-panzer | Imperial Panzer | Alchemical Revolution Alter Edition
+      "tb4fr2763u", -- nico-raptures-embrace | Nico, Rapture's Embrace | Alchemical Revolution Alter Edition
+      "g7wdah0gsj", -- perdition | Perdition | Alchemical Revolution Alter Edition
+      "k2c1uwgo72", -- polkhawk-boisterous-riot | Polkhawk, Boisterous Riot | Alchemical Revolution Alter Edition
+      "q28n9e8f9q", -- reconnaissance-scout | Reconnaissance Scout | Alchemical Revolution Alter Edition
+      "ta30u9d465", -- refabrication | Refabrication | Alchemical Revolution Alter Edition
+      "qgkiejanp6", -- slash-and-burn | Slash and Burn | Alchemical Revolution Alter Edition
+      "s3579hr973", -- surging-undertow | Surging Undertow | Alchemical Revolution Alter Edition
+      "4773ghgm2s", -- temptations-facade | Temptation's Facade | Alchemical Revolution Alter Edition
+      "ahsdnrugjm", -- vanitas-dominus-rex | Vanitas, Dominus Rex | Alchemical Revolution Alter Edition
+    },
   },
   collations = {
     ["PHANTOM_MONARCHS_8_CARD"] = {
@@ -4063,9 +18976,119 @@ local M = {
         { name = "TOKEN_SLOT", pool = "HVN__TOKEN_OR_COMMON_CHAMPION" },
       },
     },
+    ["DTR_12_CARD"] = {
+      slots = {
+        { name = "RARE_PLUS_SLOT", weighted = { { pool = "DTR__RARE", weight = 18 }, { pool = "DTR__SUPER_RARE", weight = 5 }, { pool = "DTR__ULTRA_RARE", weight = 1 } } },
+        { name = "UNCOMMON_SLOT_1", pool = "DTR__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_2", pool = "DTR__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_3", pool = "DTR__UNCOMMON" },
+        { name = "FOIL_SLOT", weighted = { { pool = "DTR__RARE", weight = 45 }, { pool = "DTR__CSR", weight = 1 }, { pool = "DTR__SUPER_RARE", weight = 36 }, { pool = "DTR__UNCOMMON", weight = 90 }, { pool = "DTR__COMMON", weight = 188 } } },
+        { name = "COMMON_SLOT_1", pool = "DTR__COMMON" },
+        { name = "COMMON_SLOT_2", pool = "DTR__COMMON" },
+        { name = "COMMON_SLOT_3", pool = "DTR__COMMON" },
+        { name = "COMMON_SLOT_4", pool = "DTR__COMMON" },
+        { name = "COMMON_SLOT_5", pool = "DTR__COMMON" },
+        { name = "COMMON_SLOT_6", pool = "DTR__COMMON" },
+        { name = "TOKEN_SLOT", pool = "DTR__TOKEN_OR_COMMON_CHAMPION" },
+      },
+    },
+    ["MRC_1E_8_CARD"] = {
+      slots = {
+        { name = "RARE_PLUS_SLOT", weighted = { { pool = "MRC1E__RARE", weight = 18 }, { pool = "MRC1E__SUPER_RARE", weight = 5 }, { pool = "MRC1E__ULTRA_RARE", weight = 1 } } },
+        { name = "UNCOMMON_SLOT_1", pool = "MRC1E__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_2", pool = "MRC1E__UNCOMMON" },
+        { name = "FOIL_SLOT", weighted = { { pool = "MRC1E__RARE", weight = 45 }, { pool = "MRC1E__CSR", weight = 1 }, { pool = "MRC1E__SUPER_RARE", weight = 36 }, { pool = "MRC1E__UNCOMMON", weight = 90 }, { pool = "MRC1E__COMMON", weight = 188 } } },
+        { name = "COMMON_SLOT_1", pool = "MRC1E__COMMON" },
+        { name = "COMMON_SLOT_2", pool = "MRC1E__COMMON" },
+        { name = "COMMON_SLOT_3", pool = "MRC1E__COMMON" },
+        { name = "TOKEN_SLOT", pool = "MRC1E__TOKEN_OR_COMMON_CHAMPION" },
+      },
+    },
+    ["MRC_ALTER_8_CARD"] = {
+      slots = {
+        { name = "RARE_PLUS_SLOT", weighted = { { pool = "MRCALT__RARE", weight = 18 }, { pool = "MRCALT__SUPER_RARE", weight = 5 }, { pool = "MRCALT__ULTRA_RARE", weight = 1 } } },
+        { name = "ALTER_SLOT", pool = "MRCALT__ALTER_EXCLUSIVE" },
+        { name = "UNCOMMON_SLOT_1", pool = "MRCALT__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_2", pool = "MRCALT__UNCOMMON" },
+        { name = "FOIL_SLOT", weighted = { { pool = "MRCALT__RARE", weight = 45 }, { pool = "MRCALT__CSR", weight = 1 }, { pool = "MRCALT__SUPER_RARE", weight = 36 }, { pool = "MRCALT__UNCOMMON", weight = 90 }, { pool = "MRCALT__COMMON", weight = 188 } } },
+        { name = "COMMON_SLOT_1", pool = "MRCALT__COMMON" },
+        { name = "COMMON_SLOT_2", pool = "MRCALT__COMMON" },
+        { name = "TOKEN_SLOT", pool = "MRCALT__TOKEN_OR_COMMON_CHAMPION" },
+      },
+    },
+    ["AMB_1E_8_CARD"] = {
+      slots = {
+        { name = "RARE_PLUS_SLOT", weighted = { { pool = "AMB1E__RARE", weight = 18 }, { pool = "AMB1E__SUPER_RARE", weight = 5 }, { pool = "AMB1E__ULTRA_RARE", weight = 1 } } },
+        { name = "UNCOMMON_SLOT_1", pool = "AMB1E__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_2", pool = "AMB1E__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_3", pool = "AMB1E__UNCOMMON" },
+        { name = "FOIL_SLOT", weighted = { { pool = "AMB1E__RARE", weight = 45 }, { pool = "AMB1E__CSR", weight = 1 }, { pool = "AMB1E__SUPER_RARE", weight = 36 }, { pool = "AMB1E__UNCOMMON", weight = 90 }, { pool = "AMB1E__COMMON", weight = 188 } } },
+        { name = "COMMON_SLOT_1", pool = "AMB1E__COMMON" },
+        { name = "COMMON_SLOT_2", pool = "AMB1E__COMMON" },
+        { name = "COMMON_SLOT_3", pool = "AMB1E__COMMON" },
+        { name = "COMMON_SLOT_4", pool = "AMB1E__COMMON" },
+        { name = "COMMON_SLOT_5", pool = "AMB1E__COMMON" },
+        { name = "COMMON_SLOT_6", pool = "AMB1E__COMMON" },
+        { name = "COMMON_SLOT_7", pool = "AMB1E__COMMON" },
+        { name = "COMMON_SLOT_8", pool = "AMB1E__COMMON" },
+        { name = "COMMON_SLOT_9", pool = "AMB1E__COMMON" },
+        { name = "TOKEN_SLOT", pool = "AMB1E__TOKEN_OR_COMMON_CHAMPION" },
+      },
+    },
+    ["AMB_ALTER_8_CARD"] = {
+      slots = {
+        { name = "RARE_PLUS_SLOT", weighted = { { pool = "AMBALT__RARE", weight = 18 }, { pool = "AMBALT__SUPER_RARE", weight = 5 }, { pool = "AMBALT__ULTRA_RARE", weight = 1 } } },
+        { name = "ALTER_SLOT", pool = "AMBALT__ALTER_EXCLUSIVE" },
+        { name = "UNCOMMON_SLOT_1", pool = "AMBALT__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_2", pool = "AMBALT__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_3", pool = "AMBALT__UNCOMMON" },
+        { name = "FOIL_SLOT", weighted = { { pool = "AMBALT__RARE", weight = 45 }, { pool = "AMBALT__CSR", weight = 1 }, { pool = "AMBALT__SUPER_RARE", weight = 36 }, { pool = "AMBALT__UNCOMMON", weight = 90 }, { pool = "AMBALT__COMMON", weight = 188 } } },
+        { name = "COMMON_SLOT_1", pool = "AMBALT__COMMON" },
+        { name = "COMMON_SLOT_2", pool = "AMBALT__COMMON" },
+        { name = "COMMON_SLOT_3", pool = "AMBALT__COMMON" },
+        { name = "COMMON_SLOT_4", pool = "AMBALT__COMMON" },
+        { name = "COMMON_SLOT_5", pool = "AMBALT__COMMON" },
+        { name = "TOKEN_SLOT", pool = "AMBALT__TOKEN_OR_COMMON_CHAMPION" },
+      },
+    },
+    ["ALC_12_CARD"] = {
+      slots = {
+        { name = "RARE_PLUS_SLOT", weighted = { { pool = "ALC__RARE", weight = 18 }, { pool = "ALC__SUPER_RARE", weight = 5 }, { pool = "ALC__ULTRA_RARE", weight = 1 } } },
+        { name = "UNCOMMON_SLOT_1", pool = "ALC__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_2", pool = "ALC__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_3", pool = "ALC__UNCOMMON" },
+        { name = "FOIL_SLOT", weighted = { { pool = "ALC__RARE", weight = 45 }, { pool = "ALC__CSR", weight = 1 }, { pool = "ALC__SUPER_RARE", weight = 36 }, { pool = "ALC__UNCOMMON", weight = 90 }, { pool = "ALC__COMMON", weight = 188 } } },
+        { name = "COMMON_SLOT_1", pool = "ALC__COMMON" },
+        { name = "COMMON_SLOT_2", pool = "ALC__COMMON" },
+        { name = "COMMON_SLOT_3", pool = "ALC__COMMON" },
+        { name = "COMMON_SLOT_4", pool = "ALC__COMMON" },
+        { name = "COMMON_SLOT_5", pool = "ALC__COMMON" },
+        { name = "COMMON_SLOT_6", pool = "ALC__COMMON" },
+        { name = "TOKEN_SLOT", pool = "ALC__TOKEN_OR_COMMON_CHAMPION" },
+      },
+    },
+    ["ALC_ALTER_12_CARD"] = {
+      slots = {
+        { name = "RARE_PLUS_SLOT", weighted = { { pool = "ALCALT__RARE", weight = 18 }, { pool = "ALCALT__SUPER_RARE", weight = 5 }, { pool = "ALCALT__ULTRA_RARE", weight = 1 } } },
+        { name = "ALTER_SLOT", pool = "ALCALT__ALTER_EXCLUSIVE" },
+        { name = "UNCOMMON_SLOT_1", pool = "ALCALT__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_2", pool = "ALCALT__UNCOMMON" },
+        { name = "UNCOMMON_SLOT_3", pool = "ALCALT__UNCOMMON" },
+        { name = "FOIL_SLOT", weighted = { { pool = "ALCALT__RARE", weight = 45 }, { pool = "ALCALT__CSR", weight = 1 }, { pool = "ALCALT__SUPER_RARE", weight = 36 }, { pool = "ALCALT__UNCOMMON", weight = 90 }, { pool = "ALCALT__COMMON", weight = 188 } } },
+        { name = "COMMON_SLOT_1", pool = "ALCALT__COMMON" },
+        { name = "COMMON_SLOT_2", pool = "ALCALT__COMMON" },
+        { name = "COMMON_SLOT_3", pool = "ALCALT__COMMON" },
+        { name = "COMMON_SLOT_4", pool = "ALCALT__COMMON" },
+        { name = "COMMON_SLOT_5", pool = "ALCALT__COMMON" },
+        { name = "TOKEN_SLOT", pool = "ALCALT__TOKEN_OR_COMMON_CHAMPION" },
+      },
+    },
   },
 }
 M.collations["ABYSSAL_HEAVEN_8_CARD"] = M.collations["HVN_8_CARD"]
+M.collations["MRC1E_8_CARD"] = M.collations["MRC_1E_8_CARD"]
+M.collations["AMB1E_8_CARD"] = M.collations["AMB_1E_8_CARD"]
+M.collations["ALCALT_12_CARD"] = M.collations["ALC_ALTER_12_CARD"]
 
 function getMap() return M end
 
@@ -4081,6 +19104,8 @@ function getCardData(params)
     uuid = card.uuid,
     slug = card.slug,
     types = card.types,
+    orientation = card.orientation,
+    orientations = card.orientations,
   }
 end
 
