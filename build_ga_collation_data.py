@@ -54,6 +54,14 @@ ALC_ALTER_PREFIXES = ["ALC Alter", "ALC+Alter"]
 ALC_COLLATION = {"id": "ALC", "collation_name": "ALC_12_CARD"}
 ALC_ALTER_COLLATION = {"id": "ALCALT", "collation_name": "ALC_ALTER_12_CARD"}
 
+FTC_PREFIXES = ["FTC", "FTC 1st", "FTC+1st"]
+FTC_COLLATION = {"id": "FTC", "collation_name": "FTC_8_CARD"}
+
+DOA_1E_PREFIXES = ["DOA 1st", "DOA+1st", "DOA"]
+DOA_ALTER_PREFIXES = ["DOA Alter", "DOA+Alter", "DOAALTER"]
+DOA_1E_COLLATION = {"id": "DOA1E", "collation_name": "DOA_1E_12_CARD"}
+DOA_ALTER_COLLATION = {"id": "DOAALT", "collation_name": "DOA_ALTER_12_CARD"}
+
 RARITY_ID_TO_KEY = {
     1: "COMMON",
     2: "UNCOMMON",
@@ -354,7 +362,7 @@ def main():
     })
     target_set_prefixes = sorted({
         p for spec in STANDARD_COLLATIONS for p in (spec.get("set_prefixes") or [])
-    } | set(AMB_BASE_PREFIXES) | set(AMB_1E_PREFIXES) | set(AMB_ALTER_PREFIXES) | set(ALC_BASE_PREFIXES) | set(ALC_ALTER_PREFIXES))
+    } | set(AMB_BASE_PREFIXES) | set(AMB_1E_PREFIXES) | set(AMB_ALTER_PREFIXES) | set(ALC_BASE_PREFIXES) | set(ALC_ALTER_PREFIXES) | set(FTC_PREFIXES) | set(DOA_1E_PREFIXES) | set(DOA_ALTER_PREFIXES))
     target_set_lookup = set(target_set_names)
     target_prefix_lookup = set(target_set_prefixes)
 
@@ -520,6 +528,18 @@ def main():
     alcalt_pools["ALTER_EXCLUSIVE"] = dedupe_rows(alc_alter_exclusive_rows)
     pools_by_collation[ALC_ALTER_COLLATION["id"]] = alcalt_pools
 
+    ftc_rows = rows_for_prefixes(FTC_PREFIXES)
+    pools_by_collation[FTC_COLLATION["id"]] = pools_from_rows(ftc_rows)
+
+    doa_1e_rows = rows_for_prefixes(DOA_1E_PREFIXES)
+    doa_alt_rows = rows_for_prefixes(DOA_ALTER_PREFIXES)
+
+    doa_1e_pools = pools_from_rows(doa_1e_rows)
+    pools_by_collation[DOA_1E_COLLATION["id"]] = doa_1e_pools
+
+    doa_alt_pools = pools_from_rows(doa_alt_rows)
+    pools_by_collation[DOA_ALTER_COLLATION["id"]] = doa_alt_pools
+
     mrc_base_rows = rows_by_set.get(MRC_BASE_SET, [])
     mrc_1e_rows = rows_by_set.get(MRC_FIRST_ED_SET, [])
     mrc_alt_rows = rows_by_set.get(MRC_ALTER_SET, [])
@@ -602,6 +622,15 @@ def main():
         output_pool_block(lines, pool_key(ALC_ALTER_COLLATION["id"], pool_name), pools_by_collation[ALC_ALTER_COLLATION["id"]].get(pool_name, []))
     output_pool_block(lines, pool_key(ALC_ALTER_COLLATION["id"], "ALTER_EXCLUSIVE"), pools_by_collation[ALC_ALTER_COLLATION["id"]].get("ALTER_EXCLUSIVE", []))
 
+    for pool_name in POOL_ORDER:
+        output_pool_block(lines, pool_key(FTC_COLLATION["id"], pool_name), pools_by_collation[FTC_COLLATION["id"]].get(pool_name, []))
+
+    for pool_name in POOL_ORDER:
+        output_pool_block(lines, pool_key(DOA_1E_COLLATION["id"], pool_name), pools_by_collation[DOA_1E_COLLATION["id"]].get(pool_name, []))
+
+    for pool_name in POOL_ORDER:
+        output_pool_block(lines, pool_key(DOA_ALTER_COLLATION["id"], pool_name), pools_by_collation[DOA_ALTER_COLLATION["id"]].get(pool_name, []))
+
     lines.append("  },")
     lines.append('  collations = {')
 
@@ -620,6 +649,9 @@ def main():
     add_alter_collation_block(lines, AMB_ALTER_COLLATION["id"], AMB_ALTER_COLLATION["collation_name"], uncommon_slots=3, common_slots=5)
     add_standard_collation_block(lines, ALC_COLLATION["id"], ALC_COLLATION["collation_name"], uncommon_slots=3, common_slots=6)
     add_alter_collation_block(lines, ALC_ALTER_COLLATION["id"], ALC_ALTER_COLLATION["collation_name"], uncommon_slots=3, common_slots=5)
+    add_standard_collation_block(lines, FTC_COLLATION["id"], FTC_COLLATION["collation_name"])
+    add_standard_collation_block(lines, DOA_1E_COLLATION["id"], DOA_1E_COLLATION["collation_name"], uncommon_slots=3, common_slots=6)
+    add_standard_collation_block(lines, DOA_ALTER_COLLATION["id"], DOA_ALTER_COLLATION["collation_name"], uncommon_slots=3, common_slots=6)
 
     lines.append("  },")
     lines.append("}")
@@ -627,6 +659,7 @@ def main():
     lines.append('M.collations["MRC1E_8_CARD"] = M.collations["MRC_1E_8_CARD"]')
     lines.append('M.collations["AMB1E_8_CARD"] = M.collations["AMB_1E_8_CARD"]')
     lines.append('M.collations["ALCALT_12_CARD"] = M.collations["ALC_ALTER_12_CARD"]')
+    lines.append('M.collations["DOA1E_8_CARD"] = M.collations["DOA_1E_12_CARD"]')
     lines.append("")
     lines.append("function getMap() return M end")
     lines.append("")
@@ -758,6 +791,15 @@ def main():
     for pool_name in POOL_ORDER:
         print(f"  {pool_name}: {len(pools_by_collation[ALC_ALTER_COLLATION['id']].get(pool_name, []))}")
     print(f"  ALTER_EXCLUSIVE: {len(pools_by_collation[ALC_ALTER_COLLATION['id']].get('ALTER_EXCLUSIVE', []))}")
+    print(f"Pool sizes for {FTC_COLLATION['collation_name']}:")
+    for pool_name in POOL_ORDER:
+        print(f"  {pool_name}: {len(pools_by_collation[FTC_COLLATION['id']].get(pool_name, []))}")
+    print(f"Pool sizes for {DOA_1E_COLLATION['collation_name']}:")
+    for pool_name in POOL_ORDER:
+        print(f"  {pool_name}: {len(pools_by_collation[DOA_1E_COLLATION['id']].get(pool_name, []))}")
+    print(f"Pool sizes for {DOA_ALTER_COLLATION['collation_name']}:")
+    for pool_name in POOL_ORDER:
+        print(f"  {pool_name}: {len(pools_by_collation[DOA_ALTER_COLLATION['id']].get(pool_name, []))}")
 
 
 if __name__ == "__main__":
