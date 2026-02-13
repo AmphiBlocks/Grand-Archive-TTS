@@ -274,7 +274,7 @@ def pool_key(collation_id, pool_name):
 def output_pool_block(lines, key_name, rows):
     lines.append(f'    ["{key_name}"] = {{')
     for row in sort_uuid_rows(rows):
-        lines.append(f'      "{row["uuid"]}", -- {row["slug"]} | {row["name"]} | {row["set_name"]}')
+        lines.append(f'      "{row["uuid"]}",')
     lines.append("    },")
 
 
@@ -286,24 +286,21 @@ def output_card_map_block(lines, rows):
     lines.append("  cards = {")
     for uuid in sorted(by_uuid.keys()):
         row = by_uuid[uuid]
+        orientations = row.get("orientations") or []
+        has_dfc_data = len(orientations) > 0
         lines.append(f'    ["{uuid}"] = {{')
         lines.append(f'      uuid = "{uuid}",')
-        lines.append(f'      slug = {lua_quote(row["slug"])},')
-        lines.append(f'      name = {lua_quote(row["name"])},')
         lines.append(f'      image = {lua_quote(row.get("image") or "")},')
-        lines.append(f'      orientation = {lua_quote(row.get("orientation") or "")},')
-        lines.append("      types = { " + ", ".join(lua_quote(t) for t in row["types"]) + " },")
-        lines.append("      orientations = {")
-        for alt in row.get("orientations") or []:
-            lines.append("        {")
-            lines.append(f'          name = {lua_quote(alt.get("name") or "")},')
-            lines.append(f'          slug = {lua_quote(alt.get("slug") or "")},')
-            lines.append(f'          uuid = {lua_quote(alt.get("uuid") or "")},')
-            lines.append(f'          image = {lua_quote(alt.get("image") or "")},')
-            lines.append(f'          orientation = {lua_quote(alt.get("orientation") or "")},')
-            lines.append("          types = { " + ", ".join(lua_quote(t) for t in (alt.get("types") or [])) + " },")
-            lines.append("        },")
-        lines.append("      },")
+        if has_dfc_data:
+            lines.append('      orientation = "front",')
+            lines.append("      orientations = {")
+            for alt in orientations:
+                lines.append("        {")
+                lines.append(f'          uuid = {lua_quote(alt.get("uuid") or "")},')
+                lines.append(f'          image = {lua_quote(alt.get("image") or "")},')
+                lines.append(f'          orientation = {lua_quote(alt.get("orientation") or "back")},')
+                lines.append("        },")
+            lines.append("      },")
         lines.append("    },")
     lines.append("  },")
 
@@ -595,41 +592,53 @@ def main():
     output_card_map_block(lines, all_rows)
     lines.append("  pools = {")
 
+    requested_pool_defs = []
+
     for spec in STANDARD_COLLATIONS:
         cid = spec["id"]
         pools = pools_by_collation[cid]
         for pool_name in POOL_ORDER:
-            output_pool_block(lines, pool_key(cid, pool_name), pools.get(pool_name, []))
+            requested_pool_defs.append((pool_key(cid, pool_name), pools.get(pool_name, [])))
 
     for pool_name in POOL_ORDER:
-        output_pool_block(lines, pool_key(MRC_1E_COLLATION["id"], pool_name), pools_by_collation[MRC_1E_COLLATION["id"]].get(pool_name, []))
+        requested_pool_defs.append((pool_key(MRC_1E_COLLATION["id"], pool_name), pools_by_collation[MRC_1E_COLLATION["id"]].get(pool_name, [])))
+    for pool_name in POOL_ORDER:
+        requested_pool_defs.append((pool_key(MRC_ALTER_COLLATION["id"], pool_name), pools_by_collation[MRC_ALTER_COLLATION["id"]].get(pool_name, [])))
+    requested_pool_defs.append((pool_key(MRC_ALTER_COLLATION["id"], "ALTER_EXCLUSIVE"), pools_by_collation[MRC_ALTER_COLLATION["id"]].get("ALTER_EXCLUSIVE", [])))
 
     for pool_name in POOL_ORDER:
-        output_pool_block(lines, pool_key(MRC_ALTER_COLLATION["id"], pool_name), pools_by_collation[MRC_ALTER_COLLATION["id"]].get(pool_name, []))
-    output_pool_block(lines, pool_key(MRC_ALTER_COLLATION["id"], "ALTER_EXCLUSIVE"), pools_by_collation[MRC_ALTER_COLLATION["id"]].get("ALTER_EXCLUSIVE", []))
+        requested_pool_defs.append((pool_key(AMB_1E_COLLATION["id"], pool_name), pools_by_collation[AMB_1E_COLLATION["id"]].get(pool_name, [])))
+    for pool_name in POOL_ORDER:
+        requested_pool_defs.append((pool_key(AMB_ALTER_COLLATION["id"], pool_name), pools_by_collation[AMB_ALTER_COLLATION["id"]].get(pool_name, [])))
+    requested_pool_defs.append((pool_key(AMB_ALTER_COLLATION["id"], "ALTER_EXCLUSIVE"), pools_by_collation[AMB_ALTER_COLLATION["id"]].get("ALTER_EXCLUSIVE", [])))
 
     for pool_name in POOL_ORDER:
-        output_pool_block(lines, pool_key(AMB_1E_COLLATION["id"], pool_name), pools_by_collation[AMB_1E_COLLATION["id"]].get(pool_name, []))
+        requested_pool_defs.append((pool_key(ALC_COLLATION["id"], pool_name), pools_by_collation[ALC_COLLATION["id"]].get(pool_name, [])))
+    for pool_name in POOL_ORDER:
+        requested_pool_defs.append((pool_key(ALC_ALTER_COLLATION["id"], pool_name), pools_by_collation[ALC_ALTER_COLLATION["id"]].get(pool_name, [])))
+    requested_pool_defs.append((pool_key(ALC_ALTER_COLLATION["id"], "ALTER_EXCLUSIVE"), pools_by_collation[ALC_ALTER_COLLATION["id"]].get("ALTER_EXCLUSIVE", [])))
 
     for pool_name in POOL_ORDER:
-        output_pool_block(lines, pool_key(AMB_ALTER_COLLATION["id"], pool_name), pools_by_collation[AMB_ALTER_COLLATION["id"]].get(pool_name, []))
-    output_pool_block(lines, pool_key(AMB_ALTER_COLLATION["id"], "ALTER_EXCLUSIVE"), pools_by_collation[AMB_ALTER_COLLATION["id"]].get("ALTER_EXCLUSIVE", []))
+        requested_pool_defs.append((pool_key(FTC_COLLATION["id"], pool_name), pools_by_collation[FTC_COLLATION["id"]].get(pool_name, [])))
 
     for pool_name in POOL_ORDER:
-        output_pool_block(lines, pool_key(ALC_COLLATION["id"], pool_name), pools_by_collation[ALC_COLLATION["id"]].get(pool_name, []))
-
+        requested_pool_defs.append((pool_key(DOA_1E_COLLATION["id"], pool_name), pools_by_collation[DOA_1E_COLLATION["id"]].get(pool_name, [])))
     for pool_name in POOL_ORDER:
-        output_pool_block(lines, pool_key(ALC_ALTER_COLLATION["id"], pool_name), pools_by_collation[ALC_ALTER_COLLATION["id"]].get(pool_name, []))
-    output_pool_block(lines, pool_key(ALC_ALTER_COLLATION["id"], "ALTER_EXCLUSIVE"), pools_by_collation[ALC_ALTER_COLLATION["id"]].get("ALTER_EXCLUSIVE", []))
+        requested_pool_defs.append((pool_key(DOA_ALTER_COLLATION["id"], pool_name), pools_by_collation[DOA_ALTER_COLLATION["id"]].get(pool_name, [])))
 
-    for pool_name in POOL_ORDER:
-        output_pool_block(lines, pool_key(FTC_COLLATION["id"], pool_name), pools_by_collation[FTC_COLLATION["id"]].get(pool_name, []))
+    canonical_for_sig = {}
+    alias_map = {}
+    canonical_defs = []
+    for key_name, rows in requested_pool_defs:
+        sig = tuple(r["uuid"] for r in sort_uuid_rows(rows or []))
+        if sig in canonical_for_sig:
+            alias_map[key_name] = canonical_for_sig[sig]
+        else:
+            canonical_for_sig[sig] = key_name
+            canonical_defs.append((key_name, rows or []))
 
-    for pool_name in POOL_ORDER:
-        output_pool_block(lines, pool_key(DOA_1E_COLLATION["id"], pool_name), pools_by_collation[DOA_1E_COLLATION["id"]].get(pool_name, []))
-
-    for pool_name in POOL_ORDER:
-        output_pool_block(lines, pool_key(DOA_ALTER_COLLATION["id"], pool_name), pools_by_collation[DOA_ALTER_COLLATION["id"]].get(pool_name, []))
+    for key_name, rows in canonical_defs:
+        output_pool_block(lines, key_name, rows)
 
     lines.append("  },")
     lines.append('  collations = {')
@@ -660,6 +669,10 @@ def main():
     lines.append('M.collations["AMB1E_8_CARD"] = M.collations["AMB_1E_8_CARD"]')
     lines.append('M.collations["ALCALT_12_CARD"] = M.collations["ALC_ALTER_12_CARD"]')
     lines.append('M.collations["DOA1E_8_CARD"] = M.collations["DOA_1E_12_CARD"]')
+    for alias_key in sorted(alias_map.keys()):
+        target_key = alias_map[alias_key]
+        if alias_key != target_key:
+            lines.append(f'M.pools["{alias_key}"] = M.pools["{target_key}"]')
     lines.append("")
     lines.append("function getMap() return M end")
     lines.append("")
@@ -670,11 +683,8 @@ def main():
     lines.append("  local card = M.cards[uuid]")
     lines.append("  if not card then return nil end")
     lines.append("  return {")
-    lines.append("    name = card.name,")
-    lines.append("    image = card.image,")
     lines.append("    uuid = card.uuid,")
-    lines.append("    slug = card.slug,")
-    lines.append("    types = card.types,")
+    lines.append("    image = card.image,")
     lines.append("    orientation = card.orientation,")
     lines.append("    orientations = card.orientations,")
     lines.append("  }")
