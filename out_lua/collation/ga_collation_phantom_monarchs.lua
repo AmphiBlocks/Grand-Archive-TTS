@@ -1,11 +1,11 @@
 -- Auto-generated GA collation data
 -- Source: api.gatcg.com/cards/search
--- Set filter: Abyssal Heaven, Abyssal Heaven First Edition, Mercurial Heart, Mercurial Heart Alter Edition, Mercurial Heart First Edition, Phantom Monarchs, Phantom Monarchs First Edition | prefixes: ALC, ALC Alter, ALC+Alter, AMB, AMB 1st, AMB Alter, AMB+1st, AMB+Alter, DOA, DOA 1st, DOA Alter, DOA+1st, DOA+Alter, DOAALTER, DTR, FTC, FTC 1st, FTC+1st
--- Generated: 2026-02-13T03:50:50Z
+-- Set filter: Abyssal Heaven, Abyssal Heaven First Edition, Mercurial Heart, Mercurial Heart Alter Edition, Mercurial Heart First Edition, Phantom Monarchs, Phantom Monarchs First Edition | prefixes: ALC, ALC Alter, ALC+Alter, AMB, AMB 1st, AMB Alter, AMB DP, AMB Draft, AMB Draft Pack, AMB+1st, AMB+Alter, AMBDP, DOA, DOA 1st, DOA Alter, DOA+1st, DOA+Alter, DOAALTER, DTR, FTC, FTC 1st, FTC+1st
+-- Generated: 2026-02-13T05:03:51Z
 
 local M = {
   meta = {
-    generated_at = "2026-02-13T03:50:50Z",
+    generated_at = "2026-02-13T05:03:51Z",
     source_api = "https://api.gatcg.com/cards/search",
     set_names = { "Abyssal Heaven", "Abyssal Heaven First Edition", "Mercurial Heart", "Mercurial Heart Alter Edition", "Mercurial Heart First Edition", "Phantom Monarchs", "Phantom Monarchs First Edition" },
   },
@@ -402,6 +402,10 @@ local M = {
       uuid = "1nis8uaztx",
       image = "/cards/images/1nis8uaztx.jpg",
     },
+    ["1njyb8wmq9"] = {
+      uuid = "1njyb8wmq9",
+      image = "/cards/images/1njyb8wmq9.jpg",
+    },
     ["1nre31o6ea"] = {
       uuid = "1nre31o6ea",
       image = "/cards/images/1nre31o6ea.jpg",
@@ -433,6 +437,10 @@ local M = {
     ["1ucb15ecol"] = {
       uuid = "1ucb15ecol",
       image = "/cards/images/1ucb15ecol.jpg",
+    },
+    ["1ueoyexd20"] = {
+      uuid = "1ueoyexd20",
+      image = "/cards/images/1ueoyexd20.jpg",
     },
     ["1ugmmlp59e"] = {
       uuid = "1ugmmlp59e",
@@ -582,6 +590,10 @@ local M = {
       uuid = "2ga2p9tt7j",
       image = "/cards/images/2ga2p9tt7j.jpg",
     },
+    ["2gykv5m9e9"] = {
+      uuid = "2gykv5m9e9",
+      image = "/cards/images/2gykv5m9e9.jpg",
+    },
     ["2h04dbz8qq"] = {
       uuid = "2h04dbz8qq",
       image = "/cards/images/2h04dbz8qq.jpg",
@@ -597,6 +609,10 @@ local M = {
     ["2jnah5p3zd"] = {
       uuid = "2jnah5p3zd",
       image = "/cards/images/2jnah5p3zd.jpg",
+    },
+    ["2jwz3766zo"] = {
+      uuid = "2jwz3766zo",
+      image = "/cards/images/2jwz3766zo.jpg",
     },
     ["2l8lbewemh"] = {
       uuid = "2l8lbewemh",
@@ -662,6 +678,10 @@ local M = {
       uuid = "2vgnnmp5af",
       image = "/cards/images/2vgnnmp5af.jpg",
     },
+    ["2vtrwnliip"] = {
+      uuid = "2vtrwnliip",
+      image = "/cards/images/2vtrwnliip.jpg",
+    },
     ["2w8kx0bowc"] = {
       uuid = "2w8kx0bowc",
       image = "/cards/images/2w8kx0bowc.jpg",
@@ -670,6 +690,10 @@ local M = {
       uuid = "2ymmhfubfl",
       image = "/cards/images/2ymmhfubfl.jpg",
     },
+    ["2zribj60qi"] = {
+      uuid = "2zribj60qi",
+      image = "/cards/images/2zribj60qi.jpg",
+    },
     ["300z3snsdw"] = {
       uuid = "300z3snsdw",
       image = "/cards/images/300z3snsdw.jpg",
@@ -677,6 +701,10 @@ local M = {
     ["30j57myje7"] = {
       uuid = "30j57myje7",
       image = "/cards/images/30j57myje7.jpg",
+    },
+    ["30p9gr2akz"] = {
+      uuid = "30p9gr2akz",
+      image = "/cards/images/30p9gr2akz.jpg",
     },
     ["31hwd85dpz"] = {
       uuid = "31hwd85dpz",
@@ -845,6 +873,10 @@ local M = {
     ["3tcae41mhi"] = {
       uuid = "3tcae41mhi",
       image = "/cards/images/3tcae41mhi.jpg",
+    },
+    ["3tdptyr8xi"] = {
+      uuid = "3tdptyr8xi",
+      image = "/cards/images/3tdptyr8xi.jpg",
     },
     ["3ujCsmTSa9"] = {
       uuid = "3ujCsmTSa9",
@@ -1298,6 +1330,10 @@ local M = {
       uuid = "5wqgwuidru",
       image = "/cards/images/5wqgwuidru.jpg",
     },
+    ["5xjiwgaam6"] = {
+      uuid = "5xjiwgaam6",
+      image = "/cards/images/5xjiwgaam6.jpg",
+    },
     ["5zkjomqu16"] = {
       uuid = "5zkjomqu16",
       image = "/cards/images/5zkjomqu16.jpg",
@@ -1305,6 +1341,10 @@ local M = {
     ["63jyfa7fr1"] = {
       uuid = "63jyfa7fr1",
       image = "/cards/images/63jyfa7fr1.jpg",
+    },
+    ["63mjrjphcq"] = {
+      uuid = "63mjrjphcq",
+      image = "/cards/images/63mjrjphcq.jpg",
     },
     ["64jzga7gr2"] = {
       uuid = "64jzga7gr2",
@@ -1866,6 +1906,10 @@ local M = {
       uuid = "8mrdeauaeb",
       image = "/cards/images/8mrdeauaeb.jpg",
     },
+    ["8ms5ms6sd2"] = {
+      uuid = "8ms5ms6sd2",
+      image = "/cards/images/8ms5ms6sd2.jpg",
+    },
     ["8n485dgq56"] = {
       uuid = "8n485dgq56",
       image = "/cards/images/8n485dgq56.jpg",
@@ -1889,6 +1933,10 @@ local M = {
     ["8otxPih25B"] = {
       uuid = "8otxPih25B",
       image = "/cards/images/8otxPih25B.jpg",
+    },
+    ["8q4j5phukx"] = {
+      uuid = "8q4j5phukx",
+      image = "/cards/images/8q4j5phukx.jpg",
     },
     ["8qgdthzkdg"] = {
       uuid = "8qgdthzkdg",
@@ -1945,6 +1993,10 @@ local M = {
     ["92YCAKlPGm"] = {
       uuid = "92YCAKlPGm",
       image = "/cards/images/92YCAKlPGm.jpg",
+    },
+    ["92g6iuwxbr"] = {
+      uuid = "92g6iuwxbr",
+      image = "/cards/images/92g6iuwxbr.jpg",
     },
     ["92ollknd8d"] = {
       uuid = "92ollknd8d",
@@ -2085,6 +2137,10 @@ local M = {
     ["9nZPN4dFBC"] = {
       uuid = "9nZPN4dFBC",
       image = "/cards/images/9nZPN4dFBC.jpg",
+    },
+    ["9onccpclpv"] = {
+      uuid = "9onccpclpv",
+      image = "/cards/images/9onccpclpv.jpg",
     },
     ["9pcx7uycha"] = {
       uuid = "9pcx7uycha",
@@ -3270,6 +3326,10 @@ local M = {
       uuid = "adnk8izzio",
       image = "/cards/images/adnk8izzio.jpg",
     },
+    ["ae9571kqtk"] = {
+      uuid = "ae9571kqtk",
+      image = "/cards/images/ae9571kqtk.jpg",
+    },
     ["aerw4i1s9o"] = {
       uuid = "aerw4i1s9o",
       image = "/cards/images/aerw4i1s9o.jpg",
@@ -3410,6 +3470,10 @@ local M = {
       uuid = "b31xa7n2jn",
       image = "/cards/images/b31xa7n2jn.jpg",
     },
+    ["b42jji1qlk"] = {
+      uuid = "b42jji1qlk",
+      image = "/cards/images/b42jji1qlk.jpg",
+    },
     ["b4qwwvyfjo"] = {
       uuid = "b4qwwvyfjo",
       image = "/cards/images/b4qwwvyfjo.jpg",
@@ -3517,6 +3581,10 @@ local M = {
     ["bo2fb4qwxv"] = {
       uuid = "bo2fb4qwxv",
       image = "/cards/images/bo2fb4qwxv.jpg",
+    },
+    ["brz7jqrrf6"] = {
+      uuid = "brz7jqrrf6",
+      image = "/cards/images/brz7jqrrf6.jpg",
     },
     ["bs3ynacqad"] = {
       uuid = "bs3ynacqad",
@@ -3794,6 +3862,10 @@ local M = {
       uuid = "cz3hmf1yyx",
       image = "/cards/images/cz3hmf1yyx.jpg",
     },
+    ["czbzwutqys"] = {
+      uuid = "czbzwutqys",
+      image = "/cards/images/czbzwutqys.jpg",
+    },
     ["d02g03cay7"] = {
       uuid = "d02g03cay7",
       image = "/cards/images/d02g03cay7.jpg",
@@ -4058,6 +4130,10 @@ local M = {
       uuid = "e5o3cm9lbe",
       image = "/cards/images/e5o3cm9lbe.jpg",
     },
+    ["e6m1yc55ka"] = {
+      uuid = "e6m1yc55ka",
+      image = "/cards/images/e6m1yc55ka.jpg",
+    },
     ["e6nbpc4e6h"] = {
       uuid = "e6nbpc4e6h",
       image = "/cards/images/e6nbpc4e6h.jpg",
@@ -4089,6 +4165,10 @@ local M = {
     ["edaJHAxWMK"] = {
       uuid = "edaJHAxWMK",
       image = "/cards/images/edaJHAxWMK.jpg",
+    },
+    ["eftif0r9ra"] = {
+      uuid = "eftif0r9ra",
+      image = "/cards/images/eftif0r9ra.jpg",
     },
     ["eftu1h4pzm"] = {
       uuid = "eftu1h4pzm",
@@ -4357,6 +4437,10 @@ local M = {
     ["fsyrd9a9c2"] = {
       uuid = "fsyrd9a9c2",
       image = "/cards/images/fsyrd9a9c2.jpg",
+    },
+    ["ft8im9bnly"] = {
+      uuid = "ft8im9bnly",
+      image = "/cards/images/ft8im9bnly.jpg",
     },
     ["ftmgqxllc2"] = {
       uuid = "ftmgqxllc2",
@@ -4742,6 +4826,10 @@ local M = {
       uuid = "hmjr3dijq6",
       image = "/cards/images/hmjr3dijq6.jpg",
     },
+    ["hoh8adw0s7"] = {
+      uuid = "hoh8adw0s7",
+      image = "/cards/images/hoh8adw0s7.jpg",
+    },
     ["hq6byzsrfd"] = {
       uuid = "hq6byzsrfd",
       image = "/cards/images/hq6byzsrfd.jpg",
@@ -4882,6 +4970,10 @@ local M = {
       uuid = "iflzr0jr2h",
       image = "/cards/images/iflzr0jr2h.jpg",
     },
+    ["igbth5jtj2"] = {
+      uuid = "igbth5jtj2",
+      image = "/cards/images/igbth5jtj2.jpg",
+    },
     ["igkaejvddo"] = {
       uuid = "igkaejvddo",
       image = "/cards/images/igkaejvddo.jpg",
@@ -4909,6 +5001,10 @@ local M = {
     ["ikaSD9puBG"] = {
       uuid = "ikaSD9puBG",
       image = "/cards/images/ikaSD9puBG.jpg",
+    },
+    ["ily8dl7urg"] = {
+      uuid = "ily8dl7urg",
+      image = "/cards/images/ily8dl7urg.jpg",
     },
     ["in1rj6qet0"] = {
       uuid = "in1rj6qet0",
@@ -4966,6 +5062,10 @@ local M = {
       uuid = "irlofoshl5",
       image = "/cards/images/irlofoshl5.jpg",
     },
+    ["ist043hvvj"] = {
+      uuid = "ist043hvvj",
+      image = "/cards/images/ist043hvvj.jpg",
+    },
     ["isxy5li23q"] = {
       uuid = "isxy5li23q",
       image = "/cards/images/isxy5li23q.jpg",
@@ -4977,6 +5077,10 @@ local M = {
     ["itwys9kf4r"] = {
       uuid = "itwys9kf4r",
       image = "/cards/images/itwys9kf4r.jpg",
+    },
+    ["iwhno3doqz"] = {
+      uuid = "iwhno3doqz",
+      image = "/cards/images/iwhno3doqz.jpg",
     },
     ["ixe86eq0f6"] = {
       uuid = "ixe86eq0f6",
@@ -5081,6 +5185,10 @@ local M = {
     ["je6i56f3zf"] = {
       uuid = "je6i56f3zf",
       image = "/cards/images/je6i56f3zf.jpg",
+    },
+    ["jfaxcshfzd"] = {
+      uuid = "jfaxcshfzd",
+      image = "/cards/images/jfaxcshfzd.jpg",
     },
     ["jfii2l6my7"] = {
       uuid = "jfii2l6my7",
@@ -5233,6 +5341,10 @@ local M = {
     ["k1l65skzsm"] = {
       uuid = "k1l65skzsm",
       image = "/cards/images/k1l65skzsm.jpg",
+    },
+    ["k1pvf8fpk7"] = {
+      uuid = "k1pvf8fpk7",
+      image = "/cards/images/k1pvf8fpk7.jpg",
     },
     ["k1vkj1hh31"] = {
       uuid = "k1vkj1hh31",
@@ -5450,6 +5562,10 @@ local M = {
       uuid = "ky7rcauz5l",
       image = "/cards/images/ky7rcauz5l.jpg",
     },
+    ["ky97x0hfux"] = {
+      uuid = "ky97x0hfux",
+      image = "/cards/images/ky97x0hfux.jpg",
+    },
     ["kyfk7mj19r"] = {
       uuid = "kyfk7mj19r",
       image = "/cards/images/kyfk7mj19r.jpg",
@@ -5574,6 +5690,10 @@ local M = {
       uuid = "lhigkaejvd",
       image = "/cards/images/lhigkaejvd.jpg",
     },
+    ["li1my4ybqq"] = {
+      uuid = "li1my4ybqq",
+      image = "/cards/images/li1my4ybqq.jpg",
+    },
     ["li9rj8nltg"] = {
       uuid = "li9rj8nltg",
       image = "/cards/images/li9rj8nltg.jpg",
@@ -5693,6 +5813,10 @@ local M = {
     ["m4c8kiydup"] = {
       uuid = "m4c8kiydup",
       image = "/cards/images/m4c8kiydup.jpg",
+    },
+    ["m4ccks9zbw"] = {
+      uuid = "m4ccks9zbw",
+      image = "/cards/images/m4ccks9zbw.jpg",
     },
     ["m59wpgo2mi"] = {
       uuid = "m59wpgo2mi",
@@ -5942,6 +6066,10 @@ local M = {
       uuid = "n6k5mygy62",
       image = "/cards/images/n6k5mygy62.jpg",
     },
+    ["n7be3plaha"] = {
+      uuid = "n7be3plaha",
+      image = "/cards/images/n7be3plaha.jpg",
+    },
     ["n7jhj65w4e"] = {
       uuid = "n7jhj65w4e",
       image = "/cards/images/n7jhj65w4e.jpg",
@@ -6053,6 +6181,10 @@ local M = {
     ["nmp5af099k"] = {
       uuid = "nmp5af099k",
       image = "/cards/images/nmp5af099k.jpg",
+    },
+    ["nnaqxmoq3x"] = {
+      uuid = "nnaqxmoq3x",
+      image = "/cards/images/nnaqxmoq3x.jpg",
     },
     ["nne5n3cl9l"] = {
       uuid = "nne5n3cl9l",
@@ -6698,6 +6830,10 @@ local M = {
       uuid = "qgkiejanp6",
       image = "/cards/images/qgkiejanp6.jpg",
     },
+    ["qgt3985b4i"] = {
+      uuid = "qgt3985b4i",
+      image = "/cards/images/qgt3985b4i.jpg",
+    },
     ["qgzeexkwnp"] = {
       uuid = "qgzeexkwnp",
       image = "/cards/images/qgzeexkwnp.jpg",
@@ -7022,6 +7158,10 @@ local M = {
       uuid = "s0ccrszf2m",
       image = "/cards/images/s0ccrszf2m.jpg",
     },
+    ["s1mb4hoyz7"] = {
+      uuid = "s1mb4hoyz7",
+      image = "/cards/images/s1mb4hoyz7.jpg",
+    },
     ["s2QJpC31qE"] = {
       uuid = "s2QJpC31qE",
       image = "/cards/images/s2QJpC31qE.jpg",
@@ -7049,6 +7189,10 @@ local M = {
     ["s7qu3apypg"] = {
       uuid = "s7qu3apypg",
       image = "/cards/images/s7qu3apypg.jpg",
+    },
+    ["s7vvomrj8b"] = {
+      uuid = "s7vvomrj8b",
+      image = "/cards/images/s7vvomrj8b.jpg",
     },
     ["s8kw1lr5x1"] = {
       uuid = "s8kw1lr5x1",
@@ -7370,6 +7514,10 @@ local M = {
       uuid = "tp1dvid91m",
       image = "/cards/images/tp1dvid91m.jpg",
     },
+    ["tq7dn5uh1g"] = {
+      uuid = "tq7dn5uh1g",
+      image = "/cards/images/tq7dn5uh1g.jpg",
+    },
     ["tqveezw40i"] = {
       uuid = "tqveezw40i",
       image = "/cards/images/tqveezw40i.jpg",
@@ -7581,6 +7729,10 @@ local M = {
     ["uijxhkusgp"] = {
       uuid = "uijxhkusgp",
       image = "/cards/images/uijxhkusgp.jpg",
+    },
+    ["uim4b250wb"] = {
+      uuid = "uim4b250wb",
+      image = "/cards/images/uim4b250wb.jpg",
     },
     ["ujej4ddort"] = {
       uuid = "ujej4ddort",
@@ -8130,6 +8282,10 @@ local M = {
       uuid = "xh3rjq2j9k",
       image = "/cards/images/xh3rjq2j9k.jpg",
     },
+    ["xhvcgvnrun"] = {
+      uuid = "xhvcgvnrun",
+      image = "/cards/images/xhvcgvnrun.jpg",
+    },
     ["xi74wb4y7e"] = {
       uuid = "xi74wb4y7e",
       image = "/cards/images/xi74wb4y7e.jpg",
@@ -8177,6 +8333,10 @@ local M = {
     ["xoi0m8bp8d"] = {
       uuid = "xoi0m8bp8d",
       image = "/cards/images/xoi0m8bp8d.jpg",
+    },
+    ["xp8inzm8zg"] = {
+      uuid = "xp8inzm8zg",
+      image = "/cards/images/xp8inzm8zg.jpg",
     },
     ["xpd62273t2"] = {
       uuid = "xpd62273t2",
@@ -8286,6 +8446,10 @@ local M = {
       uuid = "ychawttsvl",
       image = "/cards/images/ychawttsvl.jpg",
     },
+    ["ycvnrdhu55"] = {
+      uuid = "ycvnrdhu55",
+      image = "/cards/images/ycvnrdhu55.jpg",
+    },
     ["ydupmu6gvm"] = {
       uuid = "ydupmu6gvm",
       image = "/cards/images/ydupmu6gvm.jpg",
@@ -8334,6 +8498,10 @@ local M = {
       uuid = "ymeslfpwkk",
       image = "/cards/images/ymeslfpwkk.jpg",
     },
+    ["ymw3ac3smv"] = {
+      uuid = "ymw3ac3smv",
+      image = "/cards/images/ymw3ac3smv.jpg",
+    },
     ["ymyb55u7vo"] = {
       uuid = "ymyb55u7vo",
       image = "/cards/images/ymyb55u7vo.jpg",
@@ -8349,6 +8517,10 @@ local M = {
     ["yoh431onu1"] = {
       uuid = "yoh431onu1",
       image = "/cards/images/yoh431onu1.jpg",
+    },
+    ["yqbp7s4flj"] = {
+      uuid = "yqbp7s4flj",
+      image = "/cards/images/yqbp7s4flj.jpg",
     },
     ["yqc998c1w1"] = {
       uuid = "yqc998c1w1",
@@ -8613,6 +8785,76 @@ local M = {
     ["zzioxgugw9"] = {
       uuid = "zzioxgugw9",
       image = "/cards/images/zzioxgugw9.jpg",
+    },
+  },
+  special_collations = {
+    ["AMBDP_DRAFT_15_CARD"] = {
+      base_spirits = { "5uhxrxpnnc", "x6itul8td3", "xv5in4t3wc" },
+      prismatic_spirit = "2gykv5m9e9",
+      prismatic_objects = { "ycvnrdhu55", "5xjiwgaam6" },
+      nameless_champions = {
+        {
+          uuid = "igbth5jtj2",
+          classes = { "CLERIC", "GUARDIAN" },
+        },
+        {
+          uuid = "hoh8adw0s7",
+          classes = { "RANGER", "TAMER" },
+        },
+        {
+          uuid = "ae9571kqtk",
+          classes = { "CLERIC", "WARRIOR" },
+        },
+        {
+          uuid = "1njyb8wmq9",
+          classes = { "GUARDIAN", "WARRIOR" },
+        },
+        {
+          uuid = "92g6iuwxbr",
+          classes = { "CLERIC", "RANGER" },
+        },
+        {
+          uuid = "8ms5ms6sd2",
+          classes = { "MAGE", "WARRIOR" },
+        },
+        {
+          uuid = "yqbp7s4flj",
+          classes = { "TAMER", "WARRIOR" },
+        },
+        {
+          uuid = "n7be3plaha",
+          classes = { "GUARDIAN", "TAMER" },
+        },
+        {
+          uuid = "e6m1yc55ka",
+          classes = { "ASSASSIN", "RANGER" },
+        },
+        {
+          uuid = "xhvcgvnrun",
+          classes = { "CLERIC", "MAGE" },
+        },
+        {
+          uuid = "30p9gr2akz",
+          classes = { "ASSASSIN", "TAMER" },
+        },
+        {
+          uuid = "2vtrwnliip",
+          classes = { "ASSASSIN", "CLERIC" },
+        },
+        {
+          uuid = "iwhno3doqz",
+          classes = { "ASSASSIN", "MAGE" },
+        },
+        {
+          uuid = "b42jji1qlk",
+          classes = { "MAGE", "RANGER" },
+        },
+        {
+          uuid = "brz7jqrrf6",
+          classes = { "GUARDIAN", "MAGE" },
+        },
+      },
+      filler_pool = { "ky97x0hfux", "ily8dl7urg", "xp8inzm8zg", "1ueoyexd20", "8q4j5phukx", "3tdptyr8xi", "ymw3ac3smv", "tq7dn5uh1g", "k1pvf8fpk7", "63mjrjphcq", "jfaxcshfzd", "nnaqxmoq3x", "ist043hvvj", "2jwz3766zo", "li1my4ybqq", "ft8im9bnly", "czbzwutqys", "9onccpclpv", "eftif0r9ra", "uim4b250wb", "m4ccks9zbw", "qgt3985b4i", "2zribj60qi", "s1mb4hoyz7", "s7vvomrj8b" },
     },
   },
   pools = {
@@ -13187,6 +13429,7 @@ local M = {
         { name = "TOKEN_SLOT", pool = "DOAALT__TOKEN_OR_COMMON_CHAMPION" },
       },
     },
+    ["AMBDP_DRAFT_15_CARD"] = { special = "AMBDP_DRAFT_15_CARD" },
   },
 }
 M.collations["ABYSSAL_HEAVEN_8_CARD"] = M.collations["HVN_8_CARD"]
@@ -13296,6 +13539,68 @@ function getCollation(params)
   return M["collations"][params["name"]]
 end
 
+local function randomFromList(list, used, predicate)
+  if not list or #list == 0 then return nil end
+  local attempts = 0
+  while attempts < 120 do
+    local candidate = list[math.random(#list)]
+    local key = candidate
+    if type(candidate) == 'table' then key = candidate.uuid end
+    if key and not used[key] and (not predicate or predicate(candidate)) then
+      return candidate
+    end
+    attempts = attempts + 1
+  end
+  return nil
+end
+
+local function classesOverlap(a, b)
+  if type(a) ~= 'table' or type(b) ~= 'table' then return true end
+  local seen = {}
+  for _, c in ipairs(a) do seen[c] = true end
+  for _, c in ipairs(b) do if seen[c] then return true end end
+  return false
+end
+
+local function generateAmbdpDraftPack()
+  local spec = M.special_collations["AMBDP_DRAFT_15_CARD"]
+  if not spec then return {} end
+  local used = {}
+  local cards = {}
+  local function addCard(uuid)
+    if uuid and uuid ~= '' and not used[uuid] then
+      used[uuid] = true
+      table.insert(cards, uuid)
+      return true
+    end
+    return false
+  end
+  for _, uuid in ipairs(spec.base_spirits or {}) do addCard(uuid) end
+  addCard(spec.prismatic_spirit)
+  local prismObj = randomFromList(spec.prismatic_objects or {}, used)
+  if prismObj then addCard(prismObj) end
+  local champs = spec.nameless_champions or {}
+  local first = randomFromList(champs, used)
+  if first then addCard(first.uuid) end
+  local second = randomFromList(champs, used, function(c)
+    if not first then return true end
+    return not classesOverlap(first.classes or {}, c.classes or {})
+  end)
+  if second then
+    addCard(second.uuid)
+  else
+    local fallback = randomFromList(champs, used)
+    if fallback then addCard(fallback.uuid) end
+  end
+  local filler = spec.filler_pool or {}
+  while #cards < 15 do
+    local nextCard = randomFromList(filler, used)
+    if not nextCard then break end
+    addCard(nextCard)
+  end
+  return cards
+end
+
 function GeneratePack(params)
   params = params or {}
   local collationName = params.collation_name or "PHANTOM_MONARCHS_8_CARD"
@@ -13303,6 +13608,9 @@ function GeneratePack(params)
   if not collation then
     print("Unknown collation:", collationName)
     return {}
+  end
+  if collation.special == "AMBDP_DRAFT_15_CARD" then
+    return generateAmbdpDraftPack()
   end
 
   local used = {}

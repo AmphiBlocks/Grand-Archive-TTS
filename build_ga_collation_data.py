@@ -62,6 +62,9 @@ DOA_ALTER_PREFIXES = ["DOA Alter", "DOA+Alter", "DOAALTER"]
 DOA_1E_COLLATION = {"id": "DOA1E", "collation_name": "DOA_1E_12_CARD"}
 DOA_ALTER_COLLATION = {"id": "DOAALT", "collation_name": "DOA_ALTER_12_CARD"}
 
+AMBDP_PREFIXES = ["AMBDP", "AMB DP", "AMB Draft", "AMB Draft Pack"]
+AMBDP_COLLATION = {"id": "AMBDP", "collation_name": "AMBDP_DRAFT_15_CARD"}
+
 RARITY_ID_TO_KEY = {
     1: "COMMON",
     2: "UNCOMMON",
@@ -194,6 +197,10 @@ def normalize_prefix(prefix_value):
     return str(prefix_value or "").strip().replace("+", " ").lower()
 
 
+def norm_text(value):
+    return str(value or "").strip().lower()
+
+
 def rows_from_payload(
     payload,
     target_set_lookup,
@@ -232,6 +239,7 @@ def rows_from_payload(
                     "rarity_id": rarity_id,
                     "rarity_key": to_rarity_key(rarity_id),
                     "types": sorted(types),
+                    "classes": sorted([str(c) for c in (card.get("classes") or [])]),
                     "image": image_from_record(card, edition),
                     "orientation": first_nonempty(edition.get("orientation"), "front"),
                     "orientations": [normalize_other_orientation(o) for o in (edition.get("other_orientations") or [])],
@@ -278,7 +286,8 @@ def output_pool_block(lines, key_name, rows):
     lines.append("    },")
 
 
-def output_card_map_block(lines, rows):
+def output_card_map_block(lines, rows, name_overrides=None):
+    name_overrides = name_overrides or {}
     by_uuid = {}
     for row in rows:
         by_uuid[row["uuid"]] = row
@@ -290,6 +299,10 @@ def output_card_map_block(lines, rows):
         has_dfc_data = len(orientations) > 0
         lines.append(f'    ["{uuid}"] = {{')
         lines.append(f'      uuid = "{uuid}",')
+        lines.append(f'      slug = {lua_quote(row.get("slug") or "")},')
+        explicit_name = name_overrides.get(uuid)
+        if explicit_name:
+            lines.append(f'      name = {lua_quote(explicit_name)},')
         lines.append(f'      image = {lua_quote(row.get("image") or "")},')
         if has_dfc_data:
             lines.append('      orientation = "front",')
@@ -359,7 +372,7 @@ def main():
     })
     target_set_prefixes = sorted({
         p for spec in STANDARD_COLLATIONS for p in (spec.get("set_prefixes") or [])
-    } | set(AMB_BASE_PREFIXES) | set(AMB_1E_PREFIXES) | set(AMB_ALTER_PREFIXES) | set(ALC_BASE_PREFIXES) | set(ALC_ALTER_PREFIXES) | set(FTC_PREFIXES) | set(DOA_1E_PREFIXES) | set(DOA_ALTER_PREFIXES))
+    } | set(AMB_BASE_PREFIXES) | set(AMB_1E_PREFIXES) | set(AMB_ALTER_PREFIXES) | set(ALC_BASE_PREFIXES) | set(ALC_ALTER_PREFIXES) | set(FTC_PREFIXES) | set(DOA_1E_PREFIXES) | set(DOA_ALTER_PREFIXES) | set(AMBDP_PREFIXES))
     target_set_lookup = set(target_set_names)
     target_prefix_lookup = set(target_set_prefixes)
 
@@ -537,6 +550,63 @@ def main():
     doa_alt_pools = pools_from_rows(doa_alt_rows)
     pools_by_collation[DOA_ALTER_COLLATION["id"]] = doa_alt_pools
 
+    ambdp_rows = rows_for_prefixes(AMBDP_PREFIXES)
+    ambdp_by_name = {norm_text(r["name"]): r for r in ambdp_rows}
+    amb_by_name = {norm_text(r["name"]): r for r in amb_base_rows}
+
+    spirit_names = ["Spirit of Fire", "Spirit of Water", "Spirit of Wind"]
+    ambdp_base_spirits = []
+    for spirit_name in spirit_names:
+        picked = ambdp_by_name.get(norm_text(spirit_name)) or amb_by_name.get(norm_text(spirit_name))
+        if picked:
+            ambdp_base_spirits.append(picked["uuid"])
+
+    prismatic_spirit_row = None
+    for r in ambdp_rows:
+        n = norm_text(r["name"])
+        if n == "prismatic spirit" or norm_text(r["slug"]) == "prismatic-spirit":
+            prismatic_spirit_row = r
+            break
+
+    prismatic_object_names = {"prismatic codex", "prismatic perseverance", "prismatic perseverence"}
+    ambdp_prismatic_objects = []
+    for r in ambdp_rows:
+        if norm_text(r["name"]) in prismatic_object_names:
+            ambdp_prismatic_objects.append(r["uuid"])
+
+    reserved_uuids = set(ambdp_base_spirits)
+    if prismatic_spirit_row:
+        reserved_uuids.add(prismatic_spirit_row["uuid"])
+    reserved_uuids.update(ambdp_prismatic_objects)
+
+    class_subtypes = {"MAGE", "CLERIC", "GUARDIAN", "RANGER", "ASSASSIN", "WARRIOR", "TAMER"}
+
+    def extract_classes(row):
+        classes = []
+        classes.extend([x for x in (row.get("classes") or []) if x in class_subtypes])
+        classes.extend([x for x in (row.get("subtypes") or []) if x in class_subtypes])
+        classes.extend([x for x in (row.get("types") or []) if x in class_subtypes])
+        if len(classes) < 2:
+            text = (norm_text(row.get("name")) + " " + norm_text(row.get("slug"))).replace("-", " ")
+            for c in sorted(class_subtypes):
+                if c.lower() in text:
+                    classes.append(c)
+        classes = sorted(set(classes))
+        return classes[:2]
+
+    ambdp_nameless_champions = []
+    for r in ambdp_rows:
+        if "CHAMPION" not in (r.get("types") or []):
+            continue
+        if r["uuid"] in reserved_uuids:
+            continue
+        classes = extract_classes(r)
+        if len(classes) >= 2:
+            ambdp_nameless_champions.append({"uuid": r["uuid"], "name": r["name"], "classes": classes})
+
+    reserved_uuids.update([x["uuid"] for x in ambdp_nameless_champions])
+    ambdp_filler_pool = [r["uuid"] for r in ambdp_rows if r["uuid"] not in reserved_uuids]
+
     mrc_base_rows = rows_by_set.get(MRC_BASE_SET, [])
     mrc_1e_rows = rows_by_set.get(MRC_FIRST_ED_SET, [])
     mrc_alt_rows = rows_by_set.get(MRC_ALTER_SET, [])
@@ -589,7 +659,27 @@ def main():
     lines.append(f"    source_api = {lua_quote(args.api)},")
     lines.append(f"    set_names = {lua_list_str(target_set_names)},")
     lines.append("  },")
-    output_card_map_block(lines, all_rows)
+    named_uuid_overrides = {c["uuid"]: c["name"] for c in ambdp_nameless_champions if c.get("name")}
+    output_card_map_block(lines, all_rows, named_uuid_overrides)
+    lines.append("  special_collations = {")
+    lines.append(f'    ["{AMBDP_COLLATION["collation_name"]}"] = {{')
+    lines.append(f"      base_spirits = {lua_list_str(ambdp_base_spirits)},")
+    if prismatic_spirit_row:
+        lines.append(f'      prismatic_spirit = "{prismatic_spirit_row["uuid"]}",')
+    else:
+        lines.append('      prismatic_spirit = "",')
+    lines.append(f"      prismatic_objects = {lua_list_str(ambdp_prismatic_objects)},")
+    lines.append("      nameless_champions = {")
+    for champ in ambdp_nameless_champions:
+        lines.append("        {")
+        lines.append(f'          uuid = "{champ["uuid"]}",')
+        lines.append(f'          name = {lua_quote(champ.get("name") or "")},')
+        lines.append("          classes = { " + ", ".join(lua_quote(c) for c in champ["classes"]) + " },")
+        lines.append("        },")
+    lines.append("      },")
+    lines.append(f"      filler_pool = {lua_list_str(ambdp_filler_pool)},")
+    lines.append("    },")
+    lines.append("  },")
     lines.append("  pools = {")
 
     requested_pool_defs = []
@@ -661,6 +751,7 @@ def main():
     add_standard_collation_block(lines, FTC_COLLATION["id"], FTC_COLLATION["collation_name"])
     add_standard_collation_block(lines, DOA_1E_COLLATION["id"], DOA_1E_COLLATION["collation_name"], uncommon_slots=3, common_slots=6)
     add_standard_collation_block(lines, DOA_ALTER_COLLATION["id"], DOA_ALTER_COLLATION["collation_name"], uncommon_slots=3, common_slots=6)
+    lines.append(f'    ["{AMBDP_COLLATION["collation_name"]}"] = {{ special = "{AMBDP_COLLATION["collation_name"]}" }},')
 
     lines.append("  },")
     lines.append("}")
@@ -684,6 +775,8 @@ def main():
     lines.append("  if not card then return nil end")
     lines.append("  return {")
     lines.append("    uuid = card.uuid,")
+    lines.append("    slug = card.slug,")
+    lines.append("    name = card.name,")
     lines.append("    image = card.image,")
     lines.append("    orientation = card.orientation,")
     lines.append("    orientations = card.orientations,")
@@ -738,6 +831,68 @@ def main():
     lines.append('  return M["collations"][params["name"]]')
     lines.append("end")
     lines.append("")
+    lines.append("local function randomFromList(list, used, predicate)")
+    lines.append("  if not list or #list == 0 then return nil end")
+    lines.append("  local attempts = 0")
+    lines.append("  while attempts < 120 do")
+    lines.append("    local candidate = list[math.random(#list)]")
+    lines.append("    local key = candidate")
+    lines.append("    if type(candidate) == 'table' then key = candidate.uuid end")
+    lines.append("    if key and not used[key] and (not predicate or predicate(candidate)) then")
+    lines.append("      return candidate")
+    lines.append("    end")
+    lines.append("    attempts = attempts + 1")
+    lines.append("  end")
+    lines.append("  return nil")
+    lines.append("end")
+    lines.append("")
+    lines.append("local function classesOverlap(a, b)")
+    lines.append("  if type(a) ~= 'table' or type(b) ~= 'table' then return true end")
+    lines.append("  local seen = {}")
+    lines.append("  for _, c in ipairs(a) do seen[c] = true end")
+    lines.append("  for _, c in ipairs(b) do if seen[c] then return true end end")
+    lines.append("  return false")
+    lines.append("end")
+    lines.append("")
+    lines.append("local function generateAmbdpDraftPack()")
+    lines.append(f'  local spec = M.special_collations["{AMBDP_COLLATION["collation_name"]}"]')
+    lines.append("  if not spec then return {} end")
+    lines.append("  local used = {}")
+    lines.append("  local cards = {}")
+    lines.append("  local function addCard(uuid)")
+    lines.append("    if uuid and uuid ~= '' and not used[uuid] then")
+    lines.append("      used[uuid] = true")
+    lines.append("      table.insert(cards, uuid)")
+    lines.append("      return true")
+    lines.append("    end")
+    lines.append("    return false")
+    lines.append("  end")
+    lines.append("  for _, uuid in ipairs(spec.base_spirits or {}) do addCard(uuid) end")
+    lines.append("  addCard(spec.prismatic_spirit)")
+    lines.append("  local prismObj = randomFromList(spec.prismatic_objects or {}, used)")
+    lines.append("  if prismObj then addCard(prismObj) end")
+    lines.append("  local champs = spec.nameless_champions or {}")
+    lines.append("  local first = randomFromList(champs, used)")
+    lines.append("  if first then addCard(first.uuid) end")
+    lines.append("  local second = randomFromList(champs, used, function(c)")
+    lines.append("    if not first then return true end")
+    lines.append("    return not classesOverlap(first.classes or {}, c.classes or {})")
+    lines.append("  end)")
+    lines.append("  if second then")
+    lines.append("    addCard(second.uuid)")
+    lines.append("  else")
+    lines.append("    local fallback = randomFromList(champs, used)")
+    lines.append("    if fallback then addCard(fallback.uuid) end")
+    lines.append("  end")
+    lines.append("  local filler = spec.filler_pool or {}")
+    lines.append("  while #cards < 15 do")
+    lines.append("    local nextCard = randomFromList(filler, used)")
+    lines.append("    if not nextCard then break end")
+    lines.append("    addCard(nextCard)")
+    lines.append("  end")
+    lines.append("  return cards")
+    lines.append("end")
+    lines.append("")
     lines.append("function GeneratePack(params)")
     lines.append("  params = params or {}")
     lines.append('  local collationName = params.collation_name or "PHANTOM_MONARCHS_8_CARD"')
@@ -745,6 +900,9 @@ def main():
     lines.append("  if not collation then")
     lines.append("    print(\"Unknown collation:\", collationName)")
     lines.append("    return {}")
+    lines.append("  end")
+    lines.append("  if collation.special == " + lua_quote(AMBDP_COLLATION["collation_name"]) + " then")
+    lines.append("    return generateAmbdpDraftPack()")
     lines.append("  end")
     lines.append("")
     lines.append("  local used = {}")
@@ -810,6 +968,12 @@ def main():
     print(f"Pool sizes for {DOA_ALTER_COLLATION['collation_name']}:")
     for pool_name in POOL_ORDER:
         print(f"  {pool_name}: {len(pools_by_collation[DOA_ALTER_COLLATION['id']].get(pool_name, []))}")
+    print(f"Draft spec for {AMBDP_COLLATION['collation_name']}:")
+    print(f"  base_spirits: {len(ambdp_base_spirits)}")
+    print(f"  prismatic_spirit: {1 if prismatic_spirit_row else 0}")
+    print(f"  prismatic_objects: {len(ambdp_prismatic_objects)}")
+    print(f"  nameless_champions: {len(ambdp_nameless_champions)}")
+    print(f"  filler_pool: {len(ambdp_filler_pool)}")
 
 
 if __name__ == "__main__":
