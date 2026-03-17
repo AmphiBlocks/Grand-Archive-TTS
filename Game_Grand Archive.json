@@ -1,0 +1,161 @@
+{
+  "name": "Grand Archive",
+  "menuBackgroundImage": "https://content.gatcg.com/uploads/Lorraine_I_Banner_7816b252b1.jpg",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://content.gatcg.com/uploads/Lorraine_I_Banner_7816b252b1.jpg",
+      "https://ga-mainsite-common.s3.us-west-2.amazonaws.com/media/diana_banner_35ed611216.png"
+    ],
+    "decksUrl": ""
+  },
+  "customHelp": "Custom Help Message - Replace Later",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/AmphiBlocks/Grand-Archive-TTS/refs/heads/master/TCG_Arena_Cardlist.json",
+    "cardBack": "https://github.com/AmphiBlocks/Grand-Archive-TTS/blob/master/sleeves/ga-card-back.png?raw=true"
+  },
+  "deckBuilding": {
+    "mainFilters": [],
+    "formats": [
+      {
+        "title": "Standard",
+        "gameplay": "Grand Archive",
+        "customCategories": []
+      },
+      {
+        "title": "Spoilers",
+        "gameplay": "Grand Archive",
+        "customCategories": []
+      },
+      {
+        "title": "Pantheon",
+        "gameplay": "Grand Archive",
+        "customCategories": []
+      }
+    ]
+  },
+  "gameplay": {
+    "Grand Archive": {
+      "mulligan": {
+        "info": "",
+        "startingHandSize": "0",
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": "0"
+      },
+      "defaultNotes": "",
+      "tokens": [
+        {
+          "name": "Powercell",
+          "image": "powercellimage.jpg",
+          "isUnique": false,
+          "leavesAtEndOfTurn": false
+        },
+        {
+          "name": "Dire Wolf",
+          "image": "direwolfimage.jpg",
+          "isUnique": true,
+          "leavesAtEndOfTurn": false
+        }
+      ],
+      "countersStartingValues": [
+        "1"
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Memory",
+          "Field",
+          "Pantheon"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": false,
+          "content": [
+            {
+              "direction": "column",
+              "style": false,
+              "content": [
+                {
+                  "section": "Pantheon",
+                  "style": false
+                },
+                {
+                  "section": "Material",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": "",
+              "content": [
+                {
+                  "section": "Field",
+                  "style": false
+                },
+                {
+                  "section": "Memory",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "column",
+              "style": false,
+              "content": [
+                {
+                  "section": "Exile",
+                  "style": false
+                },
+                {
+                  "section": "Deck",
+                  "style": false
+                },
+                {
+                  "section": "Discard",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Material",
+          "Deck"
+        ],
+        "autoPlayFromHand": {
+          "Hand": "Field"
+        },
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Memory": {
+            "title": "Memory",
+            "isHidden": "opponent-only",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Memory",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          }
+        }
+      }
+    }
+  }
+}
